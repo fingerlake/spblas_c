@@ -35,7 +35,7 @@
 #define int ORIGIN_MATRIX  0
 #define int TRANSP_MATRIX  1
 #define int HERMIT_MATRIX  2
-
+/*
       contains      
 
       subroutine get_descra(descra,descriptor,message,ierr)
@@ -44,41 +44,43 @@
       character, intent(in) :: descriptor
       character, intent(out) :: message
       integer, intent(out) :: ierr
+*/
 
-void get_descra(char *descra,char descriptor, char &message,int &ierr)
+
+
+void get_descra(char *descra, char descriptor, char &message,int &ierr)
 {
     
     ierr = -1;
     message = '';
     switch (descriptor) {
-        case('a') //lower,upper or both parts
-            message = descra(3:3);break;
-        case('b') //base
-            message = descra(5:5);break;
-        case('d') //unity diagonal stored or not
-            message = descra(1:1);break;
-        case('f') //internal block storage is row- or column-wise
-            message = descra(7:7);break;
-        case('r') //repeated indices
-            message = descra(2:2);break;
-        case('s') //structure of matrix
-            message = descra(4:4);break;
-        case('t') //matrix type
-            message = descra(6:6);break;
+        case('a'): //lower,upper or both parts
+      message = descra[3];break;
+      case('b'): //base
+      message = descra[5];break;
+        case('d'): //unity diagonal stored or not
+            message = descra[1];break;
+        case('f') ://internal block storage is row- or column-wise
+      message = descra[7];break;
+        case('r') ://repeated indices
+      message = descra[2];break;
+        case('s') ://structure of matrix
+      message = descra[4];break;
+        case('t'): //matrix type
+     message = descra[6];break;
         default:return;
-            break;
-            ierr=0;
+
     }
-    
+    ierr=0;
 }
 
 
-
+/*
       subroutine set_descra(descra,prpty,ierr)
       character*11, intent(out) :: descra
       integer, intent(in) :: prpty
       integer, intent(out) :: ierr
-
+*/
 
 void set_descra(char *descra,int prpty,int &ierr)
 {
