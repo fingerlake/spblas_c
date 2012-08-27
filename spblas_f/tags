@@ -1,0 +1,1732 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	SOFTWARE/types.f90	/^COMPLEX(KIND=dp), POINTER, DIMENSION(:) :: A$/;"	k	type:ZSPMAT
+A	SOFTWARE/types.f90	/^COMPLEX(KIND=sp), POINTER, DIMENSION(:) :: A$/;"	k	type:CSPMAT
+A	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: A$/;"	k	type:ISPMAT
+A	SOFTWARE/types.f90	/^REAL/;"	k	type:DSPMAT
+A	SOFTWARE/types.f90	/^REAL/;"	k	type:SSPMAT
+A	TESTER/power.f90	/^      INTEGER A,/;"	v	program:MAIN_POWER
+ACCESSDATA_XSP	SOURCE_FILES/link_source.F	/^      subroutine ACCESSDATA_XSP(/;"	s
+AR	SOFTWARE/Makefile	/^AR = ar -r -v$/;"	m
+AT_SLx	TESTER/test_parameters.f90	/^      real(kind=dp) :: AT_SLx(/;"	v	module:mod_test_parameters
+AT_SUx	TESTER/test_parameters.f90	/^      real(kind=dp) :: AT_SUx(/;"	v	module:mod_test_parameters
+ATx	TESTER/test_parameters.f90	/^      real(kind=dp) :: ATx(/;"	v	module:mod_test_parameters
+A_SL_1	TESTER/test_parameters.f90	/^   real(kind=dp),dimension(5) ::A_SL_1=/;"	v	module:mod_test_parameters
+A_SL_1_INDX	TESTER/test_parameters.f90	/^   integer,dimension(5) ::A_SL_1_INDX=/;"	v	module:mod_test_parameters
+A_SL_2	TESTER/test_parameters.f90	/^   real(kind=dp),dimension(5) ::A_SL_2=/;"	v	module:mod_test_parameters
+A_SL_2_INDX	TESTER/test_parameters.f90	/^   integer,dimension(5) ::A_SL_2_INDX=/;"	v	module:mod_test_parameters
+A_SL_3	TESTER/test_parameters.f90	/^   real(kind=dp),dimension(5) ::A_SL_3=/;"	v	module:mod_test_parameters
+A_SL_3_INDX	TESTER/test_parameters.f90	/^   integer,dimension(5) ::A_SL_3_INDX=/;"	v	module:mod_test_parameters
+A_SL_4	TESTER/test_parameters.f90	/^   real(kind=dp),dimension(5) ::A_SL_4=/;"	v	module:mod_test_parameters
+A_SL_4_INDX	TESTER/test_parameters.f90	/^   integer,dimension(5) ::A_SL_4_INDX=/;"	v	module:mod_test_parameters
+A_SL_5	TESTER/test_parameters.f90	/^   real(kind=dp),dimension(5) ::A_SL_5=/;"	v	module:mod_test_parameters
+A_SL_5_INDX	TESTER/test_parameters.f90	/^   integer,dimension(5) ::A_SL_5_INDX=/;"	v	module:mod_test_parameters
+A_SL_m	TESTER/test_parameters.f90	/^   integer ::A_SL_m=/;"	v	module:mod_test_parameters
+A_SL_n	TESTER/test_parameters.f90	/^   integer,parameter::A_SL_n=/;"	v	module:mod_test_parameters
+A_SLx	TESTER/test_parameters.f90	/^      real(kind=dp) :: A_SLx(/;"	v	module:mod_test_parameters
+A_SU	TESTER/test_parameters.f90	/^      real(kind=dp),dimension(5,5),parameter::&$/;"	v	module:mod_test_parameters
+A_SU_indx	TESTER/test_parameters.f90	/^      integer,dimension(5) ::A_SU_indx=/;"	v	module:mod_test_parameters
+A_SU_jndx	TESTER/test_parameters.f90	/^      integer,dimension(5) ::A_SU_jndx=/;"	v	module:mod_test_parameters
+A_SU_m	TESTER/test_parameters.f90	/^      integer,parameter::A_SU_m=/;"	v	module:mod_test_parameters
+A_SU_n	TESTER/test_parameters.f90	/^      integer,parameter::A_SU_n=/;"	v	module:mod_test_parameters
+A_SUx	TESTER/test_parameters.f90	/^      real(kind=dp) :: A_SUx(/;"	v	module:mod_test_parameters
+A_indx	TESTER/test_parameters.f90	/^      integer, dimension(14)  ::&$/;"	v	module:mod_test_parameters
+A_indx_coo	SOFTWARE/test.f90	/^      integer, parameter, dimension(14) :: A_indx_coo /;"	v	program:test
+A_jndx	TESTER/test_parameters.f90	/^      integer, dimension(14)  ::&$/;"	v	module:mod_test_parameters
+A_jndx_coo	SOFTWARE/test.f90	/^      integer, parameter, dimension(14) :: A_jndx_coo /;"	v	program:test
+A_m	TESTER/test_parameters.f90	/^     integer ::A_m=/;"	v	module:mod_test_parameters
+A_n	TESTER/test_parameters.f90	/^     integer ::A_n=/;"	v	module:mod_test_parameters
+A_val	TESTER/test_parameters.f90	/^   real(kind=dp), dimension(14)  ::&$/;"	v	module:mod_test_parameters
+A_val_coo	SOFTWARE/test.f90	/^      double precision, parameter, dimension(14) :: A_val_coo /;"	v	program:test
+Ax	TESTER/test_parameters.f90	/^      real(kind=dp) :: Ax(/;"	v	module:mod_test_parameters
+BLOCK_INTERN	TESTER/main_all.f90	/^integer, parameter :: BLOCK_INTERN /;"	v	program:tester
+BP1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:CSPMAT
+BP1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:DSPMAT
+BP1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:ISPMAT
+BP1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:SSPMAT
+BP1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:ZSPMAT
+BP2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:CSPMAT
+BP2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:DSPMAT
+BP2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:ISPMAT
+BP2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:SSPMAT
+BP2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:ZSPMAT
+BTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: BTx(/;"	v	module:mod_test_parameters
+B_1	TESTER/test_parameters.f90	/^   real(kind=dp),dimension(5) ::B_1=/;"	v	module:mod_test_parameters
+B_1_JNDX	TESTER/test_parameters.f90	/^   integer,dimension(5) ::B_1_JNDX=/;"	v	module:mod_test_parameters
+B_2	TESTER/test_parameters.f90	/^   real(kind=dp),dimension(5) ::B_2=/;"	v	module:mod_test_parameters
+B_2_JNDX	TESTER/test_parameters.f90	/^   integer,dimension(5) ::B_2_JNDX=/;"	v	module:mod_test_parameters
+B_3	TESTER/test_parameters.f90	/^   real(kind=dp),dimension(5) ::B_3=/;"	v	module:mod_test_parameters
+B_3_JNDX	TESTER/test_parameters.f90	/^   integer,dimension(5) ::B_3_JNDX=/;"	v	module:mod_test_parameters
+B_m	TESTER/test_parameters.f90	/^   integer ::B_m=/;"	v	module:mod_test_parameters
+B_n	TESTER/test_parameters.f90	/^   integer ::B_n=/;"	v	module:mod_test_parameters
+Bx	TESTER/test_parameters.f90	/^      real(kind=dp) :: Bx(/;"	v	module:mod_test_parameters
+CC	SOFTWARE/Makefile	/^CC = cc$/;"	m
+CFLAFS	SOFTWARE/Makefile	/^CFLAFS =$/;"	m
+CHx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: CHx(/;"	v	module:mod_test_parameters
+COBJS	SOFTWARE/Makefile	/^COBJS = $/;"	m
+COP_OF_SOURCE	SOFTWARE/properties.f90	/^      integer, parameter :: COP_OF_SOURCE /;"	v	module:properties
+CSPMAT	SOFTWARE/types.f90	/^TYPE CSPMAT$/;"	t	module:types
+CSP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: CSP_MATRIX /;"	v	module:properties
+CTx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: CTx(/;"	v	module:mod_test_parameters
+C_BASE	SOFTWARE/properties.f90	/^      integer, parameter :: C_BASE /;"	v	module:properties
+C_m	TESTER/test_parameters.f90	/^integer,parameter::C_m=/;"	v	module:mod_test_parameters
+C_n	TESTER/test_parameters.f90	/^integer,parameter::C_n=/;"	v	module:mod_test_parameters
+Cx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: Cx(/;"	v	module:mod_test_parameters
+DELOC_X_ELEMENT	SOURCE_FILES/INSERTING_source.F	/^      subroutine DELOC_X_ELEMENT /;"	s
+DELOC_X_MATRIX	SOURCE_FILES/INSERTING_source.F	/^      subroutine DELOC_X_MATRIX /;"	s
+DEL_XSP	SOURCE_FILES/link_source.F	/^      subroutine DEL_XSP(/;"	s
+DESCRA	SOFTWARE/types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:CSPMAT
+DESCRA	SOFTWARE/types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:DSPMAT
+DESCRA	SOFTWARE/types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:ISPMAT
+DESCRA	SOFTWARE/types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:SSPMAT
+DESCRA	SOFTWARE/types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:ZSPMAT
+DIM	SOFTWARE/INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:c_matrix
+DIM	SOFTWARE/INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:d_matrix
+DIM	SOFTWARE/INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:i_matrix
+DIM	SOFTWARE/INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:s_matrix
+DIM	SOFTWARE/INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:z_matrix
+DIM	TARGET_FILES/INSERTING_target.F	/^integer,dimension(6)::DIM$/;"	k	type:c_matrix
+DIM	TARGET_FILES/INSERTING_target.F	/^integer,dimension(6)::DIM$/;"	k	type:d_matrix
+DIM	TARGET_FILES/INSERTING_target.F	/^integer,dimension(6)::DIM$/;"	k	type:i_matrix
+DIM	TARGET_FILES/INSERTING_target.F	/^integer,dimension(6)::DIM$/;"	k	type:s_matrix
+DIM	TARGET_FILES/INSERTING_target.F	/^integer,dimension(6)::DIM$/;"	k	type:z_matrix
+DSPMAT	SOFTWARE/types.f90	/^TYPE DSPMAT$/;"	t	module:types
+DSP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: DSP_MATRIX /;"	v	module:properties
+DTHx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: DTHx(/;"	v	module:mod_test_parameters
+DTTx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: DTTx(/;"	v	module:mod_test_parameters
+DT_N	TESTER/test_parameters.f90	/^integer,parameter::DT_N=/;"	v	module:mod_test_parameters
+DT_m	TESTER/test_parameters.f90	/^integer,parameter::DT_m=/;"	v	module:mod_test_parameters
+FC	SOFTWARE/Makefile	/^FC = gfortran$/;"	m
+FFLAGS	SOFTWARE/Makefile	/^FFLAGS = -g$/;"	m
+FIDA	SOFTWARE/types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:CSPMAT
+FIDA	SOFTWARE/types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:DSPMAT
+FIDA	SOFTWARE/types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:ISPMAT
+FIDA	SOFTWARE/types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:SSPMAT
+FIDA	SOFTWARE/types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:ZSPMAT
+F_BASE	SOFTWARE/properties.f90	/^      integer, parameter :: F_BASE /;"	v	module:properties
+HERMIT_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: HERMIT_MATRIX /;"	v	module:properties
+H_MATRIX	TESTER/test_parameters.f90	/^      integer, parameter :: H_MATRIX /;"	v	module:mod_test_parameters
+I	TESTER/power.f90	/^      IN/;"	v	program:MAIN_POWER
+IA1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:CSPMAT
+IA1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:DSPMAT
+IA1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:ISPMAT
+IA1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:SSPMAT
+IA1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:ZSPMAT
+IA2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:CSPMAT
+IA2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:DSPMAT
+IA2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:ISPMAT
+IA2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:SSPMAT
+IA2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:ZSPMAT
+INDEX_BASE	TESTER/main_all.f90	/^integer, parameter :: INDEX_BASE /;"	v	program:tester
+INDX	TESTER/power.f90	/^      INTEGER, DIMENSION(:), ALLOCATABLE :: INDX,/;"	v	program:MAIN_POWER
+INDX_C	TESTER/test_parameters.f90	/^integer ,dimension(4)  ::INDX_C=/;"	v	module:mod_test_parameters
+INDX_DT	TESTER/test_parameters.f90	/^integer ,dimension(6)  ::INDX_DT=/;"	v	module:mod_test_parameters
+INDX_d	TESTER/test_parameters.f90	/^integer ,dimension(9)  ::INDX_d=/;"	v	module:mod_test_parameters
+INFOA	SOFTWARE/types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:CSPMAT
+INFOA	SOFTWARE/types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:DSPMAT
+INFOA	SOFTWARE/types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:ISPMAT
+INFOA	SOFTWARE/types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:SSPMAT
+INFOA	SOFTWARE/types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:ZSPMAT
+ISPMAT	SOFTWARE/types.f90	/^TYPE ISPMAT$/;"	t	module:types
+ISP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: ISP_MATRIX /;"	v	module:properties
+ISTAT	TESTER/power.f90	/^      INTEGER A,I,N,NITERS,ISTAT$/;"	v	program:MAIN_POWER
+I_indx	TESTER/test_parameters.f90	/^      integer, dimension(14)  ::&$/;"	v	module:mod_test_parameters
+I_jndx	TESTER/test_parameters.f90	/^      integer, dimension(14)  ::&$/;"	v	module:mod_test_parameters
+I_m	TESTER/test_parameters.f90	/^     integer ::I_m=/;"	v	module:mod_test_parameters
+I_n	TESTER/test_parameters.f90	/^     integer ::I_n=/;"	v	module:mod_test_parameters
+I_val	TESTER/test_parameters.f90	/^   integer, dimension(14)  ::&$/;"	v	module:mod_test_parameters
+Ix	TESTER/test_parameters.f90	/^      integer :: Ix(/;"	v	module:mod_test_parameters
+JNDX	TESTER/power.f90	/^      INTEGER, DIMENSION(:), ALLOCATABLE :: INDX,JNDX$/;"	v	program:MAIN_POWER
+JNDX_C	TESTER/test_parameters.f90	/^integer ,dimension(4)  ::JNDX_C=/;"	v	module:mod_test_parameters
+JNDX_DT	TESTER/test_parameters.f90	/^integer ,dimension(6)  ::JNDX_DT=/;"	v	module:mod_test_parameters
+JNDX_d	TESTER/test_parameters.f90	/^integer ,dimension(9)  ::JNDX_d=/;"	v	module:mod_test_parameters
+J_VAL	TESTER/test_parameters.f90	/^integer,dimension(14) ::J_VAL=/;"	v	module:mod_test_parameters
+J_indx	TESTER/test_parameters.f90	/^integer,dimension(14) ::J_indx=/;"	v	module:mod_test_parameters
+J_jndx	TESTER/test_parameters.f90	/^integer,dimension(14) ::J_jndx=/;"	v	module:mod_test_parameters
+J_m	TESTER/test_parameters.f90	/^integer,parameter::J_m=/;"	v	module:mod_test_parameters
+J_n	TESTER/test_parameters.f90	/^integer,parameter::J_n=/;"	v	module:mod_test_parameters
+J_nz	TESTER/test_parameters.f90	/^integer,parameter::J_nz=/;"	v	module:mod_test_parameters
+Jx	TESTER/test_parameters.f90	/^      integer :: Jx(/;"	v	module:mod_test_parameters
+K	SOFTWARE/types.f90	/^INTEGER :: M,K$/;"	k	type:CSPMAT
+K	SOFTWARE/types.f90	/^INTEGER :: M,K$/;"	k	type:DSPMAT
+K	SOFTWARE/types.f90	/^INTEGER :: M,K$/;"	k	type:ISPMAT
+K	SOFTWARE/types.f90	/^INTEGER :: M,K$/;"	k	type:SSPMAT
+K	SOFTWARE/types.f90	/^INTEGER :: M,K$/;"	k	type:ZSPMAT
+LAMBDA	TESTER/power.f90	/^      REAL(KIND=DP) LAMBDA$/;"	v	program:MAIN_POWER
+LD	SOFTWARE/Makefile	/^LD = $(FC)$/;"	m
+LDFLAGS	SOFTWARE/Makefile	/^LDFLAGS = $/;"	m
+LIBS	SOFTWARE/Makefile	/^LIBS = $/;"	m
+M	SOFTWARE/types.f90	/^INTEGER :: M,/;"	k	type:CSPMAT
+M	SOFTWARE/types.f90	/^INTEGER :: M,/;"	k	type:DSPMAT
+M	SOFTWARE/types.f90	/^INTEGER :: M,/;"	k	type:ISPMAT
+M	SOFTWARE/types.f90	/^INTEGER :: M,/;"	k	type:SSPMAT
+M	SOFTWARE/types.f90	/^INTEGER :: M,/;"	k	type:ZSPMAT
+M11	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+M12	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+M22	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+MAIN_POWER	TESTER/power.f90	/^      PROGRAM MAIN_POWER$/;"	p
+MATRIX_A	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_A /;"	v	module:mod_test_parameters
+MATRIX_A_SL	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_A_SL /;"	v	module:mod_test_parameters
+MATRIX_A_SU	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_A_SU /;"	v	module:mod_test_parameters
+MATRIX_B	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_B /;"	v	module:mod_test_parameters
+MATRIX_C	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_C /;"	v	module:mod_test_parameters
+MATRIX_I	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_I /;"	v	module:mod_test_parameters
+MATRIX_J	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_J /;"	v	module:mod_test_parameters
+MATRIX_M	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_M /;"	v	module:mod_test_parameters
+MATRIX_N	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_N /;"	v	module:mod_test_parameters
+MATRIX_T	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_T /;"	v	module:mod_test_parameters
+MATRIX_U	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_U /;"	v	module:mod_test_parameters
+MATRIX_X	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_X /;"	v	module:mod_test_parameters
+MATRIX_Y	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_Y /;"	v	module:mod_test_parameters
+MATRIX_Y_SL	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_Y_SL /;"	v	module:mod_test_parameters
+MATRIX_Y_SU	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_Y_SU /;"	v	module:mod_test_parameters
+MATRIX_Z	TESTER/test_parameters.f90	/^      integer, parameter :: MATRIX_Z /;"	v	module:mod_test_parameters
+MOD_SUF	SOFTWARE/Makefile	/^MOD_SUF = mod$/;"	m
+MTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: MTx(/;"	v	module:mod_test_parameters
+M_Mb	TESTER/test_parameters.f90	/^integer,parameter::M_Mb=/;"	v	module:mod_test_parameters
+M_Nb	TESTER/test_parameters.f90	/^integer,parameter::M_Nb=/;"	v	module:mod_test_parameters
+M_k	TESTER/test_parameters.f90	/^integer,parameter::M_k=/;"	v	module:mod_test_parameters
+M_l	TESTER/test_parameters.f90	/^integer,parameter::M_l=/;"	v	module:mod_test_parameters
+Mx	TESTER/test_parameters.f90	/^      real(kind=dp) :: Mx(/;"	v	module:mod_test_parameters
+N	TESTER/power.f90	/^      INT/;"	v	program:MAIN_POWER
+N11	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+N21	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+N22	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+NEW_XSP	SOURCE_FILES/link_source.F	/^      subroutine NEW_XSP(/;"	s
+NEW_X_ELEMENT	SOURCE_FILES/INSERTING_source.F	/^      subroutine NEW_X_ELEMENT(/;"	s
+NEW_X_MATRIX	SOURCE_FILES/INSERTING_source.F	/^      subroutine NEW_X_MATRIX(/;"	s
+NITERS	TESTER/power.f90	/^      INTEGER A,I,N,NITERS,/;"	v	program:MAIN_POWER
+NMAX	TESTER/power.f90	/^      INTEGER, PARAMETER :: NMAX /;"	v	program:MAIN_POWER
+NNZ	TESTER/power.f90	/^      INTEGER, PARAMETER :: NMAX = 4, NNZ /;"	v	program:MAIN_POWER
+NTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: NTx(/;"	v	module:mod_test_parameters
+N_Mb	TESTER/test_parameters.f90	/^integer,parameter::N_Mb=/;"	v	module:mod_test_parameters
+N_Nb	TESTER/test_parameters.f90	/^integer,parameter::N_Nb=/;"	v	module:mod_test_parameters
+N_k	TESTER/test_parameters.f90	/^integer,parameter::N_k=/;"	v	module:mod_test_parameters
+N_l	TESTER/test_parameters.f90	/^integer,parameter::N_l=/;"	v	module:mod_test_parameters
+Nx	TESTER/test_parameters.f90	/^      real(kind=dp) :: Nx(/;"	v	module:mod_test_parameters
+OBJS	SOFTWARE/Makefile	/^OBJS = conv_tools.o dense.o hash.o info.o link.o\\$/;"	m
+ORIGIN_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: ORIGIN_MATRIX /;"	v	module:properties
+O_MATRIX	TESTER/test_parameters.f90	/^      integer, parameter :: O_MATRIX /;"	v	module:mod_test_parameters
+PB	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:CSPMAT
+PB	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:DSPMAT
+PB	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:ISPMAT
+PB	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:SSPMAT
+PB	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:ZSPMAT
+PE	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:CSPMAT
+PE	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:DSPMAT
+PE	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:ISPMAT
+PE	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:SSPMAT
+PE	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:ZSPMAT
+PNTR	SOFTWARE/conv_tools.f90	/^      subroutine PNTR(/;"	s	module:mod_conv_tools
+PNTR	TARGET_FILES/conv_tools_target.F	/^      subroutine PNTR(/;"	s	module:mod_conv_tools
+PNTR_INV	SOFTWARE/conv_tools.f90	/^      subroutine PNTR_INV(/;"	s	module:mod_conv_tools
+PNTR_INV	TARGET_FILES/conv_tools_target.F	/^      subroutine PNTR_INV(/;"	s	module:mod_conv_tools
+POWER_METHOD	TESTER/power.f90	/^        SUBROUTINE POWER_METHOD(/;"	s	program:MAIN_POWER
+Q	TESTER/power.f90	/^      REAL(KIND=DP), DIMENSION(:), ALLOCATABLE :: VAL,Q,/;"	v	program:MAIN_POWER
+RANLIB	SOFTWARE/Makefile	/^RANLIB =$/;"	m
+REF_OF_SOURCE	SOFTWARE/properties.f90	/^      integer, parameter :: REF_OF_SOURCE /;"	v	module:properties
+RM	SOFTWARE/Makefile	/^RM = rm -f$/;"	m
+SSPMAT	SOFTWARE/types.f90	/^TYPE SSPMAT$/;"	t	module:types
+SSP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: SSP_MATRIX /;"	v	module:properties
+SparseBLAS	SOFTWARE/SparseBLAS.f90	/^      module SparseBLAS$/;"	m
+SparseBLAS1	SOFTWARE/SparseBLAS1.f90	/^ module SparseBLAS1$/;"	m
+TRANSP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: TRANSP_MATRIX /;"	v	module:properties
+TTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: TTx(/;"	v	module:mod_test_parameters
+T_MATRIX	TESTER/test_parameters.f90	/^      integer, parameter :: T_MATRIX /;"	v	module:mod_test_parameters
+T_VAL	TESTER/test_parameters.f90	/^real(kind=dp),dimension(14) ::T_VAL=/;"	v	module:mod_test_parameters
+T_indx	TESTER/test_parameters.f90	/^integer,dimension(14) ::T_indx=/;"	v	module:mod_test_parameters
+T_jndx	TESTER/test_parameters.f90	/^integer,dimension(14) ::T_jndx=/;"	v	module:mod_test_parameters
+T_m	TESTER/test_parameters.f90	/^integer,parameter::T_m=/;"	v	module:mod_test_parameters
+T_n	TESTER/test_parameters.f90	/^integer,parameter::T_n=/;"	v	module:mod_test_parameters
+T_nz	TESTER/test_parameters.f90	/^integer,parameter::T_nz=/;"	v	module:mod_test_parameters
+Tx	TESTER/test_parameters.f90	/^      real(kind=dp) :: Tx(/;"	v	module:mod_test_parameters
+USE_MATRIX	TESTER/main_all.f90	/^integer :: USE_MATRIX /;"	v	program:tester
+UTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: UTx(/;"	v	module:mod_test_parameters
+U_VAL	TESTER/test_parameters.f90	/^real(kind=dp),dimension(14) ::U_VAL=/;"	v	module:mod_test_parameters
+U_indx	TESTER/test_parameters.f90	/^integer,dimension(14) ::U_indx=/;"	v	module:mod_test_parameters
+U_jndx	TESTER/test_parameters.f90	/^integer,dimension(14) ::U_jndx=/;"	v	module:mod_test_parameters
+U_m	TESTER/test_parameters.f90	/^integer,parameter::U_m=/;"	v	module:mod_test_parameters
+U_n	TESTER/test_parameters.f90	/^integer,parameter::U_n=/;"	v	module:mod_test_parameters
+U_nz	TESTER/test_parameters.f90	/^integer,parameter::U_nz=/;"	v	module:mod_test_parameters
+Ux	TESTER/test_parameters.f90	/^      real(kind=dp) :: Ux(/;"	v	module:mod_test_parameters
+VAL	TESTER/power.f90	/^      REAL(KIND=DP), DIMENSION(:), ALLOCATABLE :: VAL,/;"	v	program:MAIN_POWER
+VAL_C	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(4),parameter ::VAL_C=/;"	v	module:mod_test_parameters
+VAL_DT	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(6),parameter ::VAL_DT=/;"	v	module:mod_test_parameters
+VAL_d	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(9),parameter ::VAL_d=/;"	v	module:mod_test_parameters
+WORK	TESTER/power.f90	/^      REAL(KIND=DP), DIMENSION(:), ALLOCATABLE :: VAL,Q,WORK$/;"	v	program:MAIN_POWER
+X11	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+X13	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+X22	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+X23	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+X31	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+XAB_ROW_COL	SOURCE_FILES/conv_tools_source.F	/^      function XAB_ROW_COL /;"	f
+XACCESS_ELEMENT	SOURCE_FILES/INSERTING_source.F	/^      subroutine XACCESS_ELEMENT(/;"	s
+XACCESS_MATRIX	SOURCE_FILES/INSERTING_source.F	/^      subroutine XACCESS_MATRIX(/;"	s
+XA_ROW_COL	SOURCE_FILES/conv_tools_source.F	/^      function XA_ROW_COL(/;"	f
+XBLOCK_H_MULT	SOURCE_FILES/dense_source.F	/^      subroutine XBLOCK_H_MULT(/;"	s
+XBLOCK_L_MULT	SOURCE_FILES/dense_source.F	/^      subroutine XBLOCK_L_MULT(/;"	s
+XBLOCK_MULT	SOURCE_FILES/dense_source.F	/^      subroutine XBLOCK_MULT(/;"	s
+XBLOCK_R_MULT	SOURCE_FILES/dense_source.F	/^      subroutine XBLOCK_R_MULT(/;"	s
+XBLOCK_T_MULT	SOURCE_FILES/dense_source.F	/^      subroutine XBLOCK_T_MULT(/;"	s
+XBLOCK_Z_MULT	SOURCE_FILES/dense_source.F	/^      subroutine XBLOCK_Z_MULT(/;"	s
+XB_UP_ORDER	SOURCE_FILES/conv_tools_source.F	/^      subroutine XB_UP_ORDER(/;"	s
+XCOO2CSC	SOURCE_FILES/usconv_coo2csc_source.F	/^      subroutine XCOO2CSC(/;"	s
+XDETECT_BDIAG	SOURCE_FILES/conv_tools_source.F	/^      subroutine XDETECT_BDIAG /;"	s
+XDETECT_DIAG	SOURCE_FILES/conv_tools_source.F	/^      subroutine XDETECT_DIAG(/;"	s
+XINS_bl_entr	SOURCE_FILES/INS_ROUTINER_source.F	/^      subroutine XINS_bl_entr(/;"	s
+XINS_block	SOURCE_FILES/INS_ROUTINER_source.F	/^      subroutine XINS_block(/;"	s
+XINS_entry	SOURCE_FILES/INS_ROUTINER_source.F	/^      subroutine XINS_entry /;"	s
+XINS_varbl_entr	SOURCE_FILES/INS_ROUTINER_source.F	/^      subroutine XINS_varbl_entr(/;"	s
+XINS_varblock	SOURCE_FILES/INS_ROUTINER_source.F	/^      subroutine XINS_varblock(/;"	s
+XINV_LL	SOURCE_FILES/dense_source.F	/^      subroutine XINV_LL(/;"	s
+XINV_L_LL	SOURCE_FILES/dense_source.F	/^      subroutine XINV_L_LL(/;"	s
+XINV_L_RU	SOURCE_FILES/dense_source.F	/^      subroutine XINV_L_RU(/;"	s
+XINV_RU	SOURCE_FILES/dense_source.F	/^      subroutine XINV_RU(/;"	s
+XINV_R_LL	SOURCE_FILES/dense_source.F	/^      subroutine XINV_R_LL(/;"	s
+XINV_R_RU	SOURCE_FILES/dense_source.F	/^      subroutine XINV_R_RU(/;"	s
+XINV_T_LL	SOURCE_FILES/dense_source.F	/^      subroutine XINV_T_LL(/;"	s
+XINV_T_RU	SOURCE_FILES/dense_source.F	/^      subroutine XINV_T_RU(/;"	s
+XLMBV_BCO	SOURCE_FILES/lmbv_bco_source.F	/^      subroutine XLMBV_BCO(/;"	s
+XLMBV_BDI	SOURCE_FILES/lmbv_bdi_source.F	/^      subroutine XLMBV_BDI(/;"	s
+XLMBV_BSC	SOURCE_FILES/lmbv_bsc_source.F	/^      subroutine XLMBV_BSC(/;"	s
+XLMBV_BSR	SOURCE_FILES/lmbv_bsr_source.F	/^      subroutine XLMBV_BSR(/;"	s
+XLMBV_COO	SOURCE_FILES/lmbv_coo_source.F	/^      subroutine XLMBV_COO(/;"	s
+XLMBV_CSC	SOURCE_FILES/lmbv_csc_source.F	/^      subroutine XLMBV_CSC(/;"	s
+XLMBV_CSR	SOURCE_FILES/lmbv_csr_source.F	/^      subroutine XLMBV_CSR(/;"	s
+XLMBV_DIA	SOURCE_FILES/lmbv_dia_source.F	/^      subroutine XLMBV_DIA(/;"	s
+XLMBV_VBR	SOURCE_FILES/lmbv_vbr_source.F	/^      subroutine XLMBV_VBR(/;"	s
+XLSBV_BCO	SOURCE_FILES/lsbv_bco_source.F	/^      subroutine XLSBV_BCO(/;"	s
+XLSBV_BDI	SOURCE_FILES/lsbv_bdi_source.F	/^      subroutine XLSBV_BDI(/;"	s
+XLSBV_BSC	SOURCE_FILES/lsbv_bsc_source.F	/^      subroutine XLSBV_BSC(/;"	s
+XLSBV_BSR	SOURCE_FILES/lsbv_bsr_source.F	/^      subroutine XLSBV_BSR(/;"	s
+XLSBV_COO	SOURCE_FILES/lsbv_coo_source.F	/^      subroutine XLSBV_COO(/;"	s
+XLSBV_CSC	SOURCE_FILES/lsbv_csc_source.F	/^      subroutine XLSBV_CSC(/;"	s
+XLSBV_CSR	SOURCE_FILES/lsbv_csr_source.F	/^      subroutine XLSBV_CSR(/;"	s
+XLSBV_DIA	SOURCE_FILES/lsbv_dia_source.F	/^      subroutine XLSBV_DIA(/;"	s
+XLSBV_VBR	SOURCE_FILES/lsbv_vbr_source.F	/^      subroutine XLSBV_VBR(/;"	s
+XPRE_BCO2BDI	SOURCE_FILES/conv_tools_source.F	/^      subroutine XPRE_BCO2BDI(/;"	s
+XPRE_BCO2BSC	SOURCE_FILES/conv_tools_source.F	/^      subroutine XPRE_BCO2BSC(/;"	s
+XPRE_BCO2BSR	SOURCE_FILES/conv_tools_source.F	/^      subroutine XPRE_BCO2BSR(/;"	s
+XPRE_BDI2BCO	SOURCE_FILES/conv_tools_source.F	/^      subroutine XPRE_BDI2BCO(/;"	s
+XPRE_COO2CSC	SOURCE_FILES/conv_tools_source.F	/^      subroutine XPRE_COO2CSC(/;"	s
+XPRE_COO2CSR	SOURCE_FILES/conv_tools_source.F	/^      subroutine XPRE_COO2CSR(/;"	s
+XPRE_COO2DIA	SOURCE_FILES/conv_tools_source.F	/^      subroutine XPRE_COO2DIA /;"	s
+XPRE_DIA2COO	SOURCE_FILES/conv_tools_source.F	/^      subroutine XPRE_DIA2COO(/;"	s
+XRMBV_BCO	SOURCE_FILES/rmbv_bco_source.F	/^      subroutine XRMBV_BCO(/;"	s
+XRMBV_BDI	SOURCE_FILES/rmbv_bdi_source.F	/^      subroutine XRMBV_BDI(/;"	s
+XRMBV_BSC	SOURCE_FILES/rmbv_bsc_source.F	/^      subroutine XRMBV_BSC(/;"	s
+XRMBV_BSR	SOURCE_FILES/rmbv_bsr_source.F	/^      subroutine XRMBV_BSR(/;"	s
+XRMBV_COO	SOURCE_FILES/rmbv_coo_source.F	/^      subroutine XRMBV_COO(/;"	s
+XRMBV_CSC	SOURCE_FILES/rmbv_csc_source.F	/^      subroutine XRMBV_CSC(/;"	s
+XRMBV_CSR	SOURCE_FILES/rmbv_csr_source.F	/^      subroutine XRMBV_CSR(/;"	s
+XRMBV_DIA	SOURCE_FILES/rmbv_dia_source.F	/^      subroutine XRMBV_DIA(/;"	s
+XRMBV_VBR	SOURCE_FILES/rmbv_vbr_source.F	/^      subroutine XRMBV_VBR(/;"	s
+XRSBV_BCO	SOURCE_FILES/rsbv_bco_source.F	/^      subroutine XRSBV_BCO(/;"	s
+XRSBV_BDI	SOURCE_FILES/rsbv_bdi_source.F	/^      subroutine XRSBV_BDI(/;"	s
+XRSBV_BSC	SOURCE_FILES/rsbv_bsc_source.F	/^      subroutine XRSBV_BSC(/;"	s
+XRSBV_BSR	SOURCE_FILES/rsbv_bsr_source.F	/^      subroutine XRSBV_BSR(/;"	s
+XRSBV_COO	SOURCE_FILES/rsbv_coo_source.F	/^      subroutine XRSBV_COO(/;"	s
+XRSBV_CSC	SOURCE_FILES/rsbv_csc_source.F	/^      subroutine XRSBV_CSC(/;"	s
+XRSBV_CSR	SOURCE_FILES/rsbv_csr_source.F	/^      subroutine XRSBV_CSR(/;"	s
+XRSBV_DIA	SOURCE_FILES/rsbv_dia_source.F	/^      subroutine XRSBV_DIA(/;"	s
+XRSBV_VBR	SOURCE_FILES/rsbv_vbr_source.F	/^      subroutine XRSBV_VBR(/;"	s
+XTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: XTx(/;"	v	module:mod_test_parameters
+XUSAXPY	SOURCE_FILES/usaxpy_source.F	/^ subroutine XUSAXPY(/;"	s
+XUSCR_BCO	SOURCE_FILES/uscr_bco_source.F	/^      subroutine XUSCR_BCO(/;"	s
+XUSCR_BDI	SOURCE_FILES/uscr_bdi_source.F	/^      subroutine XUSCR_BDI(/;"	s
+XUSCR_BEGIN	SOURCE_FILES/uscr_begin_source.F	/^      subroutine XUSCR_BEGIN(/;"	s
+XUSCR_BLOCK_BEGIN	SOURCE_FILES/uscr_block_begin_source.F	/^      subroutine  XUSCR_BLOCK_BEGIN(/;"	s
+XUSCR_BSC	SOURCE_FILES/uscr_bsc_source.F	/^      subroutine XUSCR_BSC(/;"	s
+XUSCR_BSR	SOURCE_FILES/uscr_bsr_source.F	/^      subroutine XUSCR_BSR(/;"	s
+XUSCR_COO	SOURCE_FILES/uscr_coo_source.F	/^      subroutine XUSCR_COO(/;"	s
+XUSCR_CSC	SOURCE_FILES/uscr_csc_source.F	/^      subroutine XUSCR_CSC(/;"	s
+XUSCR_CSR	SOURCE_FILES/uscr_csr_source.F	/^      subroutine XUSCR_CSR(/;"	s
+XUSCR_DIA	SOURCE_FILES/uscr_dia_source.F	/^      subroutine XUSCR_DIA(/;"	s
+XUSCR_INSERT_BLOCK	SOURCE_FILES/uscr_insert_block_source.F	/^      subroutine  XUSCR_INSERT_BLOCK(/;"	s
+XUSCR_INSERT_CLIQUE	SOURCE_FILES/uscr_insert_clique_source.F	/^      subroutine  XUSCR_INSERT_CLIQUE(/;"	s
+XUSCR_INSERT_COL	SOURCE_FILES/uscr_insert_col_source.F	/^      subroutine  XUSCR_INSERT_COL /;"	s
+XUSCR_INSERT_ENTRIES	SOURCE_FILES/uscr_insert_entries_source.F	/^      subroutine XUSCR_INSERT_ENTRIES(/;"	s
+XUSCR_INSERT_ENTRY	SOURCE_FILES/uscr_insert_entry_source.F	/^      subroutine XUSCR_INSERT_ENTRY /;"	s
+XUSCR_INSERT_ROW	SOURCE_FILES/uscr_insert_row_source.F	/^      subroutine XUSCR_INSERT_ROW /;"	s
+XUSCR_VBR	SOURCE_FILES/uscr_vbr_source.F	/^      subroutine XUSCR_VBR(/;"	s
+XUSCR_V_B_BEGIN	SOURCE_FILES/uscr_variable_block_begin_source.F	/^      subroutine XUSCR_V_B_BEGIN(/;"	s
+XUSCR_blockend	SOURCE_FILES/INS_ROUTINER_source.F	/^      subroutine XUSCR_blockend /;"	s
+XUSCR_normend	SOURCE_FILES/INS_ROUTINER_source.F	/^      subroutine XUSCR_normend /;"	s
+XUSCR_varend	SOURCE_FILES/INS_ROUTINER_source.F	/^      subroutine XUSCR_varend(/;"	s
+XUSGA	SOURCE_FILES/usga_source.F	/^ subroutine XUSGA(/;"	s
+XUSGZ	SOURCE_FILES/usgz_source.F	/^subroutine XUSGZ(/;"	s
+XUSMM	SOURCE_FILES/usmm_source.F	/^      subroutine XUSMM(/;"	s
+XUSMV	SOURCE_FILES/usmv_source.F	/^      subroutine XUSMV(/;"	s
+XUSSC	SOURCE_FILES/ussc_source.F	/^  subroutine XUSSC(/;"	s
+XUSSM	SOURCE_FILES/ussm_source.F	/^      subroutine XUSSM(/;"	s
+XUSSV	SOURCE_FILES/ussv_source.F	/^      subroutine XUSSV(/;"	s
+X_DEALLOC	SOURCE_FILES/INSERTING_source.F	/^      subroutine X_DEALLOC(/;"	s
+X_ELEMENT_NUM	SOURCE_FILES/INSERTING_source.F	/^      subroutine X_ELEMENT_NUM /;"	s
+X_Mb	TESTER/test_parameters.f90	/^integer,parameter::X_Mb=/;"	v	module:mod_test_parameters
+X_Nb	TESTER/test_parameters.f90	/^integer,parameter::X_Nb=/;"	v	module:mod_test_parameters
+X_k	TESTER/test_parameters.f90	/^integer,parameter::X_k=/;"	v	module:mod_test_parameters
+X_l	TESTER/test_parameters.f90	/^integer,parameter::X_l=/;"	v	module:mod_test_parameters
+Xx	TESTER/test_parameters.f90	/^      real(kind=dp) :: Xx(/;"	v	module:mod_test_parameters
+Y11	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+Y12	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+Y21	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+Y22	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+YTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: YTx(/;"	v	module:mod_test_parameters
+Y_Mb	TESTER/test_parameters.f90	/^integer,parameter::Y_Mb=/;"	v	module:mod_test_parameters
+Y_Nb	TESTER/test_parameters.f90	/^integer,parameter::Y_Nb=/;"	v	module:mod_test_parameters
+Y_SL11	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+Y_SL12	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+Y_SL21	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+Y_SL22	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+Y_SL_Mb	TESTER/test_parameters.f90	/^integer,parameter::Y_SL_Mb=/;"	v	module:mod_test_parameters
+Y_SL_Nb	TESTER/test_parameters.f90	/^integer,parameter::Y_SL_Nb=/;"	v	module:mod_test_parameters
+Y_SL_k	TESTER/test_parameters.f90	/^integer,parameter::Y_SL_k=/;"	v	module:mod_test_parameters
+Y_SL_l	TESTER/test_parameters.f90	/^integer,parameter::Y_SL_l=/;"	v	module:mod_test_parameters
+Y_SLx	TESTER/test_parameters.f90	/^      real(kind=dp) :: Y_SLx(/;"	v	module:mod_test_parameters
+Y_SU11	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+Y_SU12	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+Y_SU21	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+Y_SU22	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+Y_SU_Mb	TESTER/test_parameters.f90	/^integer,parameter::Y_SU_Mb=/;"	v	module:mod_test_parameters
+Y_SU_Nb	TESTER/test_parameters.f90	/^integer,parameter::Y_SU_Nb=/;"	v	module:mod_test_parameters
+Y_SU_k	TESTER/test_parameters.f90	/^integer,parameter::Y_SU_k=/;"	v	module:mod_test_parameters
+Y_SU_l	TESTER/test_parameters.f90	/^integer,parameter::Y_SU_l=/;"	v	module:mod_test_parameters
+Y_SUx	TESTER/test_parameters.f90	/^      real(kind=dp) :: Y_SUx(/;"	v	module:mod_test_parameters
+Y_k	TESTER/test_parameters.f90	/^integer,parameter::Y_k=/;"	v	module:mod_test_parameters
+Y_l	TESTER/test_parameters.f90	/^integer,parameter::Y_l=/;"	v	module:mod_test_parameters
+Yx	TESTER/test_parameters.f90	/^      real(kind=dp) :: Yx(/;"	v	module:mod_test_parameters
+Z11	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
+Z13	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,1), parameter:: & $/;"	v	module:mod_test_parameters
+Z15	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+Z22	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3,3), parameter:: & $/;"	v	module:mod_test_parameters
+Z23	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3,1), parameter ::& $/;"	v	module:mod_test_parameters
+Z31	TESTER/test_parameters.f90	/^real(kind=dp),dimension(1,2), parameter ::& $/;"	v	module:mod_test_parameters
+Z32	TESTER/test_parameters.f90	/^real(kind=dp),dimension(1,3), parameter ::& $/;"	v	module:mod_test_parameters
+Z33	TESTER/test_parameters.f90	/^real(kind=dp),dimension(1,1), parameter ::&$/;"	v	module:mod_test_parameters
+Z34	TESTER/test_parameters.f90	/^real(kind=dp),dimension(1,3), parameter ::& $/;"	v	module:mod_test_parameters
+Z43	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3,1), parameter ::& $/;"	v	module:mod_test_parameters
+Z44	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3,3), parameter:: & $/;"	v	module:mod_test_parameters
+Z51	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+Z55	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
+ZSPMAT	SOFTWARE/types.f90	/^TYPE ZSPMAT$/;"	t	module:types
+ZSP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: ZSP_MATRIX /;"	v	module:properties
+ZTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: ZTx(/;"	v	module:mod_test_parameters
+Z_Mb	TESTER/test_parameters.f90	/^integer,parameter::Z_Mb=/;"	v	module:mod_test_parameters
+Z_Nb	TESTER/test_parameters.f90	/^integer,parameter::Z_Nb=/;"	v	module:mod_test_parameters
+Z_kk	TESTER/test_parameters.f90	/^integer ,dimension(5)  ::Z_kk=/;"	v	module:mod_test_parameters
+Z_ll	TESTER/test_parameters.f90	/^integer ,dimension(5)  ::Z_ll=/;"	v	module:mod_test_parameters
+Zx	TESTER/test_parameters.f90	/^      real(kind=dp) :: Zx(/;"	v	module:mod_test_parameters
+a	SOFTWARE/test.f90	/^      integer :: a,/;"	v	program:test
+a	TESTER/main_all.f90	/^integer :: i, prpty, a,/;"	v	program:tester
+accessdata_csp	SOFTWARE/link.f90	/^      subroutine accessdata_csp /;"	s	module:representation_of_data
+accessdata_dsp	SOFTWARE/link.f90	/^      subroutine accessdata_dsp /;"	s	module:representation_of_data
+accessdata_isp	SOFTWARE/link.f90	/^      subroutine accessdata_isp /;"	s	module:representation_of_data
+accessdata_ssp	SOFTWARE/link.f90	/^      subroutine accessdata_ssp /;"	s	module:representation_of_data
+accessdata_zsp	SOFTWARE/link.f90	/^      subroutine accessdata_zsp /;"	s	module:representation_of_data
+alpha	TESTER/test_parameters.f90	/^real(kind=dp),parameter::alpha=/;"	v	module:mod_test_parameters
+alphac	TESTER/test_parameters.f90	/^complex(kind=dp),parameter::alphac=/;"	v	module:mod_test_parameters
+b	TESTER/main_all.f90	/^integer :: i, prpty, a,d,ierr,b,/;"	v	program:tester
+blas_block_irregular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_block_irregular /;"	v	module:blas_sparse_namedconstants
+blas_block_regular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_block_regular /;"	v	module:blas_sparse_namedconstants
+blas_col_major	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_col_major /;"	v	module:blas_sparse_namedconstants
+blas_complex	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_complex /;"	v	module:blas_sparse_namedconstants
+blas_double_precision	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_double_precision /;"	v	module:blas_sparse_namedconstants
+blas_error_memalloc	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_memalloc /;"	v	module:blas_sparse_namedconstants
+blas_error_memdeloc	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_memdeloc /;"	v	module:blas_sparse_namedconstants
+blas_error_param	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_param /;"	v	module:blas_sparse_namedconstants
+blas_error_singtria	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_singtria /;"	v	module:blas_sparse_namedconstants
+blas_general	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_general /;"	v	module:blas_sparse_namedconstants
+blas_hermitian	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_hermitian /;"	v	module:blas_sparse_namedconstants
+blas_integer	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_integer /;"	v	module:blas_sparse_namedconstants
+blas_invalid_handle	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_invalid_handle /;"	v	module:blas_sparse_namedconstants
+blas_irregular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_irregular /;"	v	module:blas_sparse_namedconstants
+blas_lower	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower /;"	v	module:blas_sparse_namedconstants
+blas_lower_hermitian	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower_hermitian /;"	v	module:blas_sparse_namedconstants
+blas_lower_symmetric	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower_symmetric /;"	v	module:blas_sparse_namedconstants
+blas_lower_triangular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower_triangular /;"	v	module:blas_sparse_namedconstants
+blas_new_handle	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_new_handle /;"	v	module:blas_sparse_namedconstants
+blas_no_repeated_indices	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_no_repeated_indices /;"	v	module:blas_sparse_namedconstants
+blas_non_unit_diag	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_non_unit_diag /;"	v	module:blas_sparse_namedconstants
+blas_num_cols	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_num_cols /;"	v	module:blas_sparse_namedconstants
+blas_num_nonzeros	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_num_nonzeros /;"	v	module:blas_sparse_namedconstants
+blas_num_rows	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_num_rows /;"	v	module:blas_sparse_namedconstants
+blas_one_base	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_one_base /;"	v	module:blas_sparse_namedconstants
+blas_open_handle	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_open_handle /;"	v	module:blas_sparse_namedconstants
+blas_real	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_real /;"	v	module:blas_sparse_namedconstants
+blas_regular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_regular /;"	v	module:blas_sparse_namedconstants
+blas_repeated_indices	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_repeated_indices /;"	v	module:blas_sparse_namedconstants
+blas_row_major	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_row_major /;"	v	module:blas_sparse_namedconstants
+blas_single_precision	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_single_precision /;"	v	module:blas_sparse_namedconstants
+blas_sparse	SOFTWARE/blas_sparse.f90	/^module blas_sparse$/;"	m
+blas_sparse_namedconstants	SOFTWARE/blas_sparse_namedconstants.f90	/^module blas_sparse_namedconstants$/;"	m
+blas_sparse_proto	SOFTWARE/blas_sparse_proto.f90	/^module blas_sparse_proto$/;"	m
+blas_symmetric	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_symmetric /;"	v	module:blas_sparse_namedconstants
+blas_unassembled	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_unassembled /;"	v	module:blas_sparse_namedconstants
+blas_unit_diag	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_unit_diag /;"	v	module:blas_sparse_namedconstants
+blas_upper	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper /;"	v	module:blas_sparse_namedconstants
+blas_upper_hermitian	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper_hermitian /;"	v	module:blas_sparse_namedconstants
+blas_upper_symmetric	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper_symmetric /;"	v	module:blas_sparse_namedconstants
+blas_upper_triangular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper_triangular /;"	v	module:blas_sparse_namedconstants
+blas_valid_handle	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_valid_handle /;"	v	module:blas_sparse_namedconstants
+blas_zero_base	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_zero_base /;"	v	module:blas_sparse_namedconstants
+blin	SOFTWARE/INSERTING.f90	/^type(c_inblock)::blin$/;"	k	type:c_inelement
+blin	SOFTWARE/INSERTING.f90	/^type(d_inblock)::blin$/;"	k	type:d_inelement
+blin	SOFTWARE/INSERTING.f90	/^type(i_inblock)::blin$/;"	k	type:i_inelement
+blin	SOFTWARE/INSERTING.f90	/^type(s_inblock)::blin$/;"	k	type:s_inelement
+blin	SOFTWARE/INSERTING.f90	/^type(z_inblock)::blin$/;"	k	type:z_inelement
+blin	TARGET_FILES/INSERTING_target.F	/^type(c_inblock)::blin$/;"	k	type:c_inelement
+blin	TARGET_FILES/INSERTING_target.F	/^type(d_inblock)::blin$/;"	k	type:d_inelement
+blin	TARGET_FILES/INSERTING_target.F	/^type(i_inblock)::blin$/;"	k	type:i_inelement
+blin	TARGET_FILES/INSERTING_target.F	/^type(s_inblock)::blin$/;"	k	type:s_inelement
+blin	TARGET_FILES/INSERTING_target.F	/^type(z_inblock)::blin$/;"	k	type:z_inelement
+c	TESTER/main_all.f90	/^integer :: i, prpty, a,d,ierr,b,c,/;"	v	program:tester
+cA_row_col	SOFTWARE/conv_tools.f90	/^      function cA_row_col /;"	f	module:mod_conv_tools
+cAb_row_col	SOFTWARE/conv_tools.f90	/^      function cAb_row_col /;"	f	module:mod_conv_tools
+cINS_bl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine cINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+cINS_block	SOFTWARE/INS_ROUTINER.f90	/^      subroutine cINS_block /;"	s	module:mod_INS_ROUTINER
+cINS_entry	SOFTWARE/INS_ROUTINER.f90	/^      subroutine cINS_entry /;"	s	module:mod_INS_ROUTINER
+cINS_varbl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine cINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
+cINS_varblock	SOFTWARE/INS_ROUTINER.f90	/^      subroutine cINS_varblock /;"	s	module:mod_INS_ROUTINER
+c_dealloc	SOFTWARE/INSERTING.f90	/^      subroutine c_dealloc /;"	s	module:mod_INSERTING
+c_element	SOFTWARE/INSERTING.f90	/^type c_element$/;"	t	module:mod_INSERTING
+c_element	TARGET_FILES/INSERTING_target.F	/^type c_element$/;"	t	module:mod_INSERTING
+c_element_num	SOFTWARE/INSERTING.f90	/^      subroutine c_element_num /;"	s	module:mod_INSERTING
+c_element_start	SOFTWARE/INSERTING.f90	/^type(c_element),pointer::c_element_start$/;"	k	type:c_matrix
+c_element_start	TARGET_FILES/INSERTING_target.F	/^type(c_element),pointer::c_element_start$/;"	k	type:c_matrix
+c_inblock	SOFTWARE/INSERTING.f90	/^type c_inblock$/;"	t	module:mod_INSERTING
+c_inblock	TARGET_FILES/INSERTING_target.F	/^type c_inblock$/;"	t	module:mod_INSERTING
+c_inelement	SOFTWARE/INSERTING.f90	/^type c_inelement$/;"	t	module:mod_INSERTING
+c_inelement	TARGET_FILES/INSERTING_target.F	/^type c_inelement$/;"	t	module:mod_INSERTING
+c_inpnt1	SOFTWARE/INSERTING.f90	/^type c_inpnt1$/;"	t	module:mod_INSERTING
+c_inpnt1	TARGET_FILES/INSERTING_target.F	/^type c_inpnt1$/;"	t	module:mod_INSERTING
+c_invblock	SOFTWARE/INSERTING.f90	/^type c_invblock$/;"	t	module:mod_INSERTING
+c_invblock	TARGET_FILES/INSERTING_target.F	/^type c_invblock$/;"	t	module:mod_INSERTING
+c_matrix	SOFTWARE/INSERTING.f90	/^type c_matrix$/;"	t	module:mod_INSERTING
+c_matrix	TARGET_FILES/INSERTING_target.F	/^type c_matrix$/;"	t	module:mod_INSERTING
+c_matrix_start	SOFTWARE/INSERTING.f90	/^type(c_matrix), pointer,SAVE :: c_matrix_start$/;"	v	module:mod_INSERTING
+c_matrix_start	TARGET_FILES/INSERTING_target.F	/^type(c_matrix), pointer,SAVE :: c_matrix_start$/;"	v	module:mod_INSERTING
+caccess_element	SOFTWARE/INSERTING.f90	/^      subroutine caccess_element /;"	s	module:mod_INSERTING
+caccess_matrix	SOFTWARE/INSERTING.f90	/^      subroutine caccess_matrix /;"	s	module:mod_INSERTING
+cappntr	SOFTWARE/hash.f90	/^      type cappntr$/;"	t	module:mod_hash
+capsule	SOFTWARE/hash.f90	/^      type capsule$/;"	t	module:mod_hash
+cb_up_order	SOFTWARE/conv_tools.f90	/^      subroutine cb_up_order /;"	s	module:mod_conv_tools
+cblock_H_mult_vec	SOFTWARE/dense.f90	/^      subroutine cblock_H_mult_vec /;"	s	module:mod_dense_mat_algos
+cblock_T_mult_vec	SOFTWARE/dense.f90	/^      subroutine cblock_T_mult_vec /;"	s	module:mod_dense_mat_algos
+cblock_Z_mult_vec	SOFTWARE/dense.f90	/^      subroutine cblock_Z_mult_vec /;"	s	module:mod_dense_mat_algos
+cblock_l_mult_vec	SOFTWARE/dense.f90	/^      subroutine cblock_l_mult_vec /;"	s	module:mod_dense_mat_algos
+cblock_mult_vec	SOFTWARE/dense.f90	/^      subroutine cblock_mult_vec /;"	s	module:mod_dense_mat_algos
+cblock_r_mult_vec	SOFTWARE/dense.f90	/^      subroutine cblock_r_mult_vec /;"	s	module:mod_dense_mat_algos
+cdetect_bdiag	SOFTWARE/conv_tools.f90	/^      subroutine cdetect_bdiag /;"	s	module:mod_conv_tools
+cdetect_diag	SOFTWARE/conv_tools.f90	/^      subroutine cdetect_diag /;"	s	module:mod_conv_tools
+cins_init	SOFTWARE/INSERTING.f90	/^logical, SAVE, PRIVATE :: cins_init /;"	v	module:mod_INSERTING
+cins_init	TARGET_FILES/INSERTING_target.F	/^logical, SAVE, PRIVATE :: cins_init /;"	v	module:mod_INSERTING
+cinvert_T_left_lower	SOFTWARE/dense.f90	/^      subroutine cinvert_T_left_lower /;"	s	module:mod_dense_mat_algos
+cinvert_T_right_upper	SOFTWARE/dense.f90	/^      subroutine cinvert_T_right_upper /;"	s	module:mod_dense_mat_algos
+cinvert_l_left_lower	SOFTWARE/dense.f90	/^      subroutine cinvert_l_left_lower /;"	s	module:mod_dense_mat_algos
+cinvert_l_right_upper	SOFTWARE/dense.f90	/^      subroutine cinvert_l_right_upper /;"	s	module:mod_dense_mat_algos
+cinvert_left_lower	SOFTWARE/dense.f90	/^      subroutine cinvert_left_lower /;"	s	module:mod_dense_mat_algos
+cinvert_r_left_lower	SOFTWARE/dense.f90	/^      subroutine cinvert_r_left_lower /;"	s	module:mod_dense_mat_algos
+cinvert_r_right_upper	SOFTWARE/dense.f90	/^      subroutine cinvert_r_right_upper /;"	s	module:mod_dense_mat_algos
+cinvert_right_upper	SOFTWARE/dense.f90	/^      subroutine cinvert_right_upper /;"	s	module:mod_dense_mat_algos
+clmbv_bco	SOFTWARE/lmbv_bco.f90	/^      subroutine clmbv_bco /;"	s	module:mod_lmbv_bco
+clmbv_bdi	SOFTWARE/lmbv_bdi.f90	/^      subroutine clmbv_bdi /;"	s	module:mod_lmbv_bdi
+clmbv_bsc	SOFTWARE/lmbv_bsc.f90	/^      subroutine clmbv_bsc /;"	s	module:mod_lmbv_bsc
+clmbv_bsr	SOFTWARE/lmbv_bsr.f90	/^      subroutine clmbv_bsr /;"	s	module:mod_lmbv_bsr
+clmbv_coo	SOFTWARE/lmbv_coo.f90	/^      subroutine clmbv_coo /;"	s	module:mod_lmbv_coo
+clmbv_csc	SOFTWARE/lmbv_csc.f90	/^      subroutine clmbv_csc /;"	s	module:mod_lmbv_csc
+clmbv_csr	SOFTWARE/lmbv_csr.f90	/^      subroutine clmbv_csr /;"	s	module:mod_lmbv_csr
+clmbv_dia	SOFTWARE/lmbv_dia.f90	/^      subroutine clmbv_dia /;"	s	module:mod_lmbv_dia
+clmbv_vbr	SOFTWARE/lmbv_vbr.f90	/^      subroutine clmbv_vbr /;"	s	module:mod_lmbv_vbr
+clsbv_bco	SOFTWARE/lsbv_bco.f90	/^      subroutine clsbv_bco /;"	s	module:mod_lsbv_bco
+clsbv_bdi	SOFTWARE/lsbv_bdi.f90	/^      subroutine clsbv_bdi /;"	s	module:mod_lsbv_bdi
+clsbv_bsc	SOFTWARE/lsbv_bsc.f90	/^      subroutine clsbv_bsc /;"	s	module:mod_lsbv_bsc
+clsbv_bsr	SOFTWARE/lsbv_bsr.f90	/^      subroutine clsbv_bsr /;"	s	module:mod_lsbv_bsr
+clsbv_coo	SOFTWARE/lsbv_coo.f90	/^      subroutine clsbv_coo /;"	s	module:mod_lsbv_coo
+clsbv_csc	SOFTWARE/lsbv_csc.f90	/^      subroutine clsbv_csc /;"	s	module:mod_lsbv_csc
+clsbv_csr	SOFTWARE/lsbv_csr.f90	/^      subroutine clsbv_csr /;"	s	module:mod_lsbv_csr
+clsbv_dia	SOFTWARE/lsbv_dia.f90	/^      subroutine clsbv_dia /;"	s	module:mod_lsbv_dia
+clsbv_vbr	SOFTWARE/lsbv_vbr.f90	/^      subroutine clsbv_vbr /;"	s	module:mod_lsbv_vbr
+col_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:c_inblock
+col_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:d_inblock
+col_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:i_inblock
+col_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:s_inblock
+col_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:z_inblock
+col_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,col_block_ind$/;"	k	type:c_inblock
+col_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,col_block_ind$/;"	k	type:d_inblock
+col_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,col_block_ind$/;"	k	type:i_inblock
+col_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,col_block_ind$/;"	k	type:s_inblock
+col_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,col_block_ind$/;"	k	type:z_inblock
+col_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:c_inpnt1
+col_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:d_inpnt1
+col_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:i_inpnt1
+col_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:s_inpnt1
+col_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:z_inpnt1
+col_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,col_ind$/;"	k	type:c_inpnt1
+col_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,col_ind$/;"	k	type:d_inpnt1
+col_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,col_ind$/;"	k	type:i_inpnt1
+col_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,col_ind$/;"	k	type:s_inpnt1
+col_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,col_ind$/;"	k	type:z_inpnt1
+col_vblock_ind	SOFTWARE/INSERTING.f90	/^   integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:i_invblock
+col_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:c_invblock
+col_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:d_invblock
+col_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:s_invblock
+col_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:z_invblock
+col_vblock_ind	TARGET_FILES/INSERTING_target.F	/^   integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:i_invblock
+col_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:c_invblock
+col_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:d_invblock
+col_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:s_invblock
+col_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:z_invblock
+conj	TESTER/main_all.f90	/^integer,parameter::conj=/;"	v	program:tester
+contents	SOFTWARE/INSERTING.f90	/^type(c_inelement)::contents$/;"	k	type:c_element
+contents	SOFTWARE/INSERTING.f90	/^type(d_inelement)::contents$/;"	k	type:d_element
+contents	SOFTWARE/INSERTING.f90	/^type(i_inelement)::contents$/;"	k	type:i_element
+contents	SOFTWARE/INSERTING.f90	/^type(s_inelement)::contents$/;"	k	type:s_element
+contents	SOFTWARE/INSERTING.f90	/^type(z_inelement)::contents$/;"	k	type:z_element
+contents	SOFTWARE/link.f90	/^        type(cspmat) :: contents$/;"	k	type:csp_linknode
+contents	SOFTWARE/link.f90	/^        type(dspmat) :: contents$/;"	k	type:dsp_linknode
+contents	SOFTWARE/link.f90	/^        type(ispmat) :: contents$/;"	k	type:isp_linknode
+contents	SOFTWARE/link.f90	/^        type(sspmat) :: contents$/;"	k	type:ssp_linknode
+contents	SOFTWARE/link.f90	/^        type(zspmat) :: contents$/;"	k	type:zsp_linknode
+contents	TARGET_FILES/INSERTING_target.F	/^type(c_inelement)::contents$/;"	k	type:c_element
+contents	TARGET_FILES/INSERTING_target.F	/^type(d_inelement)::contents$/;"	k	type:d_element
+contents	TARGET_FILES/INSERTING_target.F	/^type(i_inelement)::contents$/;"	k	type:i_element
+contents	TARGET_FILES/INSERTING_target.F	/^type(s_inelement)::contents$/;"	k	type:s_element
+contents	TARGET_FILES/INSERTING_target.F	/^type(z_inelement)::contents$/;"	k	type:z_element
+contents	TARGET_FILES/link_target.F	/^        type(cspmat) :: contents$/;"	k	type:csp_linknode
+contents	TARGET_FILES/link_target.F	/^        type(dspmat) :: contents$/;"	k	type:dsp_linknode
+contents	TARGET_FILES/link_target.F	/^        type(ispmat) :: contents$/;"	k	type:isp_linknode
+contents	TARGET_FILES/link_target.F	/^        type(sspmat) :: contents$/;"	k	type:ssp_linknode
+contents	TARGET_FILES/link_target.F	/^        type(zspmat) :: contents$/;"	k	type:zsp_linknode
+counter	SOFTWARE/conv_tools.f90	/^      function counter(/;"	f	module:mod_conv_tools
+counter	TARGET_FILES/conv_tools_target.F	/^      function counter(/;"	f	module:mod_conv_tools
+cpre_usconv_bco2bdi	SOFTWARE/conv_tools.f90	/^      subroutine cpre_usconv_bco2bdi /;"	s	module:mod_conv_tools
+cpre_usconv_bco2bsc	SOFTWARE/conv_tools.f90	/^      subroutine cpre_usconv_bco2bsc /;"	s	module:mod_conv_tools
+cpre_usconv_bco2bsr	SOFTWARE/conv_tools.f90	/^      subroutine cpre_usconv_bco2bsr /;"	s	module:mod_conv_tools
+cpre_usconv_bdi2bco	SOFTWARE/conv_tools.f90	/^      subroutine cpre_usconv_bdi2bco /;"	s	module:mod_conv_tools
+cpre_usconv_coo2csc	SOFTWARE/conv_tools.f90	/^      subroutine cpre_usconv_coo2csc /;"	s	module:mod_conv_tools
+cpre_usconv_coo2csr	SOFTWARE/conv_tools.f90	/^      subroutine cpre_usconv_coo2csr /;"	s	module:mod_conv_tools
+cpre_usconv_coo2dia	SOFTWARE/conv_tools.f90	/^      subroutine cpre_usconv_coo2dia /;"	s	module:mod_conv_tools
+cpre_usconv_dia2coo	SOFTWARE/conv_tools.f90	/^      subroutine cpre_usconv_dia2coo /;"	s	module:mod_conv_tools
+crmbv_bco	SOFTWARE/rmbv_bco.f90	/^      subroutine crmbv_bco /;"	s	module:mod_rmbv_bco
+crmbv_bdi	SOFTWARE/rmbv_bdi.f90	/^      subroutine crmbv_bdi /;"	s	module:mod_rmbv_bdi
+crmbv_bsc	SOFTWARE/rmbv_bsc.f90	/^      subroutine crmbv_bsc /;"	s	module:mod_rmbv_bsc
+crmbv_bsr	SOFTWARE/rmbv_bsr.f90	/^      subroutine crmbv_bsr /;"	s	module:mod_rmbv_bsr
+crmbv_coo	SOFTWARE/rmbv_coo.f90	/^      subroutine crmbv_coo /;"	s	module:mod_rmbv_coo
+crmbv_csc	SOFTWARE/rmbv_csc.f90	/^      subroutine crmbv_csc /;"	s	module:mod_rmbv_csc
+crmbv_csr	SOFTWARE/rmbv_csr.f90	/^      subroutine crmbv_csr /;"	s	module:mod_rmbv_csr
+crmbv_dia	SOFTWARE/rmbv_dia.f90	/^      subroutine crmbv_dia /;"	s	module:mod_rmbv_dia
+crmbv_vbr	SOFTWARE/rmbv_vbr.f90	/^      subroutine crmbv_vbr /;"	s	module:mod_rmbv_vbr
+crsbv_bco	SOFTWARE/rsbv_bco.f90	/^      subroutine crsbv_bco /;"	s	module:mod_rsbv_bco
+crsbv_bdi	SOFTWARE/rsbv_bdi.f90	/^      subroutine crsbv_bdi /;"	s	module:mod_rsbv_bdi
+crsbv_bsc	SOFTWARE/rsbv_bsc.f90	/^      subroutine crsbv_bsc /;"	s	module:mod_rsbv_bsc
+crsbv_bsr	SOFTWARE/rsbv_bsr.f90	/^      subroutine crsbv_bsr /;"	s	module:mod_rsbv_bsr
+crsbv_coo	SOFTWARE/rsbv_coo.f90	/^      subroutine crsbv_coo /;"	s	module:mod_rsbv_coo
+crsbv_csc	SOFTWARE/rsbv_csc.f90	/^      subroutine crsbv_csc /;"	s	module:mod_rsbv_csc
+crsbv_csr	SOFTWARE/rsbv_csr.f90	/^      subroutine crsbv_csr /;"	s	module:mod_rsbv_csr
+crsbv_dia	SOFTWARE/rsbv_dia.f90	/^      subroutine crsbv_dia /;"	s	module:mod_rsbv_dia
+crsbv_vbr	SOFTWARE/rsbv_vbr.f90	/^      subroutine crsbv_vbr /;"	s	module:mod_rsbv_vbr
+csp_first	SOFTWARE/link.f90	/^      type(csp_linknode), pointer,SAVE,PRIVATE :: csp_first,/;"	v	module:representation_of_data
+csp_first	TARGET_FILES/link_target.F	/^      type(csp_linknode), pointer,SAVE,PRIVATE :: csp_first,/;"	v	module:representation_of_data
+csp_init	SOFTWARE/link.f90	/^      logical,SAVE,PRIVATE :: csp_init /;"	v	module:representation_of_data
+csp_init	TARGET_FILES/link_target.F	/^      logical,SAVE,PRIVATE :: csp_init /;"	v	module:representation_of_data
+csp_last	SOFTWARE/link.f90	/^      type(csp_linknode), pointer,SAVE,PRIVATE :: csp_first, csp_last$/;"	v	module:representation_of_data
+csp_last	TARGET_FILES/link_target.F	/^      type(csp_linknode), pointer,SAVE,PRIVATE :: csp_first, csp_last$/;"	v	module:representation_of_data
+csp_linknode	SOFTWARE/link.f90	/^      type csp_linknode$/;"	t	module:representation_of_data
+csp_linknode	TARGET_FILES/link_target.F	/^      type csp_linknode$/;"	t	module:representation_of_data
+cusaxpy	SOFTWARE/usaxpy.f90	/^ subroutine cusaxpy /;"	s	module:mod_usaxpy
+cusconv_coo2csc	SOFTWARE/usconv_coo2csc.f90	/^      subroutine cusconv_coo2csc /;"	s	module:mod_usconv_coo2csc
+cuscr_bco	SOFTWARE/uscr_bco.f90	/^      subroutine cuscr_bco /;"	s	module:mod_uscr_bco
+cuscr_bdi	SOFTWARE/uscr_bdi.f90	/^      subroutine cuscr_bdi /;"	s	module:mod_uscr_bdi
+cuscr_begin	SOFTWARE/uscr_begin.f90	/^      subroutine cuscr_begin /;"	s	module:mod_uscr_begin
+cuscr_block_begin	SOFTWARE/uscr_block_begin.f90	/^      subroutine  cuscr_block_begin /;"	s	module:mod_uscr_block_begin
+cuscr_blockend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine cuscr_blockend /;"	s	module:mod_INS_ROUTINER
+cuscr_bsc	SOFTWARE/uscr_bsc.f90	/^      subroutine cuscr_bsc /;"	s	module:mod_uscr_bsc
+cuscr_bsr	SOFTWARE/uscr_bsr.f90	/^      subroutine cuscr_bsr /;"	s	module:mod_uscr_bsr
+cuscr_coo	SOFTWARE/uscr_coo.f90	/^      subroutine cuscr_coo /;"	s	module:mod_uscr_coo
+cuscr_csc	SOFTWARE/uscr_csc.f90	/^      subroutine cuscr_csc /;"	s	module:mod_uscr_csc
+cuscr_csr	SOFTWARE/uscr_csr.f90	/^      subroutine cuscr_csr /;"	s	module:mod_uscr_csr
+cuscr_dia	SOFTWARE/uscr_dia.f90	/^      subroutine cuscr_dia /;"	s	module:mod_uscr_dia
+cuscr_insert_block	SOFTWARE/uscr_insert_block.f90	/^      subroutine  cuscr_insert_block /;"	s	module:mod_uscr_insert_block
+cuscr_insert_clique	SOFTWARE/uscr_insert_clique.f90	/^      subroutine  cuscr_insert_clique /;"	s	module:mod_uscr_insert_clique
+cuscr_insert_col	SOFTWARE/uscr_insert_col.f90	/^      subroutine  cuscr_insert_col /;"	s	module:mod_uscr_insert_col
+cuscr_insert_entries	SOFTWARE/uscr_insert_entries.f90	/^      subroutine cuscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+cuscr_insert_entry	SOFTWARE/uscr_insert_entry.f90	/^      subroutine cuscr_insert_entry /;"	s	module:mod_uscr_insert_entry
+cuscr_insert_row	SOFTWARE/uscr_insert_row.f90	/^      subroutine cuscr_insert_row /;"	s	module:mod_uscr_insert_row
+cuscr_normend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine cuscr_normend /;"	s	module:mod_INS_ROUTINER
+cuscr_varend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine cuscr_varend /;"	s	module:mod_INS_ROUTINER
+cuscr_variable_block_begin	SOFTWARE/uscr_variable_block_begin.f90	/^      subroutine cuscr_variable_block_begin /;"	s	module:mod_uscr_variable_block_begin
+cuscr_vbr	SOFTWARE/uscr_vbr.f90	/^      subroutine cuscr_vbr /;"	s	module:mod_uscr_vbr
+cusdot	SOFTWARE/usdot.f90	/^complex(KIND=sp)  function cusdot /;"	f	module:mod_usdot
+cusga	SOFTWARE/usga.f90	/^ subroutine cusga /;"	s	module:mod_usga
+cusgz	SOFTWARE/usgz.f90	/^subroutine cusgz /;"	s	module:mod_usgz
+cusmm	SOFTWARE/usmm.f90	/^      subroutine cusmm /;"	s	module:mod_usmm
+cusmv	SOFTWARE/usmv.f90	/^      subroutine cusmv /;"	s	module:mod_usmv
+cussc	SOFTWARE/ussc.f90	/^  subroutine cussc /;"	s	module:mod_ussc
+cussm	SOFTWARE/ussm.f90	/^      subroutine cussm /;"	s	module:mod_ussm
+cussv	SOFTWARE/ussv.f90	/^      subroutine cussv /;"	s	module:mod_ussv
+d	TESTER/main_all.f90	/^integer :: i, prpty, a,d,/;"	v	program:tester
+dA_row_col	SOFTWARE/conv_tools.f90	/^      function dA_row_col /;"	f	module:mod_conv_tools
+dAb_row_col	SOFTWARE/conv_tools.f90	/^      function dAb_row_col /;"	f	module:mod_conv_tools
+dHx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: dHx(/;"	v	module:mod_test_parameters
+dINS_bl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine dINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+dINS_block	SOFTWARE/INS_ROUTINER.f90	/^      subroutine dINS_block /;"	s	module:mod_INS_ROUTINER
+dINS_entry	SOFTWARE/INS_ROUTINER.f90	/^      subroutine dINS_entry /;"	s	module:mod_INS_ROUTINER
+dINS_varbl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine dINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
+dINS_varblock	SOFTWARE/INS_ROUTINER.f90	/^      subroutine dINS_varblock /;"	s	module:mod_INS_ROUTINER
+dTx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: dTx(/;"	v	module:mod_test_parameters
+d_dealloc	SOFTWARE/INSERTING.f90	/^      subroutine d_dealloc /;"	s	module:mod_INSERTING
+d_element	SOFTWARE/INSERTING.f90	/^type d_element$/;"	t	module:mod_INSERTING
+d_element	TARGET_FILES/INSERTING_target.F	/^type d_element$/;"	t	module:mod_INSERTING
+d_element_num	SOFTWARE/INSERTING.f90	/^      subroutine d_element_num /;"	s	module:mod_INSERTING
+d_element_start	SOFTWARE/INSERTING.f90	/^type(d_element),pointer::d_element_start$/;"	k	type:d_matrix
+d_element_start	TARGET_FILES/INSERTING_target.F	/^type(d_element),pointer::d_element_start$/;"	k	type:d_matrix
+d_inblock	SOFTWARE/INSERTING.f90	/^type d_inblock$/;"	t	module:mod_INSERTING
+d_inblock	TARGET_FILES/INSERTING_target.F	/^type d_inblock$/;"	t	module:mod_INSERTING
+d_inelement	SOFTWARE/INSERTING.f90	/^type d_inelement$/;"	t	module:mod_INSERTING
+d_inelement	TARGET_FILES/INSERTING_target.F	/^type d_inelement$/;"	t	module:mod_INSERTING
+d_inpnt1	SOFTWARE/INSERTING.f90	/^type d_inpnt1$/;"	t	module:mod_INSERTING
+d_inpnt1	TARGET_FILES/INSERTING_target.F	/^type d_inpnt1$/;"	t	module:mod_INSERTING
+d_invblock	SOFTWARE/INSERTING.f90	/^type d_invblock$/;"	t	module:mod_INSERTING
+d_invblock	TARGET_FILES/INSERTING_target.F	/^type d_invblock$/;"	t	module:mod_INSERTING
+d_m	TESTER/test_parameters.f90	/^integer,parameter::d_m=/;"	v	module:mod_test_parameters
+d_matrix	SOFTWARE/INSERTING.f90	/^type d_matrix$/;"	t	module:mod_INSERTING
+d_matrix	TARGET_FILES/INSERTING_target.F	/^type d_matrix$/;"	t	module:mod_INSERTING
+d_matrix_start	SOFTWARE/INSERTING.f90	/^type(d_matrix), pointer,SAVE :: d_matrix_start$/;"	v	module:mod_INSERTING
+d_matrix_start	TARGET_FILES/INSERTING_target.F	/^type(d_matrix), pointer,SAVE :: d_matrix_start$/;"	v	module:mod_INSERTING
+d_n	TESTER/test_parameters.f90	/^integer,parameter::d_n=/;"	v	module:mod_test_parameters
+daccess_element	SOFTWARE/INSERTING.f90	/^      subroutine daccess_element /;"	s	module:mod_INSERTING
+daccess_matrix	SOFTWARE/INSERTING.f90	/^      subroutine daccess_matrix /;"	s	module:mod_INSERTING
+db_up_order	SOFTWARE/conv_tools.f90	/^      subroutine db_up_order /;"	s	module:mod_conv_tools
+dblock_H_mult_vec	SOFTWARE/dense.f90	/^      subroutine dblock_H_mult_vec /;"	s	module:mod_dense_mat_algos
+dblock_T_mult_vec	SOFTWARE/dense.f90	/^      subroutine dblock_T_mult_vec /;"	s	module:mod_dense_mat_algos
+dblock_Z_mult_vec	SOFTWARE/dense.f90	/^      subroutine dblock_Z_mult_vec /;"	s	module:mod_dense_mat_algos
+dblock_l_mult_vec	SOFTWARE/dense.f90	/^      subroutine dblock_l_mult_vec /;"	s	module:mod_dense_mat_algos
+dblock_mult_vec	SOFTWARE/dense.f90	/^      subroutine dblock_mult_vec /;"	s	module:mod_dense_mat_algos
+dblock_r_mult_vec	SOFTWARE/dense.f90	/^      subroutine dblock_r_mult_vec /;"	s	module:mod_dense_mat_algos
+ddetect_bdiag	SOFTWARE/conv_tools.f90	/^      subroutine ddetect_bdiag /;"	s	module:mod_conv_tools
+ddetect_diag	SOFTWARE/conv_tools.f90	/^      subroutine ddetect_diag /;"	s	module:mod_conv_tools
+dealloc_c_element	SOFTWARE/INSERTING.f90	/^      subroutine dealloc_c_element /;"	s	module:mod_INSERTING
+dealloc_c_matrix	SOFTWARE/INSERTING.f90	/^      subroutine dealloc_c_matrix /;"	s	module:mod_INSERTING
+dealloc_d_element	SOFTWARE/INSERTING.f90	/^      subroutine dealloc_d_element /;"	s	module:mod_INSERTING
+dealloc_d_matrix	SOFTWARE/INSERTING.f90	/^      subroutine dealloc_d_matrix /;"	s	module:mod_INSERTING
+dealloc_i_element	SOFTWARE/INSERTING.f90	/^      subroutine dealloc_i_element /;"	s	module:mod_INSERTING
+dealloc_i_matrix	SOFTWARE/INSERTING.f90	/^      subroutine dealloc_i_matrix /;"	s	module:mod_INSERTING
+dealloc_s_element	SOFTWARE/INSERTING.f90	/^      subroutine dealloc_s_element /;"	s	module:mod_INSERTING
+dealloc_s_matrix	SOFTWARE/INSERTING.f90	/^      subroutine dealloc_s_matrix /;"	s	module:mod_INSERTING
+dealloc_z_element	SOFTWARE/INSERTING.f90	/^      subroutine dealloc_z_element /;"	s	module:mod_INSERTING
+dealloc_z_matrix	SOFTWARE/INSERTING.f90	/^      subroutine dealloc_z_matrix /;"	s	module:mod_INSERTING
+del_capsule	SOFTWARE/hash.f90	/^      subroutine del_capsule(/;"	s	module:mod_hash
+del_csp	SOFTWARE/link.f90	/^      subroutine del_csp /;"	s	module:representation_of_data
+del_dsp	SOFTWARE/link.f90	/^      subroutine del_dsp /;"	s	module:representation_of_data
+del_isp	SOFTWARE/link.f90	/^      subroutine del_isp /;"	s	module:representation_of_data
+del_ssp	SOFTWARE/link.f90	/^      subroutine del_ssp /;"	s	module:representation_of_data
+del_zsp	SOFTWARE/link.f90	/^      subroutine del_zsp /;"	s	module:representation_of_data
+dense_B	TESTER/main_all.f90	/^real(kind=dp), dimension(:,:), allocatable :: dense_C, dense_B$/;"	v	program:tester
+dense_C	TESTER/main_all.f90	/^real(kind=dp), dimension(:,:), allocatable :: dense_C,/;"	v	program:tester
+densec_B	TESTER/main_all.f90	/^complex(kind=dp), dimension(:,:), allocatable :: densec_C, densec_B$/;"	v	program:tester
+densec_C	TESTER/main_all.f90	/^complex(kind=dp), dimension(:,:), allocatable :: densec_C,/;"	v	program:tester
+dins_init	SOFTWARE/INSERTING.f90	/^logical, SAVE, PRIVATE :: dins_init /;"	v	module:mod_INSERTING
+dins_init	TARGET_FILES/INSERTING_target.F	/^logical, SAVE, PRIVATE :: dins_init /;"	v	module:mod_INSERTING
+dinvert_T_left_lower	SOFTWARE/dense.f90	/^      subroutine dinvert_T_left_lower /;"	s	module:mod_dense_mat_algos
+dinvert_T_right_upper	SOFTWARE/dense.f90	/^      subroutine dinvert_T_right_upper /;"	s	module:mod_dense_mat_algos
+dinvert_l_left_lower	SOFTWARE/dense.f90	/^      subroutine dinvert_l_left_lower /;"	s	module:mod_dense_mat_algos
+dinvert_l_right_upper	SOFTWARE/dense.f90	/^      subroutine dinvert_l_right_upper /;"	s	module:mod_dense_mat_algos
+dinvert_left_lower	SOFTWARE/dense.f90	/^      subroutine dinvert_left_lower /;"	s	module:mod_dense_mat_algos
+dinvert_r_left_lower	SOFTWARE/dense.f90	/^      subroutine dinvert_r_left_lower /;"	s	module:mod_dense_mat_algos
+dinvert_r_right_upper	SOFTWARE/dense.f90	/^      subroutine dinvert_r_right_upper /;"	s	module:mod_dense_mat_algos
+dinvert_right_upper	SOFTWARE/dense.f90	/^      subroutine dinvert_right_upper /;"	s	module:mod_dense_mat_algos
+dlmbv_bco	SOFTWARE/lmbv_bco.f90	/^      subroutine dlmbv_bco /;"	s	module:mod_lmbv_bco
+dlmbv_bdi	SOFTWARE/lmbv_bdi.f90	/^      subroutine dlmbv_bdi /;"	s	module:mod_lmbv_bdi
+dlmbv_bsc	SOFTWARE/lmbv_bsc.f90	/^      subroutine dlmbv_bsc /;"	s	module:mod_lmbv_bsc
+dlmbv_bsr	SOFTWARE/lmbv_bsr.f90	/^      subroutine dlmbv_bsr /;"	s	module:mod_lmbv_bsr
+dlmbv_coo	SOFTWARE/lmbv_coo.f90	/^      subroutine dlmbv_coo /;"	s	module:mod_lmbv_coo
+dlmbv_csc	SOFTWARE/lmbv_csc.f90	/^      subroutine dlmbv_csc /;"	s	module:mod_lmbv_csc
+dlmbv_csr	SOFTWARE/lmbv_csr.f90	/^      subroutine dlmbv_csr /;"	s	module:mod_lmbv_csr
+dlmbv_dia	SOFTWARE/lmbv_dia.f90	/^      subroutine dlmbv_dia /;"	s	module:mod_lmbv_dia
+dlmbv_vbr	SOFTWARE/lmbv_vbr.f90	/^      subroutine dlmbv_vbr /;"	s	module:mod_lmbv_vbr
+dlsbv_bco	SOFTWARE/lsbv_bco.f90	/^      subroutine dlsbv_bco /;"	s	module:mod_lsbv_bco
+dlsbv_bdi	SOFTWARE/lsbv_bdi.f90	/^      subroutine dlsbv_bdi /;"	s	module:mod_lsbv_bdi
+dlsbv_bsc	SOFTWARE/lsbv_bsc.f90	/^      subroutine dlsbv_bsc /;"	s	module:mod_lsbv_bsc
+dlsbv_bsr	SOFTWARE/lsbv_bsr.f90	/^      subroutine dlsbv_bsr /;"	s	module:mod_lsbv_bsr
+dlsbv_coo	SOFTWARE/lsbv_coo.f90	/^      subroutine dlsbv_coo /;"	s	module:mod_lsbv_coo
+dlsbv_csc	SOFTWARE/lsbv_csc.f90	/^      subroutine dlsbv_csc /;"	s	module:mod_lsbv_csc
+dlsbv_csr	SOFTWARE/lsbv_csr.f90	/^      subroutine dlsbv_csr /;"	s	module:mod_lsbv_csr
+dlsbv_dia	SOFTWARE/lsbv_dia.f90	/^      subroutine dlsbv_dia /;"	s	module:mod_lsbv_dia
+dlsbv_vbr	SOFTWARE/lsbv_vbr.f90	/^      subroutine dlsbv_vbr /;"	s	module:mod_lsbv_vbr
+dp	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: dp /;"	v	module:blas_sparse_namedconstants
+dpre_usconv_bco2bdi	SOFTWARE/conv_tools.f90	/^      subroutine dpre_usconv_bco2bdi /;"	s	module:mod_conv_tools
+dpre_usconv_bco2bsc	SOFTWARE/conv_tools.f90	/^      subroutine dpre_usconv_bco2bsc /;"	s	module:mod_conv_tools
+dpre_usconv_bco2bsr	SOFTWARE/conv_tools.f90	/^      subroutine dpre_usconv_bco2bsr /;"	s	module:mod_conv_tools
+dpre_usconv_bdi2bco	SOFTWARE/conv_tools.f90	/^      subroutine dpre_usconv_bdi2bco /;"	s	module:mod_conv_tools
+dpre_usconv_coo2csc	SOFTWARE/conv_tools.f90	/^      subroutine dpre_usconv_coo2csc /;"	s	module:mod_conv_tools
+dpre_usconv_coo2csr	SOFTWARE/conv_tools.f90	/^      subroutine dpre_usconv_coo2csr /;"	s	module:mod_conv_tools
+dpre_usconv_coo2dia	SOFTWARE/conv_tools.f90	/^      subroutine dpre_usconv_coo2dia /;"	s	module:mod_conv_tools
+dpre_usconv_dia2coo	SOFTWARE/conv_tools.f90	/^      subroutine dpre_usconv_dia2coo /;"	s	module:mod_conv_tools
+drmbv_bco	SOFTWARE/rmbv_bco.f90	/^      subroutine drmbv_bco /;"	s	module:mod_rmbv_bco
+drmbv_bdi	SOFTWARE/rmbv_bdi.f90	/^      subroutine drmbv_bdi /;"	s	module:mod_rmbv_bdi
+drmbv_bsc	SOFTWARE/rmbv_bsc.f90	/^      subroutine drmbv_bsc /;"	s	module:mod_rmbv_bsc
+drmbv_bsr	SOFTWARE/rmbv_bsr.f90	/^      subroutine drmbv_bsr /;"	s	module:mod_rmbv_bsr
+drmbv_coo	SOFTWARE/rmbv_coo.f90	/^      subroutine drmbv_coo /;"	s	module:mod_rmbv_coo
+drmbv_csc	SOFTWARE/rmbv_csc.f90	/^      subroutine drmbv_csc /;"	s	module:mod_rmbv_csc
+drmbv_csr	SOFTWARE/rmbv_csr.f90	/^      subroutine drmbv_csr /;"	s	module:mod_rmbv_csr
+drmbv_dia	SOFTWARE/rmbv_dia.f90	/^      subroutine drmbv_dia /;"	s	module:mod_rmbv_dia
+drmbv_vbr	SOFTWARE/rmbv_vbr.f90	/^      subroutine drmbv_vbr /;"	s	module:mod_rmbv_vbr
+drsbv_bco	SOFTWARE/rsbv_bco.f90	/^      subroutine drsbv_bco /;"	s	module:mod_rsbv_bco
+drsbv_bdi	SOFTWARE/rsbv_bdi.f90	/^      subroutine drsbv_bdi /;"	s	module:mod_rsbv_bdi
+drsbv_bsc	SOFTWARE/rsbv_bsc.f90	/^      subroutine drsbv_bsc /;"	s	module:mod_rsbv_bsc
+drsbv_bsr	SOFTWARE/rsbv_bsr.f90	/^      subroutine drsbv_bsr /;"	s	module:mod_rsbv_bsr
+drsbv_coo	SOFTWARE/rsbv_coo.f90	/^      subroutine drsbv_coo /;"	s	module:mod_rsbv_coo
+drsbv_csc	SOFTWARE/rsbv_csc.f90	/^      subroutine drsbv_csc /;"	s	module:mod_rsbv_csc
+drsbv_csr	SOFTWARE/rsbv_csr.f90	/^      subroutine drsbv_csr /;"	s	module:mod_rsbv_csr
+drsbv_dia	SOFTWARE/rsbv_dia.f90	/^      subroutine drsbv_dia /;"	s	module:mod_rsbv_dia
+drsbv_vbr	SOFTWARE/rsbv_vbr.f90	/^      subroutine drsbv_vbr /;"	s	module:mod_rsbv_vbr
+dsp_first	SOFTWARE/link.f90	/^      type(dsp_linknode), pointer,SAVE,PRIVATE :: dsp_first,/;"	v	module:representation_of_data
+dsp_first	TARGET_FILES/link_target.F	/^      type(dsp_linknode), pointer,SAVE,PRIVATE :: dsp_first,/;"	v	module:representation_of_data
+dsp_init	SOFTWARE/link.f90	/^      logical,SAVE,PRIVATE :: dsp_init /;"	v	module:representation_of_data
+dsp_init	TARGET_FILES/link_target.F	/^      logical,SAVE,PRIVATE :: dsp_init /;"	v	module:representation_of_data
+dsp_last	SOFTWARE/link.f90	/^      type(dsp_linknode), pointer,SAVE,PRIVATE :: dsp_first, dsp_last$/;"	v	module:representation_of_data
+dsp_last	TARGET_FILES/link_target.F	/^      type(dsp_linknode), pointer,SAVE,PRIVATE :: dsp_first, dsp_last$/;"	v	module:representation_of_data
+dsp_linknode	SOFTWARE/link.f90	/^      type dsp_linknode$/;"	t	module:representation_of_data
+dsp_linknode	TARGET_FILES/link_target.F	/^      type dsp_linknode$/;"	t	module:representation_of_data
+dt	TESTER/main_all.f90	/^integer :: i, prpty, a,d,ierr,b,c,dt,/;"	v	program:tester
+dusaxpy	SOFTWARE/usaxpy.f90	/^ subroutine dusaxpy /;"	s	module:mod_usaxpy
+dusconv_coo2csc	SOFTWARE/usconv_coo2csc.f90	/^      subroutine dusconv_coo2csc /;"	s	module:mod_usconv_coo2csc
+duscr_bco	SOFTWARE/uscr_bco.f90	/^      subroutine duscr_bco /;"	s	module:mod_uscr_bco
+duscr_bdi	SOFTWARE/uscr_bdi.f90	/^      subroutine duscr_bdi /;"	s	module:mod_uscr_bdi
+duscr_begin	SOFTWARE/uscr_begin.f90	/^      subroutine duscr_begin /;"	s	module:mod_uscr_begin
+duscr_block_begin	SOFTWARE/uscr_block_begin.f90	/^      subroutine  duscr_block_begin /;"	s	module:mod_uscr_block_begin
+duscr_blockend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine duscr_blockend /;"	s	module:mod_INS_ROUTINER
+duscr_bsc	SOFTWARE/uscr_bsc.f90	/^      subroutine duscr_bsc /;"	s	module:mod_uscr_bsc
+duscr_bsr	SOFTWARE/uscr_bsr.f90	/^      subroutine duscr_bsr /;"	s	module:mod_uscr_bsr
+duscr_coo	SOFTWARE/uscr_coo.f90	/^      subroutine duscr_coo /;"	s	module:mod_uscr_coo
+duscr_csc	SOFTWARE/uscr_csc.f90	/^      subroutine duscr_csc /;"	s	module:mod_uscr_csc
+duscr_csr	SOFTWARE/uscr_csr.f90	/^      subroutine duscr_csr /;"	s	module:mod_uscr_csr
+duscr_dia	SOFTWARE/uscr_dia.f90	/^      subroutine duscr_dia /;"	s	module:mod_uscr_dia
+duscr_insert_block	SOFTWARE/uscr_insert_block.f90	/^      subroutine  duscr_insert_block /;"	s	module:mod_uscr_insert_block
+duscr_insert_clique	SOFTWARE/uscr_insert_clique.f90	/^      subroutine  duscr_insert_clique /;"	s	module:mod_uscr_insert_clique
+duscr_insert_col	SOFTWARE/uscr_insert_col.f90	/^      subroutine  duscr_insert_col /;"	s	module:mod_uscr_insert_col
+duscr_insert_entries	SOFTWARE/uscr_insert_entries.f90	/^      subroutine duscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+duscr_insert_entry	SOFTWARE/uscr_insert_entry.f90	/^      subroutine duscr_insert_entry /;"	s	module:mod_uscr_insert_entry
+duscr_insert_row	SOFTWARE/uscr_insert_row.f90	/^      subroutine duscr_insert_row /;"	s	module:mod_uscr_insert_row
+duscr_normend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine duscr_normend /;"	s	module:mod_INS_ROUTINER
+duscr_varend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine duscr_varend /;"	s	module:mod_INS_ROUTINER
+duscr_variable_block_begin	SOFTWARE/uscr_variable_block_begin.f90	/^      subroutine duscr_variable_block_begin /;"	s	module:mod_uscr_variable_block_begin
+duscr_vbr	SOFTWARE/uscr_vbr.f90	/^      subroutine duscr_vbr /;"	s	module:mod_uscr_vbr
+dusdot	SOFTWARE/usdot.f90	/^real(KIND=dp)  function dusdot /;"	f	module:mod_usdot
+dusga	SOFTWARE/usga.f90	/^ subroutine dusga /;"	s	module:mod_usga
+dusgz	SOFTWARE/usgz.f90	/^subroutine dusgz /;"	s	module:mod_usgz
+dusmm	SOFTWARE/usmm.f90	/^      subroutine dusmm /;"	s	module:mod_usmm
+dusmv	SOFTWARE/usmv.f90	/^      subroutine dusmv /;"	s	module:mod_usmv
+dussc	SOFTWARE/ussc.f90	/^  subroutine dussc /;"	s	module:mod_ussc
+dussm	SOFTWARE/ussm.f90	/^      subroutine dussm /;"	s	module:mod_ussm
+dussv	SOFTWARE/ussv.f90	/^      subroutine dussv /;"	s	module:mod_ussv
+dx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: dx(/;"	v	module:mod_test_parameters
+final_order	SOFTWARE/conv_tools.f90	/^      subroutine final_order(/;"	s	module:mod_conv_tools
+final_order	TARGET_FILES/conv_tools_target.F	/^      subroutine final_order(/;"	s	module:mod_conv_tools
+format	SOFTWARE/INSERTING.f90	/^character*11::format$/;"	k	type:c_matrix
+format	SOFTWARE/INSERTING.f90	/^character*11::format$/;"	k	type:d_matrix
+format	SOFTWARE/INSERTING.f90	/^character*11::format$/;"	k	type:i_matrix
+format	SOFTWARE/INSERTING.f90	/^character*11::format$/;"	k	type:s_matrix
+format	SOFTWARE/INSERTING.f90	/^character*11::format$/;"	k	type:z_matrix
+format	TARGET_FILES/INSERTING_target.F	/^character*11::format$/;"	k	type:c_matrix
+format	TARGET_FILES/INSERTING_target.F	/^character*11::format$/;"	k	type:d_matrix
+format	TARGET_FILES/INSERTING_target.F	/^character*11::format$/;"	k	type:i_matrix
+format	TARGET_FILES/INSERTING_target.F	/^character*11::format$/;"	k	type:s_matrix
+format	TARGET_FILES/INSERTING_target.F	/^character*11::format$/;"	k	type:z_matrix
+get_descra	SOFTWARE/properties.f90	/^      subroutine get_descra(/;"	s	module:properties
+get_infoa	SOFTWARE/properties.f90	/^      subroutine get_infoa(/;"	s	module:properties
+hash	SOFTWARE/hash.f90	/^      type(capsule), dimension(:), target, allocatable :: hash$/;"	v	module:mod_hash
+hash_top	SOFTWARE/hash.f90	/^      type(cappntr), dimension(:), allocatable :: hash_top$/;"	v	module:mod_hash
+i	TESTER/main_all.f90	/^in/;"	v	program:tester
+iA_row_col	SOFTWARE/conv_tools.f90	/^      function iA_row_col /;"	f	module:mod_conv_tools
+iAb_row_col	SOFTWARE/conv_tools.f90	/^      function iAb_row_col /;"	f	module:mod_conv_tools
+iINS_bl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+iINS_block	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iINS_block /;"	s	module:mod_INS_ROUTINER
+iINS_entry	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iINS_entry /;"	s	module:mod_INS_ROUTINER
+iINS_varbl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
+iINS_varblock	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iINS_varblock /;"	s	module:mod_INS_ROUTINER
+i_dealloc	SOFTWARE/INSERTING.f90	/^      subroutine i_dealloc /;"	s	module:mod_INSERTING
+i_element	SOFTWARE/INSERTING.f90	/^type i_element$/;"	t	module:mod_INSERTING
+i_element	TARGET_FILES/INSERTING_target.F	/^type i_element$/;"	t	module:mod_INSERTING
+i_element_num	SOFTWARE/INSERTING.f90	/^      subroutine i_element_num /;"	s	module:mod_INSERTING
+i_element_start	SOFTWARE/INSERTING.f90	/^type(i_element),pointer::i_element_start$/;"	k	type:i_matrix
+i_element_start	TARGET_FILES/INSERTING_target.F	/^type(i_element),pointer::i_element_start$/;"	k	type:i_matrix
+i_inblock	SOFTWARE/INSERTING.f90	/^type i_inblock$/;"	t	module:mod_INSERTING
+i_inblock	TARGET_FILES/INSERTING_target.F	/^type i_inblock$/;"	t	module:mod_INSERTING
+i_inelement	SOFTWARE/INSERTING.f90	/^type i_inelement$/;"	t	module:mod_INSERTING
+i_inelement	TARGET_FILES/INSERTING_target.F	/^type i_inelement$/;"	t	module:mod_INSERTING
+i_inpnt1	SOFTWARE/INSERTING.f90	/^type i_inpnt1$/;"	t	module:mod_INSERTING
+i_inpnt1	TARGET_FILES/INSERTING_target.F	/^type i_inpnt1$/;"	t	module:mod_INSERTING
+i_invblock	SOFTWARE/INSERTING.f90	/^type i_invblock$/;"	t	module:mod_INSERTING
+i_invblock	TARGET_FILES/INSERTING_target.F	/^type i_invblock$/;"	t	module:mod_INSERTING
+i_matrix	SOFTWARE/INSERTING.f90	/^type i_matrix$/;"	t	module:mod_INSERTING
+i_matrix	TARGET_FILES/INSERTING_target.F	/^type i_matrix$/;"	t	module:mod_INSERTING
+i_matrix_start	SOFTWARE/INSERTING.f90	/^type(i_matrix), pointer,SAVE :: i_matrix_start$/;"	v	module:mod_INSERTING
+i_matrix_start	TARGET_FILES/INSERTING_target.F	/^type(i_matrix), pointer,SAVE :: i_matrix_start$/;"	v	module:mod_INSERTING
+iaccess_element	SOFTWARE/INSERTING.f90	/^      subroutine iaccess_element /;"	s	module:mod_INSERTING
+iaccess_matrix	SOFTWARE/INSERTING.f90	/^      subroutine iaccess_matrix /;"	s	module:mod_INSERTING
+ib_up_order	SOFTWARE/conv_tools.f90	/^      subroutine ib_up_order /;"	s	module:mod_conv_tools
+iblock_H_mult_vec	SOFTWARE/dense.f90	/^      subroutine iblock_H_mult_vec /;"	s	module:mod_dense_mat_algos
+iblock_T_mult_vec	SOFTWARE/dense.f90	/^      subroutine iblock_T_mult_vec /;"	s	module:mod_dense_mat_algos
+iblock_Z_mult_vec	SOFTWARE/dense.f90	/^      subroutine iblock_Z_mult_vec /;"	s	module:mod_dense_mat_algos
+iblock_l_mult_vec	SOFTWARE/dense.f90	/^      subroutine iblock_l_mult_vec /;"	s	module:mod_dense_mat_algos
+iblock_mult_vec	SOFTWARE/dense.f90	/^      subroutine iblock_mult_vec /;"	s	module:mod_dense_mat_algos
+iblock_r_mult_vec	SOFTWARE/dense.f90	/^      subroutine iblock_r_mult_vec /;"	s	module:mod_dense_mat_algos
+idetect_bdiag	SOFTWARE/conv_tools.f90	/^      subroutine idetect_bdiag /;"	s	module:mod_conv_tools
+idetect_diag	SOFTWARE/conv_tools.f90	/^      subroutine idetect_diag /;"	s	module:mod_conv_tools
+ierr	TESTER/main_all.f90	/^integer :: i, prpty, a,d,ierr,/;"	v	program:tester
+iins_init	SOFTWARE/INSERTING.f90	/^logical, SAVE, PRIVATE :: iins_init /;"	v	module:mod_INSERTING
+iins_init	TARGET_FILES/INSERTING_target.F	/^logical, SAVE, PRIVATE :: iins_init /;"	v	module:mod_INSERTING
+iinvert_T_left_lower	SOFTWARE/dense.f90	/^      subroutine iinvert_T_left_lower /;"	s	module:mod_dense_mat_algos
+iinvert_T_right_upper	SOFTWARE/dense.f90	/^      subroutine iinvert_T_right_upper /;"	s	module:mod_dense_mat_algos
+iinvert_l_left_lower	SOFTWARE/dense.f90	/^      subroutine iinvert_l_left_lower /;"	s	module:mod_dense_mat_algos
+iinvert_l_right_upper	SOFTWARE/dense.f90	/^      subroutine iinvert_l_right_upper /;"	s	module:mod_dense_mat_algos
+iinvert_left_lower	SOFTWARE/dense.f90	/^      subroutine iinvert_left_lower /;"	s	module:mod_dense_mat_algos
+iinvert_r_left_lower	SOFTWARE/dense.f90	/^      subroutine iinvert_r_left_lower /;"	s	module:mod_dense_mat_algos
+iinvert_r_right_upper	SOFTWARE/dense.f90	/^      subroutine iinvert_r_right_upper /;"	s	module:mod_dense_mat_algos
+iinvert_right_upper	SOFTWARE/dense.f90	/^      subroutine iinvert_right_upper /;"	s	module:mod_dense_mat_algos
+ilmbv_bco	SOFTWARE/lmbv_bco.f90	/^      subroutine ilmbv_bco /;"	s	module:mod_lmbv_bco
+ilmbv_bdi	SOFTWARE/lmbv_bdi.f90	/^      subroutine ilmbv_bdi /;"	s	module:mod_lmbv_bdi
+ilmbv_bsc	SOFTWARE/lmbv_bsc.f90	/^      subroutine ilmbv_bsc /;"	s	module:mod_lmbv_bsc
+ilmbv_bsr	SOFTWARE/lmbv_bsr.f90	/^      subroutine ilmbv_bsr /;"	s	module:mod_lmbv_bsr
+ilmbv_coo	SOFTWARE/lmbv_coo.f90	/^      subroutine ilmbv_coo /;"	s	module:mod_lmbv_coo
+ilmbv_csc	SOFTWARE/lmbv_csc.f90	/^      subroutine ilmbv_csc /;"	s	module:mod_lmbv_csc
+ilmbv_csr	SOFTWARE/lmbv_csr.f90	/^      subroutine ilmbv_csr /;"	s	module:mod_lmbv_csr
+ilmbv_dia	SOFTWARE/lmbv_dia.f90	/^      subroutine ilmbv_dia /;"	s	module:mod_lmbv_dia
+ilmbv_vbr	SOFTWARE/lmbv_vbr.f90	/^      subroutine ilmbv_vbr /;"	s	module:mod_lmbv_vbr
+ilsbv_bco	SOFTWARE/lsbv_bco.f90	/^      subroutine ilsbv_bco /;"	s	module:mod_lsbv_bco
+ilsbv_bdi	SOFTWARE/lsbv_bdi.f90	/^      subroutine ilsbv_bdi /;"	s	module:mod_lsbv_bdi
+ilsbv_bsc	SOFTWARE/lsbv_bsc.f90	/^      subroutine ilsbv_bsc /;"	s	module:mod_lsbv_bsc
+ilsbv_bsr	SOFTWARE/lsbv_bsr.f90	/^      subroutine ilsbv_bsr /;"	s	module:mod_lsbv_bsr
+ilsbv_coo	SOFTWARE/lsbv_coo.f90	/^      subroutine ilsbv_coo /;"	s	module:mod_lsbv_coo
+ilsbv_csc	SOFTWARE/lsbv_csc.f90	/^      subroutine ilsbv_csc /;"	s	module:mod_lsbv_csc
+ilsbv_csr	SOFTWARE/lsbv_csr.f90	/^      subroutine ilsbv_csr /;"	s	module:mod_lsbv_csr
+ilsbv_dia	SOFTWARE/lsbv_dia.f90	/^      subroutine ilsbv_dia /;"	s	module:mod_lsbv_dia
+ilsbv_vbr	SOFTWARE/lsbv_vbr.f90	/^      subroutine ilsbv_vbr /;"	s	module:mod_lsbv_vbr
+indx_axpy	TESTER/test_parameters.f90	/^integer ,dimension(3)::indx_axpy=/;"	v	module:mod_test_parameters
+indx_dot	TESTER/test_parameters.f90	/^integer ,dimension(3),parameter ::indx_dot=/;"	v	module:mod_test_parameters
+indx_ga	TESTER/test_parameters.f90	/^integer ,dimension(3)::indx_ga=/;"	v	module:mod_test_parameters
+indx_gz	TESTER/test_parameters.f90	/^integer ,dimension(3) ::indx_gz=/;"	v	module:mod_test_parameters
+indx_sc	TESTER/test_parameters.f90	/^integer ,dimension(3) ::indx_sc=/;"	v	module:mod_test_parameters
+indxc_axpy	TESTER/test_parameters.f90	/^integer ,dimension(3)::indxc_axpy=/;"	v	module:mod_test_parameters
+indxc_dot	TESTER/test_parameters.f90	/^integer ,dimension(3),parameter ::indxc_dot=/;"	v	module:mod_test_parameters
+indxc_ga	TESTER/test_parameters.f90	/^integer ,dimension(3)::indxc_ga=/;"	v	module:mod_test_parameters
+indxc_gz	TESTER/test_parameters.f90	/^integer ,dimension(3) ::indxc_gz=/;"	v	module:mod_test_parameters
+indxc_sc	TESTER/test_parameters.f90	/^integer ,dimension(3) ::indxc_sc=/;"	v	module:mod_test_parameters
+ipre_usconv_bco2bdi	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_bco2bdi /;"	s	module:mod_conv_tools
+ipre_usconv_bco2bsc	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_bco2bsc /;"	s	module:mod_conv_tools
+ipre_usconv_bco2bsr	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_bco2bsr /;"	s	module:mod_conv_tools
+ipre_usconv_bdi2bco	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_bdi2bco /;"	s	module:mod_conv_tools
+ipre_usconv_coo2csc	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_coo2csc /;"	s	module:mod_conv_tools
+ipre_usconv_coo2csr	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_coo2csr /;"	s	module:mod_conv_tools
+ipre_usconv_coo2dia	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_coo2dia /;"	s	module:mod_conv_tools
+ipre_usconv_dia2coo	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_dia2coo /;"	s	module:mod_conv_tools
+irmbv_bco	SOFTWARE/rmbv_bco.f90	/^      subroutine irmbv_bco /;"	s	module:mod_rmbv_bco
+irmbv_bdi	SOFTWARE/rmbv_bdi.f90	/^      subroutine irmbv_bdi /;"	s	module:mod_rmbv_bdi
+irmbv_bsc	SOFTWARE/rmbv_bsc.f90	/^      subroutine irmbv_bsc /;"	s	module:mod_rmbv_bsc
+irmbv_bsr	SOFTWARE/rmbv_bsr.f90	/^      subroutine irmbv_bsr /;"	s	module:mod_rmbv_bsr
+irmbv_coo	SOFTWARE/rmbv_coo.f90	/^      subroutine irmbv_coo /;"	s	module:mod_rmbv_coo
+irmbv_csc	SOFTWARE/rmbv_csc.f90	/^      subroutine irmbv_csc /;"	s	module:mod_rmbv_csc
+irmbv_csr	SOFTWARE/rmbv_csr.f90	/^      subroutine irmbv_csr /;"	s	module:mod_rmbv_csr
+irmbv_dia	SOFTWARE/rmbv_dia.f90	/^      subroutine irmbv_dia /;"	s	module:mod_rmbv_dia
+irmbv_vbr	SOFTWARE/rmbv_vbr.f90	/^      subroutine irmbv_vbr /;"	s	module:mod_rmbv_vbr
+irsbv_bco	SOFTWARE/rsbv_bco.f90	/^      subroutine irsbv_bco /;"	s	module:mod_rsbv_bco
+irsbv_bdi	SOFTWARE/rsbv_bdi.f90	/^      subroutine irsbv_bdi /;"	s	module:mod_rsbv_bdi
+irsbv_bsc	SOFTWARE/rsbv_bsc.f90	/^      subroutine irsbv_bsc /;"	s	module:mod_rsbv_bsc
+irsbv_bsr	SOFTWARE/rsbv_bsr.f90	/^      subroutine irsbv_bsr /;"	s	module:mod_rsbv_bsr
+irsbv_coo	SOFTWARE/rsbv_coo.f90	/^      subroutine irsbv_coo /;"	s	module:mod_rsbv_coo
+irsbv_csc	SOFTWARE/rsbv_csc.f90	/^      subroutine irsbv_csc /;"	s	module:mod_rsbv_csc
+irsbv_csr	SOFTWARE/rsbv_csr.f90	/^      subroutine irsbv_csr /;"	s	module:mod_rsbv_csr
+irsbv_dia	SOFTWARE/rsbv_dia.f90	/^      subroutine irsbv_dia /;"	s	module:mod_rsbv_dia
+irsbv_vbr	SOFTWARE/rsbv_vbr.f90	/^      subroutine irsbv_vbr /;"	s	module:mod_rsbv_vbr
+isp_first	SOFTWARE/link.f90	/^      type(isp_linknode), pointer,SAVE,PRIVATE :: isp_first,/;"	v	module:representation_of_data
+isp_first	TARGET_FILES/link_target.F	/^      type(isp_linknode), pointer,SAVE,PRIVATE :: isp_first,/;"	v	module:representation_of_data
+isp_init	SOFTWARE/link.f90	/^      logical,SAVE,PRIVATE :: isp_init /;"	v	module:representation_of_data
+isp_init	TARGET_FILES/link_target.F	/^      logical,SAVE,PRIVATE :: isp_init /;"	v	module:representation_of_data
+isp_last	SOFTWARE/link.f90	/^      type(isp_linknode), pointer,SAVE,PRIVATE :: isp_first, isp_last$/;"	v	module:representation_of_data
+isp_last	TARGET_FILES/link_target.F	/^      type(isp_linknode), pointer,SAVE,PRIVATE :: isp_first, isp_last$/;"	v	module:representation_of_data
+isp_linknode	SOFTWARE/link.f90	/^      type isp_linknode$/;"	t	module:representation_of_data
+isp_linknode	TARGET_FILES/link_target.F	/^      type isp_linknode$/;"	t	module:representation_of_data
+istat	SOFTWARE/test.f90	/^      integer :: a, istat,/;"	v	program:test
+istat	TESTER/main_all.f90	/^integer :: i, prpty, a,d,ierr,b,c,dt,istat$/;"	v	program:tester
+iusaxpy	SOFTWARE/usaxpy.f90	/^ subroutine iusaxpy /;"	s	module:mod_usaxpy
+iusconv_coo2csc	SOFTWARE/usconv_coo2csc.f90	/^      subroutine iusconv_coo2csc /;"	s	module:mod_usconv_coo2csc
+iuscr_bco	SOFTWARE/uscr_bco.f90	/^      subroutine iuscr_bco /;"	s	module:mod_uscr_bco
+iuscr_bdi	SOFTWARE/uscr_bdi.f90	/^      subroutine iuscr_bdi /;"	s	module:mod_uscr_bdi
+iuscr_begin	SOFTWARE/uscr_begin.f90	/^      subroutine iuscr_begin /;"	s	module:mod_uscr_begin
+iuscr_block_begin	SOFTWARE/uscr_block_begin.f90	/^      subroutine  iuscr_block_begin /;"	s	module:mod_uscr_block_begin
+iuscr_blockend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iuscr_blockend /;"	s	module:mod_INS_ROUTINER
+iuscr_bsc	SOFTWARE/uscr_bsc.f90	/^      subroutine iuscr_bsc /;"	s	module:mod_uscr_bsc
+iuscr_bsr	SOFTWARE/uscr_bsr.f90	/^      subroutine iuscr_bsr /;"	s	module:mod_uscr_bsr
+iuscr_coo	SOFTWARE/uscr_coo.f90	/^      subroutine iuscr_coo /;"	s	module:mod_uscr_coo
+iuscr_csc	SOFTWARE/uscr_csc.f90	/^      subroutine iuscr_csc /;"	s	module:mod_uscr_csc
+iuscr_csr	SOFTWARE/uscr_csr.f90	/^      subroutine iuscr_csr /;"	s	module:mod_uscr_csr
+iuscr_dia	SOFTWARE/uscr_dia.f90	/^      subroutine iuscr_dia /;"	s	module:mod_uscr_dia
+iuscr_insert_block	SOFTWARE/uscr_insert_block.f90	/^      subroutine  iuscr_insert_block /;"	s	module:mod_uscr_insert_block
+iuscr_insert_clique	SOFTWARE/uscr_insert_clique.f90	/^      subroutine  iuscr_insert_clique /;"	s	module:mod_uscr_insert_clique
+iuscr_insert_col	SOFTWARE/uscr_insert_col.f90	/^      subroutine  iuscr_insert_col /;"	s	module:mod_uscr_insert_col
+iuscr_insert_entries	SOFTWARE/uscr_insert_entries.f90	/^      subroutine iuscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+iuscr_insert_entry	SOFTWARE/uscr_insert_entry.f90	/^      subroutine iuscr_insert_entry /;"	s	module:mod_uscr_insert_entry
+iuscr_insert_row	SOFTWARE/uscr_insert_row.f90	/^      subroutine iuscr_insert_row /;"	s	module:mod_uscr_insert_row
+iuscr_normend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iuscr_normend /;"	s	module:mod_INS_ROUTINER
+iuscr_varend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iuscr_varend /;"	s	module:mod_INS_ROUTINER
+iuscr_variable_block_begin	SOFTWARE/uscr_variable_block_begin.f90	/^      subroutine iuscr_variable_block_begin /;"	s	module:mod_uscr_variable_block_begin
+iuscr_vbr	SOFTWARE/uscr_vbr.f90	/^      subroutine iuscr_vbr /;"	s	module:mod_uscr_vbr
+iusdot	SOFTWARE/usdot.f90	/^integer  function iusdot /;"	f	module:mod_usdot
+iusga	SOFTWARE/usga.f90	/^ subroutine iusga /;"	s	module:mod_usga
+iusgz	SOFTWARE/usgz.f90	/^subroutine iusgz /;"	s	module:mod_usgz
+iusmm	SOFTWARE/usmm.f90	/^      subroutine iusmm /;"	s	module:mod_usmm
+iusmv	SOFTWARE/usmv.f90	/^      subroutine iusmv /;"	s	module:mod_usmv
+iussc	SOFTWARE/ussc.f90	/^  subroutine iussc /;"	s	module:mod_ussc
+iussm	SOFTWARE/ussm.f90	/^      subroutine iussm /;"	s	module:mod_ussm
+iussv	SOFTWARE/ussv.f90	/^      subroutine iussv /;"	s	module:mod_ussv
+jndx	SOFTWARE/hash.f90	/^      integer :: jndx,/;"	k	type:capsule
+mod_Entry	SOFTWARE/Entry.f90	/^module mod_Entry$/;"	m
+mod_INSERTING	SOFTWARE/INSERTING.f90	/^module mod_INSERTING$/;"	m
+mod_INSERTING	TARGET_FILES/INSERTING_target.F	/^module mod_INSERTING$/;"	m
+mod_INS_ROUTINER	SOFTWARE/INS_ROUTINER.f90	/^      module mod_INS_ROUTINER$/;"	m
+mod_INS_ROUTINER	TARGET_FILES/INS_ROUTINER_target.F	/^      module mod_INS_ROUTINER$/;"	m
+mod_conv_tools	SOFTWARE/conv_tools.f90	/^      module mod_conv_tools$/;"	m
+mod_conv_tools	TARGET_FILES/conv_tools_target.F	/^      module mod_conv_tools$/;"	m
+mod_dense_mat_algos	SOFTWARE/dense.f90	/^      module mod_dense_mat_algos$/;"	m
+mod_dense_mat_algos	TARGET_FILES/dense_target.F	/^      module mod_dense_mat_algos$/;"	m
+mod_hash	SOFTWARE/hash.f90	/^      module mod_hash$/;"	m
+mod_info	SOFTWARE/info.f90	/^      module mod_info$/;"	m
+mod_info	TARGET_FILES/info_target.F	/^      module mod_info$/;"	m
+mod_lmbv_bco	SOFTWARE/lmbv_bco.f90	/^      module mod_lmbv_bco$/;"	m
+mod_lmbv_bco	TARGET_FILES/lmbv_bco_target.F	/^      module mod_lmbv_bco$/;"	m
+mod_lmbv_bdi	SOFTWARE/lmbv_bdi.f90	/^      module mod_lmbv_bdi$/;"	m
+mod_lmbv_bdi	TARGET_FILES/lmbv_bdi_target.F	/^      module mod_lmbv_bdi$/;"	m
+mod_lmbv_bsc	SOFTWARE/lmbv_bsc.f90	/^      module mod_lmbv_bsc$/;"	m
+mod_lmbv_bsc	TARGET_FILES/lmbv_bsc_target.F	/^      module mod_lmbv_bsc$/;"	m
+mod_lmbv_bsr	SOFTWARE/lmbv_bsr.f90	/^      module mod_lmbv_bsr$/;"	m
+mod_lmbv_bsr	TARGET_FILES/lmbv_bsr_target.F	/^      module mod_lmbv_bsr$/;"	m
+mod_lmbv_coo	SOFTWARE/lmbv_coo.f90	/^      module mod_lmbv_coo$/;"	m
+mod_lmbv_coo	TARGET_FILES/lmbv_coo_target.F	/^      module mod_lmbv_coo$/;"	m
+mod_lmbv_csc	SOFTWARE/lmbv_csc.f90	/^      module mod_lmbv_csc$/;"	m
+mod_lmbv_csc	TARGET_FILES/lmbv_csc_target.F	/^      module mod_lmbv_csc$/;"	m
+mod_lmbv_csr	SOFTWARE/lmbv_csr.f90	/^      module mod_lmbv_csr$/;"	m
+mod_lmbv_csr	TARGET_FILES/lmbv_csr_target.F	/^      module mod_lmbv_csr$/;"	m
+mod_lmbv_dia	SOFTWARE/lmbv_dia.f90	/^      module mod_lmbv_dia$/;"	m
+mod_lmbv_dia	TARGET_FILES/lmbv_dia_target.F	/^      module mod_lmbv_dia$/;"	m
+mod_lmbv_vbr	SOFTWARE/lmbv_vbr.f90	/^      module mod_lmbv_vbr$/;"	m
+mod_lmbv_vbr	TARGET_FILES/lmbv_vbr_target.F	/^      module mod_lmbv_vbr$/;"	m
+mod_lsbv_bco	SOFTWARE/lsbv_bco.f90	/^      module mod_lsbv_bco$/;"	m
+mod_lsbv_bco	TARGET_FILES/lsbv_bco_target.F	/^      module mod_lsbv_bco$/;"	m
+mod_lsbv_bdi	SOFTWARE/lsbv_bdi.f90	/^      module mod_lsbv_bdi$/;"	m
+mod_lsbv_bdi	TARGET_FILES/lsbv_bdi_target.F	/^      module mod_lsbv_bdi$/;"	m
+mod_lsbv_bsc	SOFTWARE/lsbv_bsc.f90	/^      module mod_lsbv_bsc$/;"	m
+mod_lsbv_bsc	TARGET_FILES/lsbv_bsc_target.F	/^      module mod_lsbv_bsc$/;"	m
+mod_lsbv_bsr	SOFTWARE/lsbv_bsr.f90	/^      module mod_lsbv_bsr$/;"	m
+mod_lsbv_bsr	TARGET_FILES/lsbv_bsr_target.F	/^      module mod_lsbv_bsr$/;"	m
+mod_lsbv_coo	SOFTWARE/lsbv_coo.f90	/^      module mod_lsbv_coo$/;"	m
+mod_lsbv_coo	TARGET_FILES/lsbv_coo_target.F	/^      module mod_lsbv_coo$/;"	m
+mod_lsbv_csc	SOFTWARE/lsbv_csc.f90	/^      module mod_lsbv_csc$/;"	m
+mod_lsbv_csc	TARGET_FILES/lsbv_csc_target.F	/^      module mod_lsbv_csc$/;"	m
+mod_lsbv_csr	SOFTWARE/lsbv_csr.f90	/^      module mod_lsbv_csr$/;"	m
+mod_lsbv_csr	TARGET_FILES/lsbv_csr_target.F	/^      module mod_lsbv_csr$/;"	m
+mod_lsbv_dia	SOFTWARE/lsbv_dia.f90	/^      module mod_lsbv_dia$/;"	m
+mod_lsbv_dia	TARGET_FILES/lsbv_dia_target.F	/^      module mod_lsbv_dia$/;"	m
+mod_lsbv_vbr	SOFTWARE/lsbv_vbr.f90	/^      module mod_lsbv_vbr$/;"	m
+mod_lsbv_vbr	TARGET_FILES/lsbv_vbr_target.F	/^      module mod_lsbv_vbr$/;"	m
+mod_mbv	SOFTWARE/mbv.f90	/^      module mod_mbv$/;"	m
+mod_rmbv_bco	SOFTWARE/rmbv_bco.f90	/^      module mod_rmbv_bco$/;"	m
+mod_rmbv_bco	TARGET_FILES/rmbv_bco_target.F	/^      module mod_rmbv_bco$/;"	m
+mod_rmbv_bdi	SOFTWARE/rmbv_bdi.f90	/^      module mod_rmbv_bdi$/;"	m
+mod_rmbv_bdi	TARGET_FILES/rmbv_bdi_target.F	/^      module mod_rmbv_bdi$/;"	m
+mod_rmbv_bsc	SOFTWARE/rmbv_bsc.f90	/^      module mod_rmbv_bsc$/;"	m
+mod_rmbv_bsc	TARGET_FILES/rmbv_bsc_target.F	/^      module mod_rmbv_bsc$/;"	m
+mod_rmbv_bsr	SOFTWARE/rmbv_bsr.f90	/^      module mod_rmbv_bsr$/;"	m
+mod_rmbv_bsr	TARGET_FILES/rmbv_bsr_target.F	/^      module mod_rmbv_bsr$/;"	m
+mod_rmbv_coo	SOFTWARE/rmbv_coo.f90	/^      module mod_rmbv_coo$/;"	m
+mod_rmbv_coo	TARGET_FILES/rmbv_coo_target.F	/^      module mod_rmbv_coo$/;"	m
+mod_rmbv_csc	SOFTWARE/rmbv_csc.f90	/^      module mod_rmbv_csc$/;"	m
+mod_rmbv_csc	TARGET_FILES/rmbv_csc_target.F	/^      module mod_rmbv_csc$/;"	m
+mod_rmbv_csr	SOFTWARE/rmbv_csr.f90	/^      module mod_rmbv_csr$/;"	m
+mod_rmbv_csr	TARGET_FILES/rmbv_csr_target.F	/^      module mod_rmbv_csr$/;"	m
+mod_rmbv_dia	SOFTWARE/rmbv_dia.f90	/^      module mod_rmbv_dia$/;"	m
+mod_rmbv_dia	TARGET_FILES/rmbv_dia_target.F	/^      module mod_rmbv_dia$/;"	m
+mod_rmbv_vbr	SOFTWARE/rmbv_vbr.f90	/^      module mod_rmbv_vbr$/;"	m
+mod_rmbv_vbr	TARGET_FILES/rmbv_vbr_target.F	/^      module mod_rmbv_vbr$/;"	m
+mod_rsbv_bco	SOFTWARE/rsbv_bco.f90	/^      module mod_rsbv_bco$/;"	m
+mod_rsbv_bco	TARGET_FILES/rsbv_bco_target.F	/^      module mod_rsbv_bco$/;"	m
+mod_rsbv_bdi	SOFTWARE/rsbv_bdi.f90	/^      module mod_rsbv_bdi$/;"	m
+mod_rsbv_bdi	TARGET_FILES/rsbv_bdi_target.F	/^      module mod_rsbv_bdi$/;"	m
+mod_rsbv_bsc	SOFTWARE/rsbv_bsc.f90	/^      module mod_rsbv_bsc$/;"	m
+mod_rsbv_bsc	TARGET_FILES/rsbv_bsc_target.F	/^      module mod_rsbv_bsc$/;"	m
+mod_rsbv_bsr	SOFTWARE/rsbv_bsr.f90	/^      module mod_rsbv_bsr$/;"	m
+mod_rsbv_bsr	TARGET_FILES/rsbv_bsr_target.F	/^      module mod_rsbv_bsr$/;"	m
+mod_rsbv_coo	SOFTWARE/rsbv_coo.f90	/^      module mod_rsbv_coo$/;"	m
+mod_rsbv_coo	TARGET_FILES/rsbv_coo_target.F	/^      module mod_rsbv_coo$/;"	m
+mod_rsbv_csc	SOFTWARE/rsbv_csc.f90	/^      module mod_rsbv_csc$/;"	m
+mod_rsbv_csc	TARGET_FILES/rsbv_csc_target.F	/^      module mod_rsbv_csc$/;"	m
+mod_rsbv_csr	SOFTWARE/rsbv_csr.f90	/^      module mod_rsbv_csr$/;"	m
+mod_rsbv_csr	TARGET_FILES/rsbv_csr_target.F	/^      module mod_rsbv_csr$/;"	m
+mod_rsbv_dia	SOFTWARE/rsbv_dia.f90	/^      module mod_rsbv_dia$/;"	m
+mod_rsbv_dia	TARGET_FILES/rsbv_dia_target.F	/^      module mod_rsbv_dia$/;"	m
+mod_rsbv_vbr	SOFTWARE/rsbv_vbr.f90	/^      module mod_rsbv_vbr$/;"	m
+mod_rsbv_vbr	TARGET_FILES/rsbv_vbr_target.F	/^      module mod_rsbv_vbr$/;"	m
+mod_sbv	SOFTWARE/sbv.f90	/^      module mod_sbv$/;"	m
+mod_test_parameters	TESTER/test_parameters.f90	/^module mod_test_parameters$/;"	m
+mod_usaxpy	SOFTWARE/usaxpy.f90	/^      module mod_usaxpy$/;"	m
+mod_usaxpy	TARGET_FILES/usaxpy_target.F	/^      module mod_usaxpy$/;"	m
+mod_usconv_bco2bdi	SOFTWARE/usconv_bco2bdi.f90	/^      module mod_usconv_bco2bdi$/;"	m
+mod_usconv_bco2bdi	TARGET_FILES/usconv_bco2bdi_target.F	/^      module mod_usconv_bco2bdi$/;"	m
+mod_usconv_bco2bsc	SOFTWARE/usconv_bco2bsc.f90	/^      module mod_usconv_bco2bsc$/;"	m
+mod_usconv_bco2bsc	TARGET_FILES/usconv_bco2bsc_target.F	/^      module mod_usconv_bco2bsc$/;"	m
+mod_usconv_bco2bsr	SOFTWARE/usconv_bco2bsr.f90	/^      module mod_usconv_bco2bsr$/;"	m
+mod_usconv_bco2bsr	TARGET_FILES/usconv_bco2bsr_target.F	/^      module mod_usconv_bco2bsr$/;"	m
+mod_usconv_bdi2bco	SOFTWARE/usconv_bdi2bco.f90	/^      module mod_usconv_bdi2bco$/;"	m
+mod_usconv_bdi2bco	TARGET_FILES/usconv_bdi2bco_target.F	/^      module mod_usconv_bdi2bco$/;"	m
+mod_usconv_bsc2bco	SOFTWARE/usconv_bsc2bco.f90	/^      module mod_usconv_bsc2bco$/;"	m
+mod_usconv_bsc2bco	TARGET_FILES/usconv_bsc2bco_target.F	/^      module mod_usconv_bsc2bco$/;"	m
+mod_usconv_bsr2bco	SOFTWARE/usconv_bsr2bco.f90	/^      module mod_usconv_bsr2bco$/;"	m
+mod_usconv_bsr2bco	TARGET_FILES/usconv_bsr2bco_target.F	/^      module mod_usconv_bsr2bco$/;"	m
+mod_usconv_coo2csc	SOFTWARE/usconv_coo2csc.f90	/^      module mod_usconv_coo2csc$/;"	m
+mod_usconv_coo2csc	TARGET_FILES/usconv_coo2csc_target.F	/^      module mod_usconv_coo2csc$/;"	m
+mod_usconv_coo2csr	SOFTWARE/usconv_coo2csr.f90	/^      module mod_usconv_coo2csr$/;"	m
+mod_usconv_coo2csr	TARGET_FILES/usconv_coo2csr_target.F	/^      module mod_usconv_coo2csr$/;"	m
+mod_usconv_coo2dia	SOFTWARE/usconv_coo2dia.f90	/^      module mod_usconv_coo2dia$/;"	m
+mod_usconv_coo2dia	TARGET_FILES/usconv_coo2dia_target.F	/^      module mod_usconv_coo2dia$/;"	m
+mod_usconv_csc2coo	SOFTWARE/usconv_csc2coo.f90	/^      module mod_usconv_csc2coo$/;"	m
+mod_usconv_csc2coo	TARGET_FILES/usconv_csc2coo_target.F	/^      module mod_usconv_csc2coo$/;"	m
+mod_usconv_csr2coo	SOFTWARE/usconv_csr2coo.f90	/^      module mod_usconv_csr2coo$/;"	m
+mod_usconv_csr2coo	TARGET_FILES/usconv_csr2coo_target.F	/^      module mod_usconv_csr2coo$/;"	m
+mod_usconv_dia2coo	SOFTWARE/usconv_dia2coo.f90	/^      module mod_usconv_dia2coo$/;"	m
+mod_usconv_dia2coo	TARGET_FILES/usconv_dia2coo_target.F	/^      module mod_usconv_dia2coo$/;"	m
+mod_uscr	SOFTWARE/uscr.f90	/^      module mod_uscr$/;"	m
+mod_uscr_bco	SOFTWARE/uscr_bco.f90	/^module mod_uscr_bco$/;"	m
+mod_uscr_bco	TARGET_FILES/uscr_bco_target.F	/^module mod_uscr_bco$/;"	m
+mod_uscr_bdi	SOFTWARE/uscr_bdi.f90	/^      module mod_uscr_bdi$/;"	m
+mod_uscr_bdi	TARGET_FILES/uscr_bdi_target.F	/^      module mod_uscr_bdi$/;"	m
+mod_uscr_begin	SOFTWARE/uscr_begin.f90	/^module mod_uscr_begin$/;"	m
+mod_uscr_begin	TARGET_FILES/uscr_begin_target.F	/^module mod_uscr_begin$/;"	m
+mod_uscr_block_begin	SOFTWARE/uscr_block_begin.f90	/^module mod_uscr_block_begin$/;"	m
+mod_uscr_block_begin	TARGET_FILES/uscr_block_begin_target.F	/^module mod_uscr_block_begin$/;"	m
+mod_uscr_bsc	SOFTWARE/uscr_bsc.f90	/^      module mod_uscr_bsc$/;"	m
+mod_uscr_bsc	TARGET_FILES/uscr_bsc_target.F	/^      module mod_uscr_bsc$/;"	m
+mod_uscr_bsr	SOFTWARE/uscr_bsr.f90	/^      module mod_uscr_bsr$/;"	m
+mod_uscr_bsr	TARGET_FILES/uscr_bsr_target.F	/^      module mod_uscr_bsr$/;"	m
+mod_uscr_coo	SOFTWARE/uscr_coo.f90	/^      module mod_uscr_coo$/;"	m
+mod_uscr_coo	TARGET_FILES/uscr_coo_target.F	/^      module mod_uscr_coo$/;"	m
+mod_uscr_csc	SOFTWARE/uscr_csc.f90	/^      module mod_uscr_csc$/;"	m
+mod_uscr_csc	TARGET_FILES/uscr_csc_target.F	/^      module mod_uscr_csc$/;"	m
+mod_uscr_csr	SOFTWARE/uscr_csr.f90	/^      module mod_uscr_csr$/;"	m
+mod_uscr_csr	TARGET_FILES/uscr_csr_target.F	/^      module mod_uscr_csr$/;"	m
+mod_uscr_dia	SOFTWARE/uscr_dia.f90	/^      module mod_uscr_dia$/;"	m
+mod_uscr_dia	TARGET_FILES/uscr_dia_target.F	/^      module mod_uscr_dia$/;"	m
+mod_uscr_end	SOFTWARE/uscr_end.f90	/^      module mod_uscr_end$/;"	m
+mod_uscr_end	TARGET_FILES/uscr_end_target.F	/^      module mod_uscr_end$/;"	m
+mod_uscr_insert_block	SOFTWARE/uscr_insert_block.f90	/^module mod_uscr_insert_block$/;"	m
+mod_uscr_insert_block	TARGET_FILES/uscr_insert_block_target.F	/^module mod_uscr_insert_block$/;"	m
+mod_uscr_insert_clique	SOFTWARE/uscr_insert_clique.f90	/^module mod_uscr_insert_clique$/;"	m
+mod_uscr_insert_clique	TARGET_FILES/uscr_insert_clique_target.F	/^module mod_uscr_insert_clique$/;"	m
+mod_uscr_insert_col	SOFTWARE/uscr_insert_col.f90	/^module mod_uscr_insert_col$/;"	m
+mod_uscr_insert_col	TARGET_FILES/uscr_insert_col_target.F	/^module mod_uscr_insert_col$/;"	m
+mod_uscr_insert_entries	SOFTWARE/uscr_insert_entries.f90	/^module mod_uscr_insert_entries$/;"	m
+mod_uscr_insert_entries	TARGET_FILES/uscr_insert_entries_target.F	/^module mod_uscr_insert_entries$/;"	m
+mod_uscr_insert_entry	SOFTWARE/uscr_insert_entry.f90	/^module mod_uscr_insert_entry$/;"	m
+mod_uscr_insert_entry	TARGET_FILES/uscr_insert_entry_target.F	/^module mod_uscr_insert_entry$/;"	m
+mod_uscr_insert_row	SOFTWARE/uscr_insert_row.f90	/^module mod_uscr_insert_row$/;"	m
+mod_uscr_insert_row	TARGET_FILES/uscr_insert_row_target.F	/^module mod_uscr_insert_row$/;"	m
+mod_uscr_variable_block_begin	SOFTWARE/uscr_variable_block_begin.f90	/^module mod_uscr_variable_block_begin$/;"	m
+mod_uscr_variable_block_begin	TARGET_FILES/uscr_variable_block_begin_target.F	/^module mod_uscr_variable_block_begin$/;"	m
+mod_uscr_vbr	SOFTWARE/uscr_vbr.f90	/^module mod_uscr_vbr$/;"	m
+mod_uscr_vbr	TARGET_FILES/uscr_vbr_target.F	/^module mod_uscr_vbr$/;"	m
+mod_usdot	SOFTWARE/usdot.f90	/^      module mod_usdot$/;"	m
+mod_usdot	TARGET_FILES/usdot_target.F	/^      module mod_usdot$/;"	m
+mod_usds	SOFTWARE/usds.f90	/^      module mod_usds$/;"	m
+mod_usds	TARGET_FILES/usds_target.F	/^      module mod_usds$/;"	m
+mod_usga	SOFTWARE/usga.f90	/^      module mod_usga$/;"	m
+mod_usga	TARGET_FILES/usga_target.F	/^      module mod_usga$/;"	m
+mod_usgp	SOFTWARE/usgp.f90	/^      module mod_usgp$/;"	m
+mod_usgp	TARGET_FILES/usgp_target.F	/^      module mod_usgp$/;"	m
+mod_usgz	SOFTWARE/usgz.f90	/^      module mod_usgz$/;"	m
+mod_usgz	TARGET_FILES/usgz_target.F	/^      module mod_usgz$/;"	m
+mod_usmm	SOFTWARE/usmm.f90	/^      module mod_usmm$/;"	m
+mod_usmm	TARGET_FILES/usmm_target.F	/^      module mod_usmm$/;"	m
+mod_usmv	SOFTWARE/usmv.f90	/^      module mod_usmv$/;"	m
+mod_usmv	TARGET_FILES/usmv_target.F	/^      module mod_usmv$/;"	m
+mod_ussc	SOFTWARE/ussc.f90	/^      module mod_ussc$/;"	m
+mod_ussc	TARGET_FILES/ussc_target.F	/^      module mod_ussc$/;"	m
+mod_ussm	SOFTWARE/ussm.f90	/^      module mod_ussm$/;"	m
+mod_ussm	TARGET_FILES/ussm_target.F	/^      module mod_ussm$/;"	m
+mod_ussp	SOFTWARE/ussp.f90	/^      module mod_ussp$/;"	m
+mod_ussp	TARGET_FILES/ussp_target.F	/^      module mod_ussp$/;"	m
+mod_ussv	SOFTWARE/ussv.f90	/^      module mod_ussv$/;"	m
+mod_ussv	TARGET_FILES/ussv_target.F	/^      module mod_ussv$/;"	m
+n	TESTER/main_all.f90	/^int/;"	v	program:tester
+new	SOFTWARE/INSERTING.f90	/^integer::property,number,new$/;"	k	type:c_matrix
+new	SOFTWARE/INSERTING.f90	/^integer::property,number,new$/;"	k	type:d_matrix
+new	SOFTWARE/INSERTING.f90	/^integer::property,number,new$/;"	k	type:i_matrix
+new	SOFTWARE/INSERTING.f90	/^integer::property,number,new$/;"	k	type:s_matrix
+new	SOFTWARE/INSERTING.f90	/^integer::property,number,new$/;"	k	type:z_matrix
+new	TARGET_FILES/INSERTING_target.F	/^integer::property,number,new$/;"	k	type:c_matrix
+new	TARGET_FILES/INSERTING_target.F	/^integer::property,number,new$/;"	k	type:d_matrix
+new	TARGET_FILES/INSERTING_target.F	/^integer::property,number,new$/;"	k	type:i_matrix
+new	TARGET_FILES/INSERTING_target.F	/^integer::property,number,new$/;"	k	type:s_matrix
+new	TARGET_FILES/INSERTING_target.F	/^integer::property,number,new$/;"	k	type:z_matrix
+new_c_element	SOFTWARE/INSERTING.f90	/^      subroutine new_c_element /;"	s	module:mod_INSERTING
+new_c_matrix	SOFTWARE/INSERTING.f90	/^      subroutine new_c_matrix /;"	s	module:mod_INSERTING
+new_capsule_main	SOFTWARE/hash.f90	/^      subroutine new_capsule_main(/;"	s	module:mod_hash
+new_csp	SOFTWARE/link.f90	/^      subroutine new_csp /;"	s	module:representation_of_data
+new_d_element	SOFTWARE/INSERTING.f90	/^      subroutine new_d_element /;"	s	module:mod_INSERTING
+new_d_matrix	SOFTWARE/INSERTING.f90	/^      subroutine new_d_matrix /;"	s	module:mod_INSERTING
+new_dsp	SOFTWARE/link.f90	/^      subroutine new_dsp /;"	s	module:representation_of_data
+new_i_element	SOFTWARE/INSERTING.f90	/^      subroutine new_i_element /;"	s	module:mod_INSERTING
+new_i_matrix	SOFTWARE/INSERTING.f90	/^      subroutine new_i_matrix /;"	s	module:mod_INSERTING
+new_isp	SOFTWARE/link.f90	/^      subroutine new_isp /;"	s	module:representation_of_data
+new_s_element	SOFTWARE/INSERTING.f90	/^      subroutine new_s_element /;"	s	module:mod_INSERTING
+new_s_matrix	SOFTWARE/INSERTING.f90	/^      subroutine new_s_matrix /;"	s	module:mod_INSERTING
+new_ssp	SOFTWARE/link.f90	/^      subroutine new_ssp /;"	s	module:representation_of_data
+new_z_element	SOFTWARE/INSERTING.f90	/^      subroutine new_z_element /;"	s	module:mod_INSERTING
+new_z_matrix	SOFTWARE/INSERTING.f90	/^      subroutine new_z_matrix /;"	s	module:mod_INSERTING
+new_zsp	SOFTWARE/link.f90	/^      subroutine new_zsp /;"	s	module:representation_of_data
+nnz	TESTER/main_all.f90	/^integer :: n, nnz$/;"	v	program:tester
+no_of_types	SOFTWARE/properties.f90	/^      integer, parameter :: no_of_types /;"	v	module:properties
+number	SOFTWARE/INSERTING.f90	/^integer::number$/;"	k	type:c_element
+number	SOFTWARE/INSERTING.f90	/^integer::number$/;"	k	type:d_element
+number	SOFTWARE/INSERTING.f90	/^integer::number$/;"	k	type:i_element
+number	SOFTWARE/INSERTING.f90	/^integer::number$/;"	k	type:s_element
+number	SOFTWARE/INSERTING.f90	/^integer::number$/;"	k	type:z_element
+number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:c_matrix
+number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:d_matrix
+number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:i_matrix
+number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:s_matrix
+number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:z_matrix
+number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:csp_linknode
+number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:dsp_linknode
+number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:isp_linknode
+number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:ssp_linknode
+number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:zsp_linknode
+number	TARGET_FILES/INSERTING_target.F	/^integer::number$/;"	k	type:c_element
+number	TARGET_FILES/INSERTING_target.F	/^integer::number$/;"	k	type:d_element
+number	TARGET_FILES/INSERTING_target.F	/^integer::number$/;"	k	type:i_element
+number	TARGET_FILES/INSERTING_target.F	/^integer::number$/;"	k	type:s_element
+number	TARGET_FILES/INSERTING_target.F	/^integer::number$/;"	k	type:z_element
+number	TARGET_FILES/INSERTING_target.F	/^integer::property,number,/;"	k	type:c_matrix
+number	TARGET_FILES/INSERTING_target.F	/^integer::property,number,/;"	k	type:d_matrix
+number	TARGET_FILES/INSERTING_target.F	/^integer::property,number,/;"	k	type:i_matrix
+number	TARGET_FILES/INSERTING_target.F	/^integer::property,number,/;"	k	type:s_matrix
+number	TARGET_FILES/INSERTING_target.F	/^integer::property,number,/;"	k	type:z_matrix
+number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:csp_linknode
+number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:dsp_linknode
+number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:isp_linknode
+number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:ssp_linknode
+number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:zsp_linknode
+pntin	SOFTWARE/INSERTING.f90	/^type(c_inpnt1)::pntin$/;"	k	type:c_inelement
+pntin	SOFTWARE/INSERTING.f90	/^type(d_inpnt1)::pntin$/;"	k	type:d_inelement
+pntin	SOFTWARE/INSERTING.f90	/^type(i_inpnt1)::pntin$/;"	k	type:i_inelement
+pntin	SOFTWARE/INSERTING.f90	/^type(s_inpnt1)::pntin$/;"	k	type:s_inelement
+pntin	SOFTWARE/INSERTING.f90	/^type(z_inpnt1)::pntin$/;"	k	type:z_inelement
+pntin	TARGET_FILES/INSERTING_target.F	/^type(c_inpnt1)::pntin$/;"	k	type:c_inelement
+pntin	TARGET_FILES/INSERTING_target.F	/^type(d_inpnt1)::pntin$/;"	k	type:d_inelement
+pntin	TARGET_FILES/INSERTING_target.F	/^type(i_inpnt1)::pntin$/;"	k	type:i_inelement
+pntin	TARGET_FILES/INSERTING_target.F	/^type(s_inpnt1)::pntin$/;"	k	type:s_inelement
+pntin	TARGET_FILES/INSERTING_target.F	/^type(z_inpnt1)::pntin$/;"	k	type:z_inelement
+pntr	SOFTWARE/INSERTING.f90	/^type(c_element),pointer::pntr$/;"	k	type:c_element
+pntr	SOFTWARE/INSERTING.f90	/^type(c_matrix),pointer::pntr$/;"	k	type:c_matrix
+pntr	SOFTWARE/INSERTING.f90	/^type(d_element),pointer::pntr$/;"	k	type:d_element
+pntr	SOFTWARE/INSERTING.f90	/^type(d_matrix),pointer::pntr$/;"	k	type:d_matrix
+pntr	SOFTWARE/INSERTING.f90	/^type(i_element),pointer::pntr$/;"	k	type:i_element
+pntr	SOFTWARE/INSERTING.f90	/^type(i_matrix),pointer::pntr$/;"	k	type:i_matrix
+pntr	SOFTWARE/INSERTING.f90	/^type(s_element),pointer::pntr$/;"	k	type:s_element
+pntr	SOFTWARE/INSERTING.f90	/^type(s_matrix),pointer::pntr$/;"	k	type:s_matrix
+pntr	SOFTWARE/INSERTING.f90	/^type(z_element),pointer::pntr$/;"	k	type:z_element
+pntr	SOFTWARE/INSERTING.f90	/^type(z_matrix),pointer::pntr$/;"	k	type:z_matrix
+pntr	SOFTWARE/hash.f90	/^      type(capsule), pointer :: pntr$/;"	k	type:cappntr
+pntr	SOFTWARE/hash.f90	/^      type(capsule), pointer :: pntr$/;"	k	type:capsule
+pntr	SOFTWARE/link.f90	/^        type(csp_linknode), pointer :: pntr$/;"	k	type:csp_linknode
+pntr	SOFTWARE/link.f90	/^        type(dsp_linknode), pointer :: pntr$/;"	k	type:dsp_linknode
+pntr	SOFTWARE/link.f90	/^        type(isp_linknode), pointer :: pntr$/;"	k	type:isp_linknode
+pntr	SOFTWARE/link.f90	/^        type(ssp_linknode), pointer :: pntr$/;"	k	type:ssp_linknode
+pntr	SOFTWARE/link.f90	/^        type(zsp_linknode), pointer :: pntr$/;"	k	type:zsp_linknode
+pntr	TARGET_FILES/INSERTING_target.F	/^type(c_element),pointer::pntr$/;"	k	type:c_element
+pntr	TARGET_FILES/INSERTING_target.F	/^type(c_matrix),pointer::pntr$/;"	k	type:c_matrix
+pntr	TARGET_FILES/INSERTING_target.F	/^type(d_element),pointer::pntr$/;"	k	type:d_element
+pntr	TARGET_FILES/INSERTING_target.F	/^type(d_matrix),pointer::pntr$/;"	k	type:d_matrix
+pntr	TARGET_FILES/INSERTING_target.F	/^type(i_element),pointer::pntr$/;"	k	type:i_element
+pntr	TARGET_FILES/INSERTING_target.F	/^type(i_matrix),pointer::pntr$/;"	k	type:i_matrix
+pntr	TARGET_FILES/INSERTING_target.F	/^type(s_element),pointer::pntr$/;"	k	type:s_element
+pntr	TARGET_FILES/INSERTING_target.F	/^type(s_matrix),pointer::pntr$/;"	k	type:s_matrix
+pntr	TARGET_FILES/INSERTING_target.F	/^type(z_element),pointer::pntr$/;"	k	type:z_element
+pntr	TARGET_FILES/INSERTING_target.F	/^type(z_matrix),pointer::pntr$/;"	k	type:z_matrix
+pntr	TARGET_FILES/link_target.F	/^        type(csp_linknode), pointer :: pntr$/;"	k	type:csp_linknode
+pntr	TARGET_FILES/link_target.F	/^        type(dsp_linknode), pointer :: pntr$/;"	k	type:dsp_linknode
+pntr	TARGET_FILES/link_target.F	/^        type(isp_linknode), pointer :: pntr$/;"	k	type:isp_linknode
+pntr	TARGET_FILES/link_target.F	/^        type(ssp_linknode), pointer :: pntr$/;"	k	type:ssp_linknode
+pntr	TARGET_FILES/link_target.F	/^        type(zsp_linknode), pointer :: pntr$/;"	k	type:zsp_linknode
+print	SOFTWARE/info.f90	/^      subroutine print(/;"	s	module:mod_info
+print	TARGET_FILES/info_target.F	/^      subroutine print(/;"	s	module:mod_info
+print_hash	SOFTWARE/hash.f90	/^      subroutine print_hash(/;"	s	module:mod_hash
+properties	SOFTWARE/properties.f90	/^  module properties$/;"	m
+property	SOFTWARE/INSERTING.f90	/^integer::property,/;"	k	type:c_matrix
+property	SOFTWARE/INSERTING.f90	/^integer::property,/;"	k	type:d_matrix
+property	SOFTWARE/INSERTING.f90	/^integer::property,/;"	k	type:i_matrix
+property	SOFTWARE/INSERTING.f90	/^integer::property,/;"	k	type:s_matrix
+property	SOFTWARE/INSERTING.f90	/^integer::property,/;"	k	type:z_matrix
+property	TARGET_FILES/INSERTING_target.F	/^integer::property,/;"	k	type:c_matrix
+property	TARGET_FILES/INSERTING_target.F	/^integer::property,/;"	k	type:d_matrix
+property	TARGET_FILES/INSERTING_target.F	/^integer::property,/;"	k	type:i_matrix
+property	TARGET_FILES/INSERTING_target.F	/^integer::property,/;"	k	type:s_matrix
+property	TARGET_FILES/INSERTING_target.F	/^integer::property,/;"	k	type:z_matrix
+prpty	SOFTWARE/test.f90	/^      integer :: a, istat, prpty$/;"	v	program:test
+prpty	TESTER/main_all.f90	/^integer :: i, prpty,/;"	v	program:tester
+remove_hash	SOFTWARE/hash.f90	/^      subroutine remove_hash(/;"	s	module:mod_hash
+representation_of_data	SOFTWARE/link.f90	/^      module  representation_of_data$/;"	m
+representation_of_data	TARGET_FILES/link_target.F	/^      module  representation_of_data$/;"	m
+res_usaxpy	TESTER/test_parameters.f90	/^      real(kind=dp) :: res_usaxpy(/;"	v	module:mod_test_parameters
+res_usdot	TESTER/test_parameters.f90	/^      real(kind=dp) :: res_usdot /;"	v	module:mod_test_parameters
+res_usga	TESTER/test_parameters.f90	/^      real(kind=dp) :: res_usga(/;"	v	module:mod_test_parameters
+res_usgz_x	TESTER/test_parameters.f90	/^      real(kind=dp) :: res_usgz_x(/;"	v	module:mod_test_parameters
+res_usgz_y	TESTER/test_parameters.f90	/^      real(kind=dp) :: res_usgz_y(/;"	v	module:mod_test_parameters
+res_ussc	TESTER/test_parameters.f90	/^      real(kind=dp) :: res_ussc(/;"	v	module:mod_test_parameters
+resc_usaxpy	TESTER/test_parameters.f90	/^      complex(kind=dp) :: resc_usaxpy(/;"	v	module:mod_test_parameters
+resc_usdot	TESTER/test_parameters.f90	/^      complex(kind=dp)  :: resc_usdot=/;"	v	module:mod_test_parameters
+resc_usga	TESTER/test_parameters.f90	/^      complex(kind=dp) :: resc_usga(/;"	v	module:mod_test_parameters
+resc_usgz_x	TESTER/test_parameters.f90	/^      complex(kind=dp) :: resc_usgz_x(/;"	v	module:mod_test_parameters
+resc_usgz_y	TESTER/test_parameters.f90	/^      complex(kind=dp) :: resc_usgz_y(/;"	v	module:mod_test_parameters
+resc_ussc	TESTER/test_parameters.f90	/^      complex(kind=dp) :: resc_ussc(/;"	v	module:mod_test_parameters
+row_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:c_inblock
+row_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:d_inblock
+row_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:i_inblock
+row_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:s_inblock
+row_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:z_inblock
+row_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,/;"	k	type:c_inblock
+row_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,/;"	k	type:d_inblock
+row_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,/;"	k	type:i_inblock
+row_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,/;"	k	type:s_inblock
+row_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,/;"	k	type:z_inblock
+row_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,/;"	k	type:c_inpnt1
+row_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,/;"	k	type:d_inpnt1
+row_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,/;"	k	type:i_inpnt1
+row_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,/;"	k	type:s_inpnt1
+row_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,/;"	k	type:z_inpnt1
+row_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,/;"	k	type:c_inpnt1
+row_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,/;"	k	type:d_inpnt1
+row_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,/;"	k	type:i_inpnt1
+row_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,/;"	k	type:s_inpnt1
+row_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,/;"	k	type:z_inpnt1
+row_vblock_ind	SOFTWARE/INSERTING.f90	/^   integer ::row_vblock_ind,/;"	k	type:i_invblock
+row_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,/;"	k	type:c_invblock
+row_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,/;"	k	type:d_invblock
+row_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,/;"	k	type:s_invblock
+row_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,/;"	k	type:z_invblock
+row_vblock_ind	TARGET_FILES/INSERTING_target.F	/^   integer ::row_vblock_ind,/;"	k	type:i_invblock
+row_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,/;"	k	type:c_invblock
+row_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,/;"	k	type:d_invblock
+row_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,/;"	k	type:s_invblock
+row_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,/;"	k	type:z_invblock
+sA_row_col	SOFTWARE/conv_tools.f90	/^      function sA_row_col /;"	f	module:mod_conv_tools
+sAb_row_col	SOFTWARE/conv_tools.f90	/^      function sAb_row_col /;"	f	module:mod_conv_tools
+sINS_bl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine sINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+sINS_block	SOFTWARE/INS_ROUTINER.f90	/^      subroutine sINS_block /;"	s	module:mod_INS_ROUTINER
+sINS_entry	SOFTWARE/INS_ROUTINER.f90	/^      subroutine sINS_entry /;"	s	module:mod_INS_ROUTINER
+sINS_varbl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine sINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
+sINS_varblock	SOFTWARE/INS_ROUTINER.f90	/^      subroutine sINS_varblock /;"	s	module:mod_INS_ROUTINER
+s_dealloc	SOFTWARE/INSERTING.f90	/^      subroutine s_dealloc /;"	s	module:mod_INSERTING
+s_element	SOFTWARE/INSERTING.f90	/^type s_element$/;"	t	module:mod_INSERTING
+s_element	TARGET_FILES/INSERTING_target.F	/^type s_element$/;"	t	module:mod_INSERTING
+s_element_num	SOFTWARE/INSERTING.f90	/^      subroutine s_element_num /;"	s	module:mod_INSERTING
+s_element_start	SOFTWARE/INSERTING.f90	/^type(s_element),pointer::s_element_start$/;"	k	type:s_matrix
+s_element_start	TARGET_FILES/INSERTING_target.F	/^type(s_element),pointer::s_element_start$/;"	k	type:s_matrix
+s_inblock	SOFTWARE/INSERTING.f90	/^type s_inblock$/;"	t	module:mod_INSERTING
+s_inblock	TARGET_FILES/INSERTING_target.F	/^type s_inblock$/;"	t	module:mod_INSERTING
+s_inelement	SOFTWARE/INSERTING.f90	/^type s_inelement$/;"	t	module:mod_INSERTING
+s_inelement	TARGET_FILES/INSERTING_target.F	/^type s_inelement$/;"	t	module:mod_INSERTING
+s_inpnt1	SOFTWARE/INSERTING.f90	/^type s_inpnt1$/;"	t	module:mod_INSERTING
+s_inpnt1	TARGET_FILES/INSERTING_target.F	/^type s_inpnt1$/;"	t	module:mod_INSERTING
+s_invblock	SOFTWARE/INSERTING.f90	/^type s_invblock$/;"	t	module:mod_INSERTING
+s_invblock	TARGET_FILES/INSERTING_target.F	/^type s_invblock$/;"	t	module:mod_INSERTING
+s_matrix	SOFTWARE/INSERTING.f90	/^type s_matrix$/;"	t	module:mod_INSERTING
+s_matrix	TARGET_FILES/INSERTING_target.F	/^type s_matrix$/;"	t	module:mod_INSERTING
+s_matrix_start	SOFTWARE/INSERTING.f90	/^type(s_matrix), pointer,SAVE :: s_matrix_start$/;"	v	module:mod_INSERTING
+s_matrix_start	TARGET_FILES/INSERTING_target.F	/^type(s_matrix), pointer,SAVE :: s_matrix_start$/;"	v	module:mod_INSERTING
+saccess_element	SOFTWARE/INSERTING.f90	/^      subroutine saccess_element /;"	s	module:mod_INSERTING
+saccess_matrix	SOFTWARE/INSERTING.f90	/^      subroutine saccess_matrix /;"	s	module:mod_INSERTING
+sb_up_order	SOFTWARE/conv_tools.f90	/^      subroutine sb_up_order /;"	s	module:mod_conv_tools
+sblock_H_mult_vec	SOFTWARE/dense.f90	/^      subroutine sblock_H_mult_vec /;"	s	module:mod_dense_mat_algos
+sblock_T_mult_vec	SOFTWARE/dense.f90	/^      subroutine sblock_T_mult_vec /;"	s	module:mod_dense_mat_algos
+sblock_Z_mult_vec	SOFTWARE/dense.f90	/^      subroutine sblock_Z_mult_vec /;"	s	module:mod_dense_mat_algos
+sblock_l_mult_vec	SOFTWARE/dense.f90	/^      subroutine sblock_l_mult_vec /;"	s	module:mod_dense_mat_algos
+sblock_mult_vec	SOFTWARE/dense.f90	/^      subroutine sblock_mult_vec /;"	s	module:mod_dense_mat_algos
+sblock_r_mult_vec	SOFTWARE/dense.f90	/^      subroutine sblock_r_mult_vec /;"	s	module:mod_dense_mat_algos
+sdetect_bdiag	SOFTWARE/conv_tools.f90	/^      subroutine sdetect_bdiag /;"	s	module:mod_conv_tools
+sdetect_diag	SOFTWARE/conv_tools.f90	/^      subroutine sdetect_diag /;"	s	module:mod_conv_tools
+set_descra	SOFTWARE/properties.f90	/^      subroutine set_descra(/;"	s	module:properties
+set_infoa	SOFTWARE/properties.f90	/^      subroutine set_infoa(/;"	s	module:properties
+setup_hash	SOFTWARE/hash.f90	/^      subroutine setup_hash(/;"	s	module:mod_hash
+sins_init	SOFTWARE/INSERTING.f90	/^logical, SAVE, PRIVATE :: sins_init /;"	v	module:mod_INSERTING
+sins_init	TARGET_FILES/INSERTING_target.F	/^logical, SAVE, PRIVATE :: sins_init /;"	v	module:mod_INSERTING
+sinvert_T_left_lower	SOFTWARE/dense.f90	/^      subroutine sinvert_T_left_lower /;"	s	module:mod_dense_mat_algos
+sinvert_T_right_upper	SOFTWARE/dense.f90	/^      subroutine sinvert_T_right_upper /;"	s	module:mod_dense_mat_algos
+sinvert_l_left_lower	SOFTWARE/dense.f90	/^      subroutine sinvert_l_left_lower /;"	s	module:mod_dense_mat_algos
+sinvert_l_right_upper	SOFTWARE/dense.f90	/^      subroutine sinvert_l_right_upper /;"	s	module:mod_dense_mat_algos
+sinvert_left_lower	SOFTWARE/dense.f90	/^      subroutine sinvert_left_lower /;"	s	module:mod_dense_mat_algos
+sinvert_r_left_lower	SOFTWARE/dense.f90	/^      subroutine sinvert_r_left_lower /;"	s	module:mod_dense_mat_algos
+sinvert_r_right_upper	SOFTWARE/dense.f90	/^      subroutine sinvert_r_right_upper /;"	s	module:mod_dense_mat_algos
+sinvert_right_upper	SOFTWARE/dense.f90	/^      subroutine sinvert_right_upper /;"	s	module:mod_dense_mat_algos
+slmbv_bco	SOFTWARE/lmbv_bco.f90	/^      subroutine slmbv_bco /;"	s	module:mod_lmbv_bco
+slmbv_bdi	SOFTWARE/lmbv_bdi.f90	/^      subroutine slmbv_bdi /;"	s	module:mod_lmbv_bdi
+slmbv_bsc	SOFTWARE/lmbv_bsc.f90	/^      subroutine slmbv_bsc /;"	s	module:mod_lmbv_bsc
+slmbv_bsr	SOFTWARE/lmbv_bsr.f90	/^      subroutine slmbv_bsr /;"	s	module:mod_lmbv_bsr
+slmbv_coo	SOFTWARE/lmbv_coo.f90	/^      subroutine slmbv_coo /;"	s	module:mod_lmbv_coo
+slmbv_csc	SOFTWARE/lmbv_csc.f90	/^      subroutine slmbv_csc /;"	s	module:mod_lmbv_csc
+slmbv_csr	SOFTWARE/lmbv_csr.f90	/^      subroutine slmbv_csr /;"	s	module:mod_lmbv_csr
+slmbv_dia	SOFTWARE/lmbv_dia.f90	/^      subroutine slmbv_dia /;"	s	module:mod_lmbv_dia
+slmbv_vbr	SOFTWARE/lmbv_vbr.f90	/^      subroutine slmbv_vbr /;"	s	module:mod_lmbv_vbr
+slsbv_bco	SOFTWARE/lsbv_bco.f90	/^      subroutine slsbv_bco /;"	s	module:mod_lsbv_bco
+slsbv_bdi	SOFTWARE/lsbv_bdi.f90	/^      subroutine slsbv_bdi /;"	s	module:mod_lsbv_bdi
+slsbv_bsc	SOFTWARE/lsbv_bsc.f90	/^      subroutine slsbv_bsc /;"	s	module:mod_lsbv_bsc
+slsbv_bsr	SOFTWARE/lsbv_bsr.f90	/^      subroutine slsbv_bsr /;"	s	module:mod_lsbv_bsr
+slsbv_coo	SOFTWARE/lsbv_coo.f90	/^      subroutine slsbv_coo /;"	s	module:mod_lsbv_coo
+slsbv_csc	SOFTWARE/lsbv_csc.f90	/^      subroutine slsbv_csc /;"	s	module:mod_lsbv_csc
+slsbv_csr	SOFTWARE/lsbv_csr.f90	/^      subroutine slsbv_csr /;"	s	module:mod_lsbv_csr
+slsbv_dia	SOFTWARE/lsbv_dia.f90	/^      subroutine slsbv_dia /;"	s	module:mod_lsbv_dia
+slsbv_vbr	SOFTWARE/lsbv_vbr.f90	/^      subroutine slsbv_vbr /;"	s	module:mod_lsbv_vbr
+sp	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: sp /;"	v	module:blas_sparse_namedconstants
+spre_usconv_bco2bdi	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_bco2bdi /;"	s	module:mod_conv_tools
+spre_usconv_bco2bsc	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_bco2bsc /;"	s	module:mod_conv_tools
+spre_usconv_bco2bsr	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_bco2bsr /;"	s	module:mod_conv_tools
+spre_usconv_bdi2bco	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_bdi2bco /;"	s	module:mod_conv_tools
+spre_usconv_coo2csc	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_coo2csc /;"	s	module:mod_conv_tools
+spre_usconv_coo2csr	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_coo2csr /;"	s	module:mod_conv_tools
+spre_usconv_coo2dia	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_coo2dia /;"	s	module:mod_conv_tools
+spre_usconv_dia2coo	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_dia2coo /;"	s	module:mod_conv_tools
+srmbv_bco	SOFTWARE/rmbv_bco.f90	/^      subroutine srmbv_bco /;"	s	module:mod_rmbv_bco
+srmbv_bdi	SOFTWARE/rmbv_bdi.f90	/^      subroutine srmbv_bdi /;"	s	module:mod_rmbv_bdi
+srmbv_bsc	SOFTWARE/rmbv_bsc.f90	/^      subroutine srmbv_bsc /;"	s	module:mod_rmbv_bsc
+srmbv_bsr	SOFTWARE/rmbv_bsr.f90	/^      subroutine srmbv_bsr /;"	s	module:mod_rmbv_bsr
+srmbv_coo	SOFTWARE/rmbv_coo.f90	/^      subroutine srmbv_coo /;"	s	module:mod_rmbv_coo
+srmbv_csc	SOFTWARE/rmbv_csc.f90	/^      subroutine srmbv_csc /;"	s	module:mod_rmbv_csc
+srmbv_csr	SOFTWARE/rmbv_csr.f90	/^      subroutine srmbv_csr /;"	s	module:mod_rmbv_csr
+srmbv_dia	SOFTWARE/rmbv_dia.f90	/^      subroutine srmbv_dia /;"	s	module:mod_rmbv_dia
+srmbv_vbr	SOFTWARE/rmbv_vbr.f90	/^      subroutine srmbv_vbr /;"	s	module:mod_rmbv_vbr
+srsbv_bco	SOFTWARE/rsbv_bco.f90	/^      subroutine srsbv_bco /;"	s	module:mod_rsbv_bco
+srsbv_bdi	SOFTWARE/rsbv_bdi.f90	/^      subroutine srsbv_bdi /;"	s	module:mod_rsbv_bdi
+srsbv_bsc	SOFTWARE/rsbv_bsc.f90	/^      subroutine srsbv_bsc /;"	s	module:mod_rsbv_bsc
+srsbv_bsr	SOFTWARE/rsbv_bsr.f90	/^      subroutine srsbv_bsr /;"	s	module:mod_rsbv_bsr
+srsbv_coo	SOFTWARE/rsbv_coo.f90	/^      subroutine srsbv_coo /;"	s	module:mod_rsbv_coo
+srsbv_csc	SOFTWARE/rsbv_csc.f90	/^      subroutine srsbv_csc /;"	s	module:mod_rsbv_csc
+srsbv_csr	SOFTWARE/rsbv_csr.f90	/^      subroutine srsbv_csr /;"	s	module:mod_rsbv_csr
+srsbv_dia	SOFTWARE/rsbv_dia.f90	/^      subroutine srsbv_dia /;"	s	module:mod_rsbv_dia
+srsbv_vbr	SOFTWARE/rsbv_vbr.f90	/^      subroutine srsbv_vbr /;"	s	module:mod_rsbv_vbr
+ssp_first	SOFTWARE/link.f90	/^      type(ssp_linknode), pointer,SAVE,PRIVATE :: ssp_first,/;"	v	module:representation_of_data
+ssp_first	TARGET_FILES/link_target.F	/^      type(ssp_linknode), pointer,SAVE,PRIVATE :: ssp_first,/;"	v	module:representation_of_data
+ssp_init	SOFTWARE/link.f90	/^      logical,SAVE,PRIVATE :: ssp_init /;"	v	module:representation_of_data
+ssp_init	TARGET_FILES/link_target.F	/^      logical,SAVE,PRIVATE :: ssp_init /;"	v	module:representation_of_data
+ssp_last	SOFTWARE/link.f90	/^      type(ssp_linknode), pointer,SAVE,PRIVATE :: ssp_first, ssp_last$/;"	v	module:representation_of_data
+ssp_last	TARGET_FILES/link_target.F	/^      type(ssp_linknode), pointer,SAVE,PRIVATE :: ssp_first, ssp_last$/;"	v	module:representation_of_data
+ssp_linknode	SOFTWARE/link.f90	/^      type ssp_linknode$/;"	t	module:representation_of_data
+ssp_linknode	TARGET_FILES/link_target.F	/^      type ssp_linknode$/;"	t	module:representation_of_data
+sub_cols	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:c_matrix
+sub_cols	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:d_matrix
+sub_cols	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:i_matrix
+sub_cols	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:s_matrix
+sub_cols	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:z_matrix
+sub_cols	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:c_matrix
+sub_cols	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:d_matrix
+sub_cols	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:i_matrix
+sub_cols	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:s_matrix
+sub_cols	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:z_matrix
+sub_rows	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:c_matrix
+sub_rows	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:d_matrix
+sub_rows	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:i_matrix
+sub_rows	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:s_matrix
+sub_rows	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:z_matrix
+sub_rows	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:c_matrix
+sub_rows	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:d_matrix
+sub_rows	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:i_matrix
+sub_rows	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:s_matrix
+sub_rows	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:z_matrix
+susaxpy	SOFTWARE/usaxpy.f90	/^ subroutine susaxpy /;"	s	module:mod_usaxpy
+susconv_coo2csc	SOFTWARE/usconv_coo2csc.f90	/^      subroutine susconv_coo2csc /;"	s	module:mod_usconv_coo2csc
+suscr_bco	SOFTWARE/uscr_bco.f90	/^      subroutine suscr_bco /;"	s	module:mod_uscr_bco
+suscr_bdi	SOFTWARE/uscr_bdi.f90	/^      subroutine suscr_bdi /;"	s	module:mod_uscr_bdi
+suscr_begin	SOFTWARE/uscr_begin.f90	/^      subroutine suscr_begin /;"	s	module:mod_uscr_begin
+suscr_block_begin	SOFTWARE/uscr_block_begin.f90	/^      subroutine  suscr_block_begin /;"	s	module:mod_uscr_block_begin
+suscr_blockend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine suscr_blockend /;"	s	module:mod_INS_ROUTINER
+suscr_bsc	SOFTWARE/uscr_bsc.f90	/^      subroutine suscr_bsc /;"	s	module:mod_uscr_bsc
+suscr_bsr	SOFTWARE/uscr_bsr.f90	/^      subroutine suscr_bsr /;"	s	module:mod_uscr_bsr
+suscr_coo	SOFTWARE/uscr_coo.f90	/^      subroutine suscr_coo /;"	s	module:mod_uscr_coo
+suscr_csc	SOFTWARE/uscr_csc.f90	/^      subroutine suscr_csc /;"	s	module:mod_uscr_csc
+suscr_csr	SOFTWARE/uscr_csr.f90	/^      subroutine suscr_csr /;"	s	module:mod_uscr_csr
+suscr_dia	SOFTWARE/uscr_dia.f90	/^      subroutine suscr_dia /;"	s	module:mod_uscr_dia
+suscr_insert_block	SOFTWARE/uscr_insert_block.f90	/^      subroutine  suscr_insert_block /;"	s	module:mod_uscr_insert_block
+suscr_insert_clique	SOFTWARE/uscr_insert_clique.f90	/^      subroutine  suscr_insert_clique /;"	s	module:mod_uscr_insert_clique
+suscr_insert_col	SOFTWARE/uscr_insert_col.f90	/^      subroutine  suscr_insert_col /;"	s	module:mod_uscr_insert_col
+suscr_insert_entries	SOFTWARE/uscr_insert_entries.f90	/^      subroutine suscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+suscr_insert_entry	SOFTWARE/uscr_insert_entry.f90	/^      subroutine suscr_insert_entry /;"	s	module:mod_uscr_insert_entry
+suscr_insert_row	SOFTWARE/uscr_insert_row.f90	/^      subroutine suscr_insert_row /;"	s	module:mod_uscr_insert_row
+suscr_normend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine suscr_normend /;"	s	module:mod_INS_ROUTINER
+suscr_varend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine suscr_varend /;"	s	module:mod_INS_ROUTINER
+suscr_variable_block_begin	SOFTWARE/uscr_variable_block_begin.f90	/^      subroutine suscr_variable_block_begin /;"	s	module:mod_uscr_variable_block_begin
+suscr_vbr	SOFTWARE/uscr_vbr.f90	/^      subroutine suscr_vbr /;"	s	module:mod_uscr_vbr
+susdot	SOFTWARE/usdot.f90	/^real(KIND=sp)  function susdot /;"	f	module:mod_usdot
+susga	SOFTWARE/usga.f90	/^ subroutine susga /;"	s	module:mod_usga
+susgz	SOFTWARE/usgz.f90	/^subroutine susgz /;"	s	module:mod_usgz
+susmm	SOFTWARE/usmm.f90	/^      subroutine susmm /;"	s	module:mod_usmm
+susmv	SOFTWARE/usmv.f90	/^      subroutine susmv /;"	s	module:mod_usmv
+sussc	SOFTWARE/ussc.f90	/^  subroutine sussc /;"	s	module:mod_ussc
+sussm	SOFTWARE/ussm.f90	/^      subroutine sussm /;"	s	module:mod_ussm
+sussv	SOFTWARE/ussv.f90	/^      subroutine sussv /;"	s	module:mod_ussv
+test	SOFTWARE/test.f90	/^      program test$/;"	p
+tester	TESTER/main_all.f90	/^program tester$/;"	p
+trb	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:c_matrix
+trb	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:d_matrix
+trb	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:i_matrix
+trb	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:s_matrix
+trb	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:z_matrix
+trb	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:c_matrix
+trb	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:d_matrix
+trb	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:i_matrix
+trb	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:s_matrix
+trb	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:z_matrix
+tre	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:c_matrix
+tre	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:d_matrix
+tre	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:i_matrix
+tre	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:s_matrix
+tre	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:z_matrix
+tre	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:c_matrix
+tre	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:d_matrix
+tre	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:i_matrix
+tre	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:s_matrix
+tre	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:z_matrix
+types	SOFTWARE/types.f90	/^MODULE types$/;"	m
+up_order	SOFTWARE/conv_tools.f90	/^      subroutine  up_order(/;"	s	module:mod_conv_tools
+up_order	TARGET_FILES/conv_tools_target.F	/^      subroutine  up_order(/;"	s	module:mod_conv_tools
+usconv_bco2bdi	SOFTWARE/usconv_bco2bdi.f90	/^      subroutine usconv_bco2bdi(/;"	s	module:mod_usconv_bco2bdi
+usconv_bco2bdi	TARGET_FILES/usconv_bco2bdi_target.F	/^      subroutine usconv_bco2bdi(/;"	s	module:mod_usconv_bco2bdi
+usconv_bco2bsc	SOFTWARE/usconv_bco2bsc.f90	/^      subroutine usconv_bco2bsc(/;"	s	module:mod_usconv_bco2bsc
+usconv_bco2bsc	TARGET_FILES/usconv_bco2bsc_target.F	/^      subroutine usconv_bco2bsc(/;"	s	module:mod_usconv_bco2bsc
+usconv_bco2bsr	SOFTWARE/usconv_bco2bsr.f90	/^      subroutine  usconv_bco2bsr(/;"	s	module:mod_usconv_bco2bsr
+usconv_bco2bsr	TARGET_FILES/usconv_bco2bsr_target.F	/^      subroutine  usconv_bco2bsr(/;"	s	module:mod_usconv_bco2bsr
+usconv_bdi2bco	SOFTWARE/usconv_bdi2bco.f90	/^      subroutine usconv_bdi2bco(/;"	s	module:mod_usconv_bdi2bco
+usconv_bdi2bco	TARGET_FILES/usconv_bdi2bco_target.F	/^      subroutine usconv_bdi2bco(/;"	s	module:mod_usconv_bdi2bco
+usconv_bsc2bco	SOFTWARE/usconv_bsc2bco.f90	/^      subroutine usconv_bsc2bco(/;"	s	module:mod_usconv_bsc2bco
+usconv_bsc2bco	TARGET_FILES/usconv_bsc2bco_target.F	/^      subroutine usconv_bsc2bco(/;"	s	module:mod_usconv_bsc2bco
+usconv_bsr2bco	SOFTWARE/usconv_bsr2bco.f90	/^      subroutine usconv_bsr2bco(/;"	s	module:mod_usconv_bsr2bco
+usconv_bsr2bco	TARGET_FILES/usconv_bsr2bco_target.F	/^      subroutine usconv_bsr2bco(/;"	s	module:mod_usconv_bsr2bco
+usconv_coo2csr	SOFTWARE/usconv_coo2csr.f90	/^      subroutine usconv_coo2csr(/;"	s	module:mod_usconv_coo2csr
+usconv_coo2csr	TARGET_FILES/usconv_coo2csr_target.F	/^      subroutine usconv_coo2csr(/;"	s	module:mod_usconv_coo2csr
+usconv_coo2dia	SOFTWARE/usconv_coo2dia.f90	/^      subroutine usconv_coo2dia(/;"	s	module:mod_usconv_coo2dia
+usconv_coo2dia	TARGET_FILES/usconv_coo2dia_target.F	/^      subroutine usconv_coo2dia(/;"	s	module:mod_usconv_coo2dia
+usconv_csc2coo	SOFTWARE/usconv_csc2coo.f90	/^      subroutine usconv_csc2coo(/;"	s	module:mod_usconv_csc2coo
+usconv_csc2coo	TARGET_FILES/usconv_csc2coo_target.F	/^      subroutine usconv_csc2coo(/;"	s	module:mod_usconv_csc2coo
+usconv_csr2coo	SOFTWARE/usconv_csr2coo.f90	/^      subroutine usconv_csr2coo(/;"	s	module:mod_usconv_csr2coo
+usconv_csr2coo	TARGET_FILES/usconv_csr2coo_target.F	/^      subroutine usconv_csr2coo(/;"	s	module:mod_usconv_csr2coo
+usconv_dia2coo	SOFTWARE/usconv_dia2coo.f90	/^      subroutine  usconv_dia2coo(/;"	s	module:mod_usconv_dia2coo
+usconv_dia2coo	TARGET_FILES/usconv_dia2coo_target.F	/^      subroutine  usconv_dia2coo(/;"	s	module:mod_usconv_dia2coo
+uscr_end	SOFTWARE/uscr_end.f90	/^      subroutine uscr_end(/;"	s	module:mod_uscr_end
+uscr_end	TARGET_FILES/uscr_end_target.F	/^      subroutine uscr_end(/;"	s	module:mod_uscr_end
+usds	SOFTWARE/usds.f90	/^      subroutine usds(/;"	s	module:mod_usds
+usds	TARGET_FILES/usds_target.F	/^      subroutine usds(/;"	s	module:mod_usds
+usgp	SOFTWARE/usgp.f90	/^      subroutine usgp /;"	s	module:mod_usgp
+usgp	TARGET_FILES/usgp_target.F	/^      subroutine usgp /;"	s	module:mod_usgp
+ussp	SOFTWARE/ussp.f90	/^      subroutine ussp(/;"	s	module:mod_ussp
+ussp	TARGET_FILES/ussp_target.F	/^      subroutine ussp(/;"	s	module:mod_ussp
+val_pos	SOFTWARE/hash.f90	/^      integer :: jndx,val_pos$/;"	k	type:capsule
+value	SOFTWARE/INSERTING.f90	/^   integer,dimension(:,:),pointer::value$/;"	k	type:i_invblock
+value	SOFTWARE/INSERTING.f90	/^complex(kind=dp),dimension(:,:),pointer::value$/;"	k	type:z_inblock
+value	SOFTWARE/INSERTING.f90	/^complex(kind=dp),dimension(:,:),pointer::value$/;"	k	type:z_invblock
+value	SOFTWARE/INSERTING.f90	/^complex(kind=dp)::value$/;"	k	type:z_inpnt1
+value	SOFTWARE/INSERTING.f90	/^complex(kind=sp),dimension(:,:),pointer::value$/;"	k	type:c_inblock
+value	SOFTWARE/INSERTING.f90	/^complex(kind=sp),dimension(:,:),pointer::value$/;"	k	type:c_invblock
+value	SOFTWARE/INSERTING.f90	/^complex(kind=sp)::value$/;"	k	type:c_inpnt1
+value	SOFTWARE/INSERTING.f90	/^integer,dimension(:,:),pointer::value$/;"	k	type:i_inblock
+value	SOFTWARE/INSERTING.f90	/^integer::value$/;"	k	type:i_inpnt1
+value	SOFTWARE/INSERTING.f90	/^real(kind=dp),dimension(:,:),pointer::value$/;"	k	type:d_inblock
+value	SOFTWARE/INSERTING.f90	/^real(kind=dp),dimension(:,:),pointer::value$/;"	k	type:d_invblock
+value	SOFTWARE/INSERTING.f90	/^real(kind=dp)::value$/;"	k	type:d_inpnt1
+value	SOFTWARE/INSERTING.f90	/^real(kind=sp),dimension(:,:),pointer::value$/;"	k	type:s_inblock
+value	SOFTWARE/INSERTING.f90	/^real(kind=sp),dimension(:,:),pointer::value$/;"	k	type:s_invblock
+value	SOFTWARE/INSERTING.f90	/^real(kind=sp)::value$/;"	k	type:s_inpnt1
+value	TARGET_FILES/INSERTING_target.F	/^   integer,dimension(:,:),pointer::value$/;"	k	type:i_invblock
+value	TARGET_FILES/INSERTING_target.F	/^complex(kind=dp),dimension(:,:),pointer::value$/;"	k	type:z_inblock
+value	TARGET_FILES/INSERTING_target.F	/^complex(kind=dp),dimension(:,:),pointer::value$/;"	k	type:z_invblock
+value	TARGET_FILES/INSERTING_target.F	/^complex(kind=dp)::value$/;"	k	type:z_inpnt1
+value	TARGET_FILES/INSERTING_target.F	/^complex(kind=sp),dimension(:,:),pointer::value$/;"	k	type:c_inblock
+value	TARGET_FILES/INSERTING_target.F	/^complex(kind=sp),dimension(:,:),pointer::value$/;"	k	type:c_invblock
+value	TARGET_FILES/INSERTING_target.F	/^complex(kind=sp)::value$/;"	k	type:c_inpnt1
+value	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:,:),pointer::value$/;"	k	type:i_inblock
+value	TARGET_FILES/INSERTING_target.F	/^integer::value$/;"	k	type:i_inpnt1
+value	TARGET_FILES/INSERTING_target.F	/^real(kind=dp),dimension(:,:),pointer::value$/;"	k	type:d_inblock
+value	TARGET_FILES/INSERTING_target.F	/^real(kind=dp),dimension(:,:),pointer::value$/;"	k	type:d_invblock
+value	TARGET_FILES/INSERTING_target.F	/^real(kind=dp)::value$/;"	k	type:d_inpnt1
+value	TARGET_FILES/INSERTING_target.F	/^real(kind=sp),dimension(:,:),pointer::value$/;"	k	type:s_inblock
+value	TARGET_FILES/INSERTING_target.F	/^real(kind=sp),dimension(:,:),pointer::value$/;"	k	type:s_invblock
+value	TARGET_FILES/INSERTING_target.F	/^real(kind=sp)::value$/;"	k	type:s_inpnt1
+vblin	SOFTWARE/INSERTING.f90	/^type(c_invblock)::vblin$/;"	k	type:c_inelement
+vblin	SOFTWARE/INSERTING.f90	/^type(d_invblock)::vblin$/;"	k	type:d_inelement
+vblin	SOFTWARE/INSERTING.f90	/^type(i_invblock)::vblin$/;"	k	type:i_inelement
+vblin	SOFTWARE/INSERTING.f90	/^type(s_invblock)::vblin$/;"	k	type:s_inelement
+vblin	SOFTWARE/INSERTING.f90	/^type(z_invblock)::vblin$/;"	k	type:z_inelement
+vblin	TARGET_FILES/INSERTING_target.F	/^type(c_invblock)::vblin$/;"	k	type:c_inelement
+vblin	TARGET_FILES/INSERTING_target.F	/^type(d_invblock)::vblin$/;"	k	type:d_inelement
+vblin	TARGET_FILES/INSERTING_target.F	/^type(i_invblock)::vblin$/;"	k	type:i_inelement
+vblin	TARGET_FILES/INSERTING_target.F	/^type(s_invblock)::vblin$/;"	k	type:s_inelement
+vblin	TARGET_FILES/INSERTING_target.F	/^type(z_invblock)::vblin$/;"	k	type:z_inelement
+x	SOFTWARE/test.f90	/^      double precision, dimension(5) :: x,/;"	v	program:test
+x	TESTER/main_all.f90	/^real(kind=dp), dimension(:), allocatable :: x,/;"	v	program:tester
+x_axpy	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3)::x_axpy=/;"	v	module:mod_test_parameters
+x_dot	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3)::x_dot=/;"	v	module:mod_test_parameters
+x_ga	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3)::x_ga=/;"	v	module:mod_test_parameters
+x_gz	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3)::x_gz=/;"	v	module:mod_test_parameters
+x_i	TESTER/main_all.f90	/^integer, dimension(:), allocatable :: x_i,/;"	v	program:tester
+x_sc	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3)::x_sc=/;"	v	module:mod_test_parameters
+xc	TESTER/main_all.f90	/^complex(kind=dp), dimension(:), allocatable :: xc,/;"	v	program:tester
+xc_axpy	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(3)::xc_axpy=/;"	v	module:mod_test_parameters
+xc_dot	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(3)::xc_dot=/;"	v	module:mod_test_parameters
+xc_ga	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(3)::xc_ga=/;"	v	module:mod_test_parameters
+xc_gz	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(3)::xc_gz=/;"	v	module:mod_test_parameters
+xc_sc	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(3)::xc_sc=/;"	v	module:mod_test_parameters
+y	SOFTWARE/test.f90	/^      double precision, dimension(5) :: x,y$/;"	v	program:test
+y	TESTER/main_all.f90	/^real(kind=dp), dimension(:), allocatable :: x,y,/;"	v	program:tester
+y_axpy	TESTER/test_parameters.f90	/^real(kind=dp),dimension(6)::y_axpy=/;"	v	module:mod_test_parameters
+y_dot	TESTER/test_parameters.f90	/^real(kind=dp),dimension(6)::y_dot=/;"	v	module:mod_test_parameters
+y_ga	TESTER/test_parameters.f90	/^real(kind=dp),dimension(6)::y_ga=/;"	v	module:mod_test_parameters
+y_gz	TESTER/test_parameters.f90	/^real(kind=dp),dimension(6)::y_gz=/;"	v	module:mod_test_parameters
+y_i	TESTER/main_all.f90	/^integer, dimension(:), allocatable :: x_i,y_i,/;"	v	program:tester
+y_sc	TESTER/test_parameters.f90	/^real(kind=dp),dimension(6)::y_sc=/;"	v	module:mod_test_parameters
+yc	TESTER/main_all.f90	/^complex(kind=dp), dimension(:), allocatable :: xc,yc,/;"	v	program:tester
+yc_axpy	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(6)::yc_axpy=/;"	v	module:mod_test_parameters
+yc_dot	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(6)::yc_dot=/;"	v	module:mod_test_parameters
+yc_ga	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(6)::yc_ga=/;"	v	module:mod_test_parameters
+yc_gz	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(6)::yc_gz=/;"	v	module:mod_test_parameters
+yc_sc	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(6)::yc_sc=/;"	v	module:mod_test_parameters
+z	TESTER/main_all.f90	/^real(kind=dp), dimension(:), allocatable :: x,y,z$/;"	v	program:tester
+zA_row_col	SOFTWARE/conv_tools.f90	/^      function zA_row_col /;"	f	module:mod_conv_tools
+zAb_row_col	SOFTWARE/conv_tools.f90	/^      function zAb_row_col /;"	f	module:mod_conv_tools
+zINS_bl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine zINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+zINS_block	SOFTWARE/INS_ROUTINER.f90	/^      subroutine zINS_block /;"	s	module:mod_INS_ROUTINER
+zINS_entry	SOFTWARE/INS_ROUTINER.f90	/^      subroutine zINS_entry /;"	s	module:mod_INS_ROUTINER
+zINS_varbl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine zINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
+zINS_varblock	SOFTWARE/INS_ROUTINER.f90	/^      subroutine zINS_varblock /;"	s	module:mod_INS_ROUTINER
+z_dealloc	SOFTWARE/INSERTING.f90	/^      subroutine z_dealloc /;"	s	module:mod_INSERTING
+z_element	SOFTWARE/INSERTING.f90	/^type z_element$/;"	t	module:mod_INSERTING
+z_element	TARGET_FILES/INSERTING_target.F	/^type z_element$/;"	t	module:mod_INSERTING
+z_element_num	SOFTWARE/INSERTING.f90	/^      subroutine z_element_num /;"	s	module:mod_INSERTING
+z_element_start	SOFTWARE/INSERTING.f90	/^type(z_element),pointer::z_element_start$/;"	k	type:z_matrix
+z_element_start	TARGET_FILES/INSERTING_target.F	/^type(z_element),pointer::z_element_start$/;"	k	type:z_matrix
+z_i	TESTER/main_all.f90	/^integer, dimension(:), allocatable :: x_i,y_i,z_i$/;"	v	program:tester
+z_inblock	SOFTWARE/INSERTING.f90	/^type z_inblock$/;"	t	module:mod_INSERTING
+z_inblock	TARGET_FILES/INSERTING_target.F	/^type z_inblock$/;"	t	module:mod_INSERTING
+z_inelement	SOFTWARE/INSERTING.f90	/^type z_inelement$/;"	t	module:mod_INSERTING
+z_inelement	TARGET_FILES/INSERTING_target.F	/^type z_inelement$/;"	t	module:mod_INSERTING
+z_inpnt1	SOFTWARE/INSERTING.f90	/^type z_inpnt1$/;"	t	module:mod_INSERTING
+z_inpnt1	TARGET_FILES/INSERTING_target.F	/^type z_inpnt1$/;"	t	module:mod_INSERTING
+z_invblock	SOFTWARE/INSERTING.f90	/^type z_invblock$/;"	t	module:mod_INSERTING
+z_invblock	TARGET_FILES/INSERTING_target.F	/^type z_invblock$/;"	t	module:mod_INSERTING
+z_matrix	SOFTWARE/INSERTING.f90	/^type z_matrix$/;"	t	module:mod_INSERTING
+z_matrix	TARGET_FILES/INSERTING_target.F	/^type z_matrix$/;"	t	module:mod_INSERTING
+z_matrix_start	SOFTWARE/INSERTING.f90	/^type(z_matrix), pointer,SAVE :: z_matrix_start$/;"	v	module:mod_INSERTING
+z_matrix_start	TARGET_FILES/INSERTING_target.F	/^type(z_matrix), pointer,SAVE :: z_matrix_start$/;"	v	module:mod_INSERTING
+zaccess_element	SOFTWARE/INSERTING.f90	/^      subroutine zaccess_element /;"	s	module:mod_INSERTING
+zaccess_matrix	SOFTWARE/INSERTING.f90	/^      subroutine zaccess_matrix /;"	s	module:mod_INSERTING
+zb_up_order	SOFTWARE/conv_tools.f90	/^      subroutine zb_up_order /;"	s	module:mod_conv_tools
+zblock_H_mult_vec	SOFTWARE/dense.f90	/^      subroutine zblock_H_mult_vec /;"	s	module:mod_dense_mat_algos
+zblock_T_mult_vec	SOFTWARE/dense.f90	/^      subroutine zblock_T_mult_vec /;"	s	module:mod_dense_mat_algos
+zblock_Z_mult_vec	SOFTWARE/dense.f90	/^      subroutine zblock_Z_mult_vec /;"	s	module:mod_dense_mat_algos
+zblock_l_mult_vec	SOFTWARE/dense.f90	/^      subroutine zblock_l_mult_vec /;"	s	module:mod_dense_mat_algos
+zblock_mult_vec	SOFTWARE/dense.f90	/^      subroutine zblock_mult_vec /;"	s	module:mod_dense_mat_algos
+zblock_r_mult_vec	SOFTWARE/dense.f90	/^      subroutine zblock_r_mult_vec /;"	s	module:mod_dense_mat_algos
+zc	TESTER/main_all.f90	/^complex(kind=dp), dimension(:), allocatable :: xc,yc,zc$/;"	v	program:tester
+zdetect_bdiag	SOFTWARE/conv_tools.f90	/^      subroutine zdetect_bdiag /;"	s	module:mod_conv_tools
+zdetect_diag	SOFTWARE/conv_tools.f90	/^      subroutine zdetect_diag /;"	s	module:mod_conv_tools
+zins_init	SOFTWARE/INSERTING.f90	/^logical, SAVE, PRIVATE :: zins_init /;"	v	module:mod_INSERTING
+zins_init	TARGET_FILES/INSERTING_target.F	/^logical, SAVE, PRIVATE :: zins_init /;"	v	module:mod_INSERTING
+zinvert_T_left_lower	SOFTWARE/dense.f90	/^      subroutine zinvert_T_left_lower /;"	s	module:mod_dense_mat_algos
+zinvert_T_right_upper	SOFTWARE/dense.f90	/^      subroutine zinvert_T_right_upper /;"	s	module:mod_dense_mat_algos
+zinvert_l_left_lower	SOFTWARE/dense.f90	/^      subroutine zinvert_l_left_lower /;"	s	module:mod_dense_mat_algos
+zinvert_l_right_upper	SOFTWARE/dense.f90	/^      subroutine zinvert_l_right_upper /;"	s	module:mod_dense_mat_algos
+zinvert_left_lower	SOFTWARE/dense.f90	/^      subroutine zinvert_left_lower /;"	s	module:mod_dense_mat_algos
+zinvert_r_left_lower	SOFTWARE/dense.f90	/^      subroutine zinvert_r_left_lower /;"	s	module:mod_dense_mat_algos
+zinvert_r_right_upper	SOFTWARE/dense.f90	/^      subroutine zinvert_r_right_upper /;"	s	module:mod_dense_mat_algos
+zinvert_right_upper	SOFTWARE/dense.f90	/^      subroutine zinvert_right_upper /;"	s	module:mod_dense_mat_algos
+zlmbv_bco	SOFTWARE/lmbv_bco.f90	/^      subroutine zlmbv_bco /;"	s	module:mod_lmbv_bco
+zlmbv_bdi	SOFTWARE/lmbv_bdi.f90	/^      subroutine zlmbv_bdi /;"	s	module:mod_lmbv_bdi
+zlmbv_bsc	SOFTWARE/lmbv_bsc.f90	/^      subroutine zlmbv_bsc /;"	s	module:mod_lmbv_bsc
+zlmbv_bsr	SOFTWARE/lmbv_bsr.f90	/^      subroutine zlmbv_bsr /;"	s	module:mod_lmbv_bsr
+zlmbv_coo	SOFTWARE/lmbv_coo.f90	/^      subroutine zlmbv_coo /;"	s	module:mod_lmbv_coo
+zlmbv_csc	SOFTWARE/lmbv_csc.f90	/^      subroutine zlmbv_csc /;"	s	module:mod_lmbv_csc
+zlmbv_csr	SOFTWARE/lmbv_csr.f90	/^      subroutine zlmbv_csr /;"	s	module:mod_lmbv_csr
+zlmbv_dia	SOFTWARE/lmbv_dia.f90	/^      subroutine zlmbv_dia /;"	s	module:mod_lmbv_dia
+zlmbv_vbr	SOFTWARE/lmbv_vbr.f90	/^      subroutine zlmbv_vbr /;"	s	module:mod_lmbv_vbr
+zlsbv_bco	SOFTWARE/lsbv_bco.f90	/^      subroutine zlsbv_bco /;"	s	module:mod_lsbv_bco
+zlsbv_bdi	SOFTWARE/lsbv_bdi.f90	/^      subroutine zlsbv_bdi /;"	s	module:mod_lsbv_bdi
+zlsbv_bsc	SOFTWARE/lsbv_bsc.f90	/^      subroutine zlsbv_bsc /;"	s	module:mod_lsbv_bsc
+zlsbv_bsr	SOFTWARE/lsbv_bsr.f90	/^      subroutine zlsbv_bsr /;"	s	module:mod_lsbv_bsr
+zlsbv_coo	SOFTWARE/lsbv_coo.f90	/^      subroutine zlsbv_coo /;"	s	module:mod_lsbv_coo
+zlsbv_csc	SOFTWARE/lsbv_csc.f90	/^      subroutine zlsbv_csc /;"	s	module:mod_lsbv_csc
+zlsbv_csr	SOFTWARE/lsbv_csr.f90	/^      subroutine zlsbv_csr /;"	s	module:mod_lsbv_csr
+zlsbv_dia	SOFTWARE/lsbv_dia.f90	/^      subroutine zlsbv_dia /;"	s	module:mod_lsbv_dia
+zlsbv_vbr	SOFTWARE/lsbv_vbr.f90	/^      subroutine zlsbv_vbr /;"	s	module:mod_lsbv_vbr
+zpre_usconv_bco2bdi	SOFTWARE/conv_tools.f90	/^      subroutine zpre_usconv_bco2bdi /;"	s	module:mod_conv_tools
+zpre_usconv_bco2bsc	SOFTWARE/conv_tools.f90	/^      subroutine zpre_usconv_bco2bsc /;"	s	module:mod_conv_tools
+zpre_usconv_bco2bsr	SOFTWARE/conv_tools.f90	/^      subroutine zpre_usconv_bco2bsr /;"	s	module:mod_conv_tools
+zpre_usconv_bdi2bco	SOFTWARE/conv_tools.f90	/^      subroutine zpre_usconv_bdi2bco /;"	s	module:mod_conv_tools
+zpre_usconv_coo2csc	SOFTWARE/conv_tools.f90	/^      subroutine zpre_usconv_coo2csc /;"	s	module:mod_conv_tools
+zpre_usconv_coo2csr	SOFTWARE/conv_tools.f90	/^      subroutine zpre_usconv_coo2csr /;"	s	module:mod_conv_tools
+zpre_usconv_coo2dia	SOFTWARE/conv_tools.f90	/^      subroutine zpre_usconv_coo2dia /;"	s	module:mod_conv_tools
+zpre_usconv_dia2coo	SOFTWARE/conv_tools.f90	/^      subroutine zpre_usconv_dia2coo /;"	s	module:mod_conv_tools
+zrmbv_bco	SOFTWARE/rmbv_bco.f90	/^      subroutine zrmbv_bco /;"	s	module:mod_rmbv_bco
+zrmbv_bdi	SOFTWARE/rmbv_bdi.f90	/^      subroutine zrmbv_bdi /;"	s	module:mod_rmbv_bdi
+zrmbv_bsc	SOFTWARE/rmbv_bsc.f90	/^      subroutine zrmbv_bsc /;"	s	module:mod_rmbv_bsc
+zrmbv_bsr	SOFTWARE/rmbv_bsr.f90	/^      subroutine zrmbv_bsr /;"	s	module:mod_rmbv_bsr
+zrmbv_coo	SOFTWARE/rmbv_coo.f90	/^      subroutine zrmbv_coo /;"	s	module:mod_rmbv_coo
+zrmbv_csc	SOFTWARE/rmbv_csc.f90	/^      subroutine zrmbv_csc /;"	s	module:mod_rmbv_csc
+zrmbv_csr	SOFTWARE/rmbv_csr.f90	/^      subroutine zrmbv_csr /;"	s	module:mod_rmbv_csr
+zrmbv_dia	SOFTWARE/rmbv_dia.f90	/^      subroutine zrmbv_dia /;"	s	module:mod_rmbv_dia
+zrmbv_vbr	SOFTWARE/rmbv_vbr.f90	/^      subroutine zrmbv_vbr /;"	s	module:mod_rmbv_vbr
+zrsbv_bco	SOFTWARE/rsbv_bco.f90	/^      subroutine zrsbv_bco /;"	s	module:mod_rsbv_bco
+zrsbv_bdi	SOFTWARE/rsbv_bdi.f90	/^      subroutine zrsbv_bdi /;"	s	module:mod_rsbv_bdi
+zrsbv_bsc	SOFTWARE/rsbv_bsc.f90	/^      subroutine zrsbv_bsc /;"	s	module:mod_rsbv_bsc
+zrsbv_bsr	SOFTWARE/rsbv_bsr.f90	/^      subroutine zrsbv_bsr /;"	s	module:mod_rsbv_bsr
+zrsbv_coo	SOFTWARE/rsbv_coo.f90	/^      subroutine zrsbv_coo /;"	s	module:mod_rsbv_coo
+zrsbv_csc	SOFTWARE/rsbv_csc.f90	/^      subroutine zrsbv_csc /;"	s	module:mod_rsbv_csc
+zrsbv_csr	SOFTWARE/rsbv_csr.f90	/^      subroutine zrsbv_csr /;"	s	module:mod_rsbv_csr
+zrsbv_dia	SOFTWARE/rsbv_dia.f90	/^      subroutine zrsbv_dia /;"	s	module:mod_rsbv_dia
+zrsbv_vbr	SOFTWARE/rsbv_vbr.f90	/^      subroutine zrsbv_vbr /;"	s	module:mod_rsbv_vbr
+zsp_first	SOFTWARE/link.f90	/^      type(zsp_linknode), pointer,SAVE,PRIVATE :: zsp_first,/;"	v	module:representation_of_data
+zsp_first	TARGET_FILES/link_target.F	/^      type(zsp_linknode), pointer,SAVE,PRIVATE :: zsp_first,/;"	v	module:representation_of_data
+zsp_init	SOFTWARE/link.f90	/^      logical,SAVE,PRIVATE :: zsp_init /;"	v	module:representation_of_data
+zsp_init	TARGET_FILES/link_target.F	/^      logical,SAVE,PRIVATE :: zsp_init /;"	v	module:representation_of_data
+zsp_last	SOFTWARE/link.f90	/^      type(zsp_linknode), pointer,SAVE,PRIVATE :: zsp_first, zsp_last$/;"	v	module:representation_of_data
+zsp_last	TARGET_FILES/link_target.F	/^      type(zsp_linknode), pointer,SAVE,PRIVATE :: zsp_first, zsp_last$/;"	v	module:representation_of_data
+zsp_linknode	SOFTWARE/link.f90	/^      type zsp_linknode$/;"	t	module:representation_of_data
+zsp_linknode	TARGET_FILES/link_target.F	/^      type zsp_linknode$/;"	t	module:representation_of_data
+zusaxpy	SOFTWARE/usaxpy.f90	/^ subroutine zusaxpy /;"	s	module:mod_usaxpy
+zusconv_coo2csc	SOFTWARE/usconv_coo2csc.f90	/^      subroutine zusconv_coo2csc /;"	s	module:mod_usconv_coo2csc
+zuscr_bco	SOFTWARE/uscr_bco.f90	/^      subroutine zuscr_bco /;"	s	module:mod_uscr_bco
+zuscr_bdi	SOFTWARE/uscr_bdi.f90	/^      subroutine zuscr_bdi /;"	s	module:mod_uscr_bdi
+zuscr_begin	SOFTWARE/uscr_begin.f90	/^      subroutine zuscr_begin /;"	s	module:mod_uscr_begin
+zuscr_block_begin	SOFTWARE/uscr_block_begin.f90	/^      subroutine  zuscr_block_begin /;"	s	module:mod_uscr_block_begin
+zuscr_blockend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine zuscr_blockend /;"	s	module:mod_INS_ROUTINER
+zuscr_bsc	SOFTWARE/uscr_bsc.f90	/^      subroutine zuscr_bsc /;"	s	module:mod_uscr_bsc
+zuscr_bsr	SOFTWARE/uscr_bsr.f90	/^      subroutine zuscr_bsr /;"	s	module:mod_uscr_bsr
+zuscr_coo	SOFTWARE/uscr_coo.f90	/^      subroutine zuscr_coo /;"	s	module:mod_uscr_coo
+zuscr_csc	SOFTWARE/uscr_csc.f90	/^      subroutine zuscr_csc /;"	s	module:mod_uscr_csc
+zuscr_csr	SOFTWARE/uscr_csr.f90	/^      subroutine zuscr_csr /;"	s	module:mod_uscr_csr
+zuscr_dia	SOFTWARE/uscr_dia.f90	/^      subroutine zuscr_dia /;"	s	module:mod_uscr_dia
+zuscr_insert_block	SOFTWARE/uscr_insert_block.f90	/^      subroutine  zuscr_insert_block /;"	s	module:mod_uscr_insert_block
+zuscr_insert_clique	SOFTWARE/uscr_insert_clique.f90	/^      subroutine  zuscr_insert_clique /;"	s	module:mod_uscr_insert_clique
+zuscr_insert_col	SOFTWARE/uscr_insert_col.f90	/^      subroutine  zuscr_insert_col /;"	s	module:mod_uscr_insert_col
+zuscr_insert_entries	SOFTWARE/uscr_insert_entries.f90	/^      subroutine zuscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+zuscr_insert_entry	SOFTWARE/uscr_insert_entry.f90	/^      subroutine zuscr_insert_entry /;"	s	module:mod_uscr_insert_entry
+zuscr_insert_row	SOFTWARE/uscr_insert_row.f90	/^      subroutine zuscr_insert_row /;"	s	module:mod_uscr_insert_row
+zuscr_normend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine zuscr_normend /;"	s	module:mod_INS_ROUTINER
+zuscr_varend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine zuscr_varend /;"	s	module:mod_INS_ROUTINER
+zuscr_variable_block_begin	SOFTWARE/uscr_variable_block_begin.f90	/^      subroutine zuscr_variable_block_begin /;"	s	module:mod_uscr_variable_block_begin
+zuscr_vbr	SOFTWARE/uscr_vbr.f90	/^      subroutine zuscr_vbr /;"	s	module:mod_uscr_vbr
+zusdot	SOFTWARE/usdot.f90	/^complex(KIND=dp)  function zusdot /;"	f	module:mod_usdot
+zusga	SOFTWARE/usga.f90	/^ subroutine zusga /;"	s	module:mod_usga
+zusgz	SOFTWARE/usgz.f90	/^subroutine zusgz /;"	s	module:mod_usgz
+zusmm	SOFTWARE/usmm.f90	/^      subroutine zusmm /;"	s	module:mod_usmm
+zusmv	SOFTWARE/usmv.f90	/^      subroutine zusmv /;"	s	module:mod_usmv
+zussc	SOFTWARE/ussc.f90	/^  subroutine zussc /;"	s	module:mod_ussc
+zussm	SOFTWARE/ussm.f90	/^      subroutine zussm /;"	s	module:mod_ussm
+zussv	SOFTWARE/ussv.f90	/^      subroutine zussv /;"	s	module:mod_ussv

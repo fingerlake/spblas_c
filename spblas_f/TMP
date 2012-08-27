@@ -1,0 +1,661 @@
+SOFTWARE/.svn/text-base/tags.svn-base:new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:c_matrix
+SOFTWARE/.svn/text-base/tags.svn-base:new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:d_matrix
+SOFTWARE/.svn/text-base/tags.svn-base:new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:i_matrix
+SOFTWARE/.svn/text-base/tags.svn-base:new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:s_matrix
+SOFTWARE/.svn/text-base/tags.svn-base:new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:z_matrix
+SOFTWARE/.svn/text-base/tags.svn-base:number	INSERTING.f90	/^integer::number$/;"	k	type:c_element
+SOFTWARE/.svn/text-base/tags.svn-base:number	INSERTING.f90	/^integer::number$/;"	k	type:d_element
+SOFTWARE/.svn/text-base/tags.svn-base:number	INSERTING.f90	/^integer::number$/;"	k	type:i_element
+SOFTWARE/.svn/text-base/tags.svn-base:number	INSERTING.f90	/^integer::number$/;"	k	type:s_element
+SOFTWARE/.svn/text-base/tags.svn-base:number	INSERTING.f90	/^integer::number$/;"	k	type:z_element
+SOFTWARE/.svn/text-base/tags.svn-base:number	INSERTING.f90	/^integer::property,number,/;"	k	type:c_matrix
+SOFTWARE/.svn/text-base/tags.svn-base:number	INSERTING.f90	/^integer::property,number,/;"	k	type:d_matrix
+SOFTWARE/.svn/text-base/tags.svn-base:number	INSERTING.f90	/^integer::property,number,/;"	k	type:i_matrix
+SOFTWARE/.svn/text-base/tags.svn-base:number	INSERTING.f90	/^integer::property,number,/;"	k	type:s_matrix
+SOFTWARE/.svn/text-base/tags.svn-base:number	INSERTING.f90	/^integer::property,number,/;"	k	type:z_matrix
+SOFTWARE/.svn/text-base/tags.svn-base:number	link.f90	/^        integer :: number$/;"	k	type:csp_linknode
+SOFTWARE/.svn/text-base/tags.svn-base:number	link.f90	/^        integer :: number$/;"	k	type:dsp_linknode
+SOFTWARE/.svn/text-base/tags.svn-base:number	link.f90	/^        integer :: number$/;"	k	type:isp_linknode
+SOFTWARE/.svn/text-base/tags.svn-base:number	link.f90	/^        integer :: number$/;"	k	type:ssp_linknode
+SOFTWARE/.svn/text-base/tags.svn-base:number	link.f90	/^        integer :: number$/;"	k	type:zsp_linknode
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:integer::number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:integer::property,number,new
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:integer::number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:integer::property,number,new
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:integer::number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:integer::property,number,new
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:integer::number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:integer::property,number,new
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:integer::number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:integer::property,number,new
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         i_matrix_start %number= ISP_MATRIX     
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         i_matrix_start %number=- i_matrix_start %number    
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         matrix_insert%number= i_matrix_start %number-no_of_types
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      nmb= i_matrix_start %number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(i_matrix_start %number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:            if(matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      do while((matrix_tester%number.ne.nmb).and.&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      if (matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         pmatrix% i_element_start %number=1 !will certainly changed
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         element_insert%number=pmatrix% i_element_start %number+1       
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      nmb_element=pmatrix% i_element_start %number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(pmatrix% i_element_start %number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:            if(element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      do while((element_tester%number.ne.nmb_element)&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      if (element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         call  dealloc_i_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:           call  dealloc_i_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         call  dealloc_i_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         s_matrix_start %number= SSP_MATRIX     
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         s_matrix_start %number=- s_matrix_start %number    
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         matrix_insert%number= s_matrix_start %number-no_of_types
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      nmb= s_matrix_start %number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(s_matrix_start %number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:            if(matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      do while((matrix_tester%number.ne.nmb).and.&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      if (matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         pmatrix% s_element_start %number=1 !will certainly changed
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         element_insert%number=pmatrix% s_element_start %number+1       
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      nmb_element=pmatrix% s_element_start %number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(pmatrix% s_element_start %number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:            if(element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      do while((element_tester%number.ne.nmb_element)&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      if (element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         call  dealloc_s_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:           call  dealloc_s_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         call  dealloc_s_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         d_matrix_start %number= DSP_MATRIX     
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         d_matrix_start %number=- d_matrix_start %number    
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         matrix_insert%number= d_matrix_start %number-no_of_types
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      nmb= d_matrix_start %number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(d_matrix_start %number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:            if(matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      do while((matrix_tester%number.ne.nmb).and.&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      if (matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         pmatrix% d_element_start %number=1 !will certainly changed
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         element_insert%number=pmatrix% d_element_start %number+1       
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      nmb_element=pmatrix% d_element_start %number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(pmatrix% d_element_start %number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:            if(element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      do while((element_tester%number.ne.nmb_element)&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      if (element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         call  dealloc_d_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:           call  dealloc_d_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         call  dealloc_d_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         c_matrix_start %number= CSP_MATRIX     
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         c_matrix_start %number=- c_matrix_start %number    
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         matrix_insert%number= c_matrix_start %number-no_of_types
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      nmb= c_matrix_start %number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(c_matrix_start %number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:            if(matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      do while((matrix_tester%number.ne.nmb).and.&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      if (matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         pmatrix% c_element_start %number=1 !will certainly changed
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         element_insert%number=pmatrix% c_element_start %number+1       
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      nmb_element=pmatrix% c_element_start %number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(pmatrix% c_element_start %number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:            if(element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      do while((element_tester%number.ne.nmb_element)&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      if (element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         call  dealloc_c_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:           call  dealloc_c_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         call  dealloc_c_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         z_matrix_start %number= ZSP_MATRIX     
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         z_matrix_start %number=- z_matrix_start %number    
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         matrix_insert%number= z_matrix_start %number-no_of_types
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      nmb= z_matrix_start %number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(z_matrix_start %number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:            if(matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      do while((matrix_tester%number.ne.nmb).and.&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      if (matrix_tester%number.eq.nmb) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         pmatrix% z_element_start %number=1 !will certainly changed
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         element_insert%number=pmatrix% z_element_start %number+1       
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      nmb_element=pmatrix% z_element_start %number
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(pmatrix% z_element_start %number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         if(element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:            if(element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      do while((element_tester%number.ne.nmb_element)&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:      if (element_tester%number.eq.nmb_element) then
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number        
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:               nmb_element=element_tester%number      
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         call  dealloc_z_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:           call  dealloc_z_element (element_tester%number,&
+SOFTWARE/.svn/text-base/INSERTING.f90.svn-base:         call  dealloc_z_element (element_tester%number,&
+SOFTWARE/.svn/text-base/info.f90.svn-base:!                   "print" displays data for given handle number
+SOFTWARE/.svn/text-base/info.f90.svn-base:         write(*,*) 'number of rows : ', isp_data %M
+SOFTWARE/.svn/text-base/info.f90.svn-base:         write(*,*) 'number of columns : ', isp_data %K
+SOFTWARE/.svn/text-base/info.f90.svn-base:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOFTWARE/.svn/text-base/info.f90.svn-base:         write(*,*) 'number of rows : ', ssp_data %M
+SOFTWARE/.svn/text-base/info.f90.svn-base:         write(*,*) 'number of columns : ', ssp_data %K
+SOFTWARE/.svn/text-base/info.f90.svn-base:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOFTWARE/.svn/text-base/info.f90.svn-base:         write(*,*) 'number of rows : ', dsp_data %M
+SOFTWARE/.svn/text-base/info.f90.svn-base:         write(*,*) 'number of columns : ', dsp_data %K
+SOFTWARE/.svn/text-base/info.f90.svn-base:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOFTWARE/.svn/text-base/info.f90.svn-base:         write(*,*) 'number of rows : ', csp_data %M
+SOFTWARE/.svn/text-base/info.f90.svn-base:         write(*,*) 'number of columns : ', csp_data %K
+SOFTWARE/.svn/text-base/info.f90.svn-base:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOFTWARE/.svn/text-base/info.f90.svn-base:         write(*,*) 'number of rows : ', zsp_data %M
+SOFTWARE/.svn/text-base/info.f90.svn-base:         write(*,*) 'number of columns : ', zsp_data %K
+SOFTWARE/.svn/text-base/info.f90.svn-base:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOFTWARE/.svn/text-base/link.f90.svn-base:!                   Node number is the handle number
+SOFTWARE/.svn/text-base/link.f90.svn-base:!                   accessdata: given a handle number, it returns a
+SOFTWARE/.svn/text-base/link.f90.svn-base:        integer :: number
+SOFTWARE/.svn/text-base/link.f90.svn-base:        integer :: number
+SOFTWARE/.svn/text-base/link.f90.svn-base:        integer :: number
+SOFTWARE/.svn/text-base/link.f90.svn-base:        integer :: number
+SOFTWARE/.svn/text-base/link.f90.svn-base:        integer :: number
+SOFTWARE/.svn/text-base/link.f90.svn-base:         isp_first %number = ISP_MATRIX 
+SOFTWARE/.svn/text-base/link.f90.svn-base:         help%number = isp_last %number + no_of_types
+SOFTWARE/.svn/text-base/link.f90.svn-base:      nmb = isp_last %number
+SOFTWARE/.svn/text-base/link.f90.svn-base:      if (isp_first %number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:            if (help%pntr%number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:! *** access contents for given number nmb
+SOFTWARE/.svn/text-base/link.f90.svn-base:      do while((isp_handle %number.ne.nmb).and.&
+SOFTWARE/.svn/text-base/link.f90.svn-base:      if (isp_handle %number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:         ssp_first %number = SSP_MATRIX 
+SOFTWARE/.svn/text-base/link.f90.svn-base:         help%number = ssp_last %number + no_of_types
+SOFTWARE/.svn/text-base/link.f90.svn-base:      nmb = ssp_last %number
+SOFTWARE/.svn/text-base/link.f90.svn-base:      if (ssp_first %number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:            if (help%pntr%number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:! *** access contents for given number nmb
+SOFTWARE/.svn/text-base/link.f90.svn-base:      do while((ssp_handle %number.ne.nmb).and.&
+SOFTWARE/.svn/text-base/link.f90.svn-base:      if (ssp_handle %number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:         dsp_first %number = DSP_MATRIX 
+SOFTWARE/.svn/text-base/link.f90.svn-base:         help%number = dsp_last %number + no_of_types
+SOFTWARE/.svn/text-base/link.f90.svn-base:      nmb = dsp_last %number
+SOFTWARE/.svn/text-base/link.f90.svn-base:      if (dsp_first %number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:            if (help%pntr%number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:! *** access contents for given number nmb
+SOFTWARE/.svn/text-base/link.f90.svn-base:      do while((dsp_handle %number.ne.nmb).and.&
+SOFTWARE/.svn/text-base/link.f90.svn-base:      if (dsp_handle %number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:         csp_first %number = CSP_MATRIX 
+SOFTWARE/.svn/text-base/link.f90.svn-base:         help%number = csp_last %number + no_of_types
+SOFTWARE/.svn/text-base/link.f90.svn-base:      nmb = csp_last %number
+SOFTWARE/.svn/text-base/link.f90.svn-base:      if (csp_first %number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:            if (help%pntr%number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:! *** access contents for given number nmb
+SOFTWARE/.svn/text-base/link.f90.svn-base:      do while((csp_handle %number.ne.nmb).and.&
+SOFTWARE/.svn/text-base/link.f90.svn-base:      if (csp_handle %number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:         zsp_first %number = ZSP_MATRIX 
+SOFTWARE/.svn/text-base/link.f90.svn-base:         help%number = zsp_last %number + no_of_types
+SOFTWARE/.svn/text-base/link.f90.svn-base:      nmb = zsp_last %number
+SOFTWARE/.svn/text-base/link.f90.svn-base:      if (zsp_first %number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:            if (help%pntr%number.eq.nmb) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOFTWARE/.svn/text-base/link.f90.svn-base:! *** access contents for given number nmb
+SOFTWARE/.svn/text-base/link.f90.svn-base:      do while((zsp_handle %number.ne.nmb).and.&
+SOFTWARE/.svn/text-base/link.f90.svn-base:      if (zsp_handle %number.eq.nmb) then
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:              indx(pmatrix% i_element_start %number+1),&
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:              bindx(pmatrix% i_element_start %number),&
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:      nnz=pmatrix% i_element_start %number
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:      bnnz=pmatrix% i_element_start %number
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:              indx(pmatrix% s_element_start %number+1),&
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:              bindx(pmatrix% s_element_start %number),&
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:      nnz=pmatrix% s_element_start %number
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:      bnnz=pmatrix% s_element_start %number
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:              indx(pmatrix% d_element_start %number+1),&
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:              bindx(pmatrix% d_element_start %number),&
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:      nnz=pmatrix% d_element_start %number
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:      bnnz=pmatrix% d_element_start %number
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:              indx(pmatrix% c_element_start %number+1),&
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:              bindx(pmatrix% c_element_start %number),&
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:      nnz=pmatrix% c_element_start %number
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:      bnnz=pmatrix% c_element_start %number
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:              indx(pmatrix% z_element_start %number+1),&
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:              bindx(pmatrix% z_element_start %number),&
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:      nnz=pmatrix% z_element_start %number
+SOFTWARE/.svn/text-base/INS_ROUTINER.f90.svn-base:      bnnz=pmatrix% z_element_start %number
+SOFTWARE/INS_ROUTINER.f90:              indx(pmatrix% i_element_start %number+1),&
+SOFTWARE/INS_ROUTINER.f90:              bindx(pmatrix% i_element_start %number),&
+SOFTWARE/INS_ROUTINER.f90:      nnz=pmatrix% i_element_start %number
+SOFTWARE/INS_ROUTINER.f90:      bnnz=pmatrix% i_element_start %number
+SOFTWARE/INS_ROUTINER.f90:              indx(pmatrix% s_element_start %number+1),&
+SOFTWARE/INS_ROUTINER.f90:              bindx(pmatrix% s_element_start %number),&
+SOFTWARE/INS_ROUTINER.f90:      nnz=pmatrix% s_element_start %number
+SOFTWARE/INS_ROUTINER.f90:      bnnz=pmatrix% s_element_start %number
+SOFTWARE/INS_ROUTINER.f90:              indx(pmatrix% d_element_start %number+1),&
+SOFTWARE/INS_ROUTINER.f90:              bindx(pmatrix% d_element_start %number),&
+SOFTWARE/INS_ROUTINER.f90:      nnz=pmatrix% d_element_start %number
+SOFTWARE/INS_ROUTINER.f90:      bnnz=pmatrix% d_element_start %number
+SOFTWARE/INS_ROUTINER.f90:              indx(pmatrix% c_element_start %number+1),&
+SOFTWARE/INS_ROUTINER.f90:              bindx(pmatrix% c_element_start %number),&
+SOFTWARE/INS_ROUTINER.f90:      nnz=pmatrix% c_element_start %number
+SOFTWARE/INS_ROUTINER.f90:      bnnz=pmatrix% c_element_start %number
+SOFTWARE/INS_ROUTINER.f90:              indx(pmatrix% z_element_start %number+1),&
+SOFTWARE/INS_ROUTINER.f90:              bindx(pmatrix% z_element_start %number),&
+SOFTWARE/INS_ROUTINER.f90:      nnz=pmatrix% z_element_start %number
+SOFTWARE/INS_ROUTINER.f90:      bnnz=pmatrix% z_element_start %number
+SOFTWARE/link.f90:!                   Node number is the handle number
+SOFTWARE/link.f90:!                   accessdata: given a handle number, it returns a
+SOFTWARE/link.f90:        integer :: number
+SOFTWARE/link.f90:        integer :: number
+SOFTWARE/link.f90:        integer :: number
+SOFTWARE/link.f90:        integer :: number
+SOFTWARE/link.f90:        integer :: number
+SOFTWARE/link.f90:         isp_first %number = ISP_MATRIX 
+SOFTWARE/link.f90:         help%number = isp_last %number + no_of_types
+SOFTWARE/link.f90:      nmb = isp_last %number
+SOFTWARE/link.f90:      if (isp_first %number.eq.nmb) then
+SOFTWARE/link.f90:            if (help%pntr%number.eq.nmb) then
+SOFTWARE/link.f90:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOFTWARE/link.f90:! *** access contents for given number nmb
+SOFTWARE/link.f90:      do while((isp_handle %number.ne.nmb).and.&
+SOFTWARE/link.f90:      if (isp_handle %number.eq.nmb) then
+SOFTWARE/link.f90:         ssp_first %number = SSP_MATRIX 
+SOFTWARE/link.f90:         help%number = ssp_last %number + no_of_types
+SOFTWARE/link.f90:      nmb = ssp_last %number
+SOFTWARE/link.f90:      if (ssp_first %number.eq.nmb) then
+SOFTWARE/link.f90:            if (help%pntr%number.eq.nmb) then
+SOFTWARE/link.f90:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOFTWARE/link.f90:! *** access contents for given number nmb
+SOFTWARE/link.f90:      do while((ssp_handle %number.ne.nmb).and.&
+SOFTWARE/link.f90:      if (ssp_handle %number.eq.nmb) then
+SOFTWARE/link.f90:         dsp_first %number = DSP_MATRIX 
+SOFTWARE/link.f90:         help%number = dsp_last %number + no_of_types
+SOFTWARE/link.f90:      nmb = dsp_last %number
+SOFTWARE/link.f90:      if (dsp_first %number.eq.nmb) then
+SOFTWARE/link.f90:            if (help%pntr%number.eq.nmb) then
+SOFTWARE/link.f90:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOFTWARE/link.f90:! *** access contents for given number nmb
+SOFTWARE/link.f90:      do while((dsp_handle %number.ne.nmb).and.&
+SOFTWARE/link.f90:      if (dsp_handle %number.eq.nmb) then
+SOFTWARE/link.f90:         csp_first %number = CSP_MATRIX 
+SOFTWARE/link.f90:         help%number = csp_last %number + no_of_types
+SOFTWARE/link.f90:      nmb = csp_last %number
+SOFTWARE/link.f90:      if (csp_first %number.eq.nmb) then
+SOFTWARE/link.f90:            if (help%pntr%number.eq.nmb) then
+SOFTWARE/link.f90:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOFTWARE/link.f90:! *** access contents for given number nmb
+SOFTWARE/link.f90:      do while((csp_handle %number.ne.nmb).and.&
+SOFTWARE/link.f90:      if (csp_handle %number.eq.nmb) then
+SOFTWARE/link.f90:         zsp_first %number = ZSP_MATRIX 
+SOFTWARE/link.f90:         help%number = zsp_last %number + no_of_types
+SOFTWARE/link.f90:      nmb = zsp_last %number
+SOFTWARE/link.f90:      if (zsp_first %number.eq.nmb) then
+SOFTWARE/link.f90:            if (help%pntr%number.eq.nmb) then
+SOFTWARE/link.f90:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOFTWARE/link.f90:! *** access contents for given number nmb
+SOFTWARE/link.f90:      do while((zsp_handle %number.ne.nmb).and.&
+SOFTWARE/link.f90:      if (zsp_handle %number.eq.nmb) then
+SOFTWARE/INSERTING.f90:integer::number
+SOFTWARE/INSERTING.f90:integer::property,number,new
+SOFTWARE/INSERTING.f90:integer::number
+SOFTWARE/INSERTING.f90:integer::property,number,new
+SOFTWARE/INSERTING.f90:integer::number
+SOFTWARE/INSERTING.f90:integer::property,number,new
+SOFTWARE/INSERTING.f90:integer::number
+SOFTWARE/INSERTING.f90:integer::property,number,new
+SOFTWARE/INSERTING.f90:integer::number
+SOFTWARE/INSERTING.f90:integer::property,number,new
+SOFTWARE/INSERTING.f90:         i_matrix_start %number= ISP_MATRIX     
+SOFTWARE/INSERTING.f90:         i_matrix_start %number=- i_matrix_start %number    
+SOFTWARE/INSERTING.f90:         matrix_insert%number= i_matrix_start %number-no_of_types
+SOFTWARE/INSERTING.f90:      nmb= i_matrix_start %number
+SOFTWARE/INSERTING.f90:         if(i_matrix_start %number.eq.nmb) then
+SOFTWARE/INSERTING.f90:         if(matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:            if(matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:      do while((matrix_tester%number.ne.nmb).and.&
+SOFTWARE/INSERTING.f90:      if (matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:         pmatrix% i_element_start %number=1 !will certainly changed
+SOFTWARE/INSERTING.f90:         element_insert%number=pmatrix% i_element_start %number+1       
+SOFTWARE/INSERTING.f90:      nmb_element=pmatrix% i_element_start %number
+SOFTWARE/INSERTING.f90:         if(pmatrix% i_element_start %number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:         if(element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:            if(element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:      do while((element_tester%number.ne.nmb_element)&
+SOFTWARE/INSERTING.f90:      if (element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:         call  dealloc_i_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:           call  dealloc_i_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:         call  dealloc_i_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:         s_matrix_start %number= SSP_MATRIX     
+SOFTWARE/INSERTING.f90:         s_matrix_start %number=- s_matrix_start %number    
+SOFTWARE/INSERTING.f90:         matrix_insert%number= s_matrix_start %number-no_of_types
+SOFTWARE/INSERTING.f90:      nmb= s_matrix_start %number
+SOFTWARE/INSERTING.f90:         if(s_matrix_start %number.eq.nmb) then
+SOFTWARE/INSERTING.f90:         if(matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:            if(matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:      do while((matrix_tester%number.ne.nmb).and.&
+SOFTWARE/INSERTING.f90:      if (matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:         pmatrix% s_element_start %number=1 !will certainly changed
+SOFTWARE/INSERTING.f90:         element_insert%number=pmatrix% s_element_start %number+1       
+SOFTWARE/INSERTING.f90:      nmb_element=pmatrix% s_element_start %number
+SOFTWARE/INSERTING.f90:         if(pmatrix% s_element_start %number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:         if(element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:            if(element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:      do while((element_tester%number.ne.nmb_element)&
+SOFTWARE/INSERTING.f90:      if (element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:         call  dealloc_s_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:           call  dealloc_s_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:         call  dealloc_s_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:         d_matrix_start %number= DSP_MATRIX     
+SOFTWARE/INSERTING.f90:         d_matrix_start %number=- d_matrix_start %number    
+SOFTWARE/INSERTING.f90:         matrix_insert%number= d_matrix_start %number-no_of_types
+SOFTWARE/INSERTING.f90:      nmb= d_matrix_start %number
+SOFTWARE/INSERTING.f90:         if(d_matrix_start %number.eq.nmb) then
+SOFTWARE/INSERTING.f90:         if(matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:            if(matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:      do while((matrix_tester%number.ne.nmb).and.&
+SOFTWARE/INSERTING.f90:      if (matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:         pmatrix% d_element_start %number=1 !will certainly changed
+SOFTWARE/INSERTING.f90:         element_insert%number=pmatrix% d_element_start %number+1       
+SOFTWARE/INSERTING.f90:      nmb_element=pmatrix% d_element_start %number
+SOFTWARE/INSERTING.f90:         if(pmatrix% d_element_start %number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:         if(element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:            if(element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:      do while((element_tester%number.ne.nmb_element)&
+SOFTWARE/INSERTING.f90:      if (element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:         call  dealloc_d_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:           call  dealloc_d_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:         call  dealloc_d_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:         c_matrix_start %number= CSP_MATRIX     
+SOFTWARE/INSERTING.f90:         c_matrix_start %number=- c_matrix_start %number    
+SOFTWARE/INSERTING.f90:         matrix_insert%number= c_matrix_start %number-no_of_types
+SOFTWARE/INSERTING.f90:      nmb= c_matrix_start %number
+SOFTWARE/INSERTING.f90:         if(c_matrix_start %number.eq.nmb) then
+SOFTWARE/INSERTING.f90:         if(matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:            if(matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:      do while((matrix_tester%number.ne.nmb).and.&
+SOFTWARE/INSERTING.f90:      if (matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:         pmatrix% c_element_start %number=1 !will certainly changed
+SOFTWARE/INSERTING.f90:         element_insert%number=pmatrix% c_element_start %number+1       
+SOFTWARE/INSERTING.f90:      nmb_element=pmatrix% c_element_start %number
+SOFTWARE/INSERTING.f90:         if(pmatrix% c_element_start %number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:         if(element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:            if(element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:      do while((element_tester%number.ne.nmb_element)&
+SOFTWARE/INSERTING.f90:      if (element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:         call  dealloc_c_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:           call  dealloc_c_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:         call  dealloc_c_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:         z_matrix_start %number= ZSP_MATRIX     
+SOFTWARE/INSERTING.f90:         z_matrix_start %number=- z_matrix_start %number    
+SOFTWARE/INSERTING.f90:         matrix_insert%number= z_matrix_start %number-no_of_types
+SOFTWARE/INSERTING.f90:      nmb= z_matrix_start %number
+SOFTWARE/INSERTING.f90:         if(z_matrix_start %number.eq.nmb) then
+SOFTWARE/INSERTING.f90:         if(matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:            if(matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:      do while((matrix_tester%number.ne.nmb).and.&
+SOFTWARE/INSERTING.f90:      if (matrix_tester%number.eq.nmb) then
+SOFTWARE/INSERTING.f90:         pmatrix% z_element_start %number=1 !will certainly changed
+SOFTWARE/INSERTING.f90:         element_insert%number=pmatrix% z_element_start %number+1       
+SOFTWARE/INSERTING.f90:      nmb_element=pmatrix% z_element_start %number
+SOFTWARE/INSERTING.f90:         if(pmatrix% z_element_start %number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:         if(element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:            if(element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:      do while((element_tester%number.ne.nmb_element)&
+SOFTWARE/INSERTING.f90:      if (element_tester%number.eq.nmb_element) then
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number        
+SOFTWARE/INSERTING.f90:               nmb_element=element_tester%number      
+SOFTWARE/INSERTING.f90:         call  dealloc_z_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:           call  dealloc_z_element (element_tester%number,&
+SOFTWARE/INSERTING.f90:         call  dealloc_z_element (element_tester%number,&
+SOFTWARE/tags:new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:c_matrix
+SOFTWARE/tags:new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:d_matrix
+SOFTWARE/tags:new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:i_matrix
+SOFTWARE/tags:new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:s_matrix
+SOFTWARE/tags:new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:z_matrix
+SOFTWARE/tags:number	INSERTING.f90	/^integer::number$/;"	k	type:c_element
+SOFTWARE/tags:number	INSERTING.f90	/^integer::number$/;"	k	type:d_element
+SOFTWARE/tags:number	INSERTING.f90	/^integer::number$/;"	k	type:i_element
+SOFTWARE/tags:number	INSERTING.f90	/^integer::number$/;"	k	type:s_element
+SOFTWARE/tags:number	INSERTING.f90	/^integer::number$/;"	k	type:z_element
+SOFTWARE/tags:number	INSERTING.f90	/^integer::property,number,/;"	k	type:c_matrix
+SOFTWARE/tags:number	INSERTING.f90	/^integer::property,number,/;"	k	type:d_matrix
+SOFTWARE/tags:number	INSERTING.f90	/^integer::property,number,/;"	k	type:i_matrix
+SOFTWARE/tags:number	INSERTING.f90	/^integer::property,number,/;"	k	type:s_matrix
+SOFTWARE/tags:number	INSERTING.f90	/^integer::property,number,/;"	k	type:z_matrix
+SOFTWARE/tags:number	link.f90	/^        integer :: number$/;"	k	type:csp_linknode
+SOFTWARE/tags:number	link.f90	/^        integer :: number$/;"	k	type:dsp_linknode
+SOFTWARE/tags:number	link.f90	/^        integer :: number$/;"	k	type:isp_linknode
+SOFTWARE/tags:number	link.f90	/^        integer :: number$/;"	k	type:ssp_linknode
+SOFTWARE/tags:number	link.f90	/^        integer :: number$/;"	k	type:zsp_linknode
+SOFTWARE/info.f90:!                   "print" displays data for given handle number
+SOFTWARE/info.f90:         write(*,*) 'number of rows : ', isp_data %M
+SOFTWARE/info.f90:         write(*,*) 'number of columns : ', isp_data %K
+SOFTWARE/info.f90:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOFTWARE/info.f90:         write(*,*) 'number of rows : ', ssp_data %M
+SOFTWARE/info.f90:         write(*,*) 'number of columns : ', ssp_data %K
+SOFTWARE/info.f90:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOFTWARE/info.f90:         write(*,*) 'number of rows : ', dsp_data %M
+SOFTWARE/info.f90:         write(*,*) 'number of columns : ', dsp_data %K
+SOFTWARE/info.f90:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOFTWARE/info.f90:         write(*,*) 'number of rows : ', csp_data %M
+SOFTWARE/info.f90:         write(*,*) 'number of columns : ', csp_data %K
+SOFTWARE/info.f90:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOFTWARE/info.f90:         write(*,*) 'number of rows : ', zsp_data %M
+SOFTWARE/info.f90:         write(*,*) 'number of columns : ', zsp_data %K
+SOFTWARE/info.f90:            write(*,*) 'number of non-zero(-block)s : ',nnz
+Binary file SOFTWARE/.INSERTING.f90.swp matches
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         X_MATRIX_start%number=XSP_MATRIX    
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         X_MATRIX_start%number=-X_MATRIX_start%number    
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         matrix_insert%number=X_MATRIX_start%number-no_of_types
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:      nmb=X_MATRIX_start%number
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         if(X_MATRIX_start%number.eq.nmb) then
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         if(matrix_tester%number.eq.nmb) then
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:            if(matrix_tester%number.eq.nmb) then
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:      do while((matrix_tester%number.ne.nmb).and.&
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:      if (matrix_tester%number.eq.nmb) then
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         pmatrix%X_ELEMENT_start%number=1 !will certainly changed
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         element_insert%number=pmatrix%X_ELEMENT_start%number+1       
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:      nmb_element=pmatrix%X_ELEMENT_start%number
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         if(pmatrix%X_ELEMENT_start%number.eq.nmb_element) then
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         if(element_tester%number.eq.nmb_element) then
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:            if(element_tester%number.eq.nmb_element) then
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:      do while((element_tester%number.ne.nmb_element)&
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:      if (element_tester%number.eq.nmb_element) then
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:               nmb_element=element_tester%number        
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:               nmb_element=element_tester%number      
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:               nmb_element=element_tester%number        
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:               nmb_element=element_tester%number      
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:               nmb_element=element_tester%number        
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:               nmb_element=element_tester%number      
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         call  DELOC_X_ELEMENT(element_tester%number,&
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:           call  DELOC_X_ELEMENT(element_tester%number,&
+SOURCE_FILES/.svn/text-base/INSERTING_source.F.svn-base:         call  DELOC_X_ELEMENT(element_tester%number,&
+SOURCE_FILES/.svn/text-base/INS_ROUTINER_source.F.svn-base:              indx(pmatrix%X_ELEMENT_start%number+1),&
+SOURCE_FILES/.svn/text-base/INS_ROUTINER_source.F.svn-base:              bindx(pmatrix%X_ELEMENT_start%number),&
+SOURCE_FILES/.svn/text-base/INS_ROUTINER_source.F.svn-base:      nnz=pmatrix%X_ELEMENT_start%number
+SOURCE_FILES/.svn/text-base/INS_ROUTINER_source.F.svn-base:      bnnz=pmatrix%X_ELEMENT_start%number
+SOURCE_FILES/.svn/text-base/link_source.F.svn-base:         XSP_FIRST%number = XSP_MATRIX
+SOURCE_FILES/.svn/text-base/link_source.F.svn-base:         help%number = XSP_LAST%number + no_of_types
+SOURCE_FILES/.svn/text-base/link_source.F.svn-base:      nmb = XSP_LAST%number
+SOURCE_FILES/.svn/text-base/link_source.F.svn-base:      if (XSP_FIRST%number.eq.nmb) then
+SOURCE_FILES/.svn/text-base/link_source.F.svn-base:            if (help%pntr%number.eq.nmb) then
+SOURCE_FILES/.svn/text-base/link_source.F.svn-base:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOURCE_FILES/.svn/text-base/link_source.F.svn-base:! *** access contents for given number nmb
+SOURCE_FILES/.svn/text-base/link_source.F.svn-base:      do while((XSP_HANDLE%number.ne.nmb).and.&
+SOURCE_FILES/.svn/text-base/link_source.F.svn-base:      if (XSP_HANDLE%number.eq.nmb) then
+SOURCE_FILES/.svn/text-base/info_source.F.svn-base:         write(*,*) 'number of rows : ', XSP_DATA%M
+SOURCE_FILES/.svn/text-base/info_source.F.svn-base:         write(*,*) 'number of columns : ', XSP_DATA%K
+SOURCE_FILES/.svn/text-base/info_source.F.svn-base:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOURCE_FILES/info_source.F:         write(*,*) 'number of rows : ', XSP_DATA%M
+SOURCE_FILES/info_source.F:         write(*,*) 'number of columns : ', XSP_DATA%K
+SOURCE_FILES/info_source.F:            write(*,*) 'number of non-zero(-block)s : ',nnz
+SOURCE_FILES/INS_ROUTINER_source.F:              indx(pmatrix%X_ELEMENT_start%number+1),&
+SOURCE_FILES/INS_ROUTINER_source.F:              bindx(pmatrix%X_ELEMENT_start%number),&
+SOURCE_FILES/INS_ROUTINER_source.F:      nnz=pmatrix%X_ELEMENT_start%number
+SOURCE_FILES/INS_ROUTINER_source.F:      bnnz=pmatrix%X_ELEMENT_start%number
+SOURCE_FILES/link_source.F:         XSP_FIRST%number = XSP_MATRIX
+SOURCE_FILES/link_source.F:         help%number = XSP_LAST%number + no_of_types
+SOURCE_FILES/link_source.F:      nmb = XSP_LAST%number
+SOURCE_FILES/link_source.F:      if (XSP_FIRST%number.eq.nmb) then
+SOURCE_FILES/link_source.F:            if (help%pntr%number.eq.nmb) then
+SOURCE_FILES/link_source.F:         if((ierr.eq.-1).and.(help%pntr%number.eq.nmb)) then
+SOURCE_FILES/link_source.F:! *** access contents for given number nmb
+SOURCE_FILES/link_source.F:      do while((XSP_HANDLE%number.ne.nmb).and.&
+SOURCE_FILES/link_source.F:      if (XSP_HANDLE%number.eq.nmb) then
+SOURCE_FILES/INSERTING_source.F:         X_MATRIX_start%number=XSP_MATRIX    
+SOURCE_FILES/INSERTING_source.F:         X_MATRIX_start%number=-X_MATRIX_start%number    
+SOURCE_FILES/INSERTING_source.F:         matrix_insert%number=X_MATRIX_start%number-no_of_types
+SOURCE_FILES/INSERTING_source.F:      nmb=X_MATRIX_start%number
+SOURCE_FILES/INSERTING_source.F:         if(X_MATRIX_start%number.eq.nmb) then
+SOURCE_FILES/INSERTING_source.F:         if(matrix_tester%number.eq.nmb) then
+SOURCE_FILES/INSERTING_source.F:            if(matrix_tester%number.eq.nmb) then
+SOURCE_FILES/INSERTING_source.F:      do while((matrix_tester%number.ne.nmb).and.&
+SOURCE_FILES/INSERTING_source.F:      if (matrix_tester%number.eq.nmb) then
+SOURCE_FILES/INSERTING_source.F:         pmatrix%X_ELEMENT_start%number=1 !will certainly changed
+SOURCE_FILES/INSERTING_source.F:         element_insert%number=pmatrix%X_ELEMENT_start%number+1       
+SOURCE_FILES/INSERTING_source.F:      nmb_element=pmatrix%X_ELEMENT_start%number
+SOURCE_FILES/INSERTING_source.F:         if(pmatrix%X_ELEMENT_start%number.eq.nmb_element) then
+SOURCE_FILES/INSERTING_source.F:         if(element_tester%number.eq.nmb_element) then
+SOURCE_FILES/INSERTING_source.F:            if(element_tester%number.eq.nmb_element) then
+SOURCE_FILES/INSERTING_source.F:      do while((element_tester%number.ne.nmb_element)&
+SOURCE_FILES/INSERTING_source.F:      if (element_tester%number.eq.nmb_element) then
+SOURCE_FILES/INSERTING_source.F:               nmb_element=element_tester%number        
+SOURCE_FILES/INSERTING_source.F:               nmb_element=element_tester%number      
+SOURCE_FILES/INSERTING_source.F:               nmb_element=element_tester%number        
+SOURCE_FILES/INSERTING_source.F:               nmb_element=element_tester%number      
+SOURCE_FILES/INSERTING_source.F:               nmb_element=element_tester%number        
+SOURCE_FILES/INSERTING_source.F:               nmb_element=element_tester%number      
+SOURCE_FILES/INSERTING_source.F:         call  DELOC_X_ELEMENT(element_tester%number,&
+SOURCE_FILES/INSERTING_source.F:           call  DELOC_X_ELEMENT(element_tester%number,&
+SOURCE_FILES/INSERTING_source.F:         call  DELOC_X_ELEMENT(element_tester%number,&
+tags:new	SOFTWARE/INSERTING.f90	/^integer::property,number,new$/;"	k	type:c_matrix
+tags:new	SOFTWARE/INSERTING.f90	/^integer::property,number,new$/;"	k	type:d_matrix
+tags:new	SOFTWARE/INSERTING.f90	/^integer::property,number,new$/;"	k	type:i_matrix
+tags:new	SOFTWARE/INSERTING.f90	/^integer::property,number,new$/;"	k	type:s_matrix
+tags:new	SOFTWARE/INSERTING.f90	/^integer::property,number,new$/;"	k	type:z_matrix
+tags:new	TARGET_FILES/INSERTING_target.F	/^integer::property,number,new$/;"	k	type:c_matrix
+tags:new	TARGET_FILES/INSERTING_target.F	/^integer::property,number,new$/;"	k	type:d_matrix
+tags:new	TARGET_FILES/INSERTING_target.F	/^integer::property,number,new$/;"	k	type:i_matrix
+tags:new	TARGET_FILES/INSERTING_target.F	/^integer::property,number,new$/;"	k	type:s_matrix
+tags:new	TARGET_FILES/INSERTING_target.F	/^integer::property,number,new$/;"	k	type:z_matrix
+tags:number	SOFTWARE/INSERTING.f90	/^integer::number$/;"	k	type:c_element
+tags:number	SOFTWARE/INSERTING.f90	/^integer::number$/;"	k	type:d_element
+tags:number	SOFTWARE/INSERTING.f90	/^integer::number$/;"	k	type:i_element
+tags:number	SOFTWARE/INSERTING.f90	/^integer::number$/;"	k	type:s_element
+tags:number	SOFTWARE/INSERTING.f90	/^integer::number$/;"	k	type:z_element
+tags:number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:c_matrix
+tags:number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:d_matrix
+tags:number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:i_matrix
+tags:number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:s_matrix
+tags:number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:z_matrix
+tags:number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:csp_linknode
+tags:number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:dsp_linknode
+tags:number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:isp_linknode
+tags:number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:ssp_linknode
+tags:number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:zsp_linknode
+tags:number	TARGET_FILES/INSERTING_target.F	/^integer::number$/;"	k	type:c_element
+tags:number	TARGET_FILES/INSERTING_target.F	/^integer::number$/;"	k	type:d_element
+tags:number	TARGET_FILES/INSERTING_target.F	/^integer::number$/;"	k	type:i_element
+tags:number	TARGET_FILES/INSERTING_target.F	/^integer::number$/;"	k	type:s_element
+tags:number	TARGET_FILES/INSERTING_target.F	/^integer::number$/;"	k	type:z_element
+tags:number	TARGET_FILES/INSERTING_target.F	/^integer::property,number,/;"	k	type:c_matrix
+tags:number	TARGET_FILES/INSERTING_target.F	/^integer::property,number,/;"	k	type:d_matrix
+tags:number	TARGET_FILES/INSERTING_target.F	/^integer::property,number,/;"	k	type:i_matrix
+tags:number	TARGET_FILES/INSERTING_target.F	/^integer::property,number,/;"	k	type:s_matrix
+tags:number	TARGET_FILES/INSERTING_target.F	/^integer::property,number,/;"	k	type:z_matrix
+tags:number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:csp_linknode
+tags:number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:dsp_linknode
+tags:number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:isp_linknode
+tags:number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:ssp_linknode
+tags:number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:zsp_linknode
+TARGET_FILES/.svn/text-base/link_target.F.svn-base:!                   Node number is the handle number
+TARGET_FILES/.svn/text-base/link_target.F.svn-base:!                   accessdata: given a handle number, it returns a
+TARGET_FILES/.svn/text-base/link_target.F.svn-base:        integer :: number
+TARGET_FILES/.svn/text-base/link_target.F.svn-base:        integer :: number
+TARGET_FILES/.svn/text-base/link_target.F.svn-base:        integer :: number
+TARGET_FILES/.svn/text-base/link_target.F.svn-base:        integer :: number
+TARGET_FILES/.svn/text-base/link_target.F.svn-base:        integer :: number
+TARGET_FILES/.svn/text-base/info_target.F.svn-base:!                   "print" displays data for given handle number
+TARGET_FILES/.svn/text-base/INSERTING_target.F.svn-base:integer::number
+TARGET_FILES/.svn/text-base/INSERTING_target.F.svn-base:integer::property,number,new
+TARGET_FILES/.svn/text-base/INSERTING_target.F.svn-base:integer::number
+TARGET_FILES/.svn/text-base/INSERTING_target.F.svn-base:integer::property,number,new
+TARGET_FILES/.svn/text-base/INSERTING_target.F.svn-base:integer::number
+TARGET_FILES/.svn/text-base/INSERTING_target.F.svn-base:integer::property,number,new
+TARGET_FILES/.svn/text-base/INSERTING_target.F.svn-base:integer::number
+TARGET_FILES/.svn/text-base/INSERTING_target.F.svn-base:integer::property,number,new
+TARGET_FILES/.svn/text-base/INSERTING_target.F.svn-base:integer::number
+TARGET_FILES/.svn/text-base/INSERTING_target.F.svn-base:integer::property,number,new
+TARGET_FILES/info_target.F:!                   "print" displays data for given handle number
+TARGET_FILES/INSERTING_target.F:integer::number
+TARGET_FILES/INSERTING_target.F:integer::property,number,new
+TARGET_FILES/INSERTING_target.F:integer::number
+TARGET_FILES/INSERTING_target.F:integer::property,number,new
+TARGET_FILES/INSERTING_target.F:integer::number
+TARGET_FILES/INSERTING_target.F:integer::property,number,new
+TARGET_FILES/INSERTING_target.F:integer::number
+TARGET_FILES/INSERTING_target.F:integer::property,number,new
+TARGET_FILES/INSERTING_target.F:integer::number
+TARGET_FILES/INSERTING_target.F:integer::property,number,new
+TARGET_FILES/link_target.F:!                   Node number is the handle number
+TARGET_FILES/link_target.F:!                   accessdata: given a handle number, it returns a
+TARGET_FILES/link_target.F:        integer :: number
+TARGET_FILES/link_target.F:        integer :: number
+TARGET_FILES/link_target.F:        integer :: number
+TARGET_FILES/link_target.F:        integer :: number
+TARGET_FILES/link_target.F:        integer :: number
+TESTER/.svn/text-base/power.f90.svn-base:        !     Fill Z by random numbers
+Binary file TESTER/.svn/text-base/test_all.svn-base matches
+TESTER/power.f90:        !     Fill Z by random numbers
+Binary file TESTER/test_all matches

@@ -1,0 +1,1038 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	types.f90	/^COMPLEX(KIND=dp), POINTER, DIMENSION(:) :: A$/;"	k	type:ZSPMAT
+A	types.f90	/^COMPLEX(KIND=sp), POINTER, DIMENSION(:) :: A$/;"	k	type:CSPMAT
+A	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: A$/;"	k	type:ISPMAT
+A	types.f90	/^REAL/;"	k	type:DSPMAT
+A	types.f90	/^REAL/;"	k	type:SSPMAT
+AR	Makefile	/^AR = ar -r -v$/;"	m
+A_indx_coo	test.f90	/^      integer, parameter, dimension(14) :: A_indx_coo /;"	v	program:test
+A_jndx_coo	test.f90	/^      integer, parameter, dimension(14) :: A_jndx_coo /;"	v	program:test
+A_val_coo	test.f90	/^      double precision, parameter, dimension(14) :: A_val_coo /;"	v	program:test
+BP1	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:CSPMAT
+BP1	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:DSPMAT
+BP1	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:ISPMAT
+BP1	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:SSPMAT
+BP1	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:ZSPMAT
+BP2	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:CSPMAT
+BP2	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:DSPMAT
+BP2	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:ISPMAT
+BP2	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:SSPMAT
+BP2	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:ZSPMAT
+CC	Makefile	/^CC = cc$/;"	m
+CFLAFS	Makefile	/^CFLAFS =$/;"	m
+COBJS	Makefile	/^COBJS = $/;"	m
+COP_OF_SOURCE	properties.f90	/^      integer, parameter :: COP_OF_SOURCE /;"	v	module:properties
+CSPMAT	types.f90	/^TYPE CSPMAT$/;"	t	module:types
+CSP_MATRIX	properties.f90	/^      integer, parameter :: CSP_MATRIX /;"	v	module:properties
+C_BASE	properties.f90	/^      integer, parameter :: C_BASE /;"	v	module:properties
+DESCRA	types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:CSPMAT
+DESCRA	types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:DSPMAT
+DESCRA	types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:ISPMAT
+DESCRA	types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:SSPMAT
+DESCRA	types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:ZSPMAT
+DIM	INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:c_matrix
+DIM	INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:d_matrix
+DIM	INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:i_matrix
+DIM	INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:s_matrix
+DIM	INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:z_matrix
+DSPMAT	types.f90	/^TYPE DSPMAT$/;"	t	module:types
+DSP_MATRIX	properties.f90	/^      integer, parameter :: DSP_MATRIX /;"	v	module:properties
+FC	Makefile	/^FC = f90$/;"	m
+FFLAGS	Makefile	/^FFLAGS = -g$/;"	m
+FIDA	types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:CSPMAT
+FIDA	types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:DSPMAT
+FIDA	types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:ISPMAT
+FIDA	types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:SSPMAT
+FIDA	types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:ZSPMAT
+F_BASE	properties.f90	/^      integer, parameter :: F_BASE /;"	v	module:properties
+HERMIT_MATRIX	properties.f90	/^      integer, parameter :: HERMIT_MATRIX /;"	v	module:properties
+IA1	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:CSPMAT
+IA1	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:DSPMAT
+IA1	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:ISPMAT
+IA1	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:SSPMAT
+IA1	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:ZSPMAT
+IA2	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:CSPMAT
+IA2	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:DSPMAT
+IA2	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:ISPMAT
+IA2	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:SSPMAT
+IA2	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:ZSPMAT
+INFOA	types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:CSPMAT
+INFOA	types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:DSPMAT
+INFOA	types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:ISPMAT
+INFOA	types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:SSPMAT
+INFOA	types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:ZSPMAT
+ISPMAT	types.f90	/^TYPE ISPMAT$/;"	t	module:types
+ISP_MATRIX	properties.f90	/^      integer, parameter :: ISP_MATRIX /;"	v	module:properties
+K	types.f90	/^INTEGER :: M,K$/;"	k	type:CSPMAT
+K	types.f90	/^INTEGER :: M,K$/;"	k	type:DSPMAT
+K	types.f90	/^INTEGER :: M,K$/;"	k	type:ISPMAT
+K	types.f90	/^INTEGER :: M,K$/;"	k	type:SSPMAT
+K	types.f90	/^INTEGER :: M,K$/;"	k	type:ZSPMAT
+LD	Makefile	/^LD = $(FC)$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+M	types.f90	/^INTEGER :: M,/;"	k	type:CSPMAT
+M	types.f90	/^INTEGER :: M,/;"	k	type:DSPMAT
+M	types.f90	/^INTEGER :: M,/;"	k	type:ISPMAT
+M	types.f90	/^INTEGER :: M,/;"	k	type:SSPMAT
+M	types.f90	/^INTEGER :: M,/;"	k	type:ZSPMAT
+MOD_SUF	Makefile	/^MOD_SUF = mod$/;"	m
+OBJS	Makefile	/^OBJS = conv_tools.o dense.o hash.o info.o link.o\\$/;"	m
+ORIGIN_MATRIX	properties.f90	/^      integer, parameter :: ORIGIN_MATRIX /;"	v	module:properties
+PB	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:CSPMAT
+PB	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:DSPMAT
+PB	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:ISPMAT
+PB	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:SSPMAT
+PB	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:ZSPMAT
+PE	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:CSPMAT
+PE	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:DSPMAT
+PE	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:ISPMAT
+PE	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:SSPMAT
+PE	types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:ZSPMAT
+PNTR	conv_tools.f90	/^      subroutine PNTR(/;"	s	module:mod_conv_tools
+PNTR_INV	conv_tools.f90	/^      subroutine PNTR_INV(/;"	s	module:mod_conv_tools
+RANLIB	Makefile	/^RANLIB =$/;"	m
+REF_OF_SOURCE	properties.f90	/^      integer, parameter :: REF_OF_SOURCE /;"	v	module:properties
+RM	Makefile	/^RM = rm -f$/;"	m
+SSPMAT	types.f90	/^TYPE SSPMAT$/;"	t	module:types
+SSP_MATRIX	properties.f90	/^      integer, parameter :: SSP_MATRIX /;"	v	module:properties
+SparseBLAS	SparseBLAS.f90	/^      module SparseBLAS$/;"	m
+SparseBLAS1	SparseBLAS1.f90	/^ module SparseBLAS1$/;"	m
+TRANSP_MATRIX	properties.f90	/^      integer, parameter :: TRANSP_MATRIX /;"	v	module:properties
+ZSPMAT	types.f90	/^TYPE ZSPMAT$/;"	t	module:types
+ZSP_MATRIX	properties.f90	/^      integer, parameter :: ZSP_MATRIX /;"	v	module:properties
+a	test.f90	/^      integer :: a,/;"	v	program:test
+accessdata_csp	link.f90	/^      subroutine accessdata_csp /;"	s	module:representation_of_data
+accessdata_dsp	link.f90	/^      subroutine accessdata_dsp /;"	s	module:representation_of_data
+accessdata_isp	link.f90	/^      subroutine accessdata_isp /;"	s	module:representation_of_data
+accessdata_ssp	link.f90	/^      subroutine accessdata_ssp /;"	s	module:representation_of_data
+accessdata_zsp	link.f90	/^      subroutine accessdata_zsp /;"	s	module:representation_of_data
+blas_block_irregular	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_block_irregular /;"	v	module:blas_sparse_namedconstants
+blas_block_regular	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_block_regular /;"	v	module:blas_sparse_namedconstants
+blas_col_major	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_col_major /;"	v	module:blas_sparse_namedconstants
+blas_complex	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_complex /;"	v	module:blas_sparse_namedconstants
+blas_double_precision	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_double_precision /;"	v	module:blas_sparse_namedconstants
+blas_error_memalloc	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_memalloc /;"	v	module:blas_sparse_namedconstants
+blas_error_memdeloc	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_memdeloc /;"	v	module:blas_sparse_namedconstants
+blas_error_param	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_param /;"	v	module:blas_sparse_namedconstants
+blas_error_singtria	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_singtria /;"	v	module:blas_sparse_namedconstants
+blas_general	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_general /;"	v	module:blas_sparse_namedconstants
+blas_hermitian	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_hermitian /;"	v	module:blas_sparse_namedconstants
+blas_integer	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_integer /;"	v	module:blas_sparse_namedconstants
+blas_invalid_handle	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_invalid_handle /;"	v	module:blas_sparse_namedconstants
+blas_irregular	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_irregular /;"	v	module:blas_sparse_namedconstants
+blas_lower	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower /;"	v	module:blas_sparse_namedconstants
+blas_lower_hermitian	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower_hermitian /;"	v	module:blas_sparse_namedconstants
+blas_lower_symmetric	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower_symmetric /;"	v	module:blas_sparse_namedconstants
+blas_lower_triangular	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower_triangular /;"	v	module:blas_sparse_namedconstants
+blas_new_handle	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_new_handle /;"	v	module:blas_sparse_namedconstants
+blas_no_repeated_indices	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_no_repeated_indices /;"	v	module:blas_sparse_namedconstants
+blas_non_unit_diag	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_non_unit_diag /;"	v	module:blas_sparse_namedconstants
+blas_num_cols	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_num_cols /;"	v	module:blas_sparse_namedconstants
+blas_num_nonzeros	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_num_nonzeros /;"	v	module:blas_sparse_namedconstants
+blas_num_rows	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_num_rows /;"	v	module:blas_sparse_namedconstants
+blas_one_base	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_one_base /;"	v	module:blas_sparse_namedconstants
+blas_open_handle	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_open_handle /;"	v	module:blas_sparse_namedconstants
+blas_real	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_real /;"	v	module:blas_sparse_namedconstants
+blas_regular	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_regular /;"	v	module:blas_sparse_namedconstants
+blas_repeated_indices	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_repeated_indices /;"	v	module:blas_sparse_namedconstants
+blas_row_major	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_row_major /;"	v	module:blas_sparse_namedconstants
+blas_single_precision	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_single_precision /;"	v	module:blas_sparse_namedconstants
+blas_sparse	blas_sparse.f90	/^module blas_sparse$/;"	m
+blas_sparse_namedconstants	blas_sparse_namedconstants.f90	/^module blas_sparse_namedconstants$/;"	m
+blas_sparse_proto	blas_sparse_proto.f90	/^module blas_sparse_proto$/;"	m
+blas_symmetric	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_symmetric /;"	v	module:blas_sparse_namedconstants
+blas_unassembled	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_unassembled /;"	v	module:blas_sparse_namedconstants
+blas_unit_diag	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_unit_diag /;"	v	module:blas_sparse_namedconstants
+blas_upper	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper /;"	v	module:blas_sparse_namedconstants
+blas_upper_hermitian	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper_hermitian /;"	v	module:blas_sparse_namedconstants
+blas_upper_symmetric	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper_symmetric /;"	v	module:blas_sparse_namedconstants
+blas_upper_triangular	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper_triangular /;"	v	module:blas_sparse_namedconstants
+blas_valid_handle	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_valid_handle /;"	v	module:blas_sparse_namedconstants
+blas_zero_base	blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_zero_base /;"	v	module:blas_sparse_namedconstants
+blin	INSERTING.f90	/^type(c_inblock)::blin$/;"	k	type:c_inelement
+blin	INSERTING.f90	/^type(d_inblock)::blin$/;"	k	type:d_inelement
+blin	INSERTING.f90	/^type(i_inblock)::blin$/;"	k	type:i_inelement
+blin	INSERTING.f90	/^type(s_inblock)::blin$/;"	k	type:s_inelement
+blin	INSERTING.f90	/^type(z_inblock)::blin$/;"	k	type:z_inelement
+cA_row_col	conv_tools.f90	/^      function cA_row_col /;"	f	module:mod_conv_tools
+cAb_row_col	conv_tools.f90	/^      function cAb_row_col /;"	f	module:mod_conv_tools
+cINS_bl_entr	INS_ROUTINER.f90	/^      subroutine cINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+cINS_block	INS_ROUTINER.f90	/^      subroutine cINS_block /;"	s	module:mod_INS_ROUTINER
+cINS_entry	INS_ROUTINER.f90	/^      subroutine cINS_entry /;"	s	module:mod_INS_ROUTINER
+cINS_varbl_entr	INS_ROUTINER.f90	/^      subroutine cINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
+cINS_varblock	INS_ROUTINER.f90	/^      subroutine cINS_varblock /;"	s	module:mod_INS_ROUTINER
+c_dealloc	INSERTING.f90	/^      subroutine c_dealloc /;"	s	module:mod_INSERTING
+c_element	INSERTING.f90	/^type c_element$/;"	t	module:mod_INSERTING
+c_element_num	INSERTING.f90	/^      subroutine c_element_num /;"	s	module:mod_INSERTING
+c_element_start	INSERTING.f90	/^type(c_element),pointer::c_element_start$/;"	k	type:c_matrix
+c_inblock	INSERTING.f90	/^type c_inblock$/;"	t	module:mod_INSERTING
+c_inelement	INSERTING.f90	/^type c_inelement$/;"	t	module:mod_INSERTING
+c_inpnt1	INSERTING.f90	/^type c_inpnt1$/;"	t	module:mod_INSERTING
+c_invblock	INSERTING.f90	/^type c_invblock$/;"	t	module:mod_INSERTING
+c_matrix	INSERTING.f90	/^type c_matrix$/;"	t	module:mod_INSERTING
+c_matrix_start	INSERTING.f90	/^type(c_matrix), pointer,SAVE :: c_matrix_start$/;"	v	module:mod_INSERTING
+caccess_element	INSERTING.f90	/^      subroutine caccess_element /;"	s	module:mod_INSERTING
+caccess_matrix	INSERTING.f90	/^      subroutine caccess_matrix /;"	s	module:mod_INSERTING
+cappntr	hash.f90	/^      type cappntr$/;"	t	module:mod_hash
+capsule	hash.f90	/^      type capsule$/;"	t	module:mod_hash
+cb_up_order	conv_tools.f90	/^      subroutine cb_up_order /;"	s	module:mod_conv_tools
+cblock_H_mult_vec	dense.f90	/^      subroutine cblock_H_mult_vec /;"	s	module:mod_dense_mat_algos
+cblock_T_mult_vec	dense.f90	/^      subroutine cblock_T_mult_vec /;"	s	module:mod_dense_mat_algos
+cblock_Z_mult_vec	dense.f90	/^      subroutine cblock_Z_mult_vec /;"	s	module:mod_dense_mat_algos
+cblock_l_mult_vec	dense.f90	/^      subroutine cblock_l_mult_vec /;"	s	module:mod_dense_mat_algos
+cblock_mult_vec	dense.f90	/^      subroutine cblock_mult_vec /;"	s	module:mod_dense_mat_algos
+cblock_r_mult_vec	dense.f90	/^      subroutine cblock_r_mult_vec /;"	s	module:mod_dense_mat_algos
+cdetect_bdiag	conv_tools.f90	/^      subroutine cdetect_bdiag /;"	s	module:mod_conv_tools
+cdetect_diag	conv_tools.f90	/^      subroutine cdetect_diag /;"	s	module:mod_conv_tools
+cins_init	INSERTING.f90	/^logical, SAVE, PRIVATE :: cins_init /;"	v	module:mod_INSERTING
+cinvert_T_left_lower	dense.f90	/^      subroutine cinvert_T_left_lower /;"	s	module:mod_dense_mat_algos
+cinvert_T_right_upper	dense.f90	/^      subroutine cinvert_T_right_upper /;"	s	module:mod_dense_mat_algos
+cinvert_l_left_lower	dense.f90	/^      subroutine cinvert_l_left_lower /;"	s	module:mod_dense_mat_algos
+cinvert_l_right_upper	dense.f90	/^      subroutine cinvert_l_right_upper /;"	s	module:mod_dense_mat_algos
+cinvert_left_lower	dense.f90	/^      subroutine cinvert_left_lower /;"	s	module:mod_dense_mat_algos
+cinvert_r_left_lower	dense.f90	/^      subroutine cinvert_r_left_lower /;"	s	module:mod_dense_mat_algos
+cinvert_r_right_upper	dense.f90	/^      subroutine cinvert_r_right_upper /;"	s	module:mod_dense_mat_algos
+cinvert_right_upper	dense.f90	/^      subroutine cinvert_right_upper /;"	s	module:mod_dense_mat_algos
+clmbv_bco	lmbv_bco.f90	/^      subroutine clmbv_bco /;"	s	module:mod_lmbv_bco
+clmbv_bdi	lmbv_bdi.f90	/^      subroutine clmbv_bdi /;"	s	module:mod_lmbv_bdi
+clmbv_bsc	lmbv_bsc.f90	/^      subroutine clmbv_bsc /;"	s	module:mod_lmbv_bsc
+clmbv_bsr	lmbv_bsr.f90	/^      subroutine clmbv_bsr /;"	s	module:mod_lmbv_bsr
+clmbv_coo	lmbv_coo.f90	/^      subroutine clmbv_coo /;"	s	module:mod_lmbv_coo
+clmbv_csc	lmbv_csc.f90	/^      subroutine clmbv_csc /;"	s	module:mod_lmbv_csc
+clmbv_csr	lmbv_csr.f90	/^      subroutine clmbv_csr /;"	s	module:mod_lmbv_csr
+clmbv_dia	lmbv_dia.f90	/^      subroutine clmbv_dia /;"	s	module:mod_lmbv_dia
+clmbv_vbr	lmbv_vbr.f90	/^      subroutine clmbv_vbr /;"	s	module:mod_lmbv_vbr
+clsbv_bco	lsbv_bco.f90	/^      subroutine clsbv_bco /;"	s	module:mod_lsbv_bco
+clsbv_bdi	lsbv_bdi.f90	/^      subroutine clsbv_bdi /;"	s	module:mod_lsbv_bdi
+clsbv_bsc	lsbv_bsc.f90	/^      subroutine clsbv_bsc /;"	s	module:mod_lsbv_bsc
+clsbv_bsr	lsbv_bsr.f90	/^      subroutine clsbv_bsr /;"	s	module:mod_lsbv_bsr
+clsbv_coo	lsbv_coo.f90	/^      subroutine clsbv_coo /;"	s	module:mod_lsbv_coo
+clsbv_csc	lsbv_csc.f90	/^      subroutine clsbv_csc /;"	s	module:mod_lsbv_csc
+clsbv_csr	lsbv_csr.f90	/^      subroutine clsbv_csr /;"	s	module:mod_lsbv_csr
+clsbv_dia	lsbv_dia.f90	/^      subroutine clsbv_dia /;"	s	module:mod_lsbv_dia
+clsbv_vbr	lsbv_vbr.f90	/^      subroutine clsbv_vbr /;"	s	module:mod_lsbv_vbr
+col_block_ind	INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:c_inblock
+col_block_ind	INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:d_inblock
+col_block_ind	INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:i_inblock
+col_block_ind	INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:s_inblock
+col_block_ind	INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:z_inblock
+col_ind	INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:c_inpnt1
+col_ind	INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:d_inpnt1
+col_ind	INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:i_inpnt1
+col_ind	INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:s_inpnt1
+col_ind	INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:z_inpnt1
+col_vblock_ind	INSERTING.f90	/^   integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:i_invblock
+col_vblock_ind	INSERTING.f90	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:c_invblock
+col_vblock_ind	INSERTING.f90	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:d_invblock
+col_vblock_ind	INSERTING.f90	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:s_invblock
+col_vblock_ind	INSERTING.f90	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:z_invblock
+contents	INSERTING.f90	/^type(c_inelement)::contents$/;"	k	type:c_element
+contents	INSERTING.f90	/^type(d_inelement)::contents$/;"	k	type:d_element
+contents	INSERTING.f90	/^type(i_inelement)::contents$/;"	k	type:i_element
+contents	INSERTING.f90	/^type(s_inelement)::contents$/;"	k	type:s_element
+contents	INSERTING.f90	/^type(z_inelement)::contents$/;"	k	type:z_element
+contents	link.f90	/^        type(cspmat) :: contents$/;"	k	type:csp_linknode
+contents	link.f90	/^        type(dspmat) :: contents$/;"	k	type:dsp_linknode
+contents	link.f90	/^        type(ispmat) :: contents$/;"	k	type:isp_linknode
+contents	link.f90	/^        type(sspmat) :: contents$/;"	k	type:ssp_linknode
+contents	link.f90	/^        type(zspmat) :: contents$/;"	k	type:zsp_linknode
+counter	conv_tools.f90	/^      function counter(/;"	f	module:mod_conv_tools
+cpre_usconv_bco2bdi	conv_tools.f90	/^      subroutine cpre_usconv_bco2bdi /;"	s	module:mod_conv_tools
+cpre_usconv_bco2bsc	conv_tools.f90	/^      subroutine cpre_usconv_bco2bsc /;"	s	module:mod_conv_tools
+cpre_usconv_bco2bsr	conv_tools.f90	/^      subroutine cpre_usconv_bco2bsr /;"	s	module:mod_conv_tools
+cpre_usconv_bdi2bco	conv_tools.f90	/^      subroutine cpre_usconv_bdi2bco /;"	s	module:mod_conv_tools
+cpre_usconv_coo2csc	conv_tools.f90	/^      subroutine cpre_usconv_coo2csc /;"	s	module:mod_conv_tools
+cpre_usconv_coo2csr	conv_tools.f90	/^      subroutine cpre_usconv_coo2csr /;"	s	module:mod_conv_tools
+cpre_usconv_coo2dia	conv_tools.f90	/^      subroutine cpre_usconv_coo2dia /;"	s	module:mod_conv_tools
+cpre_usconv_dia2coo	conv_tools.f90	/^      subroutine cpre_usconv_dia2coo /;"	s	module:mod_conv_tools
+crmbv_bco	rmbv_bco.f90	/^      subroutine crmbv_bco /;"	s	module:mod_rmbv_bco
+crmbv_bdi	rmbv_bdi.f90	/^      subroutine crmbv_bdi /;"	s	module:mod_rmbv_bdi
+crmbv_bsc	rmbv_bsc.f90	/^      subroutine crmbv_bsc /;"	s	module:mod_rmbv_bsc
+crmbv_bsr	rmbv_bsr.f90	/^      subroutine crmbv_bsr /;"	s	module:mod_rmbv_bsr
+crmbv_coo	rmbv_coo.f90	/^      subroutine crmbv_coo /;"	s	module:mod_rmbv_coo
+crmbv_csc	rmbv_csc.f90	/^      subroutine crmbv_csc /;"	s	module:mod_rmbv_csc
+crmbv_csr	rmbv_csr.f90	/^      subroutine crmbv_csr /;"	s	module:mod_rmbv_csr
+crmbv_dia	rmbv_dia.f90	/^      subroutine crmbv_dia /;"	s	module:mod_rmbv_dia
+crmbv_vbr	rmbv_vbr.f90	/^      subroutine crmbv_vbr /;"	s	module:mod_rmbv_vbr
+crsbv_bco	rsbv_bco.f90	/^      subroutine crsbv_bco /;"	s	module:mod_rsbv_bco
+crsbv_bdi	rsbv_bdi.f90	/^      subroutine crsbv_bdi /;"	s	module:mod_rsbv_bdi
+crsbv_bsc	rsbv_bsc.f90	/^      subroutine crsbv_bsc /;"	s	module:mod_rsbv_bsc
+crsbv_bsr	rsbv_bsr.f90	/^      subroutine crsbv_bsr /;"	s	module:mod_rsbv_bsr
+crsbv_coo	rsbv_coo.f90	/^      subroutine crsbv_coo /;"	s	module:mod_rsbv_coo
+crsbv_csc	rsbv_csc.f90	/^      subroutine crsbv_csc /;"	s	module:mod_rsbv_csc
+crsbv_csr	rsbv_csr.f90	/^      subroutine crsbv_csr /;"	s	module:mod_rsbv_csr
+crsbv_dia	rsbv_dia.f90	/^      subroutine crsbv_dia /;"	s	module:mod_rsbv_dia
+crsbv_vbr	rsbv_vbr.f90	/^      subroutine crsbv_vbr /;"	s	module:mod_rsbv_vbr
+csp_first	link.f90	/^      type(csp_linknode), pointer,SAVE,PRIVATE :: csp_first,/;"	v	module:representation_of_data
+csp_init	link.f90	/^      logical,SAVE,PRIVATE :: csp_init /;"	v	module:representation_of_data
+csp_last	link.f90	/^      type(csp_linknode), pointer,SAVE,PRIVATE :: csp_first, csp_last$/;"	v	module:representation_of_data
+csp_linknode	link.f90	/^      type csp_linknode$/;"	t	module:representation_of_data
+cusaxpy	usaxpy.f90	/^ subroutine cusaxpy /;"	s	module:mod_usaxpy
+cusconv_coo2csc	usconv_coo2csc.f90	/^      subroutine cusconv_coo2csc /;"	s	module:mod_usconv_coo2csc
+cuscr_bco	uscr_bco.f90	/^      subroutine cuscr_bco /;"	s	module:mod_uscr_bco
+cuscr_bdi	uscr_bdi.f90	/^      subroutine cuscr_bdi /;"	s	module:mod_uscr_bdi
+cuscr_begin	uscr_begin.f90	/^      subroutine cuscr_begin /;"	s	module:mod_uscr_begin
+cuscr_block_begin	uscr_block_begin.f90	/^      subroutine  cuscr_block_begin /;"	s	module:mod_uscr_block_begin
+cuscr_blockend	INS_ROUTINER.f90	/^      subroutine cuscr_blockend /;"	s	module:mod_INS_ROUTINER
+cuscr_bsc	uscr_bsc.f90	/^      subroutine cuscr_bsc /;"	s	module:mod_uscr_bsc
+cuscr_bsr	uscr_bsr.f90	/^      subroutine cuscr_bsr /;"	s	module:mod_uscr_bsr
+cuscr_coo	uscr_coo.f90	/^      subroutine cuscr_coo /;"	s	module:mod_uscr_coo
+cuscr_csc	uscr_csc.f90	/^      subroutine cuscr_csc /;"	s	module:mod_uscr_csc
+cuscr_csr	uscr_csr.f90	/^      subroutine cuscr_csr /;"	s	module:mod_uscr_csr
+cuscr_dia	uscr_dia.f90	/^      subroutine cuscr_dia /;"	s	module:mod_uscr_dia
+cuscr_insert_block	uscr_insert_block.f90	/^      subroutine  cuscr_insert_block /;"	s	module:mod_uscr_insert_block
+cuscr_insert_clique	uscr_insert_clique.f90	/^      subroutine  cuscr_insert_clique /;"	s	module:mod_uscr_insert_clique
+cuscr_insert_col	uscr_insert_col.f90	/^      subroutine  cuscr_insert_col /;"	s	module:mod_uscr_insert_col
+cuscr_insert_entries	uscr_insert_entries.f90	/^      subroutine cuscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+cuscr_insert_entry	uscr_insert_entry.f90	/^      subroutine cuscr_insert_entry /;"	s	module:mod_uscr_insert_entry
+cuscr_insert_row	uscr_insert_row.f90	/^      subroutine cuscr_insert_row /;"	s	module:mod_uscr_insert_row
+cuscr_normend	INS_ROUTINER.f90	/^      subroutine cuscr_normend /;"	s	module:mod_INS_ROUTINER
+cuscr_varend	INS_ROUTINER.f90	/^      subroutine cuscr_varend /;"	s	module:mod_INS_ROUTINER
+cuscr_variable_block_begin	uscr_variable_block_begin.f90	/^      subroutine cuscr_variable_block_begin /;"	s	module:mod_uscr_variable_block_begin
+cuscr_vbr	uscr_vbr.f90	/^      subroutine cuscr_vbr /;"	s	module:mod_uscr_vbr
+cusdot	usdot.f90	/^complex(KIND=sp)  function cusdot /;"	f	module:mod_usdot
+cusga	usga.f90	/^ subroutine cusga /;"	s	module:mod_usga
+cusgz	usgz.f90	/^subroutine cusgz /;"	s	module:mod_usgz
+cusmm	usmm.f90	/^      subroutine cusmm /;"	s	module:mod_usmm
+cusmv	usmv.f90	/^      subroutine cusmv /;"	s	module:mod_usmv
+cussc	ussc.f90	/^  subroutine cussc /;"	s	module:mod_ussc
+cussm	ussm.f90	/^      subroutine cussm /;"	s	module:mod_ussm
+cussv	ussv.f90	/^      subroutine cussv /;"	s	module:mod_ussv
+dA_row_col	conv_tools.f90	/^      function dA_row_col /;"	f	module:mod_conv_tools
+dAb_row_col	conv_tools.f90	/^      function dAb_row_col /;"	f	module:mod_conv_tools
+dINS_bl_entr	INS_ROUTINER.f90	/^      subroutine dINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+dINS_block	INS_ROUTINER.f90	/^      subroutine dINS_block /;"	s	module:mod_INS_ROUTINER
+dINS_entry	INS_ROUTINER.f90	/^      subroutine dINS_entry /;"	s	module:mod_INS_ROUTINER
+dINS_varbl_entr	INS_ROUTINER.f90	/^      subroutine dINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
+dINS_varblock	INS_ROUTINER.f90	/^      subroutine dINS_varblock /;"	s	module:mod_INS_ROUTINER
+d_dealloc	INSERTING.f90	/^      subroutine d_dealloc /;"	s	module:mod_INSERTING
+d_element	INSERTING.f90	/^type d_element$/;"	t	module:mod_INSERTING
+d_element_num	INSERTING.f90	/^      subroutine d_element_num /;"	s	module:mod_INSERTING
+d_element_start	INSERTING.f90	/^type(d_element),pointer::d_element_start$/;"	k	type:d_matrix
+d_inblock	INSERTING.f90	/^type d_inblock$/;"	t	module:mod_INSERTING
+d_inelement	INSERTING.f90	/^type d_inelement$/;"	t	module:mod_INSERTING
+d_inpnt1	INSERTING.f90	/^type d_inpnt1$/;"	t	module:mod_INSERTING
+d_invblock	INSERTING.f90	/^type d_invblock$/;"	t	module:mod_INSERTING
+d_matrix	INSERTING.f90	/^type d_matrix$/;"	t	module:mod_INSERTING
+d_matrix_start	INSERTING.f90	/^type(d_matrix), pointer,SAVE :: d_matrix_start$/;"	v	module:mod_INSERTING
+daccess_element	INSERTING.f90	/^      subroutine daccess_element /;"	s	module:mod_INSERTING
+daccess_matrix	INSERTING.f90	/^      subroutine daccess_matrix /;"	s	module:mod_INSERTING
+db_up_order	conv_tools.f90	/^      subroutine db_up_order /;"	s	module:mod_conv_tools
+dblock_H_mult_vec	dense.f90	/^      subroutine dblock_H_mult_vec /;"	s	module:mod_dense_mat_algos
+dblock_T_mult_vec	dense.f90	/^      subroutine dblock_T_mult_vec /;"	s	module:mod_dense_mat_algos
+dblock_Z_mult_vec	dense.f90	/^      subroutine dblock_Z_mult_vec /;"	s	module:mod_dense_mat_algos
+dblock_l_mult_vec	dense.f90	/^      subroutine dblock_l_mult_vec /;"	s	module:mod_dense_mat_algos
+dblock_mult_vec	dense.f90	/^      subroutine dblock_mult_vec /;"	s	module:mod_dense_mat_algos
+dblock_r_mult_vec	dense.f90	/^      subroutine dblock_r_mult_vec /;"	s	module:mod_dense_mat_algos
+ddetect_bdiag	conv_tools.f90	/^      subroutine ddetect_bdiag /;"	s	module:mod_conv_tools
+ddetect_diag	conv_tools.f90	/^      subroutine ddetect_diag /;"	s	module:mod_conv_tools
+dealloc_c_element	INSERTING.f90	/^      subroutine dealloc_c_element /;"	s	module:mod_INSERTING
+dealloc_c_matrix	INSERTING.f90	/^      subroutine dealloc_c_matrix /;"	s	module:mod_INSERTING
+dealloc_d_element	INSERTING.f90	/^      subroutine dealloc_d_element /;"	s	module:mod_INSERTING
+dealloc_d_matrix	INSERTING.f90	/^      subroutine dealloc_d_matrix /;"	s	module:mod_INSERTING
+dealloc_i_element	INSERTING.f90	/^      subroutine dealloc_i_element /;"	s	module:mod_INSERTING
+dealloc_i_matrix	INSERTING.f90	/^      subroutine dealloc_i_matrix /;"	s	module:mod_INSERTING
+dealloc_s_element	INSERTING.f90	/^      subroutine dealloc_s_element /;"	s	module:mod_INSERTING
+dealloc_s_matrix	INSERTING.f90	/^      subroutine dealloc_s_matrix /;"	s	module:mod_INSERTING
+dealloc_z_element	INSERTING.f90	/^      subroutine dealloc_z_element /;"	s	module:mod_INSERTING
+dealloc_z_matrix	INSERTING.f90	/^      subroutine dealloc_z_matrix /;"	s	module:mod_INSERTING
+del_capsule	hash.f90	/^      subroutine del_capsule(/;"	s	module:mod_hash
+del_csp	link.f90	/^      subroutine del_csp /;"	s	module:representation_of_data
+del_dsp	link.f90	/^      subroutine del_dsp /;"	s	module:representation_of_data
+del_isp	link.f90	/^      subroutine del_isp /;"	s	module:representation_of_data
+del_ssp	link.f90	/^      subroutine del_ssp /;"	s	module:representation_of_data
+del_zsp	link.f90	/^      subroutine del_zsp /;"	s	module:representation_of_data
+dins_init	INSERTING.f90	/^logical, SAVE, PRIVATE :: dins_init /;"	v	module:mod_INSERTING
+dinvert_T_left_lower	dense.f90	/^      subroutine dinvert_T_left_lower /;"	s	module:mod_dense_mat_algos
+dinvert_T_right_upper	dense.f90	/^      subroutine dinvert_T_right_upper /;"	s	module:mod_dense_mat_algos
+dinvert_l_left_lower	dense.f90	/^      subroutine dinvert_l_left_lower /;"	s	module:mod_dense_mat_algos
+dinvert_l_right_upper	dense.f90	/^      subroutine dinvert_l_right_upper /;"	s	module:mod_dense_mat_algos
+dinvert_left_lower	dense.f90	/^      subroutine dinvert_left_lower /;"	s	module:mod_dense_mat_algos
+dinvert_r_left_lower	dense.f90	/^      subroutine dinvert_r_left_lower /;"	s	module:mod_dense_mat_algos
+dinvert_r_right_upper	dense.f90	/^      subroutine dinvert_r_right_upper /;"	s	module:mod_dense_mat_algos
+dinvert_right_upper	dense.f90	/^      subroutine dinvert_right_upper /;"	s	module:mod_dense_mat_algos
+dlmbv_bco	lmbv_bco.f90	/^      subroutine dlmbv_bco /;"	s	module:mod_lmbv_bco
+dlmbv_bdi	lmbv_bdi.f90	/^      subroutine dlmbv_bdi /;"	s	module:mod_lmbv_bdi
+dlmbv_bsc	lmbv_bsc.f90	/^      subroutine dlmbv_bsc /;"	s	module:mod_lmbv_bsc
+dlmbv_bsr	lmbv_bsr.f90	/^      subroutine dlmbv_bsr /;"	s	module:mod_lmbv_bsr
+dlmbv_coo	lmbv_coo.f90	/^      subroutine dlmbv_coo /;"	s	module:mod_lmbv_coo
+dlmbv_csc	lmbv_csc.f90	/^      subroutine dlmbv_csc /;"	s	module:mod_lmbv_csc
+dlmbv_csr	lmbv_csr.f90	/^      subroutine dlmbv_csr /;"	s	module:mod_lmbv_csr
+dlmbv_dia	lmbv_dia.f90	/^      subroutine dlmbv_dia /;"	s	module:mod_lmbv_dia
+dlmbv_vbr	lmbv_vbr.f90	/^      subroutine dlmbv_vbr /;"	s	module:mod_lmbv_vbr
+dlsbv_bco	lsbv_bco.f90	/^      subroutine dlsbv_bco /;"	s	module:mod_lsbv_bco
+dlsbv_bdi	lsbv_bdi.f90	/^      subroutine dlsbv_bdi /;"	s	module:mod_lsbv_bdi
+dlsbv_bsc	lsbv_bsc.f90	/^      subroutine dlsbv_bsc /;"	s	module:mod_lsbv_bsc
+dlsbv_bsr	lsbv_bsr.f90	/^      subroutine dlsbv_bsr /;"	s	module:mod_lsbv_bsr
+dlsbv_coo	lsbv_coo.f90	/^      subroutine dlsbv_coo /;"	s	module:mod_lsbv_coo
+dlsbv_csc	lsbv_csc.f90	/^      subroutine dlsbv_csc /;"	s	module:mod_lsbv_csc
+dlsbv_csr	lsbv_csr.f90	/^      subroutine dlsbv_csr /;"	s	module:mod_lsbv_csr
+dlsbv_dia	lsbv_dia.f90	/^      subroutine dlsbv_dia /;"	s	module:mod_lsbv_dia
+dlsbv_vbr	lsbv_vbr.f90	/^      subroutine dlsbv_vbr /;"	s	module:mod_lsbv_vbr
+dp	blas_sparse_namedconstants.f90	/^      integer, parameter :: dp /;"	v	module:blas_sparse_namedconstants
+dpre_usconv_bco2bdi	conv_tools.f90	/^      subroutine dpre_usconv_bco2bdi /;"	s	module:mod_conv_tools
+dpre_usconv_bco2bsc	conv_tools.f90	/^      subroutine dpre_usconv_bco2bsc /;"	s	module:mod_conv_tools
+dpre_usconv_bco2bsr	conv_tools.f90	/^      subroutine dpre_usconv_bco2bsr /;"	s	module:mod_conv_tools
+dpre_usconv_bdi2bco	conv_tools.f90	/^      subroutine dpre_usconv_bdi2bco /;"	s	module:mod_conv_tools
+dpre_usconv_coo2csc	conv_tools.f90	/^      subroutine dpre_usconv_coo2csc /;"	s	module:mod_conv_tools
+dpre_usconv_coo2csr	conv_tools.f90	/^      subroutine dpre_usconv_coo2csr /;"	s	module:mod_conv_tools
+dpre_usconv_coo2dia	conv_tools.f90	/^      subroutine dpre_usconv_coo2dia /;"	s	module:mod_conv_tools
+dpre_usconv_dia2coo	conv_tools.f90	/^      subroutine dpre_usconv_dia2coo /;"	s	module:mod_conv_tools
+drmbv_bco	rmbv_bco.f90	/^      subroutine drmbv_bco /;"	s	module:mod_rmbv_bco
+drmbv_bdi	rmbv_bdi.f90	/^      subroutine drmbv_bdi /;"	s	module:mod_rmbv_bdi
+drmbv_bsc	rmbv_bsc.f90	/^      subroutine drmbv_bsc /;"	s	module:mod_rmbv_bsc
+drmbv_bsr	rmbv_bsr.f90	/^      subroutine drmbv_bsr /;"	s	module:mod_rmbv_bsr
+drmbv_coo	rmbv_coo.f90	/^      subroutine drmbv_coo /;"	s	module:mod_rmbv_coo
+drmbv_csc	rmbv_csc.f90	/^      subroutine drmbv_csc /;"	s	module:mod_rmbv_csc
+drmbv_csr	rmbv_csr.f90	/^      subroutine drmbv_csr /;"	s	module:mod_rmbv_csr
+drmbv_dia	rmbv_dia.f90	/^      subroutine drmbv_dia /;"	s	module:mod_rmbv_dia
+drmbv_vbr	rmbv_vbr.f90	/^      subroutine drmbv_vbr /;"	s	module:mod_rmbv_vbr
+drsbv_bco	rsbv_bco.f90	/^      subroutine drsbv_bco /;"	s	module:mod_rsbv_bco
+drsbv_bdi	rsbv_bdi.f90	/^      subroutine drsbv_bdi /;"	s	module:mod_rsbv_bdi
+drsbv_bsc	rsbv_bsc.f90	/^      subroutine drsbv_bsc /;"	s	module:mod_rsbv_bsc
+drsbv_bsr	rsbv_bsr.f90	/^      subroutine drsbv_bsr /;"	s	module:mod_rsbv_bsr
+drsbv_coo	rsbv_coo.f90	/^      subroutine drsbv_coo /;"	s	module:mod_rsbv_coo
+drsbv_csc	rsbv_csc.f90	/^      subroutine drsbv_csc /;"	s	module:mod_rsbv_csc
+drsbv_csr	rsbv_csr.f90	/^      subroutine drsbv_csr /;"	s	module:mod_rsbv_csr
+drsbv_dia	rsbv_dia.f90	/^      subroutine drsbv_dia /;"	s	module:mod_rsbv_dia
+drsbv_vbr	rsbv_vbr.f90	/^      subroutine drsbv_vbr /;"	s	module:mod_rsbv_vbr
+dsp_first	link.f90	/^      type(dsp_linknode), pointer,SAVE,PRIVATE :: dsp_first,/;"	v	module:representation_of_data
+dsp_init	link.f90	/^      logical,SAVE,PRIVATE :: dsp_init /;"	v	module:representation_of_data
+dsp_last	link.f90	/^      type(dsp_linknode), pointer,SAVE,PRIVATE :: dsp_first, dsp_last$/;"	v	module:representation_of_data
+dsp_linknode	link.f90	/^      type dsp_linknode$/;"	t	module:representation_of_data
+dusaxpy	usaxpy.f90	/^ subroutine dusaxpy /;"	s	module:mod_usaxpy
+dusconv_coo2csc	usconv_coo2csc.f90	/^      subroutine dusconv_coo2csc /;"	s	module:mod_usconv_coo2csc
+duscr_bco	uscr_bco.f90	/^      subroutine duscr_bco /;"	s	module:mod_uscr_bco
+duscr_bdi	uscr_bdi.f90	/^      subroutine duscr_bdi /;"	s	module:mod_uscr_bdi
+duscr_begin	uscr_begin.f90	/^      subroutine duscr_begin /;"	s	module:mod_uscr_begin
+duscr_block_begin	uscr_block_begin.f90	/^      subroutine  duscr_block_begin /;"	s	module:mod_uscr_block_begin
+duscr_blockend	INS_ROUTINER.f90	/^      subroutine duscr_blockend /;"	s	module:mod_INS_ROUTINER
+duscr_bsc	uscr_bsc.f90	/^      subroutine duscr_bsc /;"	s	module:mod_uscr_bsc
+duscr_bsr	uscr_bsr.f90	/^      subroutine duscr_bsr /;"	s	module:mod_uscr_bsr
+duscr_coo	uscr_coo.f90	/^      subroutine duscr_coo /;"	s	module:mod_uscr_coo
+duscr_csc	uscr_csc.f90	/^      subroutine duscr_csc /;"	s	module:mod_uscr_csc
+duscr_csr	uscr_csr.f90	/^      subroutine duscr_csr /;"	s	module:mod_uscr_csr
+duscr_dia	uscr_dia.f90	/^      subroutine duscr_dia /;"	s	module:mod_uscr_dia
+duscr_insert_block	uscr_insert_block.f90	/^      subroutine  duscr_insert_block /;"	s	module:mod_uscr_insert_block
+duscr_insert_clique	uscr_insert_clique.f90	/^      subroutine  duscr_insert_clique /;"	s	module:mod_uscr_insert_clique
+duscr_insert_col	uscr_insert_col.f90	/^      subroutine  duscr_insert_col /;"	s	module:mod_uscr_insert_col
+duscr_insert_entries	uscr_insert_entries.f90	/^      subroutine duscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+duscr_insert_entry	uscr_insert_entry.f90	/^      subroutine duscr_insert_entry /;"	s	module:mod_uscr_insert_entry
+duscr_insert_row	uscr_insert_row.f90	/^      subroutine duscr_insert_row /;"	s	module:mod_uscr_insert_row
+duscr_normend	INS_ROUTINER.f90	/^      subroutine duscr_normend /;"	s	module:mod_INS_ROUTINER
+duscr_varend	INS_ROUTINER.f90	/^      subroutine duscr_varend /;"	s	module:mod_INS_ROUTINER
+duscr_variable_block_begin	uscr_variable_block_begin.f90	/^      subroutine duscr_variable_block_begin /;"	s	module:mod_uscr_variable_block_begin
+duscr_vbr	uscr_vbr.f90	/^      subroutine duscr_vbr /;"	s	module:mod_uscr_vbr
+dusdot	usdot.f90	/^real(KIND=dp)  function dusdot /;"	f	module:mod_usdot
+dusga	usga.f90	/^ subroutine dusga /;"	s	module:mod_usga
+dusgz	usgz.f90	/^subroutine dusgz /;"	s	module:mod_usgz
+dusmm	usmm.f90	/^      subroutine dusmm /;"	s	module:mod_usmm
+dusmv	usmv.f90	/^      subroutine dusmv /;"	s	module:mod_usmv
+dussc	ussc.f90	/^  subroutine dussc /;"	s	module:mod_ussc
+dussm	ussm.f90	/^      subroutine dussm /;"	s	module:mod_ussm
+dussv	ussv.f90	/^      subroutine dussv /;"	s	module:mod_ussv
+final_order	conv_tools.f90	/^      subroutine final_order(/;"	s	module:mod_conv_tools
+format	INSERTING.f90	/^character*11::format$/;"	k	type:c_matrix
+format	INSERTING.f90	/^character*11::format$/;"	k	type:d_matrix
+format	INSERTING.f90	/^character*11::format$/;"	k	type:i_matrix
+format	INSERTING.f90	/^character*11::format$/;"	k	type:s_matrix
+format	INSERTING.f90	/^character*11::format$/;"	k	type:z_matrix
+get_descra	properties.f90	/^      subroutine get_descra(/;"	s	module:properties
+get_infoa	properties.f90	/^      subroutine get_infoa(/;"	s	module:properties
+hash	hash.f90	/^      type(capsule), dimension(:), target, allocatable :: hash$/;"	v	module:mod_hash
+hash_top	hash.f90	/^      type(cappntr), dimension(:), allocatable :: hash_top$/;"	v	module:mod_hash
+iA_row_col	conv_tools.f90	/^      function iA_row_col /;"	f	module:mod_conv_tools
+iAb_row_col	conv_tools.f90	/^      function iAb_row_col /;"	f	module:mod_conv_tools
+iINS_bl_entr	INS_ROUTINER.f90	/^      subroutine iINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+iINS_block	INS_ROUTINER.f90	/^      subroutine iINS_block /;"	s	module:mod_INS_ROUTINER
+iINS_entry	INS_ROUTINER.f90	/^      subroutine iINS_entry /;"	s	module:mod_INS_ROUTINER
+iINS_varbl_entr	INS_ROUTINER.f90	/^      subroutine iINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
+iINS_varblock	INS_ROUTINER.f90	/^      subroutine iINS_varblock /;"	s	module:mod_INS_ROUTINER
+i_dealloc	INSERTING.f90	/^      subroutine i_dealloc /;"	s	module:mod_INSERTING
+i_element	INSERTING.f90	/^type i_element$/;"	t	module:mod_INSERTING
+i_element_num	INSERTING.f90	/^      subroutine i_element_num /;"	s	module:mod_INSERTING
+i_element_start	INSERTING.f90	/^type(i_element),pointer::i_element_start$/;"	k	type:i_matrix
+i_inblock	INSERTING.f90	/^type i_inblock$/;"	t	module:mod_INSERTING
+i_inelement	INSERTING.f90	/^type i_inelement$/;"	t	module:mod_INSERTING
+i_inpnt1	INSERTING.f90	/^type i_inpnt1$/;"	t	module:mod_INSERTING
+i_invblock	INSERTING.f90	/^type i_invblock$/;"	t	module:mod_INSERTING
+i_matrix	INSERTING.f90	/^type i_matrix$/;"	t	module:mod_INSERTING
+i_matrix_start	INSERTING.f90	/^type(i_matrix), pointer,SAVE :: i_matrix_start$/;"	v	module:mod_INSERTING
+iaccess_element	INSERTING.f90	/^      subroutine iaccess_element /;"	s	module:mod_INSERTING
+iaccess_matrix	INSERTING.f90	/^      subroutine iaccess_matrix /;"	s	module:mod_INSERTING
+ib_up_order	conv_tools.f90	/^      subroutine ib_up_order /;"	s	module:mod_conv_tools
+iblock_H_mult_vec	dense.f90	/^      subroutine iblock_H_mult_vec /;"	s	module:mod_dense_mat_algos
+iblock_T_mult_vec	dense.f90	/^      subroutine iblock_T_mult_vec /;"	s	module:mod_dense_mat_algos
+iblock_Z_mult_vec	dense.f90	/^      subroutine iblock_Z_mult_vec /;"	s	module:mod_dense_mat_algos
+iblock_l_mult_vec	dense.f90	/^      subroutine iblock_l_mult_vec /;"	s	module:mod_dense_mat_algos
+iblock_mult_vec	dense.f90	/^      subroutine iblock_mult_vec /;"	s	module:mod_dense_mat_algos
+iblock_r_mult_vec	dense.f90	/^      subroutine iblock_r_mult_vec /;"	s	module:mod_dense_mat_algos
+idetect_bdiag	conv_tools.f90	/^      subroutine idetect_bdiag /;"	s	module:mod_conv_tools
+idetect_diag	conv_tools.f90	/^      subroutine idetect_diag /;"	s	module:mod_conv_tools
+iins_init	INSERTING.f90	/^logical, SAVE, PRIVATE :: iins_init /;"	v	module:mod_INSERTING
+iinvert_T_left_lower	dense.f90	/^      subroutine iinvert_T_left_lower /;"	s	module:mod_dense_mat_algos
+iinvert_T_right_upper	dense.f90	/^      subroutine iinvert_T_right_upper /;"	s	module:mod_dense_mat_algos
+iinvert_l_left_lower	dense.f90	/^      subroutine iinvert_l_left_lower /;"	s	module:mod_dense_mat_algos
+iinvert_l_right_upper	dense.f90	/^      subroutine iinvert_l_right_upper /;"	s	module:mod_dense_mat_algos
+iinvert_left_lower	dense.f90	/^      subroutine iinvert_left_lower /;"	s	module:mod_dense_mat_algos
+iinvert_r_left_lower	dense.f90	/^      subroutine iinvert_r_left_lower /;"	s	module:mod_dense_mat_algos
+iinvert_r_right_upper	dense.f90	/^      subroutine iinvert_r_right_upper /;"	s	module:mod_dense_mat_algos
+iinvert_right_upper	dense.f90	/^      subroutine iinvert_right_upper /;"	s	module:mod_dense_mat_algos
+ilmbv_bco	lmbv_bco.f90	/^      subroutine ilmbv_bco /;"	s	module:mod_lmbv_bco
+ilmbv_bdi	lmbv_bdi.f90	/^      subroutine ilmbv_bdi /;"	s	module:mod_lmbv_bdi
+ilmbv_bsc	lmbv_bsc.f90	/^      subroutine ilmbv_bsc /;"	s	module:mod_lmbv_bsc
+ilmbv_bsr	lmbv_bsr.f90	/^      subroutine ilmbv_bsr /;"	s	module:mod_lmbv_bsr
+ilmbv_coo	lmbv_coo.f90	/^      subroutine ilmbv_coo /;"	s	module:mod_lmbv_coo
+ilmbv_csc	lmbv_csc.f90	/^      subroutine ilmbv_csc /;"	s	module:mod_lmbv_csc
+ilmbv_csr	lmbv_csr.f90	/^      subroutine ilmbv_csr /;"	s	module:mod_lmbv_csr
+ilmbv_dia	lmbv_dia.f90	/^      subroutine ilmbv_dia /;"	s	module:mod_lmbv_dia
+ilmbv_vbr	lmbv_vbr.f90	/^      subroutine ilmbv_vbr /;"	s	module:mod_lmbv_vbr
+ilsbv_bco	lsbv_bco.f90	/^      subroutine ilsbv_bco /;"	s	module:mod_lsbv_bco
+ilsbv_bdi	lsbv_bdi.f90	/^      subroutine ilsbv_bdi /;"	s	module:mod_lsbv_bdi
+ilsbv_bsc	lsbv_bsc.f90	/^      subroutine ilsbv_bsc /;"	s	module:mod_lsbv_bsc
+ilsbv_bsr	lsbv_bsr.f90	/^      subroutine ilsbv_bsr /;"	s	module:mod_lsbv_bsr
+ilsbv_coo	lsbv_coo.f90	/^      subroutine ilsbv_coo /;"	s	module:mod_lsbv_coo
+ilsbv_csc	lsbv_csc.f90	/^      subroutine ilsbv_csc /;"	s	module:mod_lsbv_csc
+ilsbv_csr	lsbv_csr.f90	/^      subroutine ilsbv_csr /;"	s	module:mod_lsbv_csr
+ilsbv_dia	lsbv_dia.f90	/^      subroutine ilsbv_dia /;"	s	module:mod_lsbv_dia
+ilsbv_vbr	lsbv_vbr.f90	/^      subroutine ilsbv_vbr /;"	s	module:mod_lsbv_vbr
+ipre_usconv_bco2bdi	conv_tools.f90	/^      subroutine ipre_usconv_bco2bdi /;"	s	module:mod_conv_tools
+ipre_usconv_bco2bsc	conv_tools.f90	/^      subroutine ipre_usconv_bco2bsc /;"	s	module:mod_conv_tools
+ipre_usconv_bco2bsr	conv_tools.f90	/^      subroutine ipre_usconv_bco2bsr /;"	s	module:mod_conv_tools
+ipre_usconv_bdi2bco	conv_tools.f90	/^      subroutine ipre_usconv_bdi2bco /;"	s	module:mod_conv_tools
+ipre_usconv_coo2csc	conv_tools.f90	/^      subroutine ipre_usconv_coo2csc /;"	s	module:mod_conv_tools
+ipre_usconv_coo2csr	conv_tools.f90	/^      subroutine ipre_usconv_coo2csr /;"	s	module:mod_conv_tools
+ipre_usconv_coo2dia	conv_tools.f90	/^      subroutine ipre_usconv_coo2dia /;"	s	module:mod_conv_tools
+ipre_usconv_dia2coo	conv_tools.f90	/^      subroutine ipre_usconv_dia2coo /;"	s	module:mod_conv_tools
+irmbv_bco	rmbv_bco.f90	/^      subroutine irmbv_bco /;"	s	module:mod_rmbv_bco
+irmbv_bdi	rmbv_bdi.f90	/^      subroutine irmbv_bdi /;"	s	module:mod_rmbv_bdi
+irmbv_bsc	rmbv_bsc.f90	/^      subroutine irmbv_bsc /;"	s	module:mod_rmbv_bsc
+irmbv_bsr	rmbv_bsr.f90	/^      subroutine irmbv_bsr /;"	s	module:mod_rmbv_bsr
+irmbv_coo	rmbv_coo.f90	/^      subroutine irmbv_coo /;"	s	module:mod_rmbv_coo
+irmbv_csc	rmbv_csc.f90	/^      subroutine irmbv_csc /;"	s	module:mod_rmbv_csc
+irmbv_csr	rmbv_csr.f90	/^      subroutine irmbv_csr /;"	s	module:mod_rmbv_csr
+irmbv_dia	rmbv_dia.f90	/^      subroutine irmbv_dia /;"	s	module:mod_rmbv_dia
+irmbv_vbr	rmbv_vbr.f90	/^      subroutine irmbv_vbr /;"	s	module:mod_rmbv_vbr
+irsbv_bco	rsbv_bco.f90	/^      subroutine irsbv_bco /;"	s	module:mod_rsbv_bco
+irsbv_bdi	rsbv_bdi.f90	/^      subroutine irsbv_bdi /;"	s	module:mod_rsbv_bdi
+irsbv_bsc	rsbv_bsc.f90	/^      subroutine irsbv_bsc /;"	s	module:mod_rsbv_bsc
+irsbv_bsr	rsbv_bsr.f90	/^      subroutine irsbv_bsr /;"	s	module:mod_rsbv_bsr
+irsbv_coo	rsbv_coo.f90	/^      subroutine irsbv_coo /;"	s	module:mod_rsbv_coo
+irsbv_csc	rsbv_csc.f90	/^      subroutine irsbv_csc /;"	s	module:mod_rsbv_csc
+irsbv_csr	rsbv_csr.f90	/^      subroutine irsbv_csr /;"	s	module:mod_rsbv_csr
+irsbv_dia	rsbv_dia.f90	/^      subroutine irsbv_dia /;"	s	module:mod_rsbv_dia
+irsbv_vbr	rsbv_vbr.f90	/^      subroutine irsbv_vbr /;"	s	module:mod_rsbv_vbr
+isp_first	link.f90	/^      type(isp_linknode), pointer,SAVE,PRIVATE :: isp_first,/;"	v	module:representation_of_data
+isp_init	link.f90	/^      logical,SAVE,PRIVATE :: isp_init /;"	v	module:representation_of_data
+isp_last	link.f90	/^      type(isp_linknode), pointer,SAVE,PRIVATE :: isp_first, isp_last$/;"	v	module:representation_of_data
+isp_linknode	link.f90	/^      type isp_linknode$/;"	t	module:representation_of_data
+istat	test.f90	/^      integer :: a, istat,/;"	v	program:test
+iusaxpy	usaxpy.f90	/^ subroutine iusaxpy /;"	s	module:mod_usaxpy
+iusconv_coo2csc	usconv_coo2csc.f90	/^      subroutine iusconv_coo2csc /;"	s	module:mod_usconv_coo2csc
+iuscr_bco	uscr_bco.f90	/^      subroutine iuscr_bco /;"	s	module:mod_uscr_bco
+iuscr_bdi	uscr_bdi.f90	/^      subroutine iuscr_bdi /;"	s	module:mod_uscr_bdi
+iuscr_begin	uscr_begin.f90	/^      subroutine iuscr_begin /;"	s	module:mod_uscr_begin
+iuscr_block_begin	uscr_block_begin.f90	/^      subroutine  iuscr_block_begin /;"	s	module:mod_uscr_block_begin
+iuscr_blockend	INS_ROUTINER.f90	/^      subroutine iuscr_blockend /;"	s	module:mod_INS_ROUTINER
+iuscr_bsc	uscr_bsc.f90	/^      subroutine iuscr_bsc /;"	s	module:mod_uscr_bsc
+iuscr_bsr	uscr_bsr.f90	/^      subroutine iuscr_bsr /;"	s	module:mod_uscr_bsr
+iuscr_coo	uscr_coo.f90	/^      subroutine iuscr_coo /;"	s	module:mod_uscr_coo
+iuscr_csc	uscr_csc.f90	/^      subroutine iuscr_csc /;"	s	module:mod_uscr_csc
+iuscr_csr	uscr_csr.f90	/^      subroutine iuscr_csr /;"	s	module:mod_uscr_csr
+iuscr_dia	uscr_dia.f90	/^      subroutine iuscr_dia /;"	s	module:mod_uscr_dia
+iuscr_insert_block	uscr_insert_block.f90	/^      subroutine  iuscr_insert_block /;"	s	module:mod_uscr_insert_block
+iuscr_insert_clique	uscr_insert_clique.f90	/^      subroutine  iuscr_insert_clique /;"	s	module:mod_uscr_insert_clique
+iuscr_insert_col	uscr_insert_col.f90	/^      subroutine  iuscr_insert_col /;"	s	module:mod_uscr_insert_col
+iuscr_insert_entries	uscr_insert_entries.f90	/^      subroutine iuscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+iuscr_insert_entry	uscr_insert_entry.f90	/^      subroutine iuscr_insert_entry /;"	s	module:mod_uscr_insert_entry
+iuscr_insert_row	uscr_insert_row.f90	/^      subroutine iuscr_insert_row /;"	s	module:mod_uscr_insert_row
+iuscr_normend	INS_ROUTINER.f90	/^      subroutine iuscr_normend /;"	s	module:mod_INS_ROUTINER
+iuscr_varend	INS_ROUTINER.f90	/^      subroutine iuscr_varend /;"	s	module:mod_INS_ROUTINER
+iuscr_variable_block_begin	uscr_variable_block_begin.f90	/^      subroutine iuscr_variable_block_begin /;"	s	module:mod_uscr_variable_block_begin
+iuscr_vbr	uscr_vbr.f90	/^      subroutine iuscr_vbr /;"	s	module:mod_uscr_vbr
+iusdot	usdot.f90	/^integer  function iusdot /;"	f	module:mod_usdot
+iusga	usga.f90	/^ subroutine iusga /;"	s	module:mod_usga
+iusgz	usgz.f90	/^subroutine iusgz /;"	s	module:mod_usgz
+iusmm	usmm.f90	/^      subroutine iusmm /;"	s	module:mod_usmm
+iusmv	usmv.f90	/^      subroutine iusmv /;"	s	module:mod_usmv
+iussc	ussc.f90	/^  subroutine iussc /;"	s	module:mod_ussc
+iussm	ussm.f90	/^      subroutine iussm /;"	s	module:mod_ussm
+iussv	ussv.f90	/^      subroutine iussv /;"	s	module:mod_ussv
+jndx	hash.f90	/^      integer :: jndx,/;"	k	type:capsule
+mod_Entry	Entry.f90	/^module mod_Entry$/;"	m
+mod_INSERTING	INSERTING.f90	/^module mod_INSERTING$/;"	m
+mod_INS_ROUTINER	INS_ROUTINER.f90	/^      module mod_INS_ROUTINER$/;"	m
+mod_conv_tools	conv_tools.f90	/^      module mod_conv_tools$/;"	m
+mod_dense_mat_algos	dense.f90	/^      module mod_dense_mat_algos$/;"	m
+mod_hash	hash.f90	/^      module mod_hash$/;"	m
+mod_info	info.f90	/^      module mod_info$/;"	m
+mod_lmbv_bco	lmbv_bco.f90	/^      module mod_lmbv_bco$/;"	m
+mod_lmbv_bdi	lmbv_bdi.f90	/^      module mod_lmbv_bdi$/;"	m
+mod_lmbv_bsc	lmbv_bsc.f90	/^      module mod_lmbv_bsc$/;"	m
+mod_lmbv_bsr	lmbv_bsr.f90	/^      module mod_lmbv_bsr$/;"	m
+mod_lmbv_coo	lmbv_coo.f90	/^      module mod_lmbv_coo$/;"	m
+mod_lmbv_csc	lmbv_csc.f90	/^      module mod_lmbv_csc$/;"	m
+mod_lmbv_csr	lmbv_csr.f90	/^      module mod_lmbv_csr$/;"	m
+mod_lmbv_dia	lmbv_dia.f90	/^      module mod_lmbv_dia$/;"	m
+mod_lmbv_vbr	lmbv_vbr.f90	/^      module mod_lmbv_vbr$/;"	m
+mod_lsbv_bco	lsbv_bco.f90	/^      module mod_lsbv_bco$/;"	m
+mod_lsbv_bdi	lsbv_bdi.f90	/^      module mod_lsbv_bdi$/;"	m
+mod_lsbv_bsc	lsbv_bsc.f90	/^      module mod_lsbv_bsc$/;"	m
+mod_lsbv_bsr	lsbv_bsr.f90	/^      module mod_lsbv_bsr$/;"	m
+mod_lsbv_coo	lsbv_coo.f90	/^      module mod_lsbv_coo$/;"	m
+mod_lsbv_csc	lsbv_csc.f90	/^      module mod_lsbv_csc$/;"	m
+mod_lsbv_csr	lsbv_csr.f90	/^      module mod_lsbv_csr$/;"	m
+mod_lsbv_dia	lsbv_dia.f90	/^      module mod_lsbv_dia$/;"	m
+mod_lsbv_vbr	lsbv_vbr.f90	/^      module mod_lsbv_vbr$/;"	m
+mod_mbv	mbv.f90	/^      module mod_mbv$/;"	m
+mod_rmbv_bco	rmbv_bco.f90	/^      module mod_rmbv_bco$/;"	m
+mod_rmbv_bdi	rmbv_bdi.f90	/^      module mod_rmbv_bdi$/;"	m
+mod_rmbv_bsc	rmbv_bsc.f90	/^      module mod_rmbv_bsc$/;"	m
+mod_rmbv_bsr	rmbv_bsr.f90	/^      module mod_rmbv_bsr$/;"	m
+mod_rmbv_coo	rmbv_coo.f90	/^      module mod_rmbv_coo$/;"	m
+mod_rmbv_csc	rmbv_csc.f90	/^      module mod_rmbv_csc$/;"	m
+mod_rmbv_csr	rmbv_csr.f90	/^      module mod_rmbv_csr$/;"	m
+mod_rmbv_dia	rmbv_dia.f90	/^      module mod_rmbv_dia$/;"	m
+mod_rmbv_vbr	rmbv_vbr.f90	/^      module mod_rmbv_vbr$/;"	m
+mod_rsbv_bco	rsbv_bco.f90	/^      module mod_rsbv_bco$/;"	m
+mod_rsbv_bdi	rsbv_bdi.f90	/^      module mod_rsbv_bdi$/;"	m
+mod_rsbv_bsc	rsbv_bsc.f90	/^      module mod_rsbv_bsc$/;"	m
+mod_rsbv_bsr	rsbv_bsr.f90	/^      module mod_rsbv_bsr$/;"	m
+mod_rsbv_coo	rsbv_coo.f90	/^      module mod_rsbv_coo$/;"	m
+mod_rsbv_csc	rsbv_csc.f90	/^      module mod_rsbv_csc$/;"	m
+mod_rsbv_csr	rsbv_csr.f90	/^      module mod_rsbv_csr$/;"	m
+mod_rsbv_dia	rsbv_dia.f90	/^      module mod_rsbv_dia$/;"	m
+mod_rsbv_vbr	rsbv_vbr.f90	/^      module mod_rsbv_vbr$/;"	m
+mod_sbv	sbv.f90	/^      module mod_sbv$/;"	m
+mod_usaxpy	usaxpy.f90	/^      module mod_usaxpy$/;"	m
+mod_usconv_bco2bdi	usconv_bco2bdi.f90	/^      module mod_usconv_bco2bdi$/;"	m
+mod_usconv_bco2bsc	usconv_bco2bsc.f90	/^      module mod_usconv_bco2bsc$/;"	m
+mod_usconv_bco2bsr	usconv_bco2bsr.f90	/^      module mod_usconv_bco2bsr$/;"	m
+mod_usconv_bdi2bco	usconv_bdi2bco.f90	/^      module mod_usconv_bdi2bco$/;"	m
+mod_usconv_bsc2bco	usconv_bsc2bco.f90	/^      module mod_usconv_bsc2bco$/;"	m
+mod_usconv_bsr2bco	usconv_bsr2bco.f90	/^      module mod_usconv_bsr2bco$/;"	m
+mod_usconv_coo2csc	usconv_coo2csc.f90	/^      module mod_usconv_coo2csc$/;"	m
+mod_usconv_coo2csr	usconv_coo2csr.f90	/^      module mod_usconv_coo2csr$/;"	m
+mod_usconv_coo2dia	usconv_coo2dia.f90	/^      module mod_usconv_coo2dia$/;"	m
+mod_usconv_csc2coo	usconv_csc2coo.f90	/^      module mod_usconv_csc2coo$/;"	m
+mod_usconv_csr2coo	usconv_csr2coo.f90	/^      module mod_usconv_csr2coo$/;"	m
+mod_usconv_dia2coo	usconv_dia2coo.f90	/^      module mod_usconv_dia2coo$/;"	m
+mod_uscr	uscr.f90	/^      module mod_uscr$/;"	m
+mod_uscr_bco	uscr_bco.f90	/^module mod_uscr_bco$/;"	m
+mod_uscr_bdi	uscr_bdi.f90	/^      module mod_uscr_bdi$/;"	m
+mod_uscr_begin	uscr_begin.f90	/^module mod_uscr_begin$/;"	m
+mod_uscr_block_begin	uscr_block_begin.f90	/^module mod_uscr_block_begin$/;"	m
+mod_uscr_bsc	uscr_bsc.f90	/^      module mod_uscr_bsc$/;"	m
+mod_uscr_bsr	uscr_bsr.f90	/^      module mod_uscr_bsr$/;"	m
+mod_uscr_coo	uscr_coo.f90	/^      module mod_uscr_coo$/;"	m
+mod_uscr_csc	uscr_csc.f90	/^      module mod_uscr_csc$/;"	m
+mod_uscr_csr	uscr_csr.f90	/^      module mod_uscr_csr$/;"	m
+mod_uscr_dia	uscr_dia.f90	/^      module mod_uscr_dia$/;"	m
+mod_uscr_end	uscr_end.f90	/^      module mod_uscr_end$/;"	m
+mod_uscr_insert_block	uscr_insert_block.f90	/^module mod_uscr_insert_block$/;"	m
+mod_uscr_insert_clique	uscr_insert_clique.f90	/^module mod_uscr_insert_clique$/;"	m
+mod_uscr_insert_col	uscr_insert_col.f90	/^module mod_uscr_insert_col$/;"	m
+mod_uscr_insert_entries	uscr_insert_entries.f90	/^module mod_uscr_insert_entries$/;"	m
+mod_uscr_insert_entry	uscr_insert_entry.f90	/^module mod_uscr_insert_entry$/;"	m
+mod_uscr_insert_row	uscr_insert_row.f90	/^module mod_uscr_insert_row$/;"	m
+mod_uscr_variable_block_begin	uscr_variable_block_begin.f90	/^module mod_uscr_variable_block_begin$/;"	m
+mod_uscr_vbr	uscr_vbr.f90	/^module mod_uscr_vbr$/;"	m
+mod_usdot	usdot.f90	/^      module mod_usdot$/;"	m
+mod_usds	usds.f90	/^      module mod_usds$/;"	m
+mod_usga	usga.f90	/^      module mod_usga$/;"	m
+mod_usgp	usgp.f90	/^      module mod_usgp$/;"	m
+mod_usgz	usgz.f90	/^      module mod_usgz$/;"	m
+mod_usmm	usmm.f90	/^      module mod_usmm$/;"	m
+mod_usmv	usmv.f90	/^      module mod_usmv$/;"	m
+mod_ussc	ussc.f90	/^      module mod_ussc$/;"	m
+mod_ussm	ussm.f90	/^      module mod_ussm$/;"	m
+mod_ussp	ussp.f90	/^      module mod_ussp$/;"	m
+mod_ussv	ussv.f90	/^      module mod_ussv$/;"	m
+new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:c_matrix
+new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:d_matrix
+new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:i_matrix
+new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:s_matrix
+new	INSERTING.f90	/^integer::property,number,new$/;"	k	type:z_matrix
+new_c_element	INSERTING.f90	/^      subroutine new_c_element /;"	s	module:mod_INSERTING
+new_c_matrix	INSERTING.f90	/^      subroutine new_c_matrix /;"	s	module:mod_INSERTING
+new_capsule_main	hash.f90	/^      subroutine new_capsule_main(/;"	s	module:mod_hash
+new_csp	link.f90	/^      subroutine new_csp /;"	s	module:representation_of_data
+new_d_element	INSERTING.f90	/^      subroutine new_d_element /;"	s	module:mod_INSERTING
+new_d_matrix	INSERTING.f90	/^      subroutine new_d_matrix /;"	s	module:mod_INSERTING
+new_dsp	link.f90	/^      subroutine new_dsp /;"	s	module:representation_of_data
+new_i_element	INSERTING.f90	/^      subroutine new_i_element /;"	s	module:mod_INSERTING
+new_i_matrix	INSERTING.f90	/^      subroutine new_i_matrix /;"	s	module:mod_INSERTING
+new_isp	link.f90	/^      subroutine new_isp /;"	s	module:representation_of_data
+new_s_element	INSERTING.f90	/^      subroutine new_s_element /;"	s	module:mod_INSERTING
+new_s_matrix	INSERTING.f90	/^      subroutine new_s_matrix /;"	s	module:mod_INSERTING
+new_ssp	link.f90	/^      subroutine new_ssp /;"	s	module:representation_of_data
+new_z_element	INSERTING.f90	/^      subroutine new_z_element /;"	s	module:mod_INSERTING
+new_z_matrix	INSERTING.f90	/^      subroutine new_z_matrix /;"	s	module:mod_INSERTING
+new_zsp	link.f90	/^      subroutine new_zsp /;"	s	module:representation_of_data
+no_of_types	properties.f90	/^      integer, parameter :: no_of_types /;"	v	module:properties
+number	INSERTING.f90	/^integer::number$/;"	k	type:c_element
+number	INSERTING.f90	/^integer::number$/;"	k	type:d_element
+number	INSERTING.f90	/^integer::number$/;"	k	type:i_element
+number	INSERTING.f90	/^integer::number$/;"	k	type:s_element
+number	INSERTING.f90	/^integer::number$/;"	k	type:z_element
+number	INSERTING.f90	/^integer::property,number,/;"	k	type:c_matrix
+number	INSERTING.f90	/^integer::property,number,/;"	k	type:d_matrix
+number	INSERTING.f90	/^integer::property,number,/;"	k	type:i_matrix
+number	INSERTING.f90	/^integer::property,number,/;"	k	type:s_matrix
+number	INSERTING.f90	/^integer::property,number,/;"	k	type:z_matrix
+number	link.f90	/^        integer :: number$/;"	k	type:csp_linknode
+number	link.f90	/^        integer :: number$/;"	k	type:dsp_linknode
+number	link.f90	/^        integer :: number$/;"	k	type:isp_linknode
+number	link.f90	/^        integer :: number$/;"	k	type:ssp_linknode
+number	link.f90	/^        integer :: number$/;"	k	type:zsp_linknode
+pntin	INSERTING.f90	/^type(c_inpnt1)::pntin$/;"	k	type:c_inelement
+pntin	INSERTING.f90	/^type(d_inpnt1)::pntin$/;"	k	type:d_inelement
+pntin	INSERTING.f90	/^type(i_inpnt1)::pntin$/;"	k	type:i_inelement
+pntin	INSERTING.f90	/^type(s_inpnt1)::pntin$/;"	k	type:s_inelement
+pntin	INSERTING.f90	/^type(z_inpnt1)::pntin$/;"	k	type:z_inelement
+pntr	INSERTING.f90	/^type(c_element),pointer::pntr$/;"	k	type:c_element
+pntr	INSERTING.f90	/^type(c_matrix),pointer::pntr$/;"	k	type:c_matrix
+pntr	INSERTING.f90	/^type(d_element),pointer::pntr$/;"	k	type:d_element
+pntr	INSERTING.f90	/^type(d_matrix),pointer::pntr$/;"	k	type:d_matrix
+pntr	INSERTING.f90	/^type(i_element),pointer::pntr$/;"	k	type:i_element
+pntr	INSERTING.f90	/^type(i_matrix),pointer::pntr$/;"	k	type:i_matrix
+pntr	INSERTING.f90	/^type(s_element),pointer::pntr$/;"	k	type:s_element
+pntr	INSERTING.f90	/^type(s_matrix),pointer::pntr$/;"	k	type:s_matrix
+pntr	INSERTING.f90	/^type(z_element),pointer::pntr$/;"	k	type:z_element
+pntr	INSERTING.f90	/^type(z_matrix),pointer::pntr$/;"	k	type:z_matrix
+pntr	hash.f90	/^      type(capsule), pointer :: pntr$/;"	k	type:cappntr
+pntr	hash.f90	/^      type(capsule), pointer :: pntr$/;"	k	type:capsule
+pntr	link.f90	/^        type(csp_linknode), pointer :: pntr$/;"	k	type:csp_linknode
+pntr	link.f90	/^        type(dsp_linknode), pointer :: pntr$/;"	k	type:dsp_linknode
+pntr	link.f90	/^        type(isp_linknode), pointer :: pntr$/;"	k	type:isp_linknode
+pntr	link.f90	/^        type(ssp_linknode), pointer :: pntr$/;"	k	type:ssp_linknode
+pntr	link.f90	/^        type(zsp_linknode), pointer :: pntr$/;"	k	type:zsp_linknode
+print	info.f90	/^      subroutine print(/;"	s	module:mod_info
+print_hash	hash.f90	/^      subroutine print_hash(/;"	s	module:mod_hash
+properties	properties.f90	/^  module properties$/;"	m
+property	INSERTING.f90	/^integer::property,/;"	k	type:c_matrix
+property	INSERTING.f90	/^integer::property,/;"	k	type:d_matrix
+property	INSERTING.f90	/^integer::property,/;"	k	type:i_matrix
+property	INSERTING.f90	/^integer::property,/;"	k	type:s_matrix
+property	INSERTING.f90	/^integer::property,/;"	k	type:z_matrix
+prpty	test.f90	/^      integer :: a, istat, prpty$/;"	v	program:test
+remove_hash	hash.f90	/^      subroutine remove_hash(/;"	s	module:mod_hash
+representation_of_data	link.f90	/^      module  representation_of_data$/;"	m
+row_block_ind	INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:c_inblock
+row_block_ind	INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:d_inblock
+row_block_ind	INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:i_inblock
+row_block_ind	INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:s_inblock
+row_block_ind	INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:z_inblock
+row_ind	INSERTING.f90	/^integer::row_ind,/;"	k	type:c_inpnt1
+row_ind	INSERTING.f90	/^integer::row_ind,/;"	k	type:d_inpnt1
+row_ind	INSERTING.f90	/^integer::row_ind,/;"	k	type:i_inpnt1
+row_ind	INSERTING.f90	/^integer::row_ind,/;"	k	type:s_inpnt1
+row_ind	INSERTING.f90	/^integer::row_ind,/;"	k	type:z_inpnt1
+row_vblock_ind	INSERTING.f90	/^   integer ::row_vblock_ind,/;"	k	type:i_invblock
+row_vblock_ind	INSERTING.f90	/^integer ::row_vblock_ind,/;"	k	type:c_invblock
+row_vblock_ind	INSERTING.f90	/^integer ::row_vblock_ind,/;"	k	type:d_invblock
+row_vblock_ind	INSERTING.f90	/^integer ::row_vblock_ind,/;"	k	type:s_invblock
+row_vblock_ind	INSERTING.f90	/^integer ::row_vblock_ind,/;"	k	type:z_invblock
+sA_row_col	conv_tools.f90	/^      function sA_row_col /;"	f	module:mod_conv_tools
+sAb_row_col	conv_tools.f90	/^      function sAb_row_col /;"	f	module:mod_conv_tools
+sINS_bl_entr	INS_ROUTINER.f90	/^      subroutine sINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+sINS_block	INS_ROUTINER.f90	/^      subroutine sINS_block /;"	s	module:mod_INS_ROUTINER
+sINS_entry	INS_ROUTINER.f90	/^      subroutine sINS_entry /;"	s	module:mod_INS_ROUTINER
+sINS_varbl_entr	INS_ROUTINER.f90	/^      subroutine sINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
+sINS_varblock	INS_ROUTINER.f90	/^      subroutine sINS_varblock /;"	s	module:mod_INS_ROUTINER
+s_dealloc	INSERTING.f90	/^      subroutine s_dealloc /;"	s	module:mod_INSERTING
+s_element	INSERTING.f90	/^type s_element$/;"	t	module:mod_INSERTING
+s_element_num	INSERTING.f90	/^      subroutine s_element_num /;"	s	module:mod_INSERTING
+s_element_start	INSERTING.f90	/^type(s_element),pointer::s_element_start$/;"	k	type:s_matrix
+s_inblock	INSERTING.f90	/^type s_inblock$/;"	t	module:mod_INSERTING
+s_inelement	INSERTING.f90	/^type s_inelement$/;"	t	module:mod_INSERTING
+s_inpnt1	INSERTING.f90	/^type s_inpnt1$/;"	t	module:mod_INSERTING
+s_invblock	INSERTING.f90	/^type s_invblock$/;"	t	module:mod_INSERTING
+s_matrix	INSERTING.f90	/^type s_matrix$/;"	t	module:mod_INSERTING
+s_matrix_start	INSERTING.f90	/^type(s_matrix), pointer,SAVE :: s_matrix_start$/;"	v	module:mod_INSERTING
+saccess_element	INSERTING.f90	/^      subroutine saccess_element /;"	s	module:mod_INSERTING
+saccess_matrix	INSERTING.f90	/^      subroutine saccess_matrix /;"	s	module:mod_INSERTING
+sb_up_order	conv_tools.f90	/^      subroutine sb_up_order /;"	s	module:mod_conv_tools
+sblock_H_mult_vec	dense.f90	/^      subroutine sblock_H_mult_vec /;"	s	module:mod_dense_mat_algos
+sblock_T_mult_vec	dense.f90	/^      subroutine sblock_T_mult_vec /;"	s	module:mod_dense_mat_algos
+sblock_Z_mult_vec	dense.f90	/^      subroutine sblock_Z_mult_vec /;"	s	module:mod_dense_mat_algos
+sblock_l_mult_vec	dense.f90	/^      subroutine sblock_l_mult_vec /;"	s	module:mod_dense_mat_algos
+sblock_mult_vec	dense.f90	/^      subroutine sblock_mult_vec /;"	s	module:mod_dense_mat_algos
+sblock_r_mult_vec	dense.f90	/^      subroutine sblock_r_mult_vec /;"	s	module:mod_dense_mat_algos
+sdetect_bdiag	conv_tools.f90	/^      subroutine sdetect_bdiag /;"	s	module:mod_conv_tools
+sdetect_diag	conv_tools.f90	/^      subroutine sdetect_diag /;"	s	module:mod_conv_tools
+set_descra	properties.f90	/^      subroutine set_descra(/;"	s	module:properties
+set_infoa	properties.f90	/^      subroutine set_infoa(/;"	s	module:properties
+setup_hash	hash.f90	/^      subroutine setup_hash(/;"	s	module:mod_hash
+sins_init	INSERTING.f90	/^logical, SAVE, PRIVATE :: sins_init /;"	v	module:mod_INSERTING
+sinvert_T_left_lower	dense.f90	/^      subroutine sinvert_T_left_lower /;"	s	module:mod_dense_mat_algos
+sinvert_T_right_upper	dense.f90	/^      subroutine sinvert_T_right_upper /;"	s	module:mod_dense_mat_algos
+sinvert_l_left_lower	dense.f90	/^      subroutine sinvert_l_left_lower /;"	s	module:mod_dense_mat_algos
+sinvert_l_right_upper	dense.f90	/^      subroutine sinvert_l_right_upper /;"	s	module:mod_dense_mat_algos
+sinvert_left_lower	dense.f90	/^      subroutine sinvert_left_lower /;"	s	module:mod_dense_mat_algos
+sinvert_r_left_lower	dense.f90	/^      subroutine sinvert_r_left_lower /;"	s	module:mod_dense_mat_algos
+sinvert_r_right_upper	dense.f90	/^      subroutine sinvert_r_right_upper /;"	s	module:mod_dense_mat_algos
+sinvert_right_upper	dense.f90	/^      subroutine sinvert_right_upper /;"	s	module:mod_dense_mat_algos
+slmbv_bco	lmbv_bco.f90	/^      subroutine slmbv_bco /;"	s	module:mod_lmbv_bco
+slmbv_bdi	lmbv_bdi.f90	/^      subroutine slmbv_bdi /;"	s	module:mod_lmbv_bdi
+slmbv_bsc	lmbv_bsc.f90	/^      subroutine slmbv_bsc /;"	s	module:mod_lmbv_bsc
+slmbv_bsr	lmbv_bsr.f90	/^      subroutine slmbv_bsr /;"	s	module:mod_lmbv_bsr
+slmbv_coo	lmbv_coo.f90	/^      subroutine slmbv_coo /;"	s	module:mod_lmbv_coo
+slmbv_csc	lmbv_csc.f90	/^      subroutine slmbv_csc /;"	s	module:mod_lmbv_csc
+slmbv_csr	lmbv_csr.f90	/^      subroutine slmbv_csr /;"	s	module:mod_lmbv_csr
+slmbv_dia	lmbv_dia.f90	/^      subroutine slmbv_dia /;"	s	module:mod_lmbv_dia
+slmbv_vbr	lmbv_vbr.f90	/^      subroutine slmbv_vbr /;"	s	module:mod_lmbv_vbr
+slsbv_bco	lsbv_bco.f90	/^      subroutine slsbv_bco /;"	s	module:mod_lsbv_bco
+slsbv_bdi	lsbv_bdi.f90	/^      subroutine slsbv_bdi /;"	s	module:mod_lsbv_bdi
+slsbv_bsc	lsbv_bsc.f90	/^      subroutine slsbv_bsc /;"	s	module:mod_lsbv_bsc
+slsbv_bsr	lsbv_bsr.f90	/^      subroutine slsbv_bsr /;"	s	module:mod_lsbv_bsr
+slsbv_coo	lsbv_coo.f90	/^      subroutine slsbv_coo /;"	s	module:mod_lsbv_coo
+slsbv_csc	lsbv_csc.f90	/^      subroutine slsbv_csc /;"	s	module:mod_lsbv_csc
+slsbv_csr	lsbv_csr.f90	/^      subroutine slsbv_csr /;"	s	module:mod_lsbv_csr
+slsbv_dia	lsbv_dia.f90	/^      subroutine slsbv_dia /;"	s	module:mod_lsbv_dia
+slsbv_vbr	lsbv_vbr.f90	/^      subroutine slsbv_vbr /;"	s	module:mod_lsbv_vbr
+sp	blas_sparse_namedconstants.f90	/^      integer, parameter :: sp /;"	v	module:blas_sparse_namedconstants
+spre_usconv_bco2bdi	conv_tools.f90	/^      subroutine spre_usconv_bco2bdi /;"	s	module:mod_conv_tools
+spre_usconv_bco2bsc	conv_tools.f90	/^      subroutine spre_usconv_bco2bsc /;"	s	module:mod_conv_tools
+spre_usconv_bco2bsr	conv_tools.f90	/^      subroutine spre_usconv_bco2bsr /;"	s	module:mod_conv_tools
+spre_usconv_bdi2bco	conv_tools.f90	/^      subroutine spre_usconv_bdi2bco /;"	s	module:mod_conv_tools
+spre_usconv_coo2csc	conv_tools.f90	/^      subroutine spre_usconv_coo2csc /;"	s	module:mod_conv_tools
+spre_usconv_coo2csr	conv_tools.f90	/^      subroutine spre_usconv_coo2csr /;"	s	module:mod_conv_tools
+spre_usconv_coo2dia	conv_tools.f90	/^      subroutine spre_usconv_coo2dia /;"	s	module:mod_conv_tools
+spre_usconv_dia2coo	conv_tools.f90	/^      subroutine spre_usconv_dia2coo /;"	s	module:mod_conv_tools
+srmbv_bco	rmbv_bco.f90	/^      subroutine srmbv_bco /;"	s	module:mod_rmbv_bco
+srmbv_bdi	rmbv_bdi.f90	/^      subroutine srmbv_bdi /;"	s	module:mod_rmbv_bdi
+srmbv_bsc	rmbv_bsc.f90	/^      subroutine srmbv_bsc /;"	s	module:mod_rmbv_bsc
+srmbv_bsr	rmbv_bsr.f90	/^      subroutine srmbv_bsr /;"	s	module:mod_rmbv_bsr
+srmbv_coo	rmbv_coo.f90	/^      subroutine srmbv_coo /;"	s	module:mod_rmbv_coo
+srmbv_csc	rmbv_csc.f90	/^      subroutine srmbv_csc /;"	s	module:mod_rmbv_csc
+srmbv_csr	rmbv_csr.f90	/^      subroutine srmbv_csr /;"	s	module:mod_rmbv_csr
+srmbv_dia	rmbv_dia.f90	/^      subroutine srmbv_dia /;"	s	module:mod_rmbv_dia
+srmbv_vbr	rmbv_vbr.f90	/^      subroutine srmbv_vbr /;"	s	module:mod_rmbv_vbr
+srsbv_bco	rsbv_bco.f90	/^      subroutine srsbv_bco /;"	s	module:mod_rsbv_bco
+srsbv_bdi	rsbv_bdi.f90	/^      subroutine srsbv_bdi /;"	s	module:mod_rsbv_bdi
+srsbv_bsc	rsbv_bsc.f90	/^      subroutine srsbv_bsc /;"	s	module:mod_rsbv_bsc
+srsbv_bsr	rsbv_bsr.f90	/^      subroutine srsbv_bsr /;"	s	module:mod_rsbv_bsr
+srsbv_coo	rsbv_coo.f90	/^      subroutine srsbv_coo /;"	s	module:mod_rsbv_coo
+srsbv_csc	rsbv_csc.f90	/^      subroutine srsbv_csc /;"	s	module:mod_rsbv_csc
+srsbv_csr	rsbv_csr.f90	/^      subroutine srsbv_csr /;"	s	module:mod_rsbv_csr
+srsbv_dia	rsbv_dia.f90	/^      subroutine srsbv_dia /;"	s	module:mod_rsbv_dia
+srsbv_vbr	rsbv_vbr.f90	/^      subroutine srsbv_vbr /;"	s	module:mod_rsbv_vbr
+ssp_first	link.f90	/^      type(ssp_linknode), pointer,SAVE,PRIVATE :: ssp_first,/;"	v	module:representation_of_data
+ssp_init	link.f90	/^      logical,SAVE,PRIVATE :: ssp_init /;"	v	module:representation_of_data
+ssp_last	link.f90	/^      type(ssp_linknode), pointer,SAVE,PRIVATE :: ssp_first, ssp_last$/;"	v	module:representation_of_data
+ssp_linknode	link.f90	/^      type ssp_linknode$/;"	t	module:representation_of_data
+sub_cols	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:c_matrix
+sub_cols	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:d_matrix
+sub_cols	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:i_matrix
+sub_cols	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:s_matrix
+sub_cols	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:z_matrix
+sub_rows	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:c_matrix
+sub_rows	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:d_matrix
+sub_rows	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:i_matrix
+sub_rows	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:s_matrix
+sub_rows	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:z_matrix
+susaxpy	usaxpy.f90	/^ subroutine susaxpy /;"	s	module:mod_usaxpy
+susconv_coo2csc	usconv_coo2csc.f90	/^      subroutine susconv_coo2csc /;"	s	module:mod_usconv_coo2csc
+suscr_bco	uscr_bco.f90	/^      subroutine suscr_bco /;"	s	module:mod_uscr_bco
+suscr_bdi	uscr_bdi.f90	/^      subroutine suscr_bdi /;"	s	module:mod_uscr_bdi
+suscr_begin	uscr_begin.f90	/^      subroutine suscr_begin /;"	s	module:mod_uscr_begin
+suscr_block_begin	uscr_block_begin.f90	/^      subroutine  suscr_block_begin /;"	s	module:mod_uscr_block_begin
+suscr_blockend	INS_ROUTINER.f90	/^      subroutine suscr_blockend /;"	s	module:mod_INS_ROUTINER
+suscr_bsc	uscr_bsc.f90	/^      subroutine suscr_bsc /;"	s	module:mod_uscr_bsc
+suscr_bsr	uscr_bsr.f90	/^      subroutine suscr_bsr /;"	s	module:mod_uscr_bsr
+suscr_coo	uscr_coo.f90	/^      subroutine suscr_coo /;"	s	module:mod_uscr_coo
+suscr_csc	uscr_csc.f90	/^      subroutine suscr_csc /;"	s	module:mod_uscr_csc
+suscr_csr	uscr_csr.f90	/^      subroutine suscr_csr /;"	s	module:mod_uscr_csr
+suscr_dia	uscr_dia.f90	/^      subroutine suscr_dia /;"	s	module:mod_uscr_dia
+suscr_insert_block	uscr_insert_block.f90	/^      subroutine  suscr_insert_block /;"	s	module:mod_uscr_insert_block
+suscr_insert_clique	uscr_insert_clique.f90	/^      subroutine  suscr_insert_clique /;"	s	module:mod_uscr_insert_clique
+suscr_insert_col	uscr_insert_col.f90	/^      subroutine  suscr_insert_col /;"	s	module:mod_uscr_insert_col
+suscr_insert_entries	uscr_insert_entries.f90	/^      subroutine suscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+suscr_insert_entry	uscr_insert_entry.f90	/^      subroutine suscr_insert_entry /;"	s	module:mod_uscr_insert_entry
+suscr_insert_row	uscr_insert_row.f90	/^      subroutine suscr_insert_row /;"	s	module:mod_uscr_insert_row
+suscr_normend	INS_ROUTINER.f90	/^      subroutine suscr_normend /;"	s	module:mod_INS_ROUTINER
+suscr_varend	INS_ROUTINER.f90	/^      subroutine suscr_varend /;"	s	module:mod_INS_ROUTINER
+suscr_variable_block_begin	uscr_variable_block_begin.f90	/^      subroutine suscr_variable_block_begin /;"	s	module:mod_uscr_variable_block_begin
+suscr_vbr	uscr_vbr.f90	/^      subroutine suscr_vbr /;"	s	module:mod_uscr_vbr
+susdot	usdot.f90	/^real(KIND=sp)  function susdot /;"	f	module:mod_usdot
+susga	usga.f90	/^ subroutine susga /;"	s	module:mod_usga
+susgz	usgz.f90	/^subroutine susgz /;"	s	module:mod_usgz
+susmm	usmm.f90	/^      subroutine susmm /;"	s	module:mod_usmm
+susmv	usmv.f90	/^      subroutine susmv /;"	s	module:mod_usmv
+sussc	ussc.f90	/^  subroutine sussc /;"	s	module:mod_ussc
+sussm	ussm.f90	/^      subroutine sussm /;"	s	module:mod_ussm
+sussv	ussv.f90	/^      subroutine sussv /;"	s	module:mod_ussv
+test	test.f90	/^      program test$/;"	p
+trb	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:c_matrix
+trb	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:d_matrix
+trb	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:i_matrix
+trb	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:s_matrix
+trb	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:z_matrix
+tre	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:c_matrix
+tre	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:d_matrix
+tre	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:i_matrix
+tre	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:s_matrix
+tre	INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:z_matrix
+types	types.f90	/^MODULE types$/;"	m
+up_order	conv_tools.f90	/^      subroutine  up_order(/;"	s	module:mod_conv_tools
+usconv_bco2bdi	usconv_bco2bdi.f90	/^      subroutine usconv_bco2bdi(/;"	s	module:mod_usconv_bco2bdi
+usconv_bco2bsc	usconv_bco2bsc.f90	/^      subroutine usconv_bco2bsc(/;"	s	module:mod_usconv_bco2bsc
+usconv_bco2bsr	usconv_bco2bsr.f90	/^      subroutine  usconv_bco2bsr(/;"	s	module:mod_usconv_bco2bsr
+usconv_bdi2bco	usconv_bdi2bco.f90	/^      subroutine usconv_bdi2bco(/;"	s	module:mod_usconv_bdi2bco
+usconv_bsc2bco	usconv_bsc2bco.f90	/^      subroutine usconv_bsc2bco(/;"	s	module:mod_usconv_bsc2bco
+usconv_bsr2bco	usconv_bsr2bco.f90	/^      subroutine usconv_bsr2bco(/;"	s	module:mod_usconv_bsr2bco
+usconv_coo2csr	usconv_coo2csr.f90	/^      subroutine usconv_coo2csr(/;"	s	module:mod_usconv_coo2csr
+usconv_coo2dia	usconv_coo2dia.f90	/^      subroutine usconv_coo2dia(/;"	s	module:mod_usconv_coo2dia
+usconv_csc2coo	usconv_csc2coo.f90	/^      subroutine usconv_csc2coo(/;"	s	module:mod_usconv_csc2coo
+usconv_csr2coo	usconv_csr2coo.f90	/^      subroutine usconv_csr2coo(/;"	s	module:mod_usconv_csr2coo
+usconv_dia2coo	usconv_dia2coo.f90	/^      subroutine  usconv_dia2coo(/;"	s	module:mod_usconv_dia2coo
+uscr_end	uscr_end.f90	/^      subroutine uscr_end(/;"	s	module:mod_uscr_end
+usds	usds.f90	/^      subroutine usds(/;"	s	module:mod_usds
+usgp	usgp.f90	/^      subroutine usgp /;"	s	module:mod_usgp
+ussp	ussp.f90	/^      subroutine ussp(/;"	s	module:mod_ussp
+val_pos	hash.f90	/^      integer :: jndx,val_pos$/;"	k	type:capsule
+value	INSERTING.f90	/^   integer,dimension(:,:),pointer::value$/;"	k	type:i_invblock
+value	INSERTING.f90	/^complex(kind=dp),dimension(:,:),pointer::value$/;"	k	type:z_inblock
+value	INSERTING.f90	/^complex(kind=dp),dimension(:,:),pointer::value$/;"	k	type:z_invblock
+value	INSERTING.f90	/^complex(kind=dp)::value$/;"	k	type:z_inpnt1
+value	INSERTING.f90	/^complex(kind=sp),dimension(:,:),pointer::value$/;"	k	type:c_inblock
+value	INSERTING.f90	/^complex(kind=sp),dimension(:,:),pointer::value$/;"	k	type:c_invblock
+value	INSERTING.f90	/^complex(kind=sp)::value$/;"	k	type:c_inpnt1
+value	INSERTING.f90	/^integer,dimension(:,:),pointer::value$/;"	k	type:i_inblock
+value	INSERTING.f90	/^integer::value$/;"	k	type:i_inpnt1
+value	INSERTING.f90	/^real(kind=dp),dimension(:,:),pointer::value$/;"	k	type:d_inblock
+value	INSERTING.f90	/^real(kind=dp),dimension(:,:),pointer::value$/;"	k	type:d_invblock
+value	INSERTING.f90	/^real(kind=dp)::value$/;"	k	type:d_inpnt1
+value	INSERTING.f90	/^real(kind=sp),dimension(:,:),pointer::value$/;"	k	type:s_inblock
+value	INSERTING.f90	/^real(kind=sp),dimension(:,:),pointer::value$/;"	k	type:s_invblock
+value	INSERTING.f90	/^real(kind=sp)::value$/;"	k	type:s_inpnt1
+vblin	INSERTING.f90	/^type(c_invblock)::vblin$/;"	k	type:c_inelement
+vblin	INSERTING.f90	/^type(d_invblock)::vblin$/;"	k	type:d_inelement
+vblin	INSERTING.f90	/^type(i_invblock)::vblin$/;"	k	type:i_inelement
+vblin	INSERTING.f90	/^type(s_invblock)::vblin$/;"	k	type:s_inelement
+vblin	INSERTING.f90	/^type(z_invblock)::vblin$/;"	k	type:z_inelement
+x	test.f90	/^      double precision, dimension(5) :: x,/;"	v	program:test
+y	test.f90	/^      double precision, dimension(5) :: x,y$/;"	v	program:test
+zA_row_col	conv_tools.f90	/^      function zA_row_col /;"	f	module:mod_conv_tools
+zAb_row_col	conv_tools.f90	/^      function zAb_row_col /;"	f	module:mod_conv_tools
+zINS_bl_entr	INS_ROUTINER.f90	/^      subroutine zINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+zINS_block	INS_ROUTINER.f90	/^      subroutine zINS_block /;"	s	module:mod_INS_ROUTINER
+zINS_entry	INS_ROUTINER.f90	/^      subroutine zINS_entry /;"	s	module:mod_INS_ROUTINER
+zINS_varbl_entr	INS_ROUTINER.f90	/^      subroutine zINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
+zINS_varblock	INS_ROUTINER.f90	/^      subroutine zINS_varblock /;"	s	module:mod_INS_ROUTINER
+z_dealloc	INSERTING.f90	/^      subroutine z_dealloc /;"	s	module:mod_INSERTING
+z_element	INSERTING.f90	/^type z_element$/;"	t	module:mod_INSERTING
+z_element_num	INSERTING.f90	/^      subroutine z_element_num /;"	s	module:mod_INSERTING
+z_element_start	INSERTING.f90	/^type(z_element),pointer::z_element_start$/;"	k	type:z_matrix
+z_inblock	INSERTING.f90	/^type z_inblock$/;"	t	module:mod_INSERTING
+z_inelement	INSERTING.f90	/^type z_inelement$/;"	t	module:mod_INSERTING
+z_inpnt1	INSERTING.f90	/^type z_inpnt1$/;"	t	module:mod_INSERTING
+z_invblock	INSERTING.f90	/^type z_invblock$/;"	t	module:mod_INSERTING
+z_matrix	INSERTING.f90	/^type z_matrix$/;"	t	module:mod_INSERTING
+z_matrix_start	INSERTING.f90	/^type(z_matrix), pointer,SAVE :: z_matrix_start$/;"	v	module:mod_INSERTING
+zaccess_element	INSERTING.f90	/^      subroutine zaccess_element /;"	s	module:mod_INSERTING
+zaccess_matrix	INSERTING.f90	/^      subroutine zaccess_matrix /;"	s	module:mod_INSERTING
+zb_up_order	conv_tools.f90	/^      subroutine zb_up_order /;"	s	module:mod_conv_tools
+zblock_H_mult_vec	dense.f90	/^      subroutine zblock_H_mult_vec /;"	s	module:mod_dense_mat_algos
+zblock_T_mult_vec	dense.f90	/^      subroutine zblock_T_mult_vec /;"	s	module:mod_dense_mat_algos
+zblock_Z_mult_vec	dense.f90	/^      subroutine zblock_Z_mult_vec /;"	s	module:mod_dense_mat_algos
+zblock_l_mult_vec	dense.f90	/^      subroutine zblock_l_mult_vec /;"	s	module:mod_dense_mat_algos
+zblock_mult_vec	dense.f90	/^      subroutine zblock_mult_vec /;"	s	module:mod_dense_mat_algos
+zblock_r_mult_vec	dense.f90	/^      subroutine zblock_r_mult_vec /;"	s	module:mod_dense_mat_algos
+zdetect_bdiag	conv_tools.f90	/^      subroutine zdetect_bdiag /;"	s	module:mod_conv_tools
+zdetect_diag	conv_tools.f90	/^      subroutine zdetect_diag /;"	s	module:mod_conv_tools
+zins_init	INSERTING.f90	/^logical, SAVE, PRIVATE :: zins_init /;"	v	module:mod_INSERTING
+zinvert_T_left_lower	dense.f90	/^      subroutine zinvert_T_left_lower /;"	s	module:mod_dense_mat_algos
+zinvert_T_right_upper	dense.f90	/^      subroutine zinvert_T_right_upper /;"	s	module:mod_dense_mat_algos
+zinvert_l_left_lower	dense.f90	/^      subroutine zinvert_l_left_lower /;"	s	module:mod_dense_mat_algos
+zinvert_l_right_upper	dense.f90	/^      subroutine zinvert_l_right_upper /;"	s	module:mod_dense_mat_algos
+zinvert_left_lower	dense.f90	/^      subroutine zinvert_left_lower /;"	s	module:mod_dense_mat_algos
+zinvert_r_left_lower	dense.f90	/^      subroutine zinvert_r_left_lower /;"	s	module:mod_dense_mat_algos
+zinvert_r_right_upper	dense.f90	/^      subroutine zinvert_r_right_upper /;"	s	module:mod_dense_mat_algos
+zinvert_right_upper	dense.f90	/^      subroutine zinvert_right_upper /;"	s	module:mod_dense_mat_algos
+zlmbv_bco	lmbv_bco.f90	/^      subroutine zlmbv_bco /;"	s	module:mod_lmbv_bco
+zlmbv_bdi	lmbv_bdi.f90	/^      subroutine zlmbv_bdi /;"	s	module:mod_lmbv_bdi
+zlmbv_bsc	lmbv_bsc.f90	/^      subroutine zlmbv_bsc /;"	s	module:mod_lmbv_bsc
+zlmbv_bsr	lmbv_bsr.f90	/^      subroutine zlmbv_bsr /;"	s	module:mod_lmbv_bsr
+zlmbv_coo	lmbv_coo.f90	/^      subroutine zlmbv_coo /;"	s	module:mod_lmbv_coo
+zlmbv_csc	lmbv_csc.f90	/^      subroutine zlmbv_csc /;"	s	module:mod_lmbv_csc
+zlmbv_csr	lmbv_csr.f90	/^      subroutine zlmbv_csr /;"	s	module:mod_lmbv_csr
+zlmbv_dia	lmbv_dia.f90	/^      subroutine zlmbv_dia /;"	s	module:mod_lmbv_dia
+zlmbv_vbr	lmbv_vbr.f90	/^      subroutine zlmbv_vbr /;"	s	module:mod_lmbv_vbr
+zlsbv_bco	lsbv_bco.f90	/^      subroutine zlsbv_bco /;"	s	module:mod_lsbv_bco
+zlsbv_bdi	lsbv_bdi.f90	/^      subroutine zlsbv_bdi /;"	s	module:mod_lsbv_bdi
+zlsbv_bsc	lsbv_bsc.f90	/^      subroutine zlsbv_bsc /;"	s	module:mod_lsbv_bsc
+zlsbv_bsr	lsbv_bsr.f90	/^      subroutine zlsbv_bsr /;"	s	module:mod_lsbv_bsr
+zlsbv_coo	lsbv_coo.f90	/^      subroutine zlsbv_coo /;"	s	module:mod_lsbv_coo
+zlsbv_csc	lsbv_csc.f90	/^      subroutine zlsbv_csc /;"	s	module:mod_lsbv_csc
+zlsbv_csr	lsbv_csr.f90	/^      subroutine zlsbv_csr /;"	s	module:mod_lsbv_csr
+zlsbv_dia	lsbv_dia.f90	/^      subroutine zlsbv_dia /;"	s	module:mod_lsbv_dia
+zlsbv_vbr	lsbv_vbr.f90	/^      subroutine zlsbv_vbr /;"	s	module:mod_lsbv_vbr
+zpre_usconv_bco2bdi	conv_tools.f90	/^      subroutine zpre_usconv_bco2bdi /;"	s	module:mod_conv_tools
+zpre_usconv_bco2bsc	conv_tools.f90	/^      subroutine zpre_usconv_bco2bsc /;"	s	module:mod_conv_tools
+zpre_usconv_bco2bsr	conv_tools.f90	/^      subroutine zpre_usconv_bco2bsr /;"	s	module:mod_conv_tools
+zpre_usconv_bdi2bco	conv_tools.f90	/^      subroutine zpre_usconv_bdi2bco /;"	s	module:mod_conv_tools
+zpre_usconv_coo2csc	conv_tools.f90	/^      subroutine zpre_usconv_coo2csc /;"	s	module:mod_conv_tools
+zpre_usconv_coo2csr	conv_tools.f90	/^      subroutine zpre_usconv_coo2csr /;"	s	module:mod_conv_tools
+zpre_usconv_coo2dia	conv_tools.f90	/^      subroutine zpre_usconv_coo2dia /;"	s	module:mod_conv_tools
+zpre_usconv_dia2coo	conv_tools.f90	/^      subroutine zpre_usconv_dia2coo /;"	s	module:mod_conv_tools
+zrmbv_bco	rmbv_bco.f90	/^      subroutine zrmbv_bco /;"	s	module:mod_rmbv_bco
+zrmbv_bdi	rmbv_bdi.f90	/^      subroutine zrmbv_bdi /;"	s	module:mod_rmbv_bdi
+zrmbv_bsc	rmbv_bsc.f90	/^      subroutine zrmbv_bsc /;"	s	module:mod_rmbv_bsc
+zrmbv_bsr	rmbv_bsr.f90	/^      subroutine zrmbv_bsr /;"	s	module:mod_rmbv_bsr
+zrmbv_coo	rmbv_coo.f90	/^      subroutine zrmbv_coo /;"	s	module:mod_rmbv_coo
+zrmbv_csc	rmbv_csc.f90	/^      subroutine zrmbv_csc /;"	s	module:mod_rmbv_csc
+zrmbv_csr	rmbv_csr.f90	/^      subroutine zrmbv_csr /;"	s	module:mod_rmbv_csr
+zrmbv_dia	rmbv_dia.f90	/^      subroutine zrmbv_dia /;"	s	module:mod_rmbv_dia
+zrmbv_vbr	rmbv_vbr.f90	/^      subroutine zrmbv_vbr /;"	s	module:mod_rmbv_vbr
+zrsbv_bco	rsbv_bco.f90	/^      subroutine zrsbv_bco /;"	s	module:mod_rsbv_bco
+zrsbv_bdi	rsbv_bdi.f90	/^      subroutine zrsbv_bdi /;"	s	module:mod_rsbv_bdi
+zrsbv_bsc	rsbv_bsc.f90	/^      subroutine zrsbv_bsc /;"	s	module:mod_rsbv_bsc
+zrsbv_bsr	rsbv_bsr.f90	/^      subroutine zrsbv_bsr /;"	s	module:mod_rsbv_bsr
+zrsbv_coo	rsbv_coo.f90	/^      subroutine zrsbv_coo /;"	s	module:mod_rsbv_coo
+zrsbv_csc	rsbv_csc.f90	/^      subroutine zrsbv_csc /;"	s	module:mod_rsbv_csc
+zrsbv_csr	rsbv_csr.f90	/^      subroutine zrsbv_csr /;"	s	module:mod_rsbv_csr
+zrsbv_dia	rsbv_dia.f90	/^      subroutine zrsbv_dia /;"	s	module:mod_rsbv_dia
+zrsbv_vbr	rsbv_vbr.f90	/^      subroutine zrsbv_vbr /;"	s	module:mod_rsbv_vbr
+zsp_first	link.f90	/^      type(zsp_linknode), pointer,SAVE,PRIVATE :: zsp_first,/;"	v	module:representation_of_data
+zsp_init	link.f90	/^      logical,SAVE,PRIVATE :: zsp_init /;"	v	module:representation_of_data
+zsp_last	link.f90	/^      type(zsp_linknode), pointer,SAVE,PRIVATE :: zsp_first, zsp_last$/;"	v	module:representation_of_data
+zsp_linknode	link.f90	/^      type zsp_linknode$/;"	t	module:representation_of_data
+zusaxpy	usaxpy.f90	/^ subroutine zusaxpy /;"	s	module:mod_usaxpy
+zusconv_coo2csc	usconv_coo2csc.f90	/^      subroutine zusconv_coo2csc /;"	s	module:mod_usconv_coo2csc
+zuscr_bco	uscr_bco.f90	/^      subroutine zuscr_bco /;"	s	module:mod_uscr_bco
+zuscr_bdi	uscr_bdi.f90	/^      subroutine zuscr_bdi /;"	s	module:mod_uscr_bdi
+zuscr_begin	uscr_begin.f90	/^      subroutine zuscr_begin /;"	s	module:mod_uscr_begin
+zuscr_block_begin	uscr_block_begin.f90	/^      subroutine  zuscr_block_begin /;"	s	module:mod_uscr_block_begin
+zuscr_blockend	INS_ROUTINER.f90	/^      subroutine zuscr_blockend /;"	s	module:mod_INS_ROUTINER
+zuscr_bsc	uscr_bsc.f90	/^      subroutine zuscr_bsc /;"	s	module:mod_uscr_bsc
+zuscr_bsr	uscr_bsr.f90	/^      subroutine zuscr_bsr /;"	s	module:mod_uscr_bsr
+zuscr_coo	uscr_coo.f90	/^      subroutine zuscr_coo /;"	s	module:mod_uscr_coo
+zuscr_csc	uscr_csc.f90	/^      subroutine zuscr_csc /;"	s	module:mod_uscr_csc
+zuscr_csr	uscr_csr.f90	/^      subroutine zuscr_csr /;"	s	module:mod_uscr_csr
+zuscr_dia	uscr_dia.f90	/^      subroutine zuscr_dia /;"	s	module:mod_uscr_dia
+zuscr_insert_block	uscr_insert_block.f90	/^      subroutine  zuscr_insert_block /;"	s	module:mod_uscr_insert_block
+zuscr_insert_clique	uscr_insert_clique.f90	/^      subroutine  zuscr_insert_clique /;"	s	module:mod_uscr_insert_clique
+zuscr_insert_col	uscr_insert_col.f90	/^      subroutine  zuscr_insert_col /;"	s	module:mod_uscr_insert_col
+zuscr_insert_entries	uscr_insert_entries.f90	/^      subroutine zuscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+zuscr_insert_entry	uscr_insert_entry.f90	/^      subroutine zuscr_insert_entry /;"	s	module:mod_uscr_insert_entry
+zuscr_insert_row	uscr_insert_row.f90	/^      subroutine zuscr_insert_row /;"	s	module:mod_uscr_insert_row
+zuscr_normend	INS_ROUTINER.f90	/^      subroutine zuscr_normend /;"	s	module:mod_INS_ROUTINER
+zuscr_varend	INS_ROUTINER.f90	/^      subroutine zuscr_varend /;"	s	module:mod_INS_ROUTINER
+zuscr_variable_block_begin	uscr_variable_block_begin.f90	/^      subroutine zuscr_variable_block_begin /;"	s	module:mod_uscr_variable_block_begin
+zuscr_vbr	uscr_vbr.f90	/^      subroutine zuscr_vbr /;"	s	module:mod_uscr_vbr
+zusdot	usdot.f90	/^complex(KIND=dp)  function zusdot /;"	f	module:mod_usdot
+zusga	usga.f90	/^ subroutine zusga /;"	s	module:mod_usga
+zusgz	usgz.f90	/^subroutine zusgz /;"	s	module:mod_usgz
+zusmm	usmm.f90	/^      subroutine zusmm /;"	s	module:mod_usmm
+zusmv	usmv.f90	/^      subroutine zusmv /;"	s	module:mod_usmv
+zussc	ussc.f90	/^  subroutine zussc /;"	s	module:mod_ussc
+zussm	ussm.f90	/^      subroutine zussm /;"	s	module:mod_ussm
+zussv	ussv.f90	/^      subroutine zussv /;"	s	module:mod_ussv
