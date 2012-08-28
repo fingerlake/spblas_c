@@ -19,6 +19,8 @@
 #define ARRAY int *
 enum blas_trans_type 
 {
+  ORIGIN_MATRIX,
+  TRANSP_MATRIX
 };
 typedef struct
 {
