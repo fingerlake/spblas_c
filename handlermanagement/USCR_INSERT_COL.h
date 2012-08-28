@@ -1,0 +1,4 @@
+#ifndef USCR_INSERT_COL_H
+#define USCR_INSERT_COL_H
+
+#endif // USCR_INSERT_COL_H

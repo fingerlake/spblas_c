@@ -1,0 +1,4 @@
+#ifndef USCR_BLOCK_BEGIN_H
+#define USCR_BLOCK_BEGIN_H
+
+#endif // USCR_BLOCK_BEGIN_H
