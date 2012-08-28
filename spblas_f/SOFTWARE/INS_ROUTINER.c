@@ -89,7 +89,11 @@ int iINS_block(IN i_matrix pmatrix, int **value, int i, int j, int *stat)
 
 int i_INs_bl_entr (IN i_matrix pmatrix, int val, int i, int j, int *stat)
 {
-    
+
 }
 
 iINS_varblock()
+{
+    int nmb_element, ind;
+    int ierr;
+}

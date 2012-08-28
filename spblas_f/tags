@@ -9,6 +9,11 @@ A	SOFTWARE/types.f90	/^COMPLEX(KIND=sp), POINTER, DIMENSION(:) :: A$/;"	k	type:C
 A	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: A$/;"	k	type:ISPMAT
 A	SOFTWARE/types.f90	/^REAL/;"	k	type:DSPMAT
 A	SOFTWARE/types.f90	/^REAL/;"	k	type:SSPMAT
+A	SOFTWARE/types.h	/^    COMPLEX<double> * * A;$/;"	m	struct:ZSPMAT
+A	SOFTWARE/types.h	/^    COMPLEX<float> * * A;$/;"	m	struct:CSPMAT
+A	SOFTWARE/types.h	/^    double * * A;$/;"	m	struct:DSPMAT
+A	SOFTWARE/types.h	/^    float * * A;$/;"	m	struct:SSPMAT
+A	SOFTWARE/types.h	/^    int * * A;$/;"	m	struct:ISPMAT
 A	TESTER/power.f90	/^      INTEGER A,/;"	v	program:MAIN_POWER
 ACCESSDATA_XSP	SOURCE_FILES/link_source.F	/^      subroutine ACCESSDATA_XSP(/;"	s
 AR	SOFTWARE/Makefile	/^AR = ar -r -v$/;"	m
@@ -49,11 +54,21 @@ BP1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"
 BP1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:ISPMAT
 BP1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:SSPMAT
 BP1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,/;"	k	type:ZSPMAT
+BP1	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:CSPMAT
+BP1	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:DSPMAT
+BP1	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ISPMAT
+BP1	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:SSPMAT
+BP1	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ZSPMAT
 BP2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:CSPMAT
 BP2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:DSPMAT
 BP2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:ISPMAT
 BP2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:SSPMAT
 BP2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,BP1,BP2$/;"	k	type:ZSPMAT
+BP2	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:CSPMAT
+BP2	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:DSPMAT
+BP2	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ISPMAT
+BP2	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:SSPMAT
+BP2	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ZSPMAT
 BTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: BTx(/;"	v	module:mod_test_parameters
 B_1	TESTER/test_parameters.f90	/^   real(kind=dp),dimension(5) ::B_1=/;"	v	module:mod_test_parameters
 B_1_JNDX	TESTER/test_parameters.f90	/^   integer,dimension(5) ::B_1_JNDX=/;"	v	module:mod_test_parameters
@@ -68,8 +83,10 @@ CC	SOFTWARE/Makefile	/^CC = cc$/;"	m
 CFLAFS	SOFTWARE/Makefile	/^CFLAFS =$/;"	m
 CHx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: CHx(/;"	v	module:mod_test_parameters
 COBJS	SOFTWARE/Makefile	/^COBJS = $/;"	m
+COMPLEX	SOFTWARE/types.h	/^struct COMPLEX$/;"	s
 COP_OF_SOURCE	SOFTWARE/properties.f90	/^      integer, parameter :: COP_OF_SOURCE /;"	v	module:properties
 CSPMAT	SOFTWARE/types.f90	/^TYPE CSPMAT$/;"	t	module:types
+CSPMAT	SOFTWARE/types.h	/^struct CSPMAT$/;"	s
 CSP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: CSP_MATRIX /;"	v	module:properties
 CTx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: CTx(/;"	v	module:mod_test_parameters
 C_BASE	SOFTWARE/properties.f90	/^      integer, parameter :: C_BASE /;"	v	module:properties
@@ -84,22 +101,32 @@ DESCRA	SOFTWARE/types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:DSPMAT
 DESCRA	SOFTWARE/types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:ISPMAT
 DESCRA	SOFTWARE/types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:SSPMAT
 DESCRA	SOFTWARE/types.f90	/^CHARACTER*11 :: DESCRA$/;"	k	type:ZSPMAT
+DESCRA	SOFTWARE/types.h	/^    char DESCRA[11];$/;"	m	struct:CSPMAT
+DESCRA	SOFTWARE/types.h	/^    char DESCRA[11];$/;"	m	struct:DSPMAT
+DESCRA	SOFTWARE/types.h	/^    char DESCRA[11];$/;"	m	struct:ISPMAT
+DESCRA	SOFTWARE/types.h	/^    char DESCRA[11];$/;"	m	struct:SSPMAT
+DESCRA	SOFTWARE/types.h	/^    char DESCRA[11];$/;"	m	struct:ZSPMAT
 DIM	SOFTWARE/INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:c_matrix
 DIM	SOFTWARE/INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:d_matrix
 DIM	SOFTWARE/INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:i_matrix
 DIM	SOFTWARE/INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:s_matrix
 DIM	SOFTWARE/INSERTING.f90	/^integer,dimension(6)::DIM$/;"	k	type:z_matrix
+DIM	SOFTWARE/INSERTING.h	/^    int DIM[6];$/;"	m	struct:d_matrix
+DIM	SOFTWARE/INSERTING.h	/^    int DIM[6];$/;"	m	struct:i_matrix
+DIM	SOFTWARE/INSERTING.h	/^    int DIM[6];$/;"	m	struct:s_matrix
 DIM	TARGET_FILES/INSERTING_target.F	/^integer,dimension(6)::DIM$/;"	k	type:c_matrix
 DIM	TARGET_FILES/INSERTING_target.F	/^integer,dimension(6)::DIM$/;"	k	type:d_matrix
 DIM	TARGET_FILES/INSERTING_target.F	/^integer,dimension(6)::DIM$/;"	k	type:i_matrix
 DIM	TARGET_FILES/INSERTING_target.F	/^integer,dimension(6)::DIM$/;"	k	type:s_matrix
 DIM	TARGET_FILES/INSERTING_target.F	/^integer,dimension(6)::DIM$/;"	k	type:z_matrix
 DSPMAT	SOFTWARE/types.f90	/^TYPE DSPMAT$/;"	t	module:types
+DSPMAT	SOFTWARE/types.h	/^struct DSPMAT$/;"	s
 DSP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: DSP_MATRIX /;"	v	module:properties
 DTHx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: DTHx(/;"	v	module:mod_test_parameters
 DTTx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: DTTx(/;"	v	module:mod_test_parameters
 DT_N	TESTER/test_parameters.f90	/^integer,parameter::DT_N=/;"	v	module:mod_test_parameters
 DT_m	TESTER/test_parameters.f90	/^integer,parameter::DT_m=/;"	v	module:mod_test_parameters
+FALSE	SOFTWARE/INSERTING.h	145;"	d
 FC	SOFTWARE/Makefile	/^FC = gfortran$/;"	m
 FFLAGS	SOFTWARE/Makefile	/^FFLAGS = -g$/;"	m
 FIDA	SOFTWARE/types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:CSPMAT
@@ -107,6 +134,11 @@ FIDA	SOFTWARE/types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:DSPMAT
 FIDA	SOFTWARE/types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:ISPMAT
 FIDA	SOFTWARE/types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:SSPMAT
 FIDA	SOFTWARE/types.f90	/^CHARACTER*5 :: FIDA$/;"	k	type:ZSPMAT
+FIDA	SOFTWARE/types.h	/^    char FIDA[5] ;$/;"	m	struct:CSPMAT
+FIDA	SOFTWARE/types.h	/^    char FIDA[5] ;$/;"	m	struct:DSPMAT
+FIDA	SOFTWARE/types.h	/^    char FIDA[5] ;$/;"	m	struct:ISPMAT
+FIDA	SOFTWARE/types.h	/^    char FIDA[5] ;$/;"	m	struct:SSPMAT
+FIDA	SOFTWARE/types.h	/^    char FIDA[5] ;$/;"	m	struct:ZSPMAT
 F_BASE	SOFTWARE/properties.f90	/^      integer, parameter :: F_BASE /;"	v	module:properties
 HERMIT_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: HERMIT_MATRIX /;"	v	module:properties
 H_MATRIX	TESTER/test_parameters.f90	/^      integer, parameter :: H_MATRIX /;"	v	module:mod_test_parameters
@@ -116,11 +148,21 @@ IA1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:DSPMAT
 IA1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:ISPMAT
 IA1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:SSPMAT
 IA1	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,/;"	k	type:ZSPMAT
+IA1	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:CSPMAT
+IA1	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:DSPMAT
+IA1	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ISPMAT
+IA1	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:SSPMAT
+IA1	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ZSPMAT
 IA2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:CSPMAT
 IA2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:DSPMAT
 IA2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:ISPMAT
 IA2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:SSPMAT
 IA2	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,/;"	k	type:ZSPMAT
+IA2	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:CSPMAT
+IA2	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:DSPMAT
+IA2	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ISPMAT
+IA2	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:SSPMAT
+IA2	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ZSPMAT
 INDEX_BASE	TESTER/main_all.f90	/^integer, parameter :: INDEX_BASE /;"	v	program:tester
 INDX	TESTER/power.f90	/^      INTEGER, DIMENSION(:), ALLOCATABLE :: INDX,/;"	v	program:MAIN_POWER
 INDX_C	TESTER/test_parameters.f90	/^integer ,dimension(4)  ::INDX_C=/;"	v	module:mod_test_parameters
@@ -131,7 +173,14 @@ INFOA	SOFTWARE/types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:DSPMAT
 INFOA	SOFTWARE/types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:ISPMAT
 INFOA	SOFTWARE/types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:SSPMAT
 INFOA	SOFTWARE/types.f90	/^INTEGER, DIMENSION(10) :: INFOA$/;"	k	type:ZSPMAT
+INFOA	SOFTWARE/types.h	/^    int INFOA[10];$/;"	m	struct:CSPMAT
+INFOA	SOFTWARE/types.h	/^    int INFOA[10];$/;"	m	struct:DSPMAT
+INFOA	SOFTWARE/types.h	/^    int INFOA[10];$/;"	m	struct:ISPMAT
+INFOA	SOFTWARE/types.h	/^    int INFOA[10];$/;"	m	struct:SSPMAT
+INFOA	SOFTWARE/types.h	/^    int INFOA[10];$/;"	m	struct:ZSPMAT
+INSERTING_H	SOFTWARE/INSERTING.h	6;"	d
 ISPMAT	SOFTWARE/types.f90	/^TYPE ISPMAT$/;"	t	module:types
+ISPMAT	SOFTWARE/types.h	/^struct ISPMAT$/;"	s
 ISP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: ISP_MATRIX /;"	v	module:properties
 ISTAT	TESTER/power.f90	/^      INTEGER A,I,N,NITERS,ISTAT$/;"	v	program:MAIN_POWER
 I_indx	TESTER/test_parameters.f90	/^      integer, dimension(14)  ::&$/;"	v	module:mod_test_parameters
@@ -156,6 +205,11 @@ K	SOFTWARE/types.f90	/^INTEGER :: M,K$/;"	k	type:DSPMAT
 K	SOFTWARE/types.f90	/^INTEGER :: M,K$/;"	k	type:ISPMAT
 K	SOFTWARE/types.f90	/^INTEGER :: M,K$/;"	k	type:SSPMAT
 K	SOFTWARE/types.f90	/^INTEGER :: M,K$/;"	k	type:ZSPMAT
+K	SOFTWARE/types.h	/^    int M,K;$/;"	m	struct:CSPMAT
+K	SOFTWARE/types.h	/^    int M,K;$/;"	m	struct:DSPMAT
+K	SOFTWARE/types.h	/^    int M,K;$/;"	m	struct:ISPMAT
+K	SOFTWARE/types.h	/^    int M,K;$/;"	m	struct:SSPMAT
+K	SOFTWARE/types.h	/^    int M,K;$/;"	m	struct:ZSPMAT
 LAMBDA	TESTER/power.f90	/^      REAL(KIND=DP) LAMBDA$/;"	v	program:MAIN_POWER
 LD	SOFTWARE/Makefile	/^LD = $(FC)$/;"	m
 LDFLAGS	SOFTWARE/Makefile	/^LDFLAGS = $/;"	m
@@ -165,6 +219,11 @@ M	SOFTWARE/types.f90	/^INTEGER :: M,/;"	k	type:DSPMAT
 M	SOFTWARE/types.f90	/^INTEGER :: M,/;"	k	type:ISPMAT
 M	SOFTWARE/types.f90	/^INTEGER :: M,/;"	k	type:SSPMAT
 M	SOFTWARE/types.f90	/^INTEGER :: M,/;"	k	type:ZSPMAT
+M	SOFTWARE/types.h	/^    int M,K;$/;"	m	struct:CSPMAT
+M	SOFTWARE/types.h	/^    int M,K;$/;"	m	struct:DSPMAT
+M	SOFTWARE/types.h	/^    int M,K;$/;"	m	struct:ISPMAT
+M	SOFTWARE/types.h	/^    int M,K;$/;"	m	struct:SSPMAT
+M	SOFTWARE/types.h	/^    int M,K;$/;"	m	struct:ZSPMAT
 M11	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
 M12	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter::&$/;"	v	module:mod_test_parameters
 M22	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
@@ -216,11 +275,21 @@ PB	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:
 PB	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:ISPMAT
 PB	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:SSPMAT
 PB	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,/;"	k	type:ZSPMAT
+PB	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:CSPMAT
+PB	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:DSPMAT
+PB	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ISPMAT
+PB	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:SSPMAT
+PB	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ZSPMAT
 PE	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:CSPMAT
 PE	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:DSPMAT
 PE	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:ISPMAT
 PE	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:SSPMAT
 PE	SOFTWARE/types.f90	/^INTEGER, POINTER, DIMENSION(:) :: IA1,IA2,PB,PE,/;"	k	type:ZSPMAT
+PE	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:CSPMAT
+PE	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:DSPMAT
+PE	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ISPMAT
+PE	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:SSPMAT
+PE	SOFTWARE/types.h	/^    int * IA1,IA2,PB,PE,BP1,BP2;$/;"	m	struct:ZSPMAT
 PNTR	SOFTWARE/conv_tools.f90	/^      subroutine PNTR(/;"	s	module:mod_conv_tools
 PNTR	TARGET_FILES/conv_tools_target.F	/^      subroutine PNTR(/;"	s	module:mod_conv_tools
 PNTR_INV	SOFTWARE/conv_tools.f90	/^      subroutine PNTR_INV(/;"	s	module:mod_conv_tools
@@ -231,10 +300,12 @@ RANLIB	SOFTWARE/Makefile	/^RANLIB =$/;"	m
 REF_OF_SOURCE	SOFTWARE/properties.f90	/^      integer, parameter :: REF_OF_SOURCE /;"	v	module:properties
 RM	SOFTWARE/Makefile	/^RM = rm -f$/;"	m
 SSPMAT	SOFTWARE/types.f90	/^TYPE SSPMAT$/;"	t	module:types
+SSPMAT	SOFTWARE/types.h	/^struct SSPMAT$/;"	s
 SSP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: SSP_MATRIX /;"	v	module:properties
 SparseBLAS	SOFTWARE/SparseBLAS.f90	/^      module SparseBLAS$/;"	m
 SparseBLAS1	SOFTWARE/SparseBLAS1.f90	/^ module SparseBLAS1$/;"	m
 TRANSP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: TRANSP_MATRIX /;"	v	module:properties
+TRUE	SOFTWARE/INSERTING.h	146;"	d
 TTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: TTx(/;"	v	module:mod_test_parameters
 T_MATRIX	TESTER/test_parameters.f90	/^      integer, parameter :: T_MATRIX /;"	v	module:mod_test_parameters
 T_VAL	TESTER/test_parameters.f90	/^real(kind=dp),dimension(14) ::T_VAL=/;"	v	module:mod_test_parameters
@@ -413,6 +484,7 @@ Z44	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3,3), parameter:: & $/;
 Z51	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
 Z55	TESTER/test_parameters.f90	/^real(kind=dp),dimension(2,2), parameter:: &$/;"	v	module:mod_test_parameters
 ZSPMAT	SOFTWARE/types.f90	/^TYPE ZSPMAT$/;"	t	module:types
+ZSPMAT	SOFTWARE/types.h	/^struct ZSPMAT$/;"	s
 ZSP_MATRIX	SOFTWARE/properties.f90	/^      integer, parameter :: ZSP_MATRIX /;"	v	module:properties
 ZTx	TESTER/test_parameters.f90	/^      real(kind=dp) :: ZTx(/;"	v	module:mod_test_parameters
 Z_Mb	TESTER/test_parameters.f90	/^integer,parameter::Z_Mb=/;"	v	module:mod_test_parameters
@@ -431,53 +503,90 @@ alpha	TESTER/test_parameters.f90	/^real(kind=dp),parameter::alpha=/;"	v	module:m
 alphac	TESTER/test_parameters.f90	/^complex(kind=dp),parameter::alphac=/;"	v	module:mod_test_parameters
 b	TESTER/main_all.f90	/^integer :: i, prpty, a,d,ierr,b,/;"	v	program:tester
 blas_block_irregular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_block_irregular /;"	v	module:blas_sparse_namedconstants
+blas_block_irregular	SOFTWARE/blas_sparse_namedconstants.h	27;"	d
 blas_block_regular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_block_regular /;"	v	module:blas_sparse_namedconstants
+blas_block_regular	SOFTWARE/blas_sparse_namedconstants.h	28;"	d
 blas_col_major	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_col_major /;"	v	module:blas_sparse_namedconstants
+blas_col_major	SOFTWARE/blas_sparse_namedconstants.h	49;"	d
 blas_complex	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_complex /;"	v	module:blas_sparse_namedconstants
+blas_complex	SOFTWARE/blas_sparse_namedconstants.h	58;"	d
 blas_double_precision	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_double_precision /;"	v	module:blas_sparse_namedconstants
+blas_double_precision	SOFTWARE/blas_sparse_namedconstants.h	61;"	d
 blas_error_memalloc	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_memalloc /;"	v	module:blas_sparse_namedconstants
 blas_error_memdeloc	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_memdeloc /;"	v	module:blas_sparse_namedconstants
 blas_error_param	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_param /;"	v	module:blas_sparse_namedconstants
 blas_error_singtria	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_error_singtria /;"	v	module:blas_sparse_namedconstants
 blas_general	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_general /;"	v	module:blas_sparse_namedconstants
+blas_general	SOFTWARE/blas_sparse_namedconstants.h	38;"	d
 blas_hermitian	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_hermitian /;"	v	module:blas_sparse_namedconstants
+blas_hermitian	SOFTWARE/blas_sparse_namedconstants.h	42;"	d
 blas_integer	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_integer /;"	v	module:blas_sparse_namedconstants
+blas_integer	SOFTWARE/blas_sparse_namedconstants.h	59;"	d
 blas_invalid_handle	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_invalid_handle /;"	v	module:blas_sparse_namedconstants
+blas_invalid_handle	SOFTWARE/blas_sparse_namedconstants.h	54;"	d
 blas_irregular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_irregular /;"	v	module:blas_sparse_namedconstants
+blas_irregular	SOFTWARE/blas_sparse_namedconstants.h	25;"	d
 blas_lower	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower /;"	v	module:blas_sparse_namedconstants
+blas_lower	SOFTWARE/blas_sparse_namedconstants.h	22;"	d
 blas_lower_hermitian	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower_hermitian /;"	v	module:blas_sparse_namedconstants
+blas_lower_hermitian	SOFTWARE/blas_sparse_namedconstants.h	44;"	d
 blas_lower_symmetric	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower_symmetric /;"	v	module:blas_sparse_namedconstants
+blas_lower_symmetric	SOFTWARE/blas_sparse_namedconstants.h	41;"	d
 blas_lower_triangular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_lower_triangular /;"	v	module:blas_sparse_namedconstants
+blas_lower_triangular	SOFTWARE/blas_sparse_namedconstants.h	46;"	d
 blas_new_handle	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_new_handle /;"	v	module:blas_sparse_namedconstants
+blas_new_handle	SOFTWARE/blas_sparse_namedconstants.h	55;"	d
 blas_no_repeated_indices	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_no_repeated_indices /;"	v	module:blas_sparse_namedconstants
+blas_no_repeated_indices	SOFTWARE/blas_sparse_namedconstants.h	17;"	d
 blas_non_unit_diag	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_non_unit_diag /;"	v	module:blas_sparse_namedconstants
+blas_non_unit_diag	SOFTWARE/blas_sparse_namedconstants.h	13;"	d
 blas_num_cols	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_num_cols /;"	v	module:blas_sparse_namedconstants
 blas_num_nonzeros	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_num_nonzeros /;"	v	module:blas_sparse_namedconstants
 blas_num_rows	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_num_rows /;"	v	module:blas_sparse_namedconstants
 blas_one_base	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_one_base /;"	v	module:blas_sparse_namedconstants
+blas_one_base	SOFTWARE/blas_sparse_namedconstants.h	34;"	d
 blas_open_handle	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_open_handle /;"	v	module:blas_sparse_namedconstants
+blas_open_handle	SOFTWARE/blas_sparse_namedconstants.h	56;"	d
 blas_real	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_real /;"	v	module:blas_sparse_namedconstants
+blas_real	SOFTWARE/blas_sparse_namedconstants.h	57;"	d
 blas_regular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_regular /;"	v	module:blas_sparse_namedconstants
+blas_regular	SOFTWARE/blas_sparse_namedconstants.h	26;"	d
 blas_repeated_indices	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_repeated_indices /;"	v	module:blas_sparse_namedconstants
+blas_repeated_indices	SOFTWARE/blas_sparse_namedconstants.h	18;"	d
 blas_row_major	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_row_major /;"	v	module:blas_sparse_namedconstants
+blas_row_major	SOFTWARE/blas_sparse_namedconstants.h	50;"	d
 blas_single_precision	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_single_precision /;"	v	module:blas_sparse_namedconstants
+blas_single_precision	SOFTWARE/blas_sparse_namedconstants.h	60;"	d
 blas_sparse	SOFTWARE/blas_sparse.f90	/^module blas_sparse$/;"	m
 blas_sparse_namedconstants	SOFTWARE/blas_sparse_namedconstants.f90	/^module blas_sparse_namedconstants$/;"	m
 blas_sparse_proto	SOFTWARE/blas_sparse_proto.f90	/^module blas_sparse_proto$/;"	m
 blas_symmetric	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_symmetric /;"	v	module:blas_sparse_namedconstants
+blas_symmetric	SOFTWARE/blas_sparse_namedconstants.h	39;"	d
 blas_unassembled	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_unassembled /;"	v	module:blas_sparse_namedconstants
+blas_unassembled	SOFTWARE/blas_sparse_namedconstants.h	29;"	d
 blas_unit_diag	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_unit_diag /;"	v	module:blas_sparse_namedconstants
+blas_unit_diag	SOFTWARE/blas_sparse_namedconstants.h	14;"	d
 blas_upper	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper /;"	v	module:blas_sparse_namedconstants
+blas_upper	SOFTWARE/blas_sparse_namedconstants.h	21;"	d
 blas_upper_hermitian	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper_hermitian /;"	v	module:blas_sparse_namedconstants
+blas_upper_hermitian	SOFTWARE/blas_sparse_namedconstants.h	43;"	d
 blas_upper_symmetric	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper_symmetric /;"	v	module:blas_sparse_namedconstants
+blas_upper_symmetric	SOFTWARE/blas_sparse_namedconstants.h	40;"	d
 blas_upper_triangular	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_upper_triangular /;"	v	module:blas_sparse_namedconstants
+blas_upper_triangular	SOFTWARE/blas_sparse_namedconstants.h	45;"	d
 blas_valid_handle	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_valid_handle /;"	v	module:blas_sparse_namedconstants
+blas_valid_handle	SOFTWARE/blas_sparse_namedconstants.h	53;"	d
 blas_zero_base	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: blas_zero_base /;"	v	module:blas_sparse_namedconstants
+blas_zero_base	SOFTWARE/blas_sparse_namedconstants.h	35;"	d
+blin	INSERTING.h	/^	i_inblock blin;$/;"	m	struct:__anon4
 blin	SOFTWARE/INSERTING.f90	/^type(c_inblock)::blin$/;"	k	type:c_inelement
 blin	SOFTWARE/INSERTING.f90	/^type(d_inblock)::blin$/;"	k	type:d_inelement
 blin	SOFTWARE/INSERTING.f90	/^type(i_inblock)::blin$/;"	k	type:i_inelement
 blin	SOFTWARE/INSERTING.f90	/^type(s_inblock)::blin$/;"	k	type:s_inelement
 blin	SOFTWARE/INSERTING.f90	/^type(z_inblock)::blin$/;"	k	type:z_inelement
+blin	SOFTWARE/INSERTING.h	/^    d_inblock blin;$/;"	m	struct:d_inelement
+blin	SOFTWARE/INSERTING.h	/^    i_inblock blin;$/;"	m	struct:i_inelement
+blin	SOFTWARE/INSERTING.h	/^    s_inblock blin;$/;"	m	struct:s_inelement
 blin	TARGET_FILES/INSERTING_target.F	/^type(c_inblock)::blin$/;"	k	type:c_inelement
 blin	TARGET_FILES/INSERTING_target.F	/^type(d_inblock)::blin$/;"	k	type:d_inelement
 blin	TARGET_FILES/INSERTING_target.F	/^type(i_inblock)::blin$/;"	k	type:i_inelement
@@ -550,26 +659,38 @@ clsbv_csc	SOFTWARE/lsbv_csc.f90	/^      subroutine clsbv_csc /;"	s	module:mod_ls
 clsbv_csr	SOFTWARE/lsbv_csr.f90	/^      subroutine clsbv_csr /;"	s	module:mod_lsbv_csr
 clsbv_dia	SOFTWARE/lsbv_dia.f90	/^      subroutine clsbv_dia /;"	s	module:mod_lsbv_dia
 clsbv_vbr	SOFTWARE/lsbv_vbr.f90	/^      subroutine clsbv_vbr /;"	s	module:mod_lsbv_vbr
+col_block_ind	INSERTING.h	/^int row_block_ind,col_block_ind;$/;"	m	struct:__anon2
 col_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:c_inblock
 col_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:d_inblock
 col_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:i_inblock
 col_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:s_inblock
 col_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,col_block_ind$/;"	k	type:z_inblock
+col_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:d_inblock
+col_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:d_invblock
+col_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:i_inblock
+col_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:i_invblock
+col_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:s_inblock
+col_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:s_invblock
 col_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,col_block_ind$/;"	k	type:c_inblock
 col_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,col_block_ind$/;"	k	type:d_inblock
 col_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,col_block_ind$/;"	k	type:i_inblock
 col_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,col_block_ind$/;"	k	type:s_inblock
 col_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,col_block_ind$/;"	k	type:z_inblock
+col_ind	INSERTING.h	/^	int row_ind,col_ind;$/;"	m	struct:__anon1
 col_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:c_inpnt1
 col_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:d_inpnt1
 col_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:i_inpnt1
 col_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:s_inpnt1
 col_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,col_ind$/;"	k	type:z_inpnt1
+col_ind	SOFTWARE/INSERTING.h	/^    int row_ind,col_ind;$/;"	m	struct:d_inpnt1
+col_ind	SOFTWARE/INSERTING.h	/^    int row_ind,col_ind;$/;"	m	struct:i_inpnt1
+col_ind	SOFTWARE/INSERTING.h	/^    int row_ind,col_ind;$/;"	m	struct:s_inpnt1
 col_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,col_ind$/;"	k	type:c_inpnt1
 col_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,col_ind$/;"	k	type:d_inpnt1
 col_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,col_ind$/;"	k	type:i_inpnt1
 col_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,col_ind$/;"	k	type:s_inpnt1
 col_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,col_ind$/;"	k	type:z_inpnt1
+col_vblock_ind	INSERTING.h	/^	int row_vblock_ind,col_vblock_ind;$/;"	m	struct:__anon3
 col_vblock_ind	SOFTWARE/INSERTING.f90	/^   integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:i_invblock
 col_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:c_invblock
 col_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:d_invblock
@@ -581,11 +702,15 @@ col_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,col_vb
 col_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:s_invblock
 col_vblock_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_vblock_ind,col_vblock_ind$/;"	k	type:z_invblock
 conj	TESTER/main_all.f90	/^integer,parameter::conj=/;"	v	program:tester
+contents	INSERTING.h	/^	i_inelement contents;$/;"	m	struct:__anon5
 contents	SOFTWARE/INSERTING.f90	/^type(c_inelement)::contents$/;"	k	type:c_element
 contents	SOFTWARE/INSERTING.f90	/^type(d_inelement)::contents$/;"	k	type:d_element
 contents	SOFTWARE/INSERTING.f90	/^type(i_inelement)::contents$/;"	k	type:i_element
 contents	SOFTWARE/INSERTING.f90	/^type(s_inelement)::contents$/;"	k	type:s_element
 contents	SOFTWARE/INSERTING.f90	/^type(z_inelement)::contents$/;"	k	type:z_element
+contents	SOFTWARE/INSERTING.h	/^    d_inelement contents;$/;"	m	struct:d_element
+contents	SOFTWARE/INSERTING.h	/^    i_inelement contents;  \/\/insert block ,pointer or vblock $/;"	m	struct:i_element
+contents	SOFTWARE/INSERTING.h	/^    s_inelement contents;$/;"	m	struct:s_element
 contents	SOFTWARE/link.f90	/^        type(cspmat) :: contents$/;"	k	type:csp_linknode
 contents	SOFTWARE/link.f90	/^        type(dspmat) :: contents$/;"	k	type:dsp_linknode
 contents	SOFTWARE/link.f90	/^        type(ispmat) :: contents$/;"	k	type:isp_linknode
@@ -680,22 +805,36 @@ dINS_varblock	SOFTWARE/INS_ROUTINER.f90	/^      subroutine dINS_varblock /;"	s	m
 dTx	TESTER/test_parameters.f90	/^      complex(kind=dp) :: dTx(/;"	v	module:mod_test_parameters
 d_dealloc	SOFTWARE/INSERTING.f90	/^      subroutine d_dealloc /;"	s	module:mod_INSERTING
 d_element	SOFTWARE/INSERTING.f90	/^type d_element$/;"	t	module:mod_INSERTING
+d_element	SOFTWARE/INSERTING.h	/^typedef struct d_element$/;"	s
+d_element	SOFTWARE/INSERTING.h	/^}d_element;$/;"	t	typeref:struct:d_element
 d_element	TARGET_FILES/INSERTING_target.F	/^type d_element$/;"	t	module:mod_INSERTING
 d_element_num	SOFTWARE/INSERTING.f90	/^      subroutine d_element_num /;"	s	module:mod_INSERTING
 d_element_start	SOFTWARE/INSERTING.f90	/^type(d_element),pointer::d_element_start$/;"	k	type:d_matrix
+d_element_start	SOFTWARE/INSERTING.h	/^    d_element *d_element_start;$/;"	m	struct:d_matrix
 d_element_start	TARGET_FILES/INSERTING_target.F	/^type(d_element),pointer::d_element_start$/;"	k	type:d_matrix
 d_inblock	SOFTWARE/INSERTING.f90	/^type d_inblock$/;"	t	module:mod_INSERTING
+d_inblock	SOFTWARE/INSERTING.h	/^typedef struct d_inblock$/;"	s
+d_inblock	SOFTWARE/INSERTING.h	/^}d_inblock;$/;"	t	typeref:struct:d_inblock
 d_inblock	TARGET_FILES/INSERTING_target.F	/^type d_inblock$/;"	t	module:mod_INSERTING
 d_inelement	SOFTWARE/INSERTING.f90	/^type d_inelement$/;"	t	module:mod_INSERTING
+d_inelement	SOFTWARE/INSERTING.h	/^typedef struct d_inelement$/;"	s
+d_inelement	SOFTWARE/INSERTING.h	/^}d_inelement;$/;"	t	typeref:struct:d_inelement
 d_inelement	TARGET_FILES/INSERTING_target.F	/^type d_inelement$/;"	t	module:mod_INSERTING
 d_inpnt1	SOFTWARE/INSERTING.f90	/^type d_inpnt1$/;"	t	module:mod_INSERTING
+d_inpnt1	SOFTWARE/INSERTING.h	/^typedef struct d_inpnt1$/;"	s
+d_inpnt1	SOFTWARE/INSERTING.h	/^}d_inpnt1;$/;"	t	typeref:struct:d_inpnt1
 d_inpnt1	TARGET_FILES/INSERTING_target.F	/^type d_inpnt1$/;"	t	module:mod_INSERTING
 d_invblock	SOFTWARE/INSERTING.f90	/^type d_invblock$/;"	t	module:mod_INSERTING
+d_invblock	SOFTWARE/INSERTING.h	/^typedef struct d_invblock$/;"	s
+d_invblock	SOFTWARE/INSERTING.h	/^}d_invblock;$/;"	t	typeref:struct:d_invblock
 d_invblock	TARGET_FILES/INSERTING_target.F	/^type d_invblock$/;"	t	module:mod_INSERTING
 d_m	TESTER/test_parameters.f90	/^integer,parameter::d_m=/;"	v	module:mod_test_parameters
 d_matrix	SOFTWARE/INSERTING.f90	/^type d_matrix$/;"	t	module:mod_INSERTING
+d_matrix	SOFTWARE/INSERTING.h	/^typedef struct d_matrix$/;"	s
+d_matrix	SOFTWARE/INSERTING.h	/^}d_matrix;$/;"	t	typeref:struct:d_matrix
 d_matrix	TARGET_FILES/INSERTING_target.F	/^type d_matrix$/;"	t	module:mod_INSERTING
 d_matrix_start	SOFTWARE/INSERTING.f90	/^type(d_matrix), pointer,SAVE :: d_matrix_start$/;"	v	module:mod_INSERTING
+d_matrix_start	SOFTWARE/INSERTING.h	/^d_matrix * d_matrix_start;$/;"	v
 d_matrix_start	TARGET_FILES/INSERTING_target.F	/^type(d_matrix), pointer,SAVE :: d_matrix_start$/;"	v	module:mod_INSERTING
 d_n	TESTER/test_parameters.f90	/^integer,parameter::d_n=/;"	v	module:mod_test_parameters
 daccess_element	SOFTWARE/INSERTING.f90	/^      subroutine daccess_element /;"	s	module:mod_INSERTING
@@ -832,12 +971,16 @@ format	SOFTWARE/INSERTING.f90	/^character*11::format$/;"	k	type:d_matrix
 format	SOFTWARE/INSERTING.f90	/^character*11::format$/;"	k	type:i_matrix
 format	SOFTWARE/INSERTING.f90	/^character*11::format$/;"	k	type:s_matrix
 format	SOFTWARE/INSERTING.f90	/^character*11::format$/;"	k	type:z_matrix
+format	SOFTWARE/INSERTING.h	/^    char format[11];$/;"	m	struct:d_matrix
+format	SOFTWARE/INSERTING.h	/^    char format[11];$/;"	m	struct:i_matrix
+format	SOFTWARE/INSERTING.h	/^    char format[11];$/;"	m	struct:s_matrix
 format	TARGET_FILES/INSERTING_target.F	/^character*11::format$/;"	k	type:c_matrix
 format	TARGET_FILES/INSERTING_target.F	/^character*11::format$/;"	k	type:d_matrix
 format	TARGET_FILES/INSERTING_target.F	/^character*11::format$/;"	k	type:i_matrix
 format	TARGET_FILES/INSERTING_target.F	/^character*11::format$/;"	k	type:s_matrix
 format	TARGET_FILES/INSERTING_target.F	/^character*11::format$/;"	k	type:z_matrix
 get_descra	SOFTWARE/properties.f90	/^      subroutine get_descra(/;"	s	module:properties
+get_descra	SOFTWARE/properties.h	/^int get_descra(IN char[] descra, IN int descriptor, OUT char *message, OUT int *ierr)$/;"	f
 get_infoa	SOFTWARE/properties.f90	/^      subroutine get_infoa(/;"	s	module:properties
 hash	SOFTWARE/hash.f90	/^      type(capsule), dimension(:), target, allocatable :: hash$/;"	v	module:mod_hash
 hash_top	SOFTWARE/hash.f90	/^      type(cappntr), dimension(:), allocatable :: hash_top$/;"	v	module:mod_hash
@@ -845,27 +988,48 @@ i	TESTER/main_all.f90	/^in/;"	v	program:tester
 iA_row_col	SOFTWARE/conv_tools.f90	/^      function iA_row_col /;"	f	module:mod_conv_tools
 iAb_row_col	SOFTWARE/conv_tools.f90	/^      function iAb_row_col /;"	f	module:mod_conv_tools
 iINS_bl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iINS_bl_entr /;"	s	module:mod_INS_ROUTINER
+iINS_block	SOFTWARE/INS_ROUTINER.c	/^int iINS_block(IN i_matrix pmatrix, int **value, int i, int j, int *stat)$/;"	f
 iINS_block	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iINS_block /;"	s	module:mod_INS_ROUTINER
+iINS_entry	SOFTWARE/INS_ROUTINER.c	/^int iINS_entry(IN i_matrix * pmatrix, IN int val, IN int i, IN int j, OUT int *istat)$/;"	f
 iINS_entry	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iINS_entry /;"	s	module:mod_INS_ROUTINER
 iINS_varbl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iINS_varbl_entr /;"	s	module:mod_INS_ROUTINER
 iINS_varblock	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iINS_varblock /;"	s	module:mod_INS_ROUTINER
+i_INs_bl_entr	SOFTWARE/INS_ROUTINER.c	/^int i_INs_bl_entr (IN i_matrix pmatrix, int val, int i, int j, int *stat)$/;"	f
 i_dealloc	SOFTWARE/INSERTING.f90	/^      subroutine i_dealloc /;"	s	module:mod_INSERTING
 i_element	SOFTWARE/INSERTING.f90	/^type i_element$/;"	t	module:mod_INSERTING
+i_element	SOFTWARE/INSERTING.h	/^typedef struct i_element$/;"	s
+i_element	SOFTWARE/INSERTING.h	/^}i_element;$/;"	t	typeref:struct:i_element
 i_element	TARGET_FILES/INSERTING_target.F	/^type i_element$/;"	t	module:mod_INSERTING
 i_element_num	SOFTWARE/INSERTING.f90	/^      subroutine i_element_num /;"	s	module:mod_INSERTING
 i_element_start	SOFTWARE/INSERTING.f90	/^type(i_element),pointer::i_element_start$/;"	k	type:i_matrix
+i_element_start	SOFTWARE/INSERTING.h	/^    i_element *i_element_start; \/\/insert content start$/;"	m	struct:i_matrix
 i_element_start	TARGET_FILES/INSERTING_target.F	/^type(i_element),pointer::i_element_start$/;"	k	type:i_matrix
+i_inblock	INSERTING.h	/^}i_inblock;$/;"	t	typeref:struct:__anon2
 i_inblock	SOFTWARE/INSERTING.f90	/^type i_inblock$/;"	t	module:mod_INSERTING
+i_inblock	SOFTWARE/INSERTING.h	/^typedef struct i_inblock$/;"	s
+i_inblock	SOFTWARE/INSERTING.h	/^}i_inblock;$/;"	t	typeref:struct:i_inblock
 i_inblock	TARGET_FILES/INSERTING_target.F	/^type i_inblock$/;"	t	module:mod_INSERTING
+i_inelement	INSERTING.h	/^}i_inelement;$/;"	t	typeref:struct:__anon4
 i_inelement	SOFTWARE/INSERTING.f90	/^type i_inelement$/;"	t	module:mod_INSERTING
+i_inelement	SOFTWARE/INSERTING.h	/^typedef struct i_inelement$/;"	s
+i_inelement	SOFTWARE/INSERTING.h	/^}i_inelement;$/;"	t	typeref:struct:i_inelement
 i_inelement	TARGET_FILES/INSERTING_target.F	/^type i_inelement$/;"	t	module:mod_INSERTING
+i_inpnt1	INSERTING.h	/^}i_inpnt1;$/;"	t	typeref:struct:__anon1
 i_inpnt1	SOFTWARE/INSERTING.f90	/^type i_inpnt1$/;"	t	module:mod_INSERTING
+i_inpnt1	SOFTWARE/INSERTING.h	/^typedef struct i_inpnt1$/;"	s
+i_inpnt1	SOFTWARE/INSERTING.h	/^}i_inpnt1;$/;"	t	typeref:struct:i_inpnt1
 i_inpnt1	TARGET_FILES/INSERTING_target.F	/^type i_inpnt1$/;"	t	module:mod_INSERTING
+i_invblock	INSERTING.h	/^}i_invblock;$/;"	t	typeref:struct:__anon3
 i_invblock	SOFTWARE/INSERTING.f90	/^type i_invblock$/;"	t	module:mod_INSERTING
+i_invblock	SOFTWARE/INSERTING.h	/^typedef struct i_invblock$/;"	s
+i_invblock	SOFTWARE/INSERTING.h	/^}i_invblock;$/;"	t	typeref:struct:i_invblock
 i_invblock	TARGET_FILES/INSERTING_target.F	/^type i_invblock$/;"	t	module:mod_INSERTING
 i_matrix	SOFTWARE/INSERTING.f90	/^type i_matrix$/;"	t	module:mod_INSERTING
+i_matrix	SOFTWARE/INSERTING.h	/^typedef struct i_matrix$/;"	s
+i_matrix	SOFTWARE/INSERTING.h	/^}i_matrix;$/;"	t	typeref:struct:i_matrix
 i_matrix	TARGET_FILES/INSERTING_target.F	/^type i_matrix$/;"	t	module:mod_INSERTING
 i_matrix_start	SOFTWARE/INSERTING.f90	/^type(i_matrix), pointer,SAVE :: i_matrix_start$/;"	v	module:mod_INSERTING
+i_matrix_start	SOFTWARE/INSERTING.h	/^i_matrix * i_matrix_start;$/;"	v
 i_matrix_start	TARGET_FILES/INSERTING_target.F	/^type(i_matrix), pointer,SAVE :: i_matrix_start$/;"	v	module:mod_INSERTING
 iaccess_element	SOFTWARE/INSERTING.f90	/^      subroutine iaccess_element /;"	s	module:mod_INSERTING
 iaccess_matrix	SOFTWARE/INSERTING.f90	/^      subroutine iaccess_matrix /;"	s	module:mod_INSERTING
@@ -917,6 +1081,19 @@ indxc_dot	TESTER/test_parameters.f90	/^integer ,dimension(3),parameter ::indxc_d
 indxc_ga	TESTER/test_parameters.f90	/^integer ,dimension(3)::indxc_ga=/;"	v	module:mod_test_parameters
 indxc_gz	TESTER/test_parameters.f90	/^integer ,dimension(3) ::indxc_gz=/;"	v	module:mod_test_parameters
 indxc_sc	TESTER/test_parameters.f90	/^integer ,dimension(3) ::indxc_sc=/;"	v	module:mod_test_parameters
+int	SOFTWARE/properties.h	21;"	d
+int	SOFTWARE/properties.h	22;"	d
+int	SOFTWARE/properties.h	23;"	d
+int	SOFTWARE/properties.h	24;"	d
+int	SOFTWARE/properties.h	25;"	d
+int	SOFTWARE/properties.h	26;"	d
+int	SOFTWARE/properties.h	29;"	d
+int	SOFTWARE/properties.h	30;"	d
+int	SOFTWARE/properties.h	32;"	d
+int	SOFTWARE/properties.h	33;"	d
+int	SOFTWARE/properties.h	35;"	d
+int	SOFTWARE/properties.h	36;"	d
+int	SOFTWARE/properties.h	37;"	d
 ipre_usconv_bco2bdi	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_bco2bdi /;"	s	module:mod_conv_tools
 ipre_usconv_bco2bsc	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_bco2bsc /;"	s	module:mod_conv_tools
 ipre_usconv_bco2bsr	SOFTWARE/conv_tools.f90	/^      subroutine ipre_usconv_bco2bsr /;"	s	module:mod_conv_tools
@@ -958,6 +1135,7 @@ iusconv_coo2csc	SOFTWARE/usconv_coo2csc.f90	/^      subroutine iusconv_coo2csc /
 iuscr_bco	SOFTWARE/uscr_bco.f90	/^      subroutine iuscr_bco /;"	s	module:mod_uscr_bco
 iuscr_bdi	SOFTWARE/uscr_bdi.f90	/^      subroutine iuscr_bdi /;"	s	module:mod_uscr_bdi
 iuscr_begin	SOFTWARE/uscr_begin.f90	/^      subroutine iuscr_begin /;"	s	module:mod_uscr_begin
+iuscr_begin	uscr_begin.c	/^int iuscr_begin(IN int m, IN int n, OUT int *a, OUT int *istat)$/;"	f
 iuscr_block_begin	SOFTWARE/uscr_block_begin.f90	/^      subroutine  iuscr_block_begin /;"	s	module:mod_uscr_block_begin
 iuscr_blockend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iuscr_blockend /;"	s	module:mod_INS_ROUTINER
 iuscr_bsc	SOFTWARE/uscr_bsc.f90	/^      subroutine iuscr_bsc /;"	s	module:mod_uscr_bsc
@@ -970,6 +1148,7 @@ iuscr_insert_block	SOFTWARE/uscr_insert_block.f90	/^      subroutine  iuscr_inse
 iuscr_insert_clique	SOFTWARE/uscr_insert_clique.f90	/^      subroutine  iuscr_insert_clique /;"	s	module:mod_uscr_insert_clique
 iuscr_insert_col	SOFTWARE/uscr_insert_col.f90	/^      subroutine  iuscr_insert_col /;"	s	module:mod_uscr_insert_col
 iuscr_insert_entries	SOFTWARE/uscr_insert_entries.f90	/^      subroutine iuscr_insert_entries /;"	s	module:mod_uscr_insert_entries
+iuscr_insert_entry	SOFTWARE/uscr_insert_entry.c	/^int iuscr_insert_entry(IN int a, IN int val ,IN int i, IN int j,OUT int *istat)$/;"	f
 iuscr_insert_entry	SOFTWARE/uscr_insert_entry.f90	/^      subroutine iuscr_insert_entry /;"	s	module:mod_uscr_insert_entry
 iuscr_insert_row	SOFTWARE/uscr_insert_row.f90	/^      subroutine iuscr_insert_row /;"	s	module:mod_uscr_insert_row
 iuscr_normend	SOFTWARE/INS_ROUTINER.f90	/^      subroutine iuscr_normend /;"	s	module:mod_INS_ROUTINER
@@ -1198,6 +1377,12 @@ number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:d_matrix
 number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:i_matrix
 number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:s_matrix
 number	SOFTWARE/INSERTING.f90	/^integer::property,number,/;"	k	type:z_matrix
+number	SOFTWARE/INSERTING.h	/^    int number;$/;"	m	struct:d_element
+number	SOFTWARE/INSERTING.h	/^    int number;$/;"	m	struct:i_element
+number	SOFTWARE/INSERTING.h	/^    int number;$/;"	m	struct:s_element
+number	SOFTWARE/INSERTING.h	/^    int property, number,new; \/\/$/;"	m	struct:i_matrix
+number	SOFTWARE/INSERTING.h	/^    int property, number,new;$/;"	m	struct:d_matrix
+number	SOFTWARE/INSERTING.h	/^    int property, number,new;$/;"	m	struct:s_matrix
 number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:csp_linknode
 number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:dsp_linknode
 number	SOFTWARE/link.f90	/^        integer :: number$/;"	k	type:isp_linknode
@@ -1218,16 +1403,21 @@ number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:dsp_lin
 number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:isp_linknode
 number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:ssp_linknode
 number	TARGET_FILES/link_target.F	/^        integer :: number$/;"	k	type:zsp_linknode
+pntin	INSERTING.h	/^	i_inpnt1 pntin;$/;"	m	struct:__anon4
 pntin	SOFTWARE/INSERTING.f90	/^type(c_inpnt1)::pntin$/;"	k	type:c_inelement
 pntin	SOFTWARE/INSERTING.f90	/^type(d_inpnt1)::pntin$/;"	k	type:d_inelement
 pntin	SOFTWARE/INSERTING.f90	/^type(i_inpnt1)::pntin$/;"	k	type:i_inelement
 pntin	SOFTWARE/INSERTING.f90	/^type(s_inpnt1)::pntin$/;"	k	type:s_inelement
 pntin	SOFTWARE/INSERTING.f90	/^type(z_inpnt1)::pntin$/;"	k	type:z_inelement
+pntin	SOFTWARE/INSERTING.h	/^    d_inpnt1 pntin;$/;"	m	struct:d_inelement
+pntin	SOFTWARE/INSERTING.h	/^    i_inpnt1 pntin;$/;"	m	struct:i_inelement
+pntin	SOFTWARE/INSERTING.h	/^    s_inpnt1 pntin;$/;"	m	struct:s_inelement
 pntin	TARGET_FILES/INSERTING_target.F	/^type(c_inpnt1)::pntin$/;"	k	type:c_inelement
 pntin	TARGET_FILES/INSERTING_target.F	/^type(d_inpnt1)::pntin$/;"	k	type:d_inelement
 pntin	TARGET_FILES/INSERTING_target.F	/^type(i_inpnt1)::pntin$/;"	k	type:i_inelement
 pntin	TARGET_FILES/INSERTING_target.F	/^type(s_inpnt1)::pntin$/;"	k	type:s_inelement
 pntin	TARGET_FILES/INSERTING_target.F	/^type(z_inpnt1)::pntin$/;"	k	type:z_inelement
+pntr	INSERTING.h	/^	i_element pntr;$/;"	m	struct:__anon5
 pntr	SOFTWARE/INSERTING.f90	/^type(c_element),pointer::pntr$/;"	k	type:c_element
 pntr	SOFTWARE/INSERTING.f90	/^type(c_matrix),pointer::pntr$/;"	k	type:c_matrix
 pntr	SOFTWARE/INSERTING.f90	/^type(d_element),pointer::pntr$/;"	k	type:d_element
@@ -1238,6 +1428,12 @@ pntr	SOFTWARE/INSERTING.f90	/^type(s_element),pointer::pntr$/;"	k	type:s_element
 pntr	SOFTWARE/INSERTING.f90	/^type(s_matrix),pointer::pntr$/;"	k	type:s_matrix
 pntr	SOFTWARE/INSERTING.f90	/^type(z_element),pointer::pntr$/;"	k	type:z_element
 pntr	SOFTWARE/INSERTING.f90	/^type(z_matrix),pointer::pntr$/;"	k	type:z_matrix
+pntr	SOFTWARE/INSERTING.h	/^    struct  d_matrix *pntr;$/;"	m	struct:d_matrix	typeref:struct:d_matrix::d_matrix
+pntr	SOFTWARE/INSERTING.h	/^    struct  i_matrix *pntr; \/\/linklist $/;"	m	struct:i_matrix	typeref:struct:i_matrix::i_matrix
+pntr	SOFTWARE/INSERTING.h	/^    struct  s_matrix *pntr;$/;"	m	struct:s_matrix	typeref:struct:s_matrix::s_matrix
+pntr	SOFTWARE/INSERTING.h	/^    struct d_element *pntr;$/;"	m	struct:d_element	typeref:struct:d_element::d_element
+pntr	SOFTWARE/INSERTING.h	/^    struct i_element *pntr; \/\/linklist to manage what inserted$/;"	m	struct:i_element	typeref:struct:i_element::i_element
+pntr	SOFTWARE/INSERTING.h	/^    struct s_element *pntr;$/;"	m	struct:s_element	typeref:struct:s_element::s_element
 pntr	SOFTWARE/hash.f90	/^      type(capsule), pointer :: pntr$/;"	k	type:cappntr
 pntr	SOFTWARE/hash.f90	/^      type(capsule), pointer :: pntr$/;"	k	type:capsule
 pntr	SOFTWARE/link.f90	/^        type(csp_linknode), pointer :: pntr$/;"	k	type:csp_linknode
@@ -1269,6 +1465,9 @@ property	SOFTWARE/INSERTING.f90	/^integer::property,/;"	k	type:d_matrix
 property	SOFTWARE/INSERTING.f90	/^integer::property,/;"	k	type:i_matrix
 property	SOFTWARE/INSERTING.f90	/^integer::property,/;"	k	type:s_matrix
 property	SOFTWARE/INSERTING.f90	/^integer::property,/;"	k	type:z_matrix
+property	SOFTWARE/INSERTING.h	/^    int property, number,new; \/\/$/;"	m	struct:i_matrix
+property	SOFTWARE/INSERTING.h	/^    int property, number,new;$/;"	m	struct:d_matrix
+property	SOFTWARE/INSERTING.h	/^    int property, number,new;$/;"	m	struct:s_matrix
 property	TARGET_FILES/INSERTING_target.F	/^integer::property,/;"	k	type:c_matrix
 property	TARGET_FILES/INSERTING_target.F	/^integer::property,/;"	k	type:d_matrix
 property	TARGET_FILES/INSERTING_target.F	/^integer::property,/;"	k	type:i_matrix
@@ -1291,26 +1490,38 @@ resc_usga	TESTER/test_parameters.f90	/^      complex(kind=dp) :: resc_usga(/;"	v
 resc_usgz_x	TESTER/test_parameters.f90	/^      complex(kind=dp) :: resc_usgz_x(/;"	v	module:mod_test_parameters
 resc_usgz_y	TESTER/test_parameters.f90	/^      complex(kind=dp) :: resc_usgz_y(/;"	v	module:mod_test_parameters
 resc_ussc	TESTER/test_parameters.f90	/^      complex(kind=dp) :: resc_ussc(/;"	v	module:mod_test_parameters
+row_block_ind	INSERTING.h	/^int row_block_ind,col_block_ind;$/;"	m	struct:__anon2
 row_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:c_inblock
 row_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:d_inblock
 row_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:i_inblock
 row_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:s_inblock
 row_block_ind	SOFTWARE/INSERTING.f90	/^integer ::row_block_ind,/;"	k	type:z_inblock
+row_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:d_inblock
+row_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:d_invblock
+row_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:i_inblock
+row_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:i_invblock
+row_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:s_inblock
+row_block_ind	SOFTWARE/INSERTING.h	/^    int row_block_ind,col_block_ind;$/;"	m	struct:s_invblock
 row_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,/;"	k	type:c_inblock
 row_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,/;"	k	type:d_inblock
 row_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,/;"	k	type:i_inblock
 row_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,/;"	k	type:s_inblock
 row_block_ind	TARGET_FILES/INSERTING_target.F	/^integer ::row_block_ind,/;"	k	type:z_inblock
+row_ind	INSERTING.h	/^	int row_ind,col_ind;$/;"	m	struct:__anon1
 row_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,/;"	k	type:c_inpnt1
 row_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,/;"	k	type:d_inpnt1
 row_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,/;"	k	type:i_inpnt1
 row_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,/;"	k	type:s_inpnt1
 row_ind	SOFTWARE/INSERTING.f90	/^integer::row_ind,/;"	k	type:z_inpnt1
+row_ind	SOFTWARE/INSERTING.h	/^    int row_ind,col_ind;$/;"	m	struct:d_inpnt1
+row_ind	SOFTWARE/INSERTING.h	/^    int row_ind,col_ind;$/;"	m	struct:i_inpnt1
+row_ind	SOFTWARE/INSERTING.h	/^    int row_ind,col_ind;$/;"	m	struct:s_inpnt1
 row_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,/;"	k	type:c_inpnt1
 row_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,/;"	k	type:d_inpnt1
 row_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,/;"	k	type:i_inpnt1
 row_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,/;"	k	type:s_inpnt1
 row_ind	TARGET_FILES/INSERTING_target.F	/^integer::row_ind,/;"	k	type:z_inpnt1
+row_vblock_ind	INSERTING.h	/^	int row_vblock_ind,col_vblock_ind;$/;"	m	struct:__anon3
 row_vblock_ind	SOFTWARE/INSERTING.f90	/^   integer ::row_vblock_ind,/;"	k	type:i_invblock
 row_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,/;"	k	type:c_invblock
 row_vblock_ind	SOFTWARE/INSERTING.f90	/^integer ::row_vblock_ind,/;"	k	type:d_invblock
@@ -1330,21 +1541,35 @@ sINS_varbl_entr	SOFTWARE/INS_ROUTINER.f90	/^      subroutine sINS_varbl_entr /;"
 sINS_varblock	SOFTWARE/INS_ROUTINER.f90	/^      subroutine sINS_varblock /;"	s	module:mod_INS_ROUTINER
 s_dealloc	SOFTWARE/INSERTING.f90	/^      subroutine s_dealloc /;"	s	module:mod_INSERTING
 s_element	SOFTWARE/INSERTING.f90	/^type s_element$/;"	t	module:mod_INSERTING
+s_element	SOFTWARE/INSERTING.h	/^typedef struct s_element$/;"	s
+s_element	SOFTWARE/INSERTING.h	/^}s_element;$/;"	t	typeref:struct:s_element
 s_element	TARGET_FILES/INSERTING_target.F	/^type s_element$/;"	t	module:mod_INSERTING
 s_element_num	SOFTWARE/INSERTING.f90	/^      subroutine s_element_num /;"	s	module:mod_INSERTING
 s_element_start	SOFTWARE/INSERTING.f90	/^type(s_element),pointer::s_element_start$/;"	k	type:s_matrix
+s_element_start	SOFTWARE/INSERTING.h	/^    s_element *s_element_start;$/;"	m	struct:s_matrix
 s_element_start	TARGET_FILES/INSERTING_target.F	/^type(s_element),pointer::s_element_start$/;"	k	type:s_matrix
 s_inblock	SOFTWARE/INSERTING.f90	/^type s_inblock$/;"	t	module:mod_INSERTING
+s_inblock	SOFTWARE/INSERTING.h	/^typedef struct s_inblock$/;"	s
+s_inblock	SOFTWARE/INSERTING.h	/^}s_inblock;$/;"	t	typeref:struct:s_inblock
 s_inblock	TARGET_FILES/INSERTING_target.F	/^type s_inblock$/;"	t	module:mod_INSERTING
 s_inelement	SOFTWARE/INSERTING.f90	/^type s_inelement$/;"	t	module:mod_INSERTING
+s_inelement	SOFTWARE/INSERTING.h	/^typedef struct s_inelement$/;"	s
+s_inelement	SOFTWARE/INSERTING.h	/^}s_inelement;$/;"	t	typeref:struct:s_inelement
 s_inelement	TARGET_FILES/INSERTING_target.F	/^type s_inelement$/;"	t	module:mod_INSERTING
 s_inpnt1	SOFTWARE/INSERTING.f90	/^type s_inpnt1$/;"	t	module:mod_INSERTING
+s_inpnt1	SOFTWARE/INSERTING.h	/^typedef struct s_inpnt1$/;"	s
+s_inpnt1	SOFTWARE/INSERTING.h	/^}s_inpnt1;$/;"	t	typeref:struct:s_inpnt1
 s_inpnt1	TARGET_FILES/INSERTING_target.F	/^type s_inpnt1$/;"	t	module:mod_INSERTING
 s_invblock	SOFTWARE/INSERTING.f90	/^type s_invblock$/;"	t	module:mod_INSERTING
+s_invblock	SOFTWARE/INSERTING.h	/^typedef struct s_invblock$/;"	s
+s_invblock	SOFTWARE/INSERTING.h	/^}s_invblock;$/;"	t	typeref:struct:s_invblock
 s_invblock	TARGET_FILES/INSERTING_target.F	/^type s_invblock$/;"	t	module:mod_INSERTING
 s_matrix	SOFTWARE/INSERTING.f90	/^type s_matrix$/;"	t	module:mod_INSERTING
+s_matrix	SOFTWARE/INSERTING.h	/^typedef struct s_matrix$/;"	s
+s_matrix	SOFTWARE/INSERTING.h	/^}s_matrix;$/;"	t	typeref:struct:s_matrix
 s_matrix	TARGET_FILES/INSERTING_target.F	/^type s_matrix$/;"	t	module:mod_INSERTING
 s_matrix_start	SOFTWARE/INSERTING.f90	/^type(s_matrix), pointer,SAVE :: s_matrix_start$/;"	v	module:mod_INSERTING
+s_matrix_start	SOFTWARE/INSERTING.h	/^s_matrix * s_matrix_start;$/;"	v
 s_matrix_start	TARGET_FILES/INSERTING_target.F	/^type(s_matrix), pointer,SAVE :: s_matrix_start$/;"	v	module:mod_INSERTING
 saccess_element	SOFTWARE/INSERTING.f90	/^      subroutine saccess_element /;"	s	module:mod_INSERTING
 saccess_matrix	SOFTWARE/INSERTING.f90	/^      subroutine saccess_matrix /;"	s	module:mod_INSERTING
@@ -1358,6 +1583,7 @@ sblock_r_mult_vec	SOFTWARE/dense.f90	/^      subroutine sblock_r_mult_vec /;"	s	
 sdetect_bdiag	SOFTWARE/conv_tools.f90	/^      subroutine sdetect_bdiag /;"	s	module:mod_conv_tools
 sdetect_diag	SOFTWARE/conv_tools.f90	/^      subroutine sdetect_diag /;"	s	module:mod_conv_tools
 set_descra	SOFTWARE/properties.f90	/^      subroutine set_descra(/;"	s	module:properties
+set_descra	SOFTWARE/properties.h	/^void set_descra(OUT char[] descra, IN int prpty, OUT int *istat)$/;"	f
 set_infoa	SOFTWARE/properties.f90	/^      subroutine set_infoa(/;"	s	module:properties
 setup_hash	SOFTWARE/hash.f90	/^      subroutine setup_hash(/;"	s	module:mod_hash
 sins_init	SOFTWARE/INSERTING.f90	/^logical, SAVE, PRIVATE :: sins_init /;"	v	module:mod_INSERTING
@@ -1389,6 +1615,9 @@ slsbv_csr	SOFTWARE/lsbv_csr.f90	/^      subroutine slsbv_csr /;"	s	module:mod_ls
 slsbv_dia	SOFTWARE/lsbv_dia.f90	/^      subroutine slsbv_dia /;"	s	module:mod_lsbv_dia
 slsbv_vbr	SOFTWARE/lsbv_vbr.f90	/^      subroutine slsbv_vbr /;"	s	module:mod_lsbv_vbr
 sp	SOFTWARE/blas_sparse_namedconstants.f90	/^      integer, parameter :: sp /;"	v	module:blas_sparse_namedconstants
+spblas_c_blas_sparse_namedconstants_h	SOFTWARE/blas_sparse_namedconstants.h	10;"	d
+spblas_c_link_h	SOFTWARE/link.h	10;"	d
+spblas_c_types_h	SOFTWARE/types.h	10;"	d
 spre_usconv_bco2bdi	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_bco2bdi /;"	s	module:mod_conv_tools
 spre_usconv_bco2bsc	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_bco2bsc /;"	s	module:mod_conv_tools
 spre_usconv_bco2bsr	SOFTWARE/conv_tools.f90	/^      subroutine spre_usconv_bco2bsr /;"	s	module:mod_conv_tools
@@ -1428,6 +1657,9 @@ sub_cols	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_col
 sub_cols	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:i_matrix
 sub_cols	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:s_matrix
 sub_cols	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:z_matrix
+sub_cols	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre; \/\/ meaning ?$/;"	m	struct:i_matrix
+sub_cols	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre;$/;"	m	struct:d_matrix
+sub_cols	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre;$/;"	m	struct:s_matrix
 sub_cols	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:c_matrix
 sub_cols	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:d_matrix
 sub_cols	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,/;"	k	type:i_matrix
@@ -1438,6 +1670,9 @@ sub_rows	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	t
 sub_rows	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:i_matrix
 sub_rows	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:s_matrix
 sub_rows	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:z_matrix
+sub_rows	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre; \/\/ meaning ?$/;"	m	struct:i_matrix
+sub_rows	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre;$/;"	m	struct:d_matrix
+sub_rows	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre;$/;"	m	struct:s_matrix
 sub_rows	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:c_matrix
 sub_rows	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:d_matrix
 sub_rows	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,/;"	k	type:i_matrix
@@ -1481,6 +1716,9 @@ trb	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb
 trb	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:i_matrix
 trb	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:s_matrix
 trb	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:z_matrix
+trb	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre; \/\/ meaning ?$/;"	m	struct:i_matrix
+trb	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre;$/;"	m	struct:d_matrix
+trb	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre;$/;"	m	struct:s_matrix
 trb	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:c_matrix
 trb	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:d_matrix
 trb	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,/;"	k	type:i_matrix
@@ -1491,6 +1729,9 @@ tre	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb
 tre	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:i_matrix
 tre	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:s_matrix
 tre	SOFTWARE/INSERTING.f90	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:z_matrix
+tre	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre; \/\/ meaning ?$/;"	m	struct:i_matrix
+tre	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre;$/;"	m	struct:d_matrix
+tre	SOFTWARE/INSERTING.h	/^    int *sub_rows,*sub_cols, *trb,*tre;$/;"	m	struct:s_matrix
 tre	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:c_matrix
 tre	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:d_matrix
 tre	TARGET_FILES/INSERTING_target.F	/^integer,dimension(:),pointer::sub_rows,sub_cols,trb,tre$/;"	k	type:i_matrix
@@ -1527,9 +1768,13 @@ usds	SOFTWARE/usds.f90	/^      subroutine usds(/;"	s	module:mod_usds
 usds	TARGET_FILES/usds_target.F	/^      subroutine usds(/;"	s	module:mod_usds
 usgp	SOFTWARE/usgp.f90	/^      subroutine usgp /;"	s	module:mod_usgp
 usgp	TARGET_FILES/usgp_target.F	/^      subroutine usgp /;"	s	module:mod_usgp
+ussp	SOFTWARE/ussp.c	/^int ussp(INOUT int *a, IN int m, OUT int *istat)$/;"	f
 ussp	SOFTWARE/ussp.f90	/^      subroutine ussp(/;"	s	module:mod_ussp
 ussp	TARGET_FILES/ussp_target.F	/^      subroutine ussp(/;"	s	module:mod_ussp
 val_pos	SOFTWARE/hash.f90	/^      integer :: jndx,val_pos$/;"	k	type:capsule
+value	INSERTING.h	/^	int **value;$/;"	m	struct:__anon3
+value	INSERTING.h	/^	int value;$/;"	m	struct:__anon1
+value	INSERTING.h	/^int **value;$/;"	m	struct:__anon2
 value	SOFTWARE/INSERTING.f90	/^   integer,dimension(:,:),pointer::value$/;"	k	type:i_invblock
 value	SOFTWARE/INSERTING.f90	/^complex(kind=dp),dimension(:,:),pointer::value$/;"	k	type:z_inblock
 value	SOFTWARE/INSERTING.f90	/^complex(kind=dp),dimension(:,:),pointer::value$/;"	k	type:z_invblock
@@ -1545,6 +1790,15 @@ value	SOFTWARE/INSERTING.f90	/^real(kind=dp)::value$/;"	k	type:d_inpnt1
 value	SOFTWARE/INSERTING.f90	/^real(kind=sp),dimension(:,:),pointer::value$/;"	k	type:s_inblock
 value	SOFTWARE/INSERTING.f90	/^real(kind=sp),dimension(:,:),pointer::value$/;"	k	type:s_invblock
 value	SOFTWARE/INSERTING.f90	/^real(kind=sp)::value$/;"	k	type:s_inpnt1
+value	SOFTWARE/INSERTING.h	/^    double **value;$/;"	m	struct:d_inblock
+value	SOFTWARE/INSERTING.h	/^    double **value;$/;"	m	struct:d_invblock
+value	SOFTWARE/INSERTING.h	/^    double value; \/\/presion is not specified$/;"	m	struct:d_inpnt1
+value	SOFTWARE/INSERTING.h	/^    float **value;$/;"	m	struct:s_inblock
+value	SOFTWARE/INSERTING.h	/^    float **value;$/;"	m	struct:s_invblock
+value	SOFTWARE/INSERTING.h	/^    float value; \/\/presion is not specified$/;"	m	struct:s_inpnt1
+value	SOFTWARE/INSERTING.h	/^    int **value;$/;"	m	struct:i_inblock
+value	SOFTWARE/INSERTING.h	/^    int **value;$/;"	m	struct:i_invblock
+value	SOFTWARE/INSERTING.h	/^    int value;$/;"	m	struct:i_inpnt1
 value	TARGET_FILES/INSERTING_target.F	/^   integer,dimension(:,:),pointer::value$/;"	k	type:i_invblock
 value	TARGET_FILES/INSERTING_target.F	/^complex(kind=dp),dimension(:,:),pointer::value$/;"	k	type:z_inblock
 value	TARGET_FILES/INSERTING_target.F	/^complex(kind=dp),dimension(:,:),pointer::value$/;"	k	type:z_invblock
@@ -1560,17 +1814,22 @@ value	TARGET_FILES/INSERTING_target.F	/^real(kind=dp)::value$/;"	k	type:d_inpnt1
 value	TARGET_FILES/INSERTING_target.F	/^real(kind=sp),dimension(:,:),pointer::value$/;"	k	type:s_inblock
 value	TARGET_FILES/INSERTING_target.F	/^real(kind=sp),dimension(:,:),pointer::value$/;"	k	type:s_invblock
 value	TARGET_FILES/INSERTING_target.F	/^real(kind=sp)::value$/;"	k	type:s_inpnt1
+vblin	INSERTING.h	/^	i_invblock vblin;$/;"	m	struct:__anon4
 vblin	SOFTWARE/INSERTING.f90	/^type(c_invblock)::vblin$/;"	k	type:c_inelement
 vblin	SOFTWARE/INSERTING.f90	/^type(d_invblock)::vblin$/;"	k	type:d_inelement
 vblin	SOFTWARE/INSERTING.f90	/^type(i_invblock)::vblin$/;"	k	type:i_inelement
 vblin	SOFTWARE/INSERTING.f90	/^type(s_invblock)::vblin$/;"	k	type:s_inelement
 vblin	SOFTWARE/INSERTING.f90	/^type(z_invblock)::vblin$/;"	k	type:z_inelement
+vblin	SOFTWARE/INSERTING.h	/^    d_invblock vblin;$/;"	m	struct:d_inelement
+vblin	SOFTWARE/INSERTING.h	/^    i_invblock vblin;$/;"	m	struct:i_inelement
+vblin	SOFTWARE/INSERTING.h	/^    s_invblock vblin;$/;"	m	struct:s_inelement
 vblin	TARGET_FILES/INSERTING_target.F	/^type(c_invblock)::vblin$/;"	k	type:c_inelement
 vblin	TARGET_FILES/INSERTING_target.F	/^type(d_invblock)::vblin$/;"	k	type:d_inelement
 vblin	TARGET_FILES/INSERTING_target.F	/^type(i_invblock)::vblin$/;"	k	type:i_inelement
 vblin	TARGET_FILES/INSERTING_target.F	/^type(s_invblock)::vblin$/;"	k	type:s_inelement
 vblin	TARGET_FILES/INSERTING_target.F	/^type(z_invblock)::vblin$/;"	k	type:z_inelement
 x	SOFTWARE/test.f90	/^      double precision, dimension(5) :: x,/;"	v	program:test
+x	SOFTWARE/types.h	/^    T x;$/;"	m	struct:COMPLEX
 x	TESTER/main_all.f90	/^real(kind=dp), dimension(:), allocatable :: x,/;"	v	program:tester
 x_axpy	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3)::x_axpy=/;"	v	module:mod_test_parameters
 x_dot	TESTER/test_parameters.f90	/^real(kind=dp),dimension(3)::x_dot=/;"	v	module:mod_test_parameters
@@ -1585,6 +1844,7 @@ xc_ga	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(3)::xc_ga=/;"	v	mo
 xc_gz	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(3)::xc_gz=/;"	v	module:mod_test_parameters
 xc_sc	TESTER/test_parameters.f90	/^complex(kind=dp),dimension(3)::xc_sc=/;"	v	module:mod_test_parameters
 y	SOFTWARE/test.f90	/^      double precision, dimension(5) :: x,y$/;"	v	program:test
+y	SOFTWARE/types.h	/^    T y;$/;"	m	struct:COMPLEX
 y	TESTER/main_all.f90	/^real(kind=dp), dimension(:), allocatable :: x,y,/;"	v	program:tester
 y_axpy	TESTER/test_parameters.f90	/^real(kind=dp),dimension(6)::y_axpy=/;"	v	module:mod_test_parameters
 y_dot	TESTER/test_parameters.f90	/^real(kind=dp),dimension(6)::y_dot=/;"	v	module:mod_test_parameters
