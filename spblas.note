@@ -1,0 +1,22 @@
+
+sub_rows : is the row of each block
+
+fortran's exit is different from c's 
+in a loop , exit means break
+
+ vall(vall_ind1,vall_ind2)=val ? what is meaning ?
+ //which pointer are used
+         case('COO','BCO')
+            deallocate(isp_data %A,isp_data %IA1,isp_data %IA2,STAT=ierr)
+         case('CSC','BSC')
+            deallocate(isp_data %A,isp_data %IA1,isp_data %pb,isp_data %pe,&
+                       STAT=ierr)
+         case('CSR','BSR')
+            deallocate(isp_data %A,isp_data %IA1,isp_data %pb,isp_data %pe,&
+                       STAT=ierr)
+         case('DIA','BDI')
+            deallocate(isp_data %A,isp_data %IA1,STAT=ierr)
+         case('VBR')
+            deallocate(isp_data %A,isp_data %IA1,isp_data %IA2,&
+                   isp_data %PB,isp_data %PE,isp_data %BP1,isp_data %BP2&
+                   ,STAT=ierr)
