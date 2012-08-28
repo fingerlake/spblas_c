@@ -1,3 +1,14 @@
+# fortran code#
+###################
+spblas_f/*
+
+
+# project file of VS2012 #
+###################
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
 # project file of Xcode #
 ###################
 spblas_c.xcodeproj/*
