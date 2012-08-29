@@ -22,6 +22,14 @@ enum blas_trans_type
   ORIGIN_MATRIX,
   TRANSP_MATRIX
 };
+enum blas_base_type
+{
+
+};
+enum blas_order_type
+{
+
+};
 typedef struct
 {
 

@@ -1,5 +1,6 @@
 #ifndef USGA_H
 #define USGA_H
+#include "../handlermanagement/blas_enum.h"
 // **********************************************************************
 //     Author : luoyulong
 //
@@ -8,5 +9,9 @@
 //     Description : sparse gather
 //
 // **********************************************************************
-
+void BLAS_iusga(int nz,const ARRAY y,int incy,ARRAY x,const int *indx,enum blas_base_type index_base);
+void BLAS_susga(int nz,const ARRAY y,int incy,ARRAY x,const int *indx,enum blas_base_type index_base);
+void BLAS_dusga(int nz,const ARRAY y,int incy,ARRAY x,const int *indx,enum blas_base_type index_base);
+void BLAS_cusga(int nz,const ARRAY y,int incy,ARRAY x,const int *indx,enum blas_base_type index_base);
+void BLAS_zusga(int nz,const ARRAY y,int incy,ARRAY x,const int *indx,enum blas_base_type index_base);
 #endif // USGA_H

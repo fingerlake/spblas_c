@@ -8,5 +8,15 @@
 //     Description : sparse vector update
 //
 // **********************************************************************
+#include "../handlermanagement/blas_enum.h"
 
+void BLAS_iusaxpy(int nz,SCALAR_IN alpha,const ARRAY ,const int *indx,ARRAY y,int incy,enum blas_base_type index_base);
+
+void BLAS_susaxpy(int nz,SCALAR_IN alpha,const ARRAY ,const int *indx,ARRAY y,int incy,enum blas_base_type index_base);
+
+void BLAS_dusaxpy(int nz,SCALAR_IN alpha,const ARRAY ,const int *indx,ARRAY y,int incy,enum blas_base_type index_base);
+
+void BLAS_cusaxpy(int nz,SCALAR_IN alpha,const ARRAY ,const int *indx,ARRAY y,int incy,enum blas_base_type index_base);
+
+void BLAS_zusaxpy(int nz,SCALAR_IN alpha,const ARRAY ,const int *indx,ARRAY y,int incy,enum blas_base_type index_base);
 #endif // USAXPY_H

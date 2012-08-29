@@ -8,5 +8,10 @@
 //     Description : sparse gather and zero
 //
 // **********************************************************************
-
+#include "../handlermanagement/blas_enum.h"
+void BlAS_iusgz(int nz,ARRAY y,int incy,ARRAY x,const int *indx,enum blas_base_type index_base);
+void BlAS_susgz(int nz,ARRAY y,int incy,ARRAY x,const int *indx,enum blas_base_type index_base);
+void BlAS_dusgz(int nz,ARRAY y,int incy,ARRAY x,const int *indx,enum blas_base_type index_base);
+void BlAS_cusgz(int nz,ARRAY y,int incy,ARRAY x,const int *indx,enum blas_base_type index_base);
+void BlAS_zusgz(int nz,ARRAY y,int incy,ARRAY x,const int *indx,enum blas_base_type index_base);
 #endif // USGZ_H
