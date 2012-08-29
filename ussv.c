@@ -1,4 +1,5 @@
 #include "USSV.h"
+#include "properties.h"
 #include <iostream>
 
 //return errorinfo
@@ -30,8 +31,8 @@ int BLAS_iussv (blas_trans_type transt=ORIGIN_MATRIX, int alpha, blas_sparse_mat
     if(ierr!=0)
         return ierr=blas_error_param;
 
-
-    ierr=get_descra(dspmtx->DESCRA,);
+    get_descra(dspmtx->DESCRA,'t',type,ierr);
+    if(ierr!=0)
     return ierr=blas_error_param;
 
 }
