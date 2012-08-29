@@ -15,10 +15,10 @@ spblas_c.xcodeproj/*
 
 # project file of qcreat #
 ###################
-spblas_c.config
-spblas_c.creator
-spblas_c.files
-spblas_c.includes
+#spblas_c.config
+#spblas_c.creator
+#spblas_c.files
+#spblas_c.includes
 
 
 #################

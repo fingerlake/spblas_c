@@ -21,9 +21,9 @@ struct COMPLEX
 {
     T x;
     T y;
-}
+};
 
-struct ISPMAT
+typedef struct
 {
     int M,K;
     char FIDA[5] ;
@@ -31,9 +31,9 @@ struct ISPMAT
     int INFOA[10];
     int * * A;
     int * IA1,IA2,PB,PE,BP1,BP2;
-}
+}ISPMAT;
 
-struct DSPMAT
+typedef struct
 {
     int M,K;
     char FIDA[5] ;
@@ -41,10 +41,10 @@ struct DSPMAT
     int INFOA[10];
     double * * A;
     int * IA1,IA2,PB,PE,BP1,BP2;
-}
+}DSPMAT;
 
 
-struct SSPMAT
+typedef struct
 {
     int M,K;
     char FIDA[5] ;
@@ -52,9 +52,9 @@ struct SSPMAT
     int INFOA[10];
     float * * A;
     int * IA1,IA2,PB,PE,BP1,BP2;
-}
+}SSPMAT;
 
-struct CSPMAT
+typedef struct
 {
     int M,K;
     char FIDA[5] ;
@@ -62,8 +62,8 @@ struct CSPMAT
     int INFOA[10];
     COMPLEX<float> * * A;
     int * IA1,IA2,PB,PE,BP1,BP2;
-}
-struct ZSPMAT
+}CSPMAT;
+typedef struct
 {
     int M,K;
     char FIDA[5] ;
@@ -71,6 +71,6 @@ struct ZSPMAT
     int INFOA[10];
     COMPLEX<double> * * A;
     int * IA1,IA2,PB,PE,BP1,BP2;
-}
+}ZSPMAT;
 
 #endif

@@ -1,6 +1,7 @@
 #ifndef USSM_H
 #define USSM_H
 #include "../handlermanagement/blas_enum.h"
+#include "types.h"
 
 int BLAS_iussv(enum blas_trans_type transt,SCALAR_IN alpha,blas_sparse_matrix T,ARRAY x,int incx);
 

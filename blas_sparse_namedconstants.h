@@ -59,6 +59,18 @@
 #define blas_integer  -4
 #define blas_single_precision  -5
 #define blas_double_precision  -6
+#define blas_num_rows   -7
+#define blas_num_cols   -8
+#define blas_num_nonzeros   -9
+
+// *** Error codes
+#define blas_error_memalloc  -20
+#define blas_error_memdeloc  -21
+#define blas_error_singtria  -22
+#define blas_error_param     -23
+
+//*** Definition of numerical precisions
+//#define sp  SELECTED_REAL_KIND(6,37)
+//#define dp  SELECTED_REAL_KIND(15,307)
 
 
-#endif
