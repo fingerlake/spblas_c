@@ -337,3 +337,4 @@ handlermanagement/USCR_BLOCK_BEGIN.h
 handlermanagement/USCR_BEGIN.h
 handlermanagement/blas_enum.h
 rsbv_coo.cpp
+hash.h

@@ -1,26 +1,23 @@
-module mod_rsbv_coo
 // **********************************************************************
 //     Author : C. Voemel
 //     Date of last modification : 7.7.00
 //     Description : PERFORMS TRI. SOLVE WITH MATRIX IN 'COO'-STORAGE
 //                   rsbv = Right Solve By Vector
 // **********************************************************************
-use mod_hash
-use representation_of_data
-use properties
-implicit none
-interface rsbv_coo
-  module procedure irsbv_coo
-  module procedure srsbv_coo
-  module procedure drsbv_coo
-  module procedure crsbv_coo
-  module procedure zrsbv_coo
-end interface
-contains
+//#include "hash.h"
+#include "link.h"
+#include  "properties.h"
+//interface rsbv_coo
+//  module procedure irsbv_coo
+//  module procedure srsbv_coo
+//  module procedure drsbv_coo
+//  module procedure crsbv_coo
+//  module procedure zrsbv_coo
+//end interface
 // **********************************************************************
 // **********************************************************************
+void irsbv_coo(ISPMAT* mat,int* x,int &ierr);
 subroutine irsbv_coo (mat,x,ierr)
-implicit none
 type(ispmat ), pointer :: mat
 integer , dimension(:), intent(inout) :: x
 integer, intent(out) :: ierr
@@ -115,6 +112,10 @@ else
 end if
 call remove_hash(ierr)
 end subroutine irsbv_coo
+
+
+
+
 // **********************************************************************
 // **********************************************************************
 subroutine srsbv_coo (mat,x,ierr)
